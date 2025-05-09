@@ -963,6 +963,59 @@
         "title": "",
         "identifier": "10.1017/pasa.2023.35"
       }
+    ],
+    "organizations": [
+      "Horizon 2020",
+      "IPM",
+      " Institute for Research in Fundamental Sciences",
+      " Iranian National Observatory",
+      "grant agreement No  101004214",
+      " European Union",
+      " School of Astronomy"
+    ],
+    "projects": [
+      "INO"
+    ],
+    "enriched_organizations": [
+      {
+        "name": "Horizon 2020",
+        "wikidata_uri": null
+      },
+      {
+        "name": "IPM",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Institute for Research in Fundamental Sciences",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Iranian National Observatory",
+        "wikidata_uri": null
+      },
+      {
+        "name": "grant agreement No  101004214",
+        "wikidata_uri": null
+      },
+      {
+        "name": " European Union",
+        "wikidata_uri": null
+      },
+      {
+        "name": " School of Astronomy",
+        "wikidata_uri": null
+      }
+    ],
+    "enriched_projects": [
+      {
+        "wikidata_uri": "http://www.wikidata.org/entity/Q101235567",
+        "label": "translacija strukturnih proteinov",
+        "country": null,
+        "website": null,
+        "start_date": null,
+        "end_date": null,
+        "funder": null
+      }
     ]
   },
   {
@@ -2072,6 +2125,39 @@
         ],
         "title": "Identification of tree species based on the fusion of UAV hyperspectral image and LiDAR data in a coniferous and broad-leaved mixed forest in Northeast China",
         "identifier": null
+      }
+    ],
+    "organizations": [
+      "RCF",
+      " Finnish Government",
+      " Research Council of Finland"
+    ],
+    "projects": [
+      "VN"
+    ],
+    "enriched_organizations": [
+      {
+        "name": "RCF",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Finnish Government",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Research Council of Finland",
+        "wikidata_uri": null
+      }
+    ],
+    "enriched_projects": [
+      {
+        "wikidata_uri": "http://www.wikidata.org/entity/Q45318395",
+        "label": "pasivni transport z akvaporini",
+        "country": null,
+        "website": null,
+        "start_date": null,
+        "end_date": null,
+        "funder": null
       }
     ]
   },
@@ -3825,7 +3911,11 @@
         "title": "Digitally twinned additive manufacturing: Detecting flaws in laser powder bed fusion by combining thermal simulations with in-situ meltpool sensor data",
         "identifier": null
       }
-    ]
+    ],
+    "organizations": [],
+    "projects": [],
+    "enriched_organizations": [],
+    "enriched_projects": []
   },
   {
     "filename": "2504.14426v1.pdf",
@@ -4892,6 +4982,134 @@
         "title": "",
         "identifier": null
       }
+    ],
+    "organizations": [
+      " Agencia Estatal de Investigación",
+      " Atracción de Talento",
+      " DdA",
+      " Yangyang Development Fund",
+      " Comunidad de Madrid",
+      " National Science Foundation of China",
+      " Consolidación Investigadora",
+      " WC",
+      " HORIZON",
+      "AEI",
+      " Development Program of China",
+      " Basic Research",
+      " Ministry of Education",
+      " Ministerio de Ciencia e Innovación",
+      " NASA",
+      " Chandra X-ray Center",
+      " YZ",
+      " Smithsonian Astrophysical Observatory"
+    ],
+    "projects": [
+      " AS",
+      " ER",
+      " Actions"
+    ],
+    "enriched_organizations": [
+      {
+        "name": " Agencia Estatal de Investigación",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Atracción de Talento",
+        "wikidata_uri": null
+      },
+      {
+        "name": " DdA",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Yangyang Development Fund",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Comunidad de Madrid",
+        "wikidata_uri": null
+      },
+      {
+        "name": " National Science Foundation of China",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Consolidación Investigadora",
+        "wikidata_uri": null
+      },
+      {
+        "name": " WC",
+        "wikidata_uri": null
+      },
+      {
+        "name": " HORIZON",
+        "wikidata_uri": null
+      },
+      {
+        "name": "AEI",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Development Program of China",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Basic Research",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Ministry of Education",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Ministerio de Ciencia e Innovación",
+        "wikidata_uri": null
+      },
+      {
+        "name": " NASA",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Chandra X-ray Center",
+        "wikidata_uri": null
+      },
+      {
+        "name": " YZ",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Smithsonian Astrophysical Observatory",
+        "wikidata_uri": null
+      }
+    ],
+    "enriched_projects": [
+      {
+        "wikidata_uri": "http://www.wikidata.org/entity/Q100235502",
+        "label": "Aspartate and asparagine metabolism",
+        "country": null,
+        "website": null,
+        "start_date": null,
+        "end_date": null,
+        "funder": null
+      },
+      {
+        "wikidata_uri": "http://www.wikidata.org/entity/Q100237092",
+        "label": "Drug-mediated inhibition of ERBB2 signaling",
+        "country": null,
+        "website": null,
+        "start_date": null,
+        "end_date": null,
+        "funder": null
+      },
+      {
+        "wikidata_uri": "http://www.wikidata.org/entity/Q45316685",
+        "label": "Uptake and actions of bacterial toxins",
+        "country": null,
+        "website": null,
+        "start_date": null,
+        "end_date": null,
+        "funder": null
+      }
     ]
   },
   {
@@ -5553,6 +5771,49 @@
         ],
         "title": "Deep learning in neural networks: An overview",
         "identifier": "10.1016/j.neunet.2014.09.003"
+      }
+    ],
+    "organizations": [
+      "UMBC",
+      " UMBC High Performance Computing Facility",
+      " U.S. National Science Foundation",
+      " University of Maryland, Baltimore County",
+      "HPCF"
+    ],
+    "projects": [
+      "."
+    ],
+    "enriched_organizations": [
+      {
+        "name": "UMBC",
+        "wikidata_uri": null
+      },
+      {
+        "name": " UMBC High Performance Computing Facility",
+        "wikidata_uri": null
+      },
+      {
+        "name": " U.S. National Science Foundation",
+        "wikidata_uri": null
+      },
+      {
+        "name": " University of Maryland, Baltimore County",
+        "wikidata_uri": null
+      },
+      {
+        "name": "HPCF",
+        "wikidata_uri": null
+      }
+    ],
+    "enriched_projects": [
+      {
+        "wikidata_uri": "http://www.wikidata.org/entity/Q102750346",
+        "label": "16p11.2 proximal deletion syndrome",
+        "country": null,
+        "website": null,
+        "start_date": null,
+        "end_date": null,
+        "funder": null
       }
     ]
   },
@@ -6634,7 +6895,43 @@
         "title": "Density functional theory and the band gap problem",
         "identifier": "10.1002/qua.560280846"
       }
-    ]
+    ],
+    "organizations": [
+      " Hong Kong Quantum AI Lab",
+      " National Natural Science Foundation of China",
+      " AIR@InnoHK",
+      " Fudan University",
+      " Chinese Academy of Sciences",
+      " AI for Science Foundation"
+    ],
+    "projects": [],
+    "enriched_organizations": [
+      {
+        "name": " Hong Kong Quantum AI Lab",
+        "wikidata_uri": null
+      },
+      {
+        "name": " National Natural Science Foundation of China",
+        "wikidata_uri": null
+      },
+      {
+        "name": " AIR@InnoHK",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Fudan University",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Chinese Academy of Sciences",
+        "wikidata_uri": null
+      },
+      {
+        "name": " AI for Science Foundation",
+        "wikidata_uri": null
+      }
+    ],
+    "enriched_projects": []
   },
   {
     "filename": "2504.15034v1.pdf",
@@ -7455,6 +7752,39 @@
         "title": "Hydrogen and Methane Adsorption in Metal-Organic Frameworks: A High-Pressure Volumetric Study",
         "identifier": "10.1021/jp074889i"
       }
+    ],
+    "organizations": [
+      "UCSC",
+      " University of California, Santa Cruz",
+      " UCSC"
+    ],
+    "projects": [
+      "erc"
+    ],
+    "enriched_organizations": [
+      {
+        "name": "UCSC",
+        "wikidata_uri": null
+      },
+      {
+        "name": " University of California, Santa Cruz",
+        "wikidata_uri": null
+      },
+      {
+        "name": " UCSC",
+        "wikidata_uri": null
+      }
+    ],
+    "enriched_projects": [
+      {
+        "wikidata_uri": "http://www.wikidata.org/entity/Q106520219",
+        "label": "Sensory Perception",
+        "country": null,
+        "website": null,
+        "start_date": null,
+        "end_date": null,
+        "funder": null
+      }
     ]
   },
   {
@@ -7698,7 +8028,11 @@
         "title": "Seer: Super-optimization explorer for high-level synthesis using e-graph rewriting",
         "identifier": "10.1145/3620665.3640392"
       }
-    ]
+    ],
+    "organizations": [],
+    "projects": [],
+    "enriched_organizations": [],
+    "enriched_projects": []
   },
   {
     "filename": "2504.15240v1.pdf",
@@ -8205,6 +8539,54 @@
         ],
         "title": "A composite neural network that learns from multi-fidelity data: Application to function approximation and inverse pde problems",
         "identifier": null
+      }
+    ],
+    "organizations": [
+      " Pacific Northwest National Laboratory",
+      "PNNL",
+      " Battelle Memorial Institute",
+      " U.S. Department of Energy"
+    ],
+    "projects": [
+      "DOE",
+      "."
+    ],
+    "enriched_organizations": [
+      {
+        "name": " Pacific Northwest National Laboratory",
+        "wikidata_uri": null
+      },
+      {
+        "name": "PNNL",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Battelle Memorial Institute",
+        "wikidata_uri": null
+      },
+      {
+        "name": " U.S. Department of Energy",
+        "wikidata_uri": null
+      }
+    ],
+    "enriched_projects": [
+      {
+        "wikidata_uri": "http://www.wikidata.org/entity/Q100235215",
+        "label": "Defective F9 variant does not activate FX",
+        "country": null,
+        "website": null,
+        "start_date": null,
+        "end_date": null,
+        "funder": null
+      },
+      {
+        "wikidata_uri": "http://www.wikidata.org/entity/Q102750346",
+        "label": "16p11.2 proximal deletion syndrome",
+        "country": null,
+        "website": null,
+        "start_date": null,
+        "end_date": null,
+        "funder": null
       }
     ]
   },
@@ -8794,6 +9176,59 @@
         ],
         "title": "A continuum damage model of fatigue and failure in whole bone",
         "identifier": null
+      }
+    ],
+    "organizations": [
+      " Canadian Foundation for Innovation",
+      "CFI",
+      " JELF",
+      " NSERC",
+      " Natural Science and Engineering Research Council of Canada"
+    ],
+    "projects": [
+      "ERC",
+      "."
+    ],
+    "enriched_organizations": [
+      {
+        "name": " Canadian Foundation for Innovation",
+        "wikidata_uri": null
+      },
+      {
+        "name": "CFI",
+        "wikidata_uri": null
+      },
+      {
+        "name": " JELF",
+        "wikidata_uri": null
+      },
+      {
+        "name": " NSERC",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Natural Science and Engineering Research Council of Canada",
+        "wikidata_uri": null
+      }
+    ],
+    "enriched_projects": [
+      {
+        "wikidata_uri": "http://www.wikidata.org/entity/Q106520219",
+        "label": "Sensory Perception",
+        "country": null,
+        "website": null,
+        "start_date": null,
+        "end_date": null,
+        "funder": null
+      },
+      {
+        "wikidata_uri": "http://www.wikidata.org/entity/Q102750346",
+        "label": "16p11.2 proximal deletion syndrome",
+        "country": null,
+        "website": null,
+        "start_date": null,
+        "end_date": null,
+        "funder": null
       }
     ]
   },
@@ -9450,7 +9885,11 @@
         "title": "What lies beyond the pareto front? A survey on decision-support methods for multi-objective optimization",
         "identifier": "10.24963/ijcai.2023/755"
       }
-    ]
+    ],
+    "organizations": [],
+    "projects": [],
+    "enriched_organizations": [],
+    "enriched_projects": []
   },
   {
     "filename": "2504.15310v1.pdf",
@@ -10430,7 +10869,18 @@
         "title": "Power transformer fault diagnosis method based on machine learning",
         "identifier": null
       }
-    ]
+    ],
+    "organizations": [
+      " RGU"
+    ],
+    "projects": [],
+    "enriched_organizations": [
+      {
+        "name": " RGU",
+        "wikidata_uri": null
+      }
+    ],
+    "enriched_projects": []
   },
   {
     "filename": "2504.15465v1.pdf",
@@ -11089,7 +11539,43 @@
         "title": "HSM: A Hybrid Slowdown Model for Multitasking GPUs",
         "identifier": "10.1145/3373376.3378457"
       }
-    ]
+    ],
+    "organizations": [
+      "CAOS",
+      "award and",
+      " Computer Science Department",
+      " Computer Architecture and Operating Systems",
+      " Carnegie Mellon University",
+      " NSF"
+    ],
+    "projects": [],
+    "enriched_organizations": [
+      {
+        "name": "CAOS",
+        "wikidata_uri": null
+      },
+      {
+        "name": "award and",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Computer Science Department",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Computer Architecture and Operating Systems",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Carnegie Mellon University",
+        "wikidata_uri": null
+      },
+      {
+        "name": " NSF",
+        "wikidata_uri": null
+      }
+    ],
+    "enriched_projects": []
   },
   {
     "filename": "2504.15507v2.pdf",
@@ -11564,6 +12050,39 @@
         "title": "Detecting numerical bugs in neural network architectures",
         "identifier": null
       }
+    ],
+    "organizations": [
+      " U.S. National Science Foundation"
+    ],
+    "projects": [
+      ".",
+      "NSF"
+    ],
+    "enriched_organizations": [
+      {
+        "name": " U.S. National Science Foundation",
+        "wikidata_uri": null
+      }
+    ],
+    "enriched_projects": [
+      {
+        "wikidata_uri": "http://www.wikidata.org/entity/Q102750346",
+        "label": "16p11.2 proximal deletion syndrome",
+        "country": null,
+        "website": null,
+        "start_date": null,
+        "end_date": null,
+        "funder": null
+      },
+      {
+        "wikidata_uri": "http://www.wikidata.org/entity/Q45318400",
+        "label": "Transferrin endocytosis and recycling",
+        "country": null,
+        "website": null,
+        "start_date": null,
+        "end_date": null,
+        "funder": null
+      }
     ]
   },
   {
@@ -11895,7 +12414,28 @@
         "title": "Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps",
         "identifier": null
       }
-    ]
+    ],
+    "organizations": [
+      " MUCCA",
+      " European Union-NextGenerationEU",
+      " BNSF"
+    ],
+    "projects": [],
+    "enriched_organizations": [
+      {
+        "name": " MUCCA",
+        "wikidata_uri": null
+      },
+      {
+        "name": " European Union-NextGenerationEU",
+        "wikidata_uri": null
+      },
+      {
+        "name": " BNSF",
+        "wikidata_uri": null
+      }
+    ],
+    "enriched_projects": []
   },
   {
     "filename": "2504.15710v1.pdf",
@@ -12676,7 +13216,33 @@
         "title": "",
         "identifier": null
       }
-    ]
+    ],
+    "organizations": [
+      " Natural Science Foundation of China",
+      " KC Wong Magna Foundation",
+      " High-Performance Computing Center",
+      " Ningbo University"
+    ],
+    "projects": [],
+    "enriched_organizations": [
+      {
+        "name": " Natural Science Foundation of China",
+        "wikidata_uri": null
+      },
+      {
+        "name": " KC Wong Magna Foundation",
+        "wikidata_uri": null
+      },
+      {
+        "name": " High-Performance Computing Center",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Ningbo University",
+        "wikidata_uri": null
+      }
+    ],
+    "enriched_projects": []
   },
   {
     "filename": "2504.15834v1.pdf",
@@ -13374,7 +13940,33 @@
         "title": "Cross-validated targeted minimum-loss-based estimation",
         "identifier": null
       }
-    ]
+    ],
+    "organizations": [
+      " MMB",
+      " National Health and Medical Research Council",
+      " Murdoch Children's Research Institute",
+      " DB"
+    ],
+    "projects": [],
+    "enriched_organizations": [
+      {
+        "name": " MMB",
+        "wikidata_uri": null
+      },
+      {
+        "name": " National Health and Medical Research Council",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Murdoch Children's Research Institute",
+        "wikidata_uri": null
+      },
+      {
+        "name": " DB",
+        "wikidata_uri": null
+      }
+    ],
+    "enriched_projects": []
   },
   {
     "filename": "2504.15870v1.pdf",
@@ -13945,6 +14537,104 @@
         "title": "Testing the fixed point QCD action and the construction of chiral currents",
         "identifier": "10.1016/S0550-3213(02)00742-3"
       }
+    ],
+    "organizations": [
+      " AEC",
+      " Swiss National Science Foundation",
+      " US National Science Foundation",
+      " HPC",
+      " Vienna Scientific Cluster",
+      "unibe",
+      " Austrian Science Fund",
+      "SNSF",
+      " University of Bern",
+      " ITP",
+      "VSC",
+      "FWF"
+    ],
+    "projects": [
+      " U",
+      "erc",
+      "id"
+    ],
+    "enriched_organizations": [
+      {
+        "name": " AEC",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Swiss National Science Foundation",
+        "wikidata_uri": null
+      },
+      {
+        "name": " US National Science Foundation",
+        "wikidata_uri": null
+      },
+      {
+        "name": " HPC",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Vienna Scientific Cluster",
+        "wikidata_uri": null
+      },
+      {
+        "name": "unibe",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Austrian Science Fund",
+        "wikidata_uri": null
+      },
+      {
+        "name": "SNSF",
+        "wikidata_uri": null
+      },
+      {
+        "name": " University of Bern",
+        "wikidata_uri": null
+      },
+      {
+        "name": " ITP",
+        "wikidata_uri": null
+      },
+      {
+        "name": "VSC",
+        "wikidata_uri": null
+      },
+      {
+        "name": "FWF",
+        "wikidata_uri": null
+      }
+    ],
+    "enriched_projects": [
+      {
+        "wikidata_uri": "http://www.wikidata.org/entity/Q45318408",
+        "label": "Erythrocytes take up oxygen and release carbon dioxide",
+        "country": null,
+        "website": null,
+        "start_date": null,
+        "end_date": null,
+        "funder": null
+      },
+      {
+        "wikidata_uri": "http://www.wikidata.org/entity/Q106520219",
+        "label": "Sensory Perception",
+        "country": null,
+        "website": null,
+        "start_date": null,
+        "end_date": null,
+        "funder": null
+      },
+      {
+        "wikidata_uri": "http://www.wikidata.org/entity/Q104711478",
+        "label": "pexidartinib-resistant FLT3 mutants",
+        "country": null,
+        "website": null,
+        "start_date": null,
+        "end_date": null,
+        "funder": null
+      }
     ]
   },
   {
@@ -14350,7 +15040,38 @@
         "title": "Gpumd: A package for constructing accurate machine-learned potentials and performing highly efficient atomistic simulations",
         "identifier": null
       }
-    ]
+    ],
+    "organizations": [
+      "RCIF",
+      " Westlake University",
+      " High-Performance Computing Center",
+      " Research Center for Industries of the Future",
+      "HPC"
+    ],
+    "projects": [],
+    "enriched_organizations": [
+      {
+        "name": "RCIF",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Westlake University",
+        "wikidata_uri": null
+      },
+      {
+        "name": " High-Performance Computing Center",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Research Center for Industries of the Future",
+        "wikidata_uri": null
+      },
+      {
+        "name": "HPC",
+        "wikidata_uri": null
+      }
+    ],
+    "enriched_projects": []
   },
   {
     "filename": "2504.15964v1.pdf",
@@ -14663,6 +15384,64 @@
         ],
         "title": "Advantage of quantum machine learning from general computational advantages",
         "identifier": "arXiv:2312.03057"
+      }
+    ],
+    "organizations": [
+      " ERC",
+      " Dutch Research Council",
+      "project number  1389",
+      " European Union",
+      " Dutch National Growth Fund",
+      "NWO"
+    ],
+    "projects": [
+      "ERC",
+      "NGF"
+    ],
+    "enriched_organizations": [
+      {
+        "name": " ERC",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Dutch Research Council",
+        "wikidata_uri": null
+      },
+      {
+        "name": "project number  1389",
+        "wikidata_uri": null
+      },
+      {
+        "name": " European Union",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Dutch National Growth Fund",
+        "wikidata_uri": null
+      },
+      {
+        "name": "NWO",
+        "wikidata_uri": null
+      }
+    ],
+    "enriched_projects": [
+      {
+        "wikidata_uri": "http://www.wikidata.org/entity/Q106520219",
+        "label": "Sensory Perception",
+        "country": null,
+        "website": null,
+        "start_date": null,
+        "end_date": null,
+        "funder": null
+      },
+      {
+        "wikidata_uri": "http://www.wikidata.org/entity/Q100235810",
+        "label": "NGF-stimulated transcription",
+        "country": null,
+        "website": null,
+        "start_date": null,
+        "end_date": null,
+        "funder": null
       }
     ]
   },
@@ -14997,7 +15776,11 @@
         "title": "On the role and challenges of cfd in the aerospace industry",
         "identifier": null
       }
-    ]
+    ],
+    "organizations": [],
+    "projects": [],
+    "enriched_organizations": [],
+    "enriched_projects": []
   },
   {
     "filename": "2504.16100v1.pdf",
@@ -15740,7 +16523,11 @@
         "title": "Power prediction of wind turbine in the wake using hybrid physical process and machine learning models",
         "identifier": "10.1016/j.renene.2022.08.004"
       }
-    ]
+    ],
+    "organizations": [],
+    "projects": [],
+    "enriched_organizations": [],
+    "enriched_projects": []
   },
   {
     "filename": "2504.16131v1.pdf",
@@ -16206,7 +16993,11 @@
         "title": "Differentiable quantum architecture search in asynchronous quantum reinforcement learning",
         "identifier": "arXiv:2407.18202"
       }
-    ]
+    ],
+    "organizations": [],
+    "projects": [],
+    "enriched_organizations": [],
+    "enriched_projects": []
   },
   {
     "filename": "2504.16135v1.pdf",
@@ -16729,7 +17520,11 @@
         "title": "Classifier selection for majority voting",
         "identifier": null
       }
-    ]
+    ],
+    "organizations": [],
+    "projects": [],
+    "enriched_organizations": [],
+    "enriched_projects": []
   },
   {
     "filename": "2504.16172v1.pdf",
@@ -17322,7 +18117,11 @@
         "title": "A neural network warm-start approach for the inverse acoustic obstacle scattering problem",
         "identifier": null
       }
-    ]
+    ],
+    "organizations": [],
+    "projects": [],
+    "enriched_organizations": [],
+    "enriched_projects": []
   },
   {
     "filename": "2504.16192v1.pdf",
@@ -17623,7 +18422,11 @@
         "title": "Exploring Pathways to More Accurate Machine Learning Emulation of Atmospheric Radiative Transfer",
         "identifier": "10.1029/2021MS002875"
       }
-    ]
+    ],
+    "organizations": [],
+    "projects": [],
+    "enriched_organizations": [],
+    "enriched_projects": []
   },
   {
     "filename": "2504.16238v1.pdf",
@@ -18114,7 +18917,11 @@
         "title": "Mitigating Unwanted Biases with Adversarial Learning",
         "identifier": null
       }
-    ]
+    ],
+    "organizations": [],
+    "projects": [],
+    "enriched_organizations": [],
+    "enriched_projects": []
   },
   {
     "filename": "2504.16418v1.pdf",
@@ -18662,6 +19469,89 @@
         "title": "Performance and cost assessment of machine learning interatomic potentials",
         "identifier": null
       }
+    ],
+    "organizations": [
+      " Symmetric Group LLP",
+      " Sciences and Engineering Research Council of Canada",
+      " NSERC",
+      " New Frontiers in Research Fund",
+      "supported by the New Frontiers in Research Fund through an NFRF Exploration Grant"
+    ],
+    "projects": [
+      "ERC",
+      "erc",
+      " CO",
+      " NS",
+      "NS"
+    ],
+    "enriched_organizations": [
+      {
+        "name": " Symmetric Group LLP",
+        "wikidata_uri": null
+      },
+      {
+        "name": " Sciences and Engineering Research Council of Canada",
+        "wikidata_uri": null
+      },
+      {
+        "name": " NSERC",
+        "wikidata_uri": null
+      },
+      {
+        "name": " New Frontiers in Research Fund",
+        "wikidata_uri": null
+      },
+      {
+        "name": "supported by the New Frontiers in Research Fund through an NFRF Exploration Grant",
+        "wikidata_uri": null
+      }
+    ],
+    "enriched_projects": [
+      {
+        "wikidata_uri": "http://www.wikidata.org/entity/Q106520219",
+        "label": "Sensory Perception",
+        "country": null,
+        "website": null,
+        "start_date": null,
+        "end_date": null,
+        "funder": null
+      },
+      {
+        "wikidata_uri": "http://www.wikidata.org/entity/Q106520219",
+        "label": "Sensory Perception",
+        "country": null,
+        "website": null,
+        "start_date": null,
+        "end_date": null,
+        "funder": null
+      },
+      {
+        "wikidata_uri": "http://www.wikidata.org/entity/Q87829246",
+        "label": "Type I collagen synthesis in the context of osteogenesis imperfecta",
+        "country": null,
+        "website": null,
+        "start_date": null,
+        "end_date": null,
+        "funder": null
+      },
+      {
+        "wikidata_uri": "http://www.wikidata.org/entity/Q90518826",
+        "label": "Pathogenesis of SARS-CoV-2 mediated by nsp9-nsp10 complex",
+        "country": null,
+        "website": null,
+        "start_date": null,
+        "end_date": null,
+        "funder": null
+      },
+      {
+        "wikidata_uri": "http://www.wikidata.org/entity/Q45318363",
+        "label": "Cation-coupled Chloride cotransporters",
+        "country": null,
+        "website": null,
+        "start_date": null,
+        "end_date": null,
+        "funder": null
+      }
     ]
   },
   {
@@ -19103,7 +19993,11 @@
         "title": "Decoupled Weight Decay Regularization",
         "identifier": "arXiv:1711.05101[cs.LG"
       }
-    ]
+    ],
+    "organizations": [],
+    "projects": [],
+    "enriched_organizations": [],
+    "enriched_projects": []
   },
   {
     "filename": "2504.16791v1.pdf",
@@ -19894,6 +20788,10 @@
         "title": "Tree-structured parzen estimator: Understanding its algorithm components and their roles for better empirical performance",
         "identifier": "arXiv:2304.11127"
       }
-    ]
+    ],
+    "organizations": [],
+    "projects": [],
+    "enriched_organizations": [],
+    "enriched_projects": []
   }
 ]

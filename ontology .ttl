@@ -1,0 +1,53 @@
+@prefix mod: <https://w3id.org/mod#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix paper: <http://www.owl-ontologies.com/paper#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+paper: a owl:Ontology ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+paper:Organization a owl:Class ;
+    rdfs:label "Organization" .
+
+paper:Paper a owl:Class ;
+    rdfs:label "Paper" .
+
+paper:Person a owl:Class ;
+    rdfs:label "Person" .
+
+paper:Project a owl:Class ;
+    rdfs:label "Project" .
+
+paper:Topic a owl:Class ;
+    rdfs:label "Topic" .
+
+paper:TopicBelonging a owl:Class ;
+    rdfs:label "Topic Belonging" .
+
+paper:acknowledges a owl:ObjectProperty ;
+    rdfs:label "acknowledges" .
+
+paper:belongToOrganizations a owl:ObjectProperty ;
+    rdfs:label "belong to organizations" .
+
+paper:hasAuthor a owl:ObjectProperty ;
+    rdfs:label "has author" .
+
+paper:hasName a owl:DatatypeProperty ;
+    rdfs:label "has name" .
+
+paper:hasPaper a owl:ObjectProperty ;
+    rdfs:label "has paper" .
+
+paper:hasPercentage a owl:DatatypeProperty ;
+    rdfs:label "has percentage" .
+
+paper:hasReferences a owl:DatatypeProperty ;
+    rdfs:label "has references" .
+
+paper:hasTitle a owl:DatatypeProperty ;
+    rdfs:label "has title" .
+
+paper:hasTopic a owl:ObjectProperty ;
+    rdfs:label "has topic" .
+

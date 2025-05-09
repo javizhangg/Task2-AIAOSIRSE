@@ -7,6 +7,7 @@ import json
 GROBID_DOCKER_URL = "http://grobid:8070/api/isalive"
 GROBID_LOCAL_URL = "http://localhost:8070/api/isalive"
 
+
 def check_grobid_status(url):
     """Checks if the GROBID service is active."""
     try:
@@ -16,6 +17,7 @@ def check_grobid_status(url):
     except requests.exceptions.RequestException:
         pass
     return False
+
 
 # Automatically select the GROBID URL
 if check_grobid_status(GROBID_DOCKER_URL):
@@ -34,16 +36,20 @@ OUTPUT_DIR = "outputs/"
 # Ensure the output directory exists
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
+
 # Function to process PDFs with GROBID
 def process_pdf(pdf_path):
     with open(pdf_path, "rb") as pdf_file:
         files = {"input": pdf_file}
-        response = requests.post(GROBID_URL, files=files, data={"teiCoordinates": "figure"})
+        response = requests.post(
+            GROBID_URL, files=files, data={"teiCoordinates": "figure"}
+        )
     if response.status_code == 200:
         return response.text  # Returns TEI XML
     else:
         print(f"Error processing {pdf_path}: {response.status_code}")
         return None
+
 
 def extract_info(tei_xml, filename):
     ns = {"tei": "http://www.tei-c.org/ns/1.0"}
@@ -71,7 +77,9 @@ def extract_info(tei_xml, filename):
                     authors.append(" ".join(name_parts))
     # Abstract
     abstract_el = root.find(".//tei:abstract", ns)
-    abstract = " ".join(abstract_el.itertext()).strip() if abstract_el is not None else ""
+    abstract = (
+        " ".join(abstract_el.itertext()).strip() if abstract_el is not None else ""
+    )
 
     # Date of publication
     date_el = root.find(".//tei:publicationStmt/tei:date", ns)
@@ -105,9 +113,9 @@ def extract_info(tei_xml, filename):
 
         # Reference title
         title_el = bibl.find(".//tei:title", ns)
-        
+
         if title_el is not None and title_el.text is not None:
-            ref_title = title_el.text.strip() 
+            ref_title = title_el.text.strip()
         else:
             ref_title = ""
 
@@ -117,11 +125,9 @@ def extract_info(tei_xml, filename):
         if idno is not None:
             doi = idno.text.strip()
 
-        references.append({
-            "authors": ref_authors,
-            "title": ref_title,
-            "identifier": doi
-        })
+        references.append(
+            {"authors": ref_authors, "title": ref_title, "identifier": doi}
+        )
 
     return {
         "filename": filename,
@@ -130,7 +136,7 @@ def extract_info(tei_xml, filename):
         "abstract": abstract,
         "publication_date": date,
         "acknowledgements": ack_text,
-        "references": references
+        "references": references,
     }
 
 

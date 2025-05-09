@@ -963,6 +963,18 @@
         "title": "",
         "identifier": "10.1017/pasa.2023.35"
       }
+    ],
+    "organizations": [
+      "Horizon 2020",
+      "IPM",
+      " Institute for Research in Fundamental Sciences",
+      " Iranian National Observatory",
+      "grant agreement No  101004214",
+      " European Union",
+      " School of Astronomy"
+    ],
+    "projects": [
+      "INO"
     ]
   },
   {
@@ -2073,6 +2085,14 @@
         "title": "Identification of tree species based on the fusion of UAV hyperspectral image and LiDAR data in a coniferous and broad-leaved mixed forest in Northeast China",
         "identifier": null
       }
+    ],
+    "organizations": [
+      "RCF",
+      " Finnish Government",
+      " Research Council of Finland"
+    ],
+    "projects": [
+      "VN"
     ]
   },
   {
@@ -3825,7 +3845,9 @@
         "title": "Digitally twinned additive manufacturing: Detecting flaws in laser powder bed fusion by combining thermal simulations with in-situ meltpool sensor data",
         "identifier": null
       }
-    ]
+    ],
+    "organizations": [],
+    "projects": []
   },
   {
     "filename": "2504.14426v1.pdf",
@@ -4892,6 +4914,31 @@
         "title": "",
         "identifier": null
       }
+    ],
+    "organizations": [
+      " Agencia Estatal de Investigación",
+      " Atracción de Talento",
+      " DdA",
+      " Yangyang Development Fund",
+      " Comunidad de Madrid",
+      " National Science Foundation of China",
+      " Consolidación Investigadora",
+      " WC",
+      " HORIZON",
+      "AEI",
+      " Development Program of China",
+      " Basic Research",
+      " Ministry of Education",
+      " Ministerio de Ciencia e Innovación",
+      " NASA",
+      " Chandra X-ray Center",
+      " YZ",
+      " Smithsonian Astrophysical Observatory"
+    ],
+    "projects": [
+      " AS",
+      " ER",
+      " Actions"
     ]
   },
   {
@@ -5554,6 +5601,16 @@
         "title": "Deep learning in neural networks: An overview",
         "identifier": "10.1016/j.neunet.2014.09.003"
       }
+    ],
+    "organizations": [
+      "UMBC",
+      " UMBC High Performance Computing Facility",
+      " U.S. National Science Foundation",
+      " University of Maryland, Baltimore County",
+      "HPCF"
+    ],
+    "projects": [
+      "."
     ]
   },
   {
@@ -6634,7 +6691,16 @@
         "title": "Density functional theory and the band gap problem",
         "identifier": "10.1002/qua.560280846"
       }
-    ]
+    ],
+    "organizations": [
+      " Hong Kong Quantum AI Lab",
+      " National Natural Science Foundation of China",
+      " AIR@InnoHK",
+      " Fudan University",
+      " Chinese Academy of Sciences",
+      " AI for Science Foundation"
+    ],
+    "projects": []
   },
   {
     "filename": "2504.15034v1.pdf",
@@ -7455,6 +7521,14 @@
         "title": "Hydrogen and Methane Adsorption in Metal-Organic Frameworks: A High-Pressure Volumetric Study",
         "identifier": "10.1021/jp074889i"
       }
+    ],
+    "organizations": [
+      "UCSC",
+      " University of California, Santa Cruz",
+      " UCSC"
+    ],
+    "projects": [
+      "erc"
     ]
   },
   {
@@ -7698,7 +7772,9 @@
         "title": "Seer: Super-optimization explorer for high-level synthesis using e-graph rewriting",
         "identifier": "10.1145/3620665.3640392"
       }
-    ]
+    ],
+    "organizations": [],
+    "projects": []
   },
   {
     "filename": "2504.15240v1.pdf",
@@ -8206,6 +8282,16 @@
         "title": "A composite neural network that learns from multi-fidelity data: Application to function approximation and inverse pde problems",
         "identifier": null
       }
+    ],
+    "organizations": [
+      " Pacific Northwest National Laboratory",
+      "PNNL",
+      " Battelle Memorial Institute",
+      " U.S. Department of Energy"
+    ],
+    "projects": [
+      "DOE",
+      "."
     ]
   },
   {
@@ -8795,6 +8881,17 @@
         "title": "A continuum damage model of fatigue and failure in whole bone",
         "identifier": null
       }
+    ],
+    "organizations": [
+      " Canadian Foundation for Innovation",
+      "CFI",
+      " JELF",
+      " NSERC",
+      " Natural Science and Engineering Research Council of Canada"
+    ],
+    "projects": [
+      "ERC",
+      "."
     ]
   },
   {
@@ -9450,7 +9547,9 @@
         "title": "What lies beyond the pareto front? A survey on decision-support methods for multi-objective optimization",
         "identifier": "10.24963/ijcai.2023/755"
       }
-    ]
+    ],
+    "organizations": [],
+    "projects": []
   },
   {
     "filename": "2504.15310v1.pdf",
@@ -10430,7 +10529,11 @@
         "title": "Power transformer fault diagnosis method based on machine learning",
         "identifier": null
       }
-    ]
+    ],
+    "organizations": [
+      " RGU"
+    ],
+    "projects": []
   },
   {
     "filename": "2504.15465v1.pdf",
@@ -11089,7 +11192,16 @@
         "title": "HSM: A Hybrid Slowdown Model for Multitasking GPUs",
         "identifier": "10.1145/3373376.3378457"
       }
-    ]
+    ],
+    "organizations": [
+      "CAOS",
+      "award and",
+      " Computer Science Department",
+      " Computer Architecture and Operating Systems",
+      " Carnegie Mellon University",
+      " NSF"
+    ],
+    "projects": []
   },
   {
     "filename": "2504.15507v2.pdf",
@@ -11564,6 +11676,13 @@
         "title": "Detecting numerical bugs in neural network architectures",
         "identifier": null
       }
+    ],
+    "organizations": [
+      " U.S. National Science Foundation"
+    ],
+    "projects": [
+      ".",
+      "NSF"
     ]
   },
   {
@@ -11895,7 +12014,13 @@
         "title": "Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps",
         "identifier": null
       }
-    ]
+    ],
+    "organizations": [
+      " MUCCA",
+      " European Union-NextGenerationEU",
+      " BNSF"
+    ],
+    "projects": []
   },
   {
     "filename": "2504.15710v1.pdf",
@@ -12676,7 +12801,14 @@
         "title": "",
         "identifier": null
       }
-    ]
+    ],
+    "organizations": [
+      " Natural Science Foundation of China",
+      " KC Wong Magna Foundation",
+      " High-Performance Computing Center",
+      " Ningbo University"
+    ],
+    "projects": []
   },
   {
     "filename": "2504.15834v1.pdf",
@@ -13374,7 +13506,14 @@
         "title": "Cross-validated targeted minimum-loss-based estimation",
         "identifier": null
       }
-    ]
+    ],
+    "organizations": [
+      " MMB",
+      " National Health and Medical Research Council",
+      " Murdoch Children's Research Institute",
+      " DB"
+    ],
+    "projects": []
   },
   {
     "filename": "2504.15870v1.pdf",
@@ -13945,6 +14084,25 @@
         "title": "Testing the fixed point QCD action and the construction of chiral currents",
         "identifier": "10.1016/S0550-3213(02)00742-3"
       }
+    ],
+    "organizations": [
+      " AEC",
+      " Swiss National Science Foundation",
+      " US National Science Foundation",
+      " HPC",
+      " Vienna Scientific Cluster",
+      "unibe",
+      " Austrian Science Fund",
+      "SNSF",
+      " University of Bern",
+      " ITP",
+      "VSC",
+      "FWF"
+    ],
+    "projects": [
+      " U",
+      "erc",
+      "id"
     ]
   },
   {
@@ -14350,7 +14508,15 @@
         "title": "Gpumd: A package for constructing accurate machine-learned potentials and performing highly efficient atomistic simulations",
         "identifier": null
       }
-    ]
+    ],
+    "organizations": [
+      "RCIF",
+      " Westlake University",
+      " High-Performance Computing Center",
+      " Research Center for Industries of the Future",
+      "HPC"
+    ],
+    "projects": []
   },
   {
     "filename": "2504.15964v1.pdf",
@@ -14664,6 +14830,18 @@
         "title": "Advantage of quantum machine learning from general computational advantages",
         "identifier": "arXiv:2312.03057"
       }
+    ],
+    "organizations": [
+      " ERC",
+      " Dutch Research Council",
+      "project number  1389",
+      " European Union",
+      " Dutch National Growth Fund",
+      "NWO"
+    ],
+    "projects": [
+      "ERC",
+      "NGF"
     ]
   },
   {
@@ -14997,7 +15175,9 @@
         "title": "On the role and challenges of cfd in the aerospace industry",
         "identifier": null
       }
-    ]
+    ],
+    "organizations": [],
+    "projects": []
   },
   {
     "filename": "2504.16100v1.pdf",
@@ -15740,7 +15920,9 @@
         "title": "Power prediction of wind turbine in the wake using hybrid physical process and machine learning models",
         "identifier": "10.1016/j.renene.2022.08.004"
       }
-    ]
+    ],
+    "organizations": [],
+    "projects": []
   },
   {
     "filename": "2504.16131v1.pdf",
@@ -16206,7 +16388,9 @@
         "title": "Differentiable quantum architecture search in asynchronous quantum reinforcement learning",
         "identifier": "arXiv:2407.18202"
       }
-    ]
+    ],
+    "organizations": [],
+    "projects": []
   },
   {
     "filename": "2504.16135v1.pdf",
@@ -16729,7 +16913,9 @@
         "title": "Classifier selection for majority voting",
         "identifier": null
       }
-    ]
+    ],
+    "organizations": [],
+    "projects": []
   },
   {
     "filename": "2504.16172v1.pdf",
@@ -17322,7 +17508,9 @@
         "title": "A neural network warm-start approach for the inverse acoustic obstacle scattering problem",
         "identifier": null
       }
-    ]
+    ],
+    "organizations": [],
+    "projects": []
   },
   {
     "filename": "2504.16192v1.pdf",
@@ -17623,7 +17811,9 @@
         "title": "Exploring Pathways to More Accurate Machine Learning Emulation of Atmospheric Radiative Transfer",
         "identifier": "10.1029/2021MS002875"
       }
-    ]
+    ],
+    "organizations": [],
+    "projects": []
   },
   {
     "filename": "2504.16238v1.pdf",
@@ -18114,7 +18304,9 @@
         "title": "Mitigating Unwanted Biases with Adversarial Learning",
         "identifier": null
       }
-    ]
+    ],
+    "organizations": [],
+    "projects": []
   },
   {
     "filename": "2504.16418v1.pdf",
@@ -18662,6 +18854,20 @@
         "title": "Performance and cost assessment of machine learning interatomic potentials",
         "identifier": null
       }
+    ],
+    "organizations": [
+      " Symmetric Group LLP",
+      " Sciences and Engineering Research Council of Canada",
+      " NSERC",
+      " New Frontiers in Research Fund",
+      "supported by the New Frontiers in Research Fund through an NFRF Exploration Grant"
+    ],
+    "projects": [
+      "ERC",
+      "erc",
+      " CO",
+      " NS",
+      "NS"
     ]
   },
   {
@@ -19103,7 +19309,9 @@
         "title": "Decoupled Weight Decay Regularization",
         "identifier": "arXiv:1711.05101[cs.LG"
       }
-    ]
+    ],
+    "organizations": [],
+    "projects": []
   },
   {
     "filename": "2504.16791v1.pdf",
@@ -19894,6 +20102,8 @@
         "title": "Tree-structured parzen estimator: Understanding its algorithm components and their roles for better empirical performance",
         "identifier": "arXiv:2304.11127"
       }
-    ]
+    ],
+    "organizations": [],
+    "projects": []
   }
 ]
