@@ -2,6 +2,8 @@ from rdflib import Graph, Namespace, URIRef, Literal
 from rdflib.namespace import RDF, RDFS, XSD
 import json
 import uuid
+import glob
+import os
 
 # Cargar JSON enriquecido
 with open("outputs/papers_metadata_enriched.json", "r", encoding="utf-8") as f:
@@ -13,6 +15,9 @@ g = Graph()
 # Namespace de tu ontología
 BASE = Namespace("http://www.owl-ontologies.com/base#")
 g.bind("base", BASE)
+
+# Paper index -> URI mapping para reutilizar URIs entre relaciones
+paper_uri_map = {}
 
 
 for idx, paper in enumerate(papers):
@@ -58,6 +63,20 @@ for idx, paper in enumerate(papers):
         g.add((org_uri, RDF.type, BASE.Organization))
         g.add((org_uri, BASE.has_name_organization, Literal(org_name)))
         g.add((paper_uri, BASE.acknowledges, org_uri))
+
+#  Añadir relaciones de similitud semántica entre papers
+similarity_folder = "outputs/similarities_semantic_by_topic/"
+if os.path.exists(similarity_folder):
+    for file_path in glob.glob(os.path.join(similarity_folder, "topic_*.json")):
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            for relation in data:
+                paper1 = relation["paper1"]
+                paper2 = relation["paper2"]
+                uri1 = paper_uri_map.get(paper1)
+                uri2 = paper_uri_map.get(paper2)
+                if uri1 and uri2:
+                    g.add((uri1, BASE.similar_to, uri2))
 
 # Guardar como Turtle
 g.serialize("outputs/knowledge_graph.ttl", format="turtle")

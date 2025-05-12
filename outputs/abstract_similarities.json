@@ -1,0 +1,2177 @@
+[
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.14337v1.pdf",
+    "similarity": 0.161
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.14378v1.pdf",
+    "similarity": 0.06
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.14426v1.pdf",
+    "similarity": 0.106
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.14473v1.pdf",
+    "similarity": 0.062
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.14961v1.pdf",
+    "similarity": 0.037
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.15034v1.pdf",
+    "similarity": 0.071
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.15185v1.pdf",
+    "similarity": 0.009
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.15240v1.pdf",
+    "similarity": 0.027
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.15287v1.pdf",
+    "similarity": 0.028
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.15304v1.pdf",
+    "similarity": 0.032
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.15310v1.pdf",
+    "similarity": 0.034
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.15465v1.pdf",
+    "similarity": 0.011
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.15507v2.pdf",
+    "similarity": 0.032
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.15670v1.pdf",
+    "similarity": 0.05
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.15710v1.pdf",
+    "similarity": 0.04
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.15834v1.pdf",
+    "similarity": 0.015
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.15870v1.pdf",
+    "similarity": 0.017
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.15925v1.pdf",
+    "similarity": 0.055
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.15964v1.pdf",
+    "similarity": 0.036
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.15993v1.pdf",
+    "similarity": 0.034
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.16100v1.pdf",
+    "similarity": 0.092
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.16131v1.pdf",
+    "similarity": 0.005
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.16135v1.pdf",
+    "similarity": 0.065
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.017
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.061
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.16238v1.pdf",
+    "similarity": 0.039
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.04
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.013
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.027
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.14378v1.pdf",
+    "similarity": 0.07
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.14426v1.pdf",
+    "similarity": 0.043
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.14473v1.pdf",
+    "similarity": 0.08
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.14961v1.pdf",
+    "similarity": 0.093
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.15034v1.pdf",
+    "similarity": 0.048
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.15185v1.pdf",
+    "similarity": 0.017
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.15240v1.pdf",
+    "similarity": 0.027
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.15287v1.pdf",
+    "similarity": 0.043
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.15304v1.pdf",
+    "similarity": 0.007
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.15310v1.pdf",
+    "similarity": 0.099
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.15465v1.pdf",
+    "similarity": 0.064
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.15507v2.pdf",
+    "similarity": 0.052
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.15670v1.pdf",
+    "similarity": 0.048
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.15710v1.pdf",
+    "similarity": 0.049
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.15834v1.pdf",
+    "similarity": 0.036
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.15870v1.pdf",
+    "similarity": 0.041
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.15925v1.pdf",
+    "similarity": 0.084
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.15964v1.pdf",
+    "similarity": 0.04
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.15993v1.pdf",
+    "similarity": 0.073
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.16100v1.pdf",
+    "similarity": 0.093
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.16131v1.pdf",
+    "similarity": 0.028
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.16135v1.pdf",
+    "similarity": 0.088
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.043
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.044
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.16238v1.pdf",
+    "similarity": 0.079
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.057
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.048
+  },
+  {
+    "paper1": "2504.14337v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.035
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.14426v1.pdf",
+    "similarity": 0.015
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.14473v1.pdf",
+    "similarity": 0.011
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.14961v1.pdf",
+    "similarity": 0.057
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.15034v1.pdf",
+    "similarity": 0.048
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.15185v1.pdf",
+    "similarity": 0.051
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.15240v1.pdf",
+    "similarity": 0.013
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.15287v1.pdf",
+    "similarity": 0.028
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.15304v1.pdf",
+    "similarity": 0.056
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.15310v1.pdf",
+    "similarity": 0.045
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.15465v1.pdf",
+    "similarity": 0.046
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.15507v2.pdf",
+    "similarity": 0.038
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.15670v1.pdf",
+    "similarity": 0.04
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.15710v1.pdf",
+    "similarity": 0.033
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.15834v1.pdf",
+    "similarity": 0.035
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.15870v1.pdf",
+    "similarity": 0.023
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.15925v1.pdf",
+    "similarity": 0.065
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.15964v1.pdf",
+    "similarity": 0.04
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.15993v1.pdf",
+    "similarity": 0.015
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.16100v1.pdf",
+    "similarity": 0.076
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.16131v1.pdf",
+    "similarity": 0.058
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.16135v1.pdf",
+    "similarity": 0.034
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.023
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.076
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.16238v1.pdf",
+    "similarity": 0.069
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.053
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.025
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.028
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.14473v1.pdf",
+    "similarity": 0.028
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.14961v1.pdf",
+    "similarity": 0.031
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.15034v1.pdf",
+    "similarity": 0.078
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.15185v1.pdf",
+    "similarity": 0.005
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.15240v1.pdf",
+    "similarity": 0.031
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.15287v1.pdf",
+    "similarity": 0.039
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.15304v1.pdf",
+    "similarity": 0.017
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.15310v1.pdf",
+    "similarity": 0.041
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.15465v1.pdf",
+    "similarity": 0.013
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.15507v2.pdf",
+    "similarity": 0.022
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.15670v1.pdf",
+    "similarity": 0.036
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.15710v1.pdf",
+    "similarity": 0.04
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.15834v1.pdf",
+    "similarity": 0.027
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.15870v1.pdf",
+    "similarity": 0.036
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.15925v1.pdf",
+    "similarity": 0.065
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.15964v1.pdf",
+    "similarity": 0.021
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.15993v1.pdf",
+    "similarity": 0.053
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.16100v1.pdf",
+    "similarity": 0.089
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.16131v1.pdf",
+    "similarity": 0.013
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.16135v1.pdf",
+    "similarity": 0.041
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.052
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.042
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.16238v1.pdf",
+    "similarity": 0.025
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.05
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.077
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.038
+  },
+  {
+    "paper1": "2504.14473v1.pdf",
+    "paper2": "2504.14961v1.pdf",
+    "similarity": 0.07
+  },
+  {
+    "paper1": "2504.14473v1.pdf",
+    "paper2": "2504.15034v1.pdf",
+    "similarity": 0.049
+  },
+  {
+    "paper1": "2504.14473v1.pdf",
+    "paper2": "2504.15185v1.pdf",
+    "similarity": 0.004
+  },
+  {
+    "paper1": "2504.14473v1.pdf",
+    "paper2": "2504.15240v1.pdf",
+    "similarity": 0.025
+  },
+  {
+    "paper1": "2504.14473v1.pdf",
+    "paper2": "2504.15287v1.pdf",
+    "similarity": 0.066
+  },
+  {
+    "paper1": "2504.14473v1.pdf",
+    "paper2": "2504.15304v1.pdf",
+    "similarity": 0.012
+  },
+  {
+    "paper1": "2504.14473v1.pdf",
+    "paper2": "2504.15310v1.pdf",
+    "similarity": 0.018
+  },
+  {
+    "paper1": "2504.14473v1.pdf",
+    "paper2": "2504.15465v1.pdf",
+    "similarity": 0.028
+  },
+  {
+    "paper1": "2504.14473v1.pdf",
+    "paper2": "2504.15507v2.pdf",
+    "similarity": 0.036
+  },
+  {
+    "paper1": "2504.14473v1.pdf",
+    "paper2": "2504.15670v1.pdf",
+    "similarity": 0.09
+  },
+  {
+    "paper1": "2504.14473v1.pdf",
+    "paper2": "2504.15710v1.pdf",
+    "similarity": 0.06
+  },
+  {
+    "paper1": "2504.14473v1.pdf",
+    "paper2": "2504.15834v1.pdf",
+    "similarity": 0.018
+  },
+  {
+    "paper1": "2504.14473v1.pdf",
+    "paper2": "2504.15870v1.pdf",
+    "similarity": 0.017
+  },
+  {
+    "paper1": "2504.14473v1.pdf",
+    "paper2": "2504.15925v1.pdf",
+    "similarity": 0.045
+  },
+  {
+    "paper1": "2504.14473v1.pdf",
+    "paper2": "2504.15964v1.pdf",
+    "similarity": 0.013
+  },
+  {
+    "paper1": "2504.14473v1.pdf",
+    "paper2": "2504.15993v1.pdf",
+    "similarity": 0.09
+  },
+  {
+    "paper1": "2504.14473v1.pdf",
+    "paper2": "2504.16100v1.pdf",
+    "similarity": 0.067
+  },
+  {
+    "paper1": "2504.14473v1.pdf",
+    "paper2": "2504.16131v1.pdf",
+    "similarity": 0.014
+  },
+  {
+    "paper1": "2504.14473v1.pdf",
+    "paper2": "2504.16135v1.pdf",
+    "similarity": 0.048
+  },
+  {
+    "paper1": "2504.14473v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.064
+  },
+  {
+    "paper1": "2504.14473v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.078
+  },
+  {
+    "paper1": "2504.14473v1.pdf",
+    "paper2": "2504.16238v1.pdf",
+    "similarity": 0.075
+  },
+  {
+    "paper1": "2504.14473v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.039
+  },
+  {
+    "paper1": "2504.14473v1.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.024
+  },
+  {
+    "paper1": "2504.14473v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.042
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.15034v1.pdf",
+    "similarity": 0.106
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.15185v1.pdf",
+    "similarity": 0.054
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.15240v1.pdf",
+    "similarity": 0.027
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.15287v1.pdf",
+    "similarity": 0.039
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.15304v1.pdf",
+    "similarity": 0.053
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.15310v1.pdf",
+    "similarity": 0.025
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.15465v1.pdf",
+    "similarity": 0.024
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.15507v2.pdf",
+    "similarity": 0.095
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.15670v1.pdf",
+    "similarity": 0.036
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.15710v1.pdf",
+    "similarity": 0.096
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.15834v1.pdf",
+    "similarity": 0.041
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.15870v1.pdf",
+    "similarity": 0.03
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.15925v1.pdf",
+    "similarity": 0.04
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.15964v1.pdf",
+    "similarity": 0.011
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.15993v1.pdf",
+    "similarity": 0.035
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.16100v1.pdf",
+    "similarity": 0.051
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.16131v1.pdf",
+    "similarity": 0.04
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.16135v1.pdf",
+    "similarity": 0.041
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.033
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.049
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.16238v1.pdf",
+    "similarity": 0.032
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.04
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.065
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.039
+  },
+  {
+    "paper1": "2504.15034v1.pdf",
+    "paper2": "2504.15185v1.pdf",
+    "similarity": 0.025
+  },
+  {
+    "paper1": "2504.15034v1.pdf",
+    "paper2": "2504.15240v1.pdf",
+    "similarity": 0.014
+  },
+  {
+    "paper1": "2504.15034v1.pdf",
+    "paper2": "2504.15287v1.pdf",
+    "similarity": 0.041
+  },
+  {
+    "paper1": "2504.15034v1.pdf",
+    "paper2": "2504.15304v1.pdf",
+    "similarity": 0.044
+  },
+  {
+    "paper1": "2504.15034v1.pdf",
+    "paper2": "2504.15310v1.pdf",
+    "similarity": 0.014
+  },
+  {
+    "paper1": "2504.15034v1.pdf",
+    "paper2": "2504.15465v1.pdf",
+    "similarity": 0.023
+  },
+  {
+    "paper1": "2504.15034v1.pdf",
+    "paper2": "2504.15507v2.pdf",
+    "similarity": 0.034
+  },
+  {
+    "paper1": "2504.15034v1.pdf",
+    "paper2": "2504.15670v1.pdf",
+    "similarity": 0.026
+  },
+  {
+    "paper1": "2504.15034v1.pdf",
+    "paper2": "2504.15710v1.pdf",
+    "similarity": 0.143
+  },
+  {
+    "paper1": "2504.15034v1.pdf",
+    "paper2": "2504.15834v1.pdf",
+    "similarity": 0.037
+  },
+  {
+    "paper1": "2504.15034v1.pdf",
+    "paper2": "2504.15870v1.pdf",
+    "similarity": 0.06
+  },
+  {
+    "paper1": "2504.15034v1.pdf",
+    "paper2": "2504.15925v1.pdf",
+    "similarity": 0.129
+  },
+  {
+    "paper1": "2504.15034v1.pdf",
+    "paper2": "2504.15964v1.pdf",
+    "similarity": 0.028
+  },
+  {
+    "paper1": "2504.15034v1.pdf",
+    "paper2": "2504.15993v1.pdf",
+    "similarity": 0.015
+  },
+  {
+    "paper1": "2504.15034v1.pdf",
+    "paper2": "2504.16100v1.pdf",
+    "similarity": 0.039
+  },
+  {
+    "paper1": "2504.15034v1.pdf",
+    "paper2": "2504.16131v1.pdf",
+    "similarity": 0.043
+  },
+  {
+    "paper1": "2504.15034v1.pdf",
+    "paper2": "2504.16135v1.pdf",
+    "similarity": 0.032
+  },
+  {
+    "paper1": "2504.15034v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.035
+  },
+  {
+    "paper1": "2504.15034v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.027
+  },
+  {
+    "paper1": "2504.15034v1.pdf",
+    "paper2": "2504.16238v1.pdf",
+    "similarity": 0.027
+  },
+  {
+    "paper1": "2504.15034v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.029
+  },
+  {
+    "paper1": "2504.15034v1.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.061
+  },
+  {
+    "paper1": "2504.15034v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.025
+  },
+  {
+    "paper1": "2504.15185v1.pdf",
+    "paper2": "2504.15240v1.pdf",
+    "similarity": 0.005
+  },
+  {
+    "paper1": "2504.15185v1.pdf",
+    "paper2": "2504.15287v1.pdf",
+    "similarity": 0.017
+  },
+  {
+    "paper1": "2504.15185v1.pdf",
+    "paper2": "2504.15304v1.pdf",
+    "similarity": 0.038
+  },
+  {
+    "paper1": "2504.15185v1.pdf",
+    "paper2": "2504.15310v1.pdf",
+    "similarity": 0.018
+  },
+  {
+    "paper1": "2504.15185v1.pdf",
+    "paper2": "2504.15465v1.pdf",
+    "similarity": 0.048
+  },
+  {
+    "paper1": "2504.15185v1.pdf",
+    "paper2": "2504.15507v2.pdf",
+    "similarity": 0.059
+  },
+  {
+    "paper1": "2504.15185v1.pdf",
+    "paper2": "2504.15670v1.pdf",
+    "similarity": 0.005
+  },
+  {
+    "paper1": "2504.15185v1.pdf",
+    "paper2": "2504.15710v1.pdf",
+    "similarity": 0.037
+  },
+  {
+    "paper1": "2504.15185v1.pdf",
+    "paper2": "2504.15834v1.pdf",
+    "similarity": 0.028
+  },
+  {
+    "paper1": "2504.15185v1.pdf",
+    "paper2": "2504.15870v1.pdf",
+    "similarity": 0.022
+  },
+  {
+    "paper1": "2504.15185v1.pdf",
+    "paper2": "2504.15925v1.pdf",
+    "similarity": 0.032
+  },
+  {
+    "paper1": "2504.15185v1.pdf",
+    "paper2": "2504.15964v1.pdf",
+    "similarity": 0.016
+  },
+  {
+    "paper1": "2504.15185v1.pdf",
+    "paper2": "2504.15993v1.pdf",
+    "similarity": 0.019
+  },
+  {
+    "paper1": "2504.15185v1.pdf",
+    "paper2": "2504.16100v1.pdf",
+    "similarity": 0.023
+  },
+  {
+    "paper1": "2504.15185v1.pdf",
+    "paper2": "2504.16131v1.pdf",
+    "similarity": 0.04
+  },
+  {
+    "paper1": "2504.15185v1.pdf",
+    "paper2": "2504.16135v1.pdf",
+    "similarity": 0.013
+  },
+  {
+    "paper1": "2504.15185v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.028
+  },
+  {
+    "paper1": "2504.15185v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.005
+  },
+  {
+    "paper1": "2504.15185v1.pdf",
+    "paper2": "2504.16238v1.pdf",
+    "similarity": 0.021
+  },
+  {
+    "paper1": "2504.15185v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.034
+  },
+  {
+    "paper1": "2504.15185v1.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.006
+  },
+  {
+    "paper1": "2504.15185v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.028
+  },
+  {
+    "paper1": "2504.15240v1.pdf",
+    "paper2": "2504.15287v1.pdf",
+    "similarity": 0.022
+  },
+  {
+    "paper1": "2504.15240v1.pdf",
+    "paper2": "2504.15304v1.pdf",
+    "similarity": 0.015
+  },
+  {
+    "paper1": "2504.15240v1.pdf",
+    "paper2": "2504.15310v1.pdf",
+    "similarity": 0.032
+  },
+  {
+    "paper1": "2504.15240v1.pdf",
+    "paper2": "2504.15465v1.pdf",
+    "similarity": 0.007
+  },
+  {
+    "paper1": "2504.15240v1.pdf",
+    "paper2": "2504.15507v2.pdf",
+    "similarity": 0.035
+  },
+  {
+    "paper1": "2504.15240v1.pdf",
+    "paper2": "2504.15670v1.pdf",
+    "similarity": 0.029
+  },
+  {
+    "paper1": "2504.15240v1.pdf",
+    "paper2": "2504.15710v1.pdf",
+    "similarity": 0.031
+  },
+  {
+    "paper1": "2504.15240v1.pdf",
+    "paper2": "2504.15834v1.pdf",
+    "similarity": 0.026
+  },
+  {
+    "paper1": "2504.15240v1.pdf",
+    "paper2": "2504.15870v1.pdf",
+    "similarity": 0.008
+  },
+  {
+    "paper1": "2504.15240v1.pdf",
+    "paper2": "2504.15925v1.pdf",
+    "similarity": 0.054
+  },
+  {
+    "paper1": "2504.15240v1.pdf",
+    "paper2": "2504.15964v1.pdf",
+    "similarity": 0.038
+  },
+  {
+    "paper1": "2504.15240v1.pdf",
+    "paper2": "2504.15993v1.pdf",
+    "similarity": 0.039
+  },
+  {
+    "paper1": "2504.15240v1.pdf",
+    "paper2": "2504.16100v1.pdf",
+    "similarity": 0.044
+  },
+  {
+    "paper1": "2504.15240v1.pdf",
+    "paper2": "2504.16131v1.pdf",
+    "similarity": 0.022
+  },
+  {
+    "paper1": "2504.15240v1.pdf",
+    "paper2": "2504.16135v1.pdf",
+    "similarity": 0.04
+  },
+  {
+    "paper1": "2504.15240v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.048
+  },
+  {
+    "paper1": "2504.15240v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.02
+  },
+  {
+    "paper1": "2504.15240v1.pdf",
+    "paper2": "2504.16238v1.pdf",
+    "similarity": 0.026
+  },
+  {
+    "paper1": "2504.15240v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.049
+  },
+  {
+    "paper1": "2504.15240v1.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.015
+  },
+  {
+    "paper1": "2504.15240v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.038
+  },
+  {
+    "paper1": "2504.15287v1.pdf",
+    "paper2": "2504.15304v1.pdf",
+    "similarity": 0.026
+  },
+  {
+    "paper1": "2504.15287v1.pdf",
+    "paper2": "2504.15310v1.pdf",
+    "similarity": 0.013
+  },
+  {
+    "paper1": "2504.15287v1.pdf",
+    "paper2": "2504.15465v1.pdf",
+    "similarity": 0.01
+  },
+  {
+    "paper1": "2504.15287v1.pdf",
+    "paper2": "2504.15507v2.pdf",
+    "similarity": 0.032
+  },
+  {
+    "paper1": "2504.15287v1.pdf",
+    "paper2": "2504.15670v1.pdf",
+    "similarity": 0.023
+  },
+  {
+    "paper1": "2504.15287v1.pdf",
+    "paper2": "2504.15710v1.pdf",
+    "similarity": 0.034
+  },
+  {
+    "paper1": "2504.15287v1.pdf",
+    "paper2": "2504.15834v1.pdf",
+    "similarity": 0.036
+  },
+  {
+    "paper1": "2504.15287v1.pdf",
+    "paper2": "2504.15870v1.pdf",
+    "similarity": 0.025
+  },
+  {
+    "paper1": "2504.15287v1.pdf",
+    "paper2": "2504.15925v1.pdf",
+    "similarity": 0.027
+  },
+  {
+    "paper1": "2504.15287v1.pdf",
+    "paper2": "2504.15964v1.pdf",
+    "similarity": 0.025
+  },
+  {
+    "paper1": "2504.15287v1.pdf",
+    "paper2": "2504.15993v1.pdf",
+    "similarity": 0.038
+  },
+  {
+    "paper1": "2504.15287v1.pdf",
+    "paper2": "2504.16100v1.pdf",
+    "similarity": 0.031
+  },
+  {
+    "paper1": "2504.15287v1.pdf",
+    "paper2": "2504.16131v1.pdf",
+    "similarity": 0.018
+  },
+  {
+    "paper1": "2504.15287v1.pdf",
+    "paper2": "2504.16135v1.pdf",
+    "similarity": 0.046
+  },
+  {
+    "paper1": "2504.15287v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.019
+  },
+  {
+    "paper1": "2504.15287v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.036
+  },
+  {
+    "paper1": "2504.15287v1.pdf",
+    "paper2": "2504.16238v1.pdf",
+    "similarity": 0.026
+  },
+  {
+    "paper1": "2504.15287v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.028
+  },
+  {
+    "paper1": "2504.15287v1.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.024
+  },
+  {
+    "paper1": "2504.15287v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.027
+  },
+  {
+    "paper1": "2504.15304v1.pdf",
+    "paper2": "2504.15310v1.pdf",
+    "similarity": 0.024
+  },
+  {
+    "paper1": "2504.15304v1.pdf",
+    "paper2": "2504.15465v1.pdf",
+    "similarity": 0.015
+  },
+  {
+    "paper1": "2504.15304v1.pdf",
+    "paper2": "2504.15507v2.pdf",
+    "similarity": 0.043
+  },
+  {
+    "paper1": "2504.15304v1.pdf",
+    "paper2": "2504.15670v1.pdf",
+    "similarity": 0.036
+  },
+  {
+    "paper1": "2504.15304v1.pdf",
+    "paper2": "2504.15710v1.pdf",
+    "similarity": 0.035
+  },
+  {
+    "paper1": "2504.15304v1.pdf",
+    "paper2": "2504.15834v1.pdf",
+    "similarity": 0.03
+  },
+  {
+    "paper1": "2504.15304v1.pdf",
+    "paper2": "2504.15870v1.pdf",
+    "similarity": 0.028
+  },
+  {
+    "paper1": "2504.15304v1.pdf",
+    "paper2": "2504.15925v1.pdf",
+    "similarity": 0.02
+  },
+  {
+    "paper1": "2504.15304v1.pdf",
+    "paper2": "2504.15964v1.pdf",
+    "similarity": 0.031
+  },
+  {
+    "paper1": "2504.15304v1.pdf",
+    "paper2": "2504.15993v1.pdf",
+    "similarity": 0.018
+  },
+  {
+    "paper1": "2504.15304v1.pdf",
+    "paper2": "2504.16100v1.pdf",
+    "similarity": 0.017
+  },
+  {
+    "paper1": "2504.15304v1.pdf",
+    "paper2": "2504.16131v1.pdf",
+    "similarity": 0.043
+  },
+  {
+    "paper1": "2504.15304v1.pdf",
+    "paper2": "2504.16135v1.pdf",
+    "similarity": 0.042
+  },
+  {
+    "paper1": "2504.15304v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.016
+  },
+  {
+    "paper1": "2504.15304v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.014
+  },
+  {
+    "paper1": "2504.15304v1.pdf",
+    "paper2": "2504.16238v1.pdf",
+    "similarity": 0.022
+  },
+  {
+    "paper1": "2504.15304v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.004
+  },
+  {
+    "paper1": "2504.15304v1.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.017
+  },
+  {
+    "paper1": "2504.15304v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.03
+  },
+  {
+    "paper1": "2504.15310v1.pdf",
+    "paper2": "2504.15465v1.pdf",
+    "similarity": 0.036
+  },
+  {
+    "paper1": "2504.15310v1.pdf",
+    "paper2": "2504.15507v2.pdf",
+    "similarity": 0.022
+  },
+  {
+    "paper1": "2504.15310v1.pdf",
+    "paper2": "2504.15670v1.pdf",
+    "similarity": 0.028
+  },
+  {
+    "paper1": "2504.15310v1.pdf",
+    "paper2": "2504.15710v1.pdf",
+    "similarity": 0.023
+  },
+  {
+    "paper1": "2504.15310v1.pdf",
+    "paper2": "2504.15834v1.pdf",
+    "similarity": 0.024
+  },
+  {
+    "paper1": "2504.15310v1.pdf",
+    "paper2": "2504.15870v1.pdf",
+    "similarity": 0.018
+  },
+  {
+    "paper1": "2504.15310v1.pdf",
+    "paper2": "2504.15925v1.pdf",
+    "similarity": 0.018
+  },
+  {
+    "paper1": "2504.15310v1.pdf",
+    "paper2": "2504.15964v1.pdf",
+    "similarity": 0.006
+  },
+  {
+    "paper1": "2504.15310v1.pdf",
+    "paper2": "2504.15993v1.pdf",
+    "similarity": 0.038
+  },
+  {
+    "paper1": "2504.15310v1.pdf",
+    "paper2": "2504.16100v1.pdf",
+    "similarity": 0.066
+  },
+  {
+    "paper1": "2504.15310v1.pdf",
+    "paper2": "2504.16131v1.pdf",
+    "similarity": 0.042
+  },
+  {
+    "paper1": "2504.15310v1.pdf",
+    "paper2": "2504.16135v1.pdf",
+    "similarity": 0.053
+  },
+  {
+    "paper1": "2504.15310v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.026
+  },
+  {
+    "paper1": "2504.15310v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.043
+  },
+  {
+    "paper1": "2504.15310v1.pdf",
+    "paper2": "2504.16238v1.pdf",
+    "similarity": 0.037
+  },
+  {
+    "paper1": "2504.15310v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.014
+  },
+  {
+    "paper1": "2504.15310v1.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.037
+  },
+  {
+    "paper1": "2504.15310v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.032
+  },
+  {
+    "paper1": "2504.15465v1.pdf",
+    "paper2": "2504.15507v2.pdf",
+    "similarity": 0.04
+  },
+  {
+    "paper1": "2504.15465v1.pdf",
+    "paper2": "2504.15670v1.pdf",
+    "similarity": 0.022
+  },
+  {
+    "paper1": "2504.15465v1.pdf",
+    "paper2": "2504.15710v1.pdf",
+    "similarity": 0.033
+  },
+  {
+    "paper1": "2504.15465v1.pdf",
+    "paper2": "2504.15834v1.pdf",
+    "similarity": 0.016
+  },
+  {
+    "paper1": "2504.15465v1.pdf",
+    "paper2": "2504.15870v1.pdf",
+    "similarity": 0.01
+  },
+  {
+    "paper1": "2504.15465v1.pdf",
+    "paper2": "2504.15925v1.pdf",
+    "similarity": 0.049
+  },
+  {
+    "paper1": "2504.15465v1.pdf",
+    "paper2": "2504.15964v1.pdf",
+    "similarity": 0.012
+  },
+  {
+    "paper1": "2504.15465v1.pdf",
+    "paper2": "2504.15993v1.pdf",
+    "similarity": 0.016
+  },
+  {
+    "paper1": "2504.15465v1.pdf",
+    "paper2": "2504.16100v1.pdf",
+    "similarity": 0.065
+  },
+  {
+    "paper1": "2504.15465v1.pdf",
+    "paper2": "2504.16131v1.pdf",
+    "similarity": 0.019
+  },
+  {
+    "paper1": "2504.15465v1.pdf",
+    "paper2": "2504.16135v1.pdf",
+    "similarity": 0.03
+  },
+  {
+    "paper1": "2504.15465v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.074
+  },
+  {
+    "paper1": "2504.15465v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.018
+  },
+  {
+    "paper1": "2504.15465v1.pdf",
+    "paper2": "2504.16238v1.pdf",
+    "similarity": 0.029
+  },
+  {
+    "paper1": "2504.15465v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.019
+  },
+  {
+    "paper1": "2504.15465v1.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.035
+  },
+  {
+    "paper1": "2504.15465v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.012
+  },
+  {
+    "paper1": "2504.15507v2.pdf",
+    "paper2": "2504.15670v1.pdf",
+    "similarity": 0.02
+  },
+  {
+    "paper1": "2504.15507v2.pdf",
+    "paper2": "2504.15710v1.pdf",
+    "similarity": 0.023
+  },
+  {
+    "paper1": "2504.15507v2.pdf",
+    "paper2": "2504.15834v1.pdf",
+    "similarity": 0.021
+  },
+  {
+    "paper1": "2504.15507v2.pdf",
+    "paper2": "2504.15870v1.pdf",
+    "similarity": 0.02
+  },
+  {
+    "paper1": "2504.15507v2.pdf",
+    "paper2": "2504.15925v1.pdf",
+    "similarity": 0.012
+  },
+  {
+    "paper1": "2504.15507v2.pdf",
+    "paper2": "2504.15964v1.pdf",
+    "similarity": 0.025
+  },
+  {
+    "paper1": "2504.15507v2.pdf",
+    "paper2": "2504.15993v1.pdf",
+    "similarity": 0.037
+  },
+  {
+    "paper1": "2504.15507v2.pdf",
+    "paper2": "2504.16100v1.pdf",
+    "similarity": 0.033
+  },
+  {
+    "paper1": "2504.15507v2.pdf",
+    "paper2": "2504.16131v1.pdf",
+    "similarity": 0.045
+  },
+  {
+    "paper1": "2504.15507v2.pdf",
+    "paper2": "2504.16135v1.pdf",
+    "similarity": 0.025
+  },
+  {
+    "paper1": "2504.15507v2.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.069
+  },
+  {
+    "paper1": "2504.15507v2.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.051
+  },
+  {
+    "paper1": "2504.15507v2.pdf",
+    "paper2": "2504.16238v1.pdf",
+    "similarity": 0.034
+  },
+  {
+    "paper1": "2504.15507v2.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.008
+  },
+  {
+    "paper1": "2504.15507v2.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.016
+  },
+  {
+    "paper1": "2504.15507v2.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.031
+  },
+  {
+    "paper1": "2504.15670v1.pdf",
+    "paper2": "2504.15710v1.pdf",
+    "similarity": 0.037
+  },
+  {
+    "paper1": "2504.15670v1.pdf",
+    "paper2": "2504.15834v1.pdf",
+    "similarity": 0.026
+  },
+  {
+    "paper1": "2504.15670v1.pdf",
+    "paper2": "2504.15870v1.pdf",
+    "similarity": 0.032
+  },
+  {
+    "paper1": "2504.15670v1.pdf",
+    "paper2": "2504.15925v1.pdf",
+    "similarity": 0.031
+  },
+  {
+    "paper1": "2504.15670v1.pdf",
+    "paper2": "2504.15964v1.pdf",
+    "similarity": 0.023
+  },
+  {
+    "paper1": "2504.15670v1.pdf",
+    "paper2": "2504.15993v1.pdf",
+    "similarity": 0.065
+  },
+  {
+    "paper1": "2504.15670v1.pdf",
+    "paper2": "2504.16100v1.pdf",
+    "similarity": 0.054
+  },
+  {
+    "paper1": "2504.15670v1.pdf",
+    "paper2": "2504.16131v1.pdf",
+    "similarity": 0.034
+  },
+  {
+    "paper1": "2504.15670v1.pdf",
+    "paper2": "2504.16135v1.pdf",
+    "similarity": 0.031
+  },
+  {
+    "paper1": "2504.15670v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.044
+  },
+  {
+    "paper1": "2504.15670v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.048
+  },
+  {
+    "paper1": "2504.15670v1.pdf",
+    "paper2": "2504.16238v1.pdf",
+    "similarity": 0.024
+  },
+  {
+    "paper1": "2504.15670v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.036
+  },
+  {
+    "paper1": "2504.15670v1.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.03
+  },
+  {
+    "paper1": "2504.15670v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.036
+  },
+  {
+    "paper1": "2504.15710v1.pdf",
+    "paper2": "2504.15834v1.pdf",
+    "similarity": 0.014
+  },
+  {
+    "paper1": "2504.15710v1.pdf",
+    "paper2": "2504.15870v1.pdf",
+    "similarity": 0.032
+  },
+  {
+    "paper1": "2504.15710v1.pdf",
+    "paper2": "2504.15925v1.pdf",
+    "similarity": 0.026
+  },
+  {
+    "paper1": "2504.15710v1.pdf",
+    "paper2": "2504.15964v1.pdf",
+    "similarity": 0.017
+  },
+  {
+    "paper1": "2504.15710v1.pdf",
+    "paper2": "2504.15993v1.pdf",
+    "similarity": 0.034
+  },
+  {
+    "paper1": "2504.15710v1.pdf",
+    "paper2": "2504.16100v1.pdf",
+    "similarity": 0.065
+  },
+  {
+    "paper1": "2504.15710v1.pdf",
+    "paper2": "2504.16131v1.pdf",
+    "similarity": 0.018
+  },
+  {
+    "paper1": "2504.15710v1.pdf",
+    "paper2": "2504.16135v1.pdf",
+    "similarity": 0.043
+  },
+  {
+    "paper1": "2504.15710v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.022
+  },
+  {
+    "paper1": "2504.15710v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.033
+  },
+  {
+    "paper1": "2504.15710v1.pdf",
+    "paper2": "2504.16238v1.pdf",
+    "similarity": 0.026
+  },
+  {
+    "paper1": "2504.15710v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.039
+  },
+  {
+    "paper1": "2504.15710v1.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.141
+  },
+  {
+    "paper1": "2504.15710v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.014
+  },
+  {
+    "paper1": "2504.15834v1.pdf",
+    "paper2": "2504.15870v1.pdf",
+    "similarity": 0.033
+  },
+  {
+    "paper1": "2504.15834v1.pdf",
+    "paper2": "2504.15925v1.pdf",
+    "similarity": 0.029
+  },
+  {
+    "paper1": "2504.15834v1.pdf",
+    "paper2": "2504.15964v1.pdf",
+    "similarity": 0.028
+  },
+  {
+    "paper1": "2504.15834v1.pdf",
+    "paper2": "2504.15993v1.pdf",
+    "similarity": 0.015
+  },
+  {
+    "paper1": "2504.15834v1.pdf",
+    "paper2": "2504.16100v1.pdf",
+    "similarity": 0.028
+  },
+  {
+    "paper1": "2504.15834v1.pdf",
+    "paper2": "2504.16131v1.pdf",
+    "similarity": 0.02
+  },
+  {
+    "paper1": "2504.15834v1.pdf",
+    "paper2": "2504.16135v1.pdf",
+    "similarity": 0.024
+  },
+  {
+    "paper1": "2504.15834v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.042
+  },
+  {
+    "paper1": "2504.15834v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.028
+  },
+  {
+    "paper1": "2504.15834v1.pdf",
+    "paper2": "2504.16238v1.pdf",
+    "similarity": 0.028
+  },
+  {
+    "paper1": "2504.15834v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.028
+  },
+  {
+    "paper1": "2504.15834v1.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.015
+  },
+  {
+    "paper1": "2504.15834v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.042
+  },
+  {
+    "paper1": "2504.15870v1.pdf",
+    "paper2": "2504.15925v1.pdf",
+    "similarity": 0.049
+  },
+  {
+    "paper1": "2504.15870v1.pdf",
+    "paper2": "2504.15964v1.pdf",
+    "similarity": 0.078
+  },
+  {
+    "paper1": "2504.15870v1.pdf",
+    "paper2": "2504.15993v1.pdf",
+    "similarity": 0.025
+  },
+  {
+    "paper1": "2504.15870v1.pdf",
+    "paper2": "2504.16100v1.pdf",
+    "similarity": 0.015
+  },
+  {
+    "paper1": "2504.15870v1.pdf",
+    "paper2": "2504.16131v1.pdf",
+    "similarity": 0.068
+  },
+  {
+    "paper1": "2504.15870v1.pdf",
+    "paper2": "2504.16135v1.pdf",
+    "similarity": 0.013
+  },
+  {
+    "paper1": "2504.15870v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.028
+  },
+  {
+    "paper1": "2504.15870v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.016
+  },
+  {
+    "paper1": "2504.15870v1.pdf",
+    "paper2": "2504.16238v1.pdf",
+    "similarity": 0.009
+  },
+  {
+    "paper1": "2504.15870v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.011
+  },
+  {
+    "paper1": "2504.15870v1.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.024
+  },
+  {
+    "paper1": "2504.15870v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.023
+  },
+  {
+    "paper1": "2504.15925v1.pdf",
+    "paper2": "2504.15964v1.pdf",
+    "similarity": 0.037
+  },
+  {
+    "paper1": "2504.15925v1.pdf",
+    "paper2": "2504.15993v1.pdf",
+    "similarity": 0.027
+  },
+  {
+    "paper1": "2504.15925v1.pdf",
+    "paper2": "2504.16100v1.pdf",
+    "similarity": 0.057
+  },
+  {
+    "paper1": "2504.15925v1.pdf",
+    "paper2": "2504.16131v1.pdf",
+    "similarity": 0.043
+  },
+  {
+    "paper1": "2504.15925v1.pdf",
+    "paper2": "2504.16135v1.pdf",
+    "similarity": 0.028
+  },
+  {
+    "paper1": "2504.15925v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.036
+  },
+  {
+    "paper1": "2504.15925v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.041
+  },
+  {
+    "paper1": "2504.15925v1.pdf",
+    "paper2": "2504.16238v1.pdf",
+    "similarity": 0.083
+  },
+  {
+    "paper1": "2504.15925v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.105
+  },
+  {
+    "paper1": "2504.15925v1.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.066
+  },
+  {
+    "paper1": "2504.15925v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.031
+  },
+  {
+    "paper1": "2504.15964v1.pdf",
+    "paper2": "2504.15993v1.pdf",
+    "similarity": 0.019
+  },
+  {
+    "paper1": "2504.15964v1.pdf",
+    "paper2": "2504.16100v1.pdf",
+    "similarity": 0.029
+  },
+  {
+    "paper1": "2504.15964v1.pdf",
+    "paper2": "2504.16131v1.pdf",
+    "similarity": 0.242
+  },
+  {
+    "paper1": "2504.15964v1.pdf",
+    "paper2": "2504.16135v1.pdf",
+    "similarity": 0.024
+  },
+  {
+    "paper1": "2504.15964v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.042
+  },
+  {
+    "paper1": "2504.15964v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.019
+  },
+  {
+    "paper1": "2504.15964v1.pdf",
+    "paper2": "2504.16238v1.pdf",
+    "similarity": 0.058
+  },
+  {
+    "paper1": "2504.15964v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.036
+  },
+  {
+    "paper1": "2504.15964v1.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.021
+  },
+  {
+    "paper1": "2504.15964v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.021
+  },
+  {
+    "paper1": "2504.15993v1.pdf",
+    "paper2": "2504.16100v1.pdf",
+    "similarity": 0.087
+  },
+  {
+    "paper1": "2504.15993v1.pdf",
+    "paper2": "2504.16131v1.pdf",
+    "similarity": 0.01
+  },
+  {
+    "paper1": "2504.15993v1.pdf",
+    "paper2": "2504.16135v1.pdf",
+    "similarity": 0.038
+  },
+  {
+    "paper1": "2504.15993v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.022
+  },
+  {
+    "paper1": "2504.15993v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.048
+  },
+  {
+    "paper1": "2504.15993v1.pdf",
+    "paper2": "2504.16238v1.pdf",
+    "similarity": 0.03
+  },
+  {
+    "paper1": "2504.15993v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.052
+  },
+  {
+    "paper1": "2504.15993v1.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.025
+  },
+  {
+    "paper1": "2504.15993v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.039
+  },
+  {
+    "paper1": "2504.16100v1.pdf",
+    "paper2": "2504.16131v1.pdf",
+    "similarity": 0.025
+  },
+  {
+    "paper1": "2504.16100v1.pdf",
+    "paper2": "2504.16135v1.pdf",
+    "similarity": 0.044
+  },
+  {
+    "paper1": "2504.16100v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.028
+  },
+  {
+    "paper1": "2504.16100v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.086
+  },
+  {
+    "paper1": "2504.16100v1.pdf",
+    "paper2": "2504.16238v1.pdf",
+    "similarity": 0.033
+  },
+  {
+    "paper1": "2504.16100v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.064
+  },
+  {
+    "paper1": "2504.16100v1.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.053
+  },
+  {
+    "paper1": "2504.16100v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.057
+  },
+  {
+    "paper1": "2504.16131v1.pdf",
+    "paper2": "2504.16135v1.pdf",
+    "similarity": 0.036
+  },
+  {
+    "paper1": "2504.16131v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.073
+  },
+  {
+    "paper1": "2504.16131v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.017
+  },
+  {
+    "paper1": "2504.16131v1.pdf",
+    "paper2": "2504.16238v1.pdf",
+    "similarity": 0.021
+  },
+  {
+    "paper1": "2504.16131v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.035
+  },
+  {
+    "paper1": "2504.16131v1.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.017
+  },
+  {
+    "paper1": "2504.16131v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.028
+  },
+  {
+    "paper1": "2504.16135v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.033
+  },
+  {
+    "paper1": "2504.16135v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.015
+  },
+  {
+    "paper1": "2504.16135v1.pdf",
+    "paper2": "2504.16238v1.pdf",
+    "similarity": 0.054
+  },
+  {
+    "paper1": "2504.16135v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.055
+  },
+  {
+    "paper1": "2504.16135v1.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.022
+  },
+  {
+    "paper1": "2504.16135v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.028
+  },
+  {
+    "paper1": "2504.16172v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.046
+  },
+  {
+    "paper1": "2504.16172v1.pdf",
+    "paper2": "2504.16238v1.pdf",
+    "similarity": 0.027
+  },
+  {
+    "paper1": "2504.16172v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.036
+  },
+  {
+    "paper1": "2504.16172v1.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.039
+  },
+  {
+    "paper1": "2504.16172v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.047
+  },
+  {
+    "paper1": "2504.16192v1.pdf",
+    "paper2": "2504.16238v1.pdf",
+    "similarity": 0.028
+  },
+  {
+    "paper1": "2504.16192v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.079
+  },
+  {
+    "paper1": "2504.16192v1.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.029
+  },
+  {
+    "paper1": "2504.16192v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.038
+  },
+  {
+    "paper1": "2504.16238v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.052
+  },
+  {
+    "paper1": "2504.16238v1.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.034
+  },
+  {
+    "paper1": "2504.16238v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.029
+  },
+  {
+    "paper1": "2504.16418v1.pdf",
+    "paper2": "2504.16493v1.pdf",
+    "similarity": 0.073
+  },
+  {
+    "paper1": "2504.16418v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.037
+  },
+  {
+    "paper1": "2504.16493v1.pdf",
+    "paper2": "2504.16791v1.pdf",
+    "similarity": 0.025
+  }
+]

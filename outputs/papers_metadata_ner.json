@@ -965,13 +965,13 @@
       }
     ],
     "organizations": [
-      "Horizon 2020",
+      " Iranian National Observatory",
       "IPM",
       " Institute for Research in Fundamental Sciences",
-      " Iranian National Observatory",
-      "grant agreement No  101004214",
+      "Horizon 2020",
       " European Union",
-      " School of Astronomy"
+      " School of Astronomy",
+      "grant agreement No  101004214"
     ],
     "projects": [
       "INO"
@@ -4916,29 +4916,29 @@
       }
     ],
     "organizations": [
-      " Agencia Estatal de Investigación",
-      " Atracción de Talento",
-      " DdA",
-      " Yangyang Development Fund",
-      " Comunidad de Madrid",
-      " National Science Foundation of China",
-      " Consolidación Investigadora",
-      " WC",
-      " HORIZON",
       "AEI",
       " Development Program of China",
-      " Basic Research",
+      " Yangyang Development Fund",
+      " Atracción de Talento",
+      " DdA",
+      " Agencia Estatal de Investigación",
+      " Consolidación Investigadora",
       " Ministry of Education",
       " Ministerio de Ciencia e Innovación",
+      " Smithsonian Astrophysical Observatory",
+      " HORIZON",
+      " WC",
       " NASA",
+      " National Science Foundation of China",
+      " Comunidad de Madrid",
+      " Basic Research",
       " Chandra X-ray Center",
-      " YZ",
-      " Smithsonian Astrophysical Observatory"
+      " YZ"
     ],
     "projects": [
-      " AS",
+      " Actions",
       " ER",
-      " Actions"
+      " AS"
     ]
   },
   {
@@ -5603,11 +5603,11 @@
       }
     ],
     "organizations": [
-      "UMBC",
-      " UMBC High Performance Computing Facility",
-      " U.S. National Science Foundation",
       " University of Maryland, Baltimore County",
-      "HPCF"
+      "HPCF",
+      " UMBC High Performance Computing Facility",
+      "UMBC",
+      " U.S. National Science Foundation"
     ],
     "projects": [
       "."
@@ -6693,12 +6693,12 @@
       }
     ],
     "organizations": [
-      " Hong Kong Quantum AI Lab",
       " National Natural Science Foundation of China",
-      " AIR@InnoHK",
       " Fudan University",
+      " AI for Science Foundation",
+      " AIR@InnoHK",
       " Chinese Academy of Sciences",
-      " AI for Science Foundation"
+      " Hong Kong Quantum AI Lab"
     ],
     "projects": []
   },
@@ -7524,8 +7524,8 @@
     ],
     "organizations": [
       "UCSC",
-      " University of California, Santa Cruz",
-      " UCSC"
+      " UCSC",
+      " University of California, Santa Cruz"
     ],
     "projects": [
       "erc"
@@ -8285,8 +8285,8 @@
     ],
     "organizations": [
       " Pacific Northwest National Laboratory",
-      "PNNL",
       " Battelle Memorial Institute",
+      "PNNL",
       " U.S. Department of Energy"
     ],
     "projects": [
@@ -8883,11 +8883,11 @@
       }
     ],
     "organizations": [
-      " Canadian Foundation for Innovation",
-      "CFI",
-      " JELF",
       " NSERC",
-      " Natural Science and Engineering Research Council of Canada"
+      " Natural Science and Engineering Research Council of Canada",
+      "CFI",
+      " Canadian Foundation for Innovation",
+      " JELF"
     ],
     "projects": [
       "ERC",
@@ -11194,12 +11194,12 @@
       }
     ],
     "organizations": [
+      " NSF",
+      " Carnegie Mellon University",
       "CAOS",
       "award and",
-      " Computer Science Department",
       " Computer Architecture and Operating Systems",
-      " Carnegie Mellon University",
-      " NSF"
+      " Computer Science Department"
     ],
     "projects": []
   },
@@ -12803,10 +12803,10 @@
       }
     ],
     "organizations": [
-      " Natural Science Foundation of China",
+      " Ningbo University",
       " KC Wong Magna Foundation",
-      " High-Performance Computing Center",
-      " Ningbo University"
+      " Natural Science Foundation of China",
+      " High-Performance Computing Center"
     ],
     "projects": []
   },
@@ -13508,9 +13508,9 @@
       }
     ],
     "organizations": [
-      " MMB",
       " National Health and Medical Research Council",
       " Murdoch Children's Research Institute",
+      " MMB",
       " DB"
     ],
     "projects": []
@@ -14086,18 +14086,18 @@
       }
     ],
     "organizations": [
-      " AEC",
-      " Swiss National Science Foundation",
-      " US National Science Foundation",
-      " HPC",
-      " Vienna Scientific Cluster",
-      "unibe",
-      " Austrian Science Fund",
-      "SNSF",
       " University of Bern",
-      " ITP",
+      "unibe",
+      " AEC",
+      "FWF",
+      "SNSF",
       "VSC",
-      "FWF"
+      " Vienna Scientific Cluster",
+      " Austrian Science Fund",
+      " US National Science Foundation",
+      " Swiss National Science Foundation",
+      " ITP",
+      " HPC"
     ],
     "projects": [
       " U",
@@ -14510,10 +14510,10 @@
       }
     ],
     "organizations": [
-      "RCIF",
       " Westlake University",
-      " High-Performance Computing Center",
       " Research Center for Industries of the Future",
+      "RCIF",
+      " High-Performance Computing Center",
       "HPC"
     ],
     "projects": []
@@ -14833,15 +14833,15 @@
     ],
     "organizations": [
       " ERC",
-      " Dutch Research Council",
+      " Dutch National Growth Fund",
       "project number  1389",
       " European Union",
-      " Dutch National Growth Fund",
-      "NWO"
+      "NWO",
+      " Dutch Research Council"
     ],
     "projects": [
-      "ERC",
-      "NGF"
+      "NGF",
+      "ERC"
     ]
   },
   {
@@ -18856,17 +18856,17 @@
       }
     ],
     "organizations": [
-      " Symmetric Group LLP",
-      " Sciences and Engineering Research Council of Canada",
-      " NSERC",
       " New Frontiers in Research Fund",
-      "supported by the New Frontiers in Research Fund through an NFRF Exploration Grant"
+      " NSERC",
+      " Symmetric Group LLP",
+      "supported by the New Frontiers in Research Fund through an NFRF Exploration Grant",
+      " Sciences and Engineering Research Council of Canada"
     ],
     "projects": [
-      "ERC",
-      "erc",
-      " CO",
       " NS",
+      "ERC",
+      " CO",
+      "erc",
       "NS"
     ]
   },
