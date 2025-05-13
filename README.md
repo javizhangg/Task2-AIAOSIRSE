@@ -1,5 +1,11 @@
 # Task2-AIAOSIRSE
 
+## Diagrama del proceso
+
+https://drive.google.com/file/d/12_EM-y5ptJhGotsEJ1NyPQciONYfK82P/view?usp=sharing
+
+
+---
 //lo que tiene que instalar el conda para que funcione bien el json to rdf
 
 Funcionalidades hasta ahora, para poder extraer los metadatos con grobid necesitas activar grobid
@@ -209,10 +215,15 @@ Este enfoque mixto permite obtener agrupaciones temáticas coherentes y relacion
 
 ## Grafo RDF
 
-- Integra los datos de papers_metadata.json  
-
-!! NECESARIO CAMBIARLO PARA METER LO DEL NER Y WIKIDATA
+- Integra los datos de papers_metadata_wikidata.json  
 
 - Añade la información de enriched_authors.json
 
-- !! FALTA AÑADIR RESULTADOS DEL TOPIC MODELING Y SIMILITUD ENTRE PAPERS
+- Añade similitud entre papers y topic belonging siguiendo lo contenido en la carpeta /similarities_semantic_by_topic
+
+
+## Prueba (quicktest.py)
+
+Hace un par de consultas de prueba (para lo de topic y similarities, que con lo de la clase TopicBelonging no tenia claro si iba bien)  
+
+Tiene un problema, al sacar resultados de papers que pertenecen a un topic, viene por duplicado el resultado.
