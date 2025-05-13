@@ -12,6 +12,31 @@ python grobid.py
 python jsonToRDF.py
 ```
 
+## Extracción de Metadatos (`grobid.py`)
+
+El script `grobid.py` utiliza la herramienta GROBID para procesar artículos científicos en formato PDF y extraer metadatos estructurados.
+
+- **Título del paper**
+- **Fecha de publicación**
+- **Autores**:
+  - Nombre completo
+  - Afiliación asociada (si está disponible y correctamente vinculada)
+- **Resumen (abstract)**, si está presente
+- **Referencias**:
+  - Título del paper citado
+  - Autores (si están disponibles)
+  - Año de publicación
+
+El resultado se guarda en el archivo:
+
+```
+outputs/papers_metadata.json
+```
+
+Este archivo es la base para los procesos posteriores de enriquecimiento (NER, ORCID, Wikidata, RDF...).
+
+---
+
 con eso tienes ya lo de los papers_metadatos con grobid.py y el kg principal el mas sencillo con jsonToRDF.py, si quieres sacarle las organizaciones y los projectoso de acknowledges es haciendo
 
 ```bash
@@ -29,9 +54,46 @@ https://drive.google.com/file/d/1heVXqSL_hGMyUH_ERv-NbrnHFA24A0xB/view?usp=shari
 enlace draw.io de los diagramas
 
 te deborveria paper_metadata_wikidata.json
-la ontology.ttl muesta el kg de los metadatos sin estender y el ontology_enhanced.ttl muestra el kg extendido con orgs y project faltaria lo de las personas
+la ontology.ttl muesta el kg de los metadatos sin estender y el ontology_enhanced.ttl muestra el kg extendido con orgs y project
 
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
+
+## Enriquecimiento de Autores desde ORCID (`person.py`)
+
+```bash
+pip install rapidfuzz
+```
+
+```bash
+python person.py
+```
+
+El script `person.py` busca enriquecer los datos de los autores de los papers con información adicional obtenida desde sus perfiles públicos en **ORCID**. Se basa en los autores listados en `papers_metadata.json`.
+
+### Busca el ORCID ID
+
+1. **Filtra por afiliación**:  
+   Intenta encontrar coincidencias entre las afiliaciones listadas en el paper y las presentes en ORCID (usando coincidencia difusa).
+2. **Si no hay coincidencia en afiliaciones, filtra por trabajos**:  
+   Busca en títulos de publicaciones palabras clave relacionadas con el titulo del paper.
+
+### Una vez que encuentra un ORCID ID:
+
+- Extrae el historial de **empleo** del autor (afiliaciones laborales pasadas y actuales)
+- Obtiene datos como:
+  - Nombres alternativos
+  - Afiliaciones actuales y pasadas
+  - ORCID ID único
+  - Número de publicaciones
+
+La salida se guarda en:
+
+```
+outputs/enriched_authors.json
+```
+
+Este archivo luego es integrado automáticamente al grafo RDF final por el script `jsonToRDF.py`.
+
 
 ### Parte del Topic Modeling y la Similitud entre Papers
 
@@ -145,6 +207,12 @@ Se conserva únicamente como referencia para mostrar en la presentación por qu�
 
 Este enfoque mixto permite obtener agrupaciones temáticas coherentes y relaciones relevantes dentro de cada tema.
 
-```
+## Grafo RDF
 
-```
+- Integra los datos de papers_metadata.json  
+
+!! NECESARIO CAMBIARLO PARA METER LO DEL NER Y WIKIDATA
+
+- Añade la información de enriched_authors.json
+
+- !! FALTA AÑADIR RESULTADOS DEL TOPIC MODELING Y SIMILITUD ENTRE PAPERS

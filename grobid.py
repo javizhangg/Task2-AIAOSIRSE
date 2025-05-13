@@ -59,22 +59,40 @@ def extract_info(tei_xml, filename):
     title_el = root.find(".//tei:titleStmt/tei:title", ns)
     title = title_el.text.strip() if title_el is not None else ""
 
-    # Authors (only from header)
+    # Authors with affiliations
     authors = []
     tei_header = root.find("tei:teiHeader", ns)
     if tei_header is not None:
         for author in tei_header.findall(".//tei:author", ns):
+            author_data = {}
             pers_name = author.find("tei:persName", ns)
+            
+            # Initialize name-related data
+            name_parts = []
             if pers_name is not None:
                 forename = pers_name.find("tei:forename", ns)
                 surname = pers_name.find("tei:surname", ns)
-                name_parts = []
-                if forename is not None:
-                    name_parts.append(forename.text)
-                if surname is not None:
-                    name_parts.append(surname.text)
-                if name_parts:
-                    authors.append(" ".join(name_parts))
+                if forename is not None and forename.text:
+                    name_parts.append(forename.text.strip())
+                if surname is not None and surname.text:
+                    name_parts.append(surname.text.strip())
+            
+            # Only proceed if a valid name is found
+            if name_parts:
+                author_data["name"] = " ".join(name_parts)
+    
+                # Affiliation (optional)
+                aff = author.find("tei:affiliation", ns)
+                if aff is not None:
+                    raw_affiliation = " ".join(aff.itertext())
+                    # Clean up whitespace
+                    affiliation_text = " ".join(raw_affiliation.split())
+                    author_data["affiliation"] = affiliation_text
+                else:
+                    author_data["affiliation"] = None
+    
+                authors.append(author_data)
+
     # Abstract
     abstract_el = root.find(".//tei:abstract", ns)
     abstract = (

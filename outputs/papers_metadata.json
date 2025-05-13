@@ -1,21 +1,51 @@
 [
   {
     "filename": "2504.14332v1.pdf",
-    "title": "Typeset using L A T E X twocolumn style in AASTeX631 DUSTY STELLAR SOURCES CLASSIFICATION BY IMPLEMENTING MACHINE LEARNING METHODS BASED ON SPECTROSCOPIC OBSERVATIONS IN THE MAGELLANIC CLOUDS",
+    "title": "DUSTY STELLAR SOURCES CLASSIFICATION BY IMPLEMENTING MACHINE LEARNING METHODS BASED ON SPECTROSCOPIC OBSERVATIONS IN THE MAGELLANIC CLOUDS",
     "authors": [
-      "Sepideh Ghaziasgar",
-      "Mahdi Abdollahi",
-      "Atefeh Javadi",
-      "Jacco Van Loon",
-      "Iain Mcdonald",
-      "Joana Oliveira",
-      "Amirhossein Masoudnezhad",
-      "Habib Khosroshahi",
-      "Bernard Foing",
-      "Fatemeh Fazel"
+      {
+        "name": "Sepideh Ghaziasgar",
+        "affiliation": "School of Astronomy Institute for Research in Fundamental Sciences (IPM) P.O. Box 1956836613 Tehran Iran"
+      },
+      {
+        "name": "Mahdi Abdollahi",
+        "affiliation": "School of Astronomy Institute for Research in Fundamental Sciences (IPM) P.O. Box 1956836613 Tehran Iran"
+      },
+      {
+        "name": "Atefeh Javadi",
+        "affiliation": "School of Astronomy Institute for Research in Fundamental Sciences (IPM) P.O. Box 1956836613 Tehran Iran"
+      },
+      {
+        "name": "Jacco Van Loon",
+        "affiliation": "Lennard-Jones Laboratories Keele University ST5 5BG UK"
+      },
+      {
+        "name": "Iain Mcdonald",
+        "affiliation": "Jodrell Bank Centre for Astrophysics Alan Turing Building University of Manchester M13 9PL UK"
+      },
+      {
+        "name": "Joana Oliveira",
+        "affiliation": "Lennard-Jones Laboratories Keele University ST5 5BG UK"
+      },
+      {
+        "name": "Amirhossein Masoudnezhad",
+        "affiliation": "Department of Physics Sharif University of Technology P.O. Box 11155-9161 Tehran Iran"
+      },
+      {
+        "name": "Habib Khosroshahi",
+        "affiliation": "School of Astronomy Institute for Research in Fundamental Sciences (IPM) P.O. Box 1956836613 Tehran Iran"
+      },
+      {
+        "name": "Bernard Foing",
+        "affiliation": "Leiden Observatory Leiden University P.O.Box 9513 2300 RA Leiden Netherlands"
+      },
+      {
+        "name": "Fatemeh Fazel",
+        "affiliation": "Leiden Observatory Leiden University P.O.Box 9513 2300 RA Leiden Netherlands"
+      }
     ],
     "abstract": "Dusty stellar point sources are a significant stage in stellar evolution and contribute to the metal enrichment of galaxies. These objects can be classified using photometric and spectroscopic observations using color-magnitude diagrams (CMD) and infrared excesses in spectral energy distributions (SED). We employed supervised machine learning spectral classification to categorize dusty stellar point sources, including young stellar objects (YSOs) and evolved stars comprising oxygen-and carbon-rich asymptotic giant branch stars (AGBs), red supergiants (RSGs), and post-AGB (PAGB) in the Large and Small Magellanic Clouds, based on spectroscopic labeled data derived from the Surveying the Agents of Galaxy Evolution (SAGE) project, which involved 12 multiwavelength filters and 618 stellar objects. Despite dealing with missing values and uncertainties in the SAGE spectral datasets, we achieved accurate classifications of these sources. To address the challenge of working with small and imbalanced spectral catalogs, we utilized the Synthetic Minority Oversampling Technique (SMOTE), which generates synthetic data points. Subsequently, among all the models applied before and after data augmentation, the Probabilistic Random Forest (PRF) classifier, a tuned Random Forest (RF), demonstrated the highest total accuracy, reaching 89% based on the recall metric in categorizing dusty stellar sources. In this study, using the SMOTE technique does not improve the accuracy of the best model for the CAGB, PAGB, and RSG classes; it stays at 100%, 100%, and 88%, respectively. However, there are variations in the OAGB and YSO classes. Accordingly, we collected photometrically labeled data with properties similar to the training dataset and classified them using the top four PRF models with an accuracy of more than 87%. We also collected multiwavelength data from several studies to classify them using our consensus model, which integrates four top models to present common labels as the final prediction.",
-    "publication_date": "19 Apr 2025",
+    "publication_date": "April 22, 2025",
     "acknowledgements": "ACKNOWLEDGMENTS The authors thank the  School of Astronomy at the Institute for Research in Fundamental Sciences (IPM)  and the  Iranian National Observatory (INO)  for supporting this project. This project has received funding from the  European Union 's  Horizon 2020 research and innovation program  under grant agreement No  101004214 . We are grateful to the anonymous referee for carefully reading the manuscript and for helpful comments and suggestions, which helped us to improve the quality of the paper.",
     "references": [
       {
@@ -116,7 +146,7 @@
         "authors": [
           "L Breiman"
         ],
-        "title": "",
+        "title": "Machine Learning",
         "identifier": "10.1023/A:1010933404324"
       },
       {
@@ -143,7 +173,7 @@
           "B Carroll",
           "D Ostlie"
         ],
-        "title": "An Introduction to Modern Astrophysics",
+        "title": "An Introduction to Modern Astrophysics, 2nd edn",
         "identifier": null
       },
       {
@@ -162,7 +192,7 @@
           "S Scher",
           "I Mcdonald"
         ],
-        "title": "",
+        "title": "Open Research Europe",
         "identifier": "10.12688/openreseurope.17023.1"
       },
       {
@@ -382,6 +412,11 @@
         "identifier": "10.1093/mnras/stx1101"
       },
       {
+        "authors": [],
+        "title": "2017c, VizieR Online Data Catalog",
+        "identifier": null
+      },
+      {
         "authors": [
           "D Kamath"
         ],
@@ -394,6 +429,11 @@
           "P Wood",
           "H Van Winckel"
         ],
+        "title": "",
+        "identifier": "10.1093/mnras/stt2033"
+      },
+      {
+        "authors": [],
         "title": "",
         "identifier": "10.1093/mnras/stv1202"
       },
@@ -420,6 +460,11 @@
           "J Oliveira",
           "J Van Loon"
         ],
+        "title": "",
+        "identifier": "10.1093/mnras/stab2386"
+      },
+      {
+        "authors": [],
         "title": "",
         "identifier": "10.1093/mnras/stac2692"
       },
@@ -456,7 +501,7 @@
         "authors": [
           "E Levesque"
         ],
-        "title": "Bridging Gaps in Massive Star Evolution",
+        "title": "Hot and Cool: Bridging Gaps in Massive Star Evolution",
         "identifier": null
       },
       {
@@ -538,13 +583,7 @@
         "authors": [
           "I Mcdonald",
           "A Zijlstra",
-          "M Boyer"
-        ],
-        "title": "",
-        "identifier": "10.1111/j.1365-2966.2012.21873.x"
-      },
-      {
-        "authors": [
+          "M Boyer",
           "I Mcdonald",
           "A Zijlstra",
           "N Cox"
@@ -707,8 +746,8 @@
           "F Kemper",
           "O Jones"
         ],
-        "title": "",
-        "identifier": "/451/3504"
+        "title": "2015b, VizieR Online Data Catalog",
+        "identifier": null
       },
       {
         "authors": [
@@ -817,6 +856,11 @@
         "authors": [
           "K.-W Suh"
         ],
+        "title": "",
+        "identifier": "10.5140/JASS.2016.33.2.119"
+      },
+      {
+        "authors": [],
         "title": "",
         "identifier": "10.3847/1538-4365/ac1274"
       },
@@ -934,6 +978,16 @@
           "B.-W Jiang"
         ],
         "title": "",
+        "identifier": "10.1051/0004-6361/201832833"
+      },
+      {
+        "authors": [],
+        "title": "",
+        "identifier": "10.1051/0004-6361/201935916"
+      },
+      {
+        "authors": [],
+        "title": "",
         "identifier": "10.1051/0004-6361/201937168"
       },
       {
@@ -969,59 +1023,206 @@
     "filename": "2504.14337v1.pdf",
     "title": "Multispectral airborne laser scanning for tree species classification: a benchmark of machine learning and deep learning algorithms Preprint",
     "authors": [
-      "Josef Taher",
-      "Eric Hyyppä",
-      "Matti Hyyppä",
-      "Klaara Salolahti",
-      "Xiaowei Yu",
-      "Leena Matikainen",
-      "Antero Kukko",
-      "Matti Lehtomäki",
-      "Harri Kaartinen",
-      "Sopitta Thurachen",
-      "Paula Litkey",
-      "Ville Luoma",
-      "Markus Holopainen",
-      "Gefei Kong",
-      "Hongchao Fan",
-      "Petri Rönnholm",
-      "Antti Polvivaara",
-      "Samuli Junttila",
-      "Mikko Vastaranta",
-      "Stefano Puliti",
-      "Rasmus Astrup",
-      "Joel Kostensalo",
-      "Mari Myllymäki",
-      "Maksymilian Kulicki",
-      "Krzysztof Stereńczak",
-      "Raul De",
-      "Paula Pires",
-      "Ruben Valbuena",
-      "Juan Carbonell-Rivera",
-      "Jesús Torralba",
-      "Yi-Chen Chen",
-      "Lukas Winiwarter",
-      "Markus Hollaus",
-      "Gottfried Mandlburger",
-      "Narges Takhtkeshha",
-      "Fabio Remondino",
-      "Maciej Lisiewicz",
-      "Bartłomiej Kraszewski",
-      "Xinlian Liang",
-      "Jianchang Chen",
-      "Eero Ahokas",
-      "Kirsi Karila",
-      "Eugeniu Vezeteu",
-      "Petri Manninen",
-      "Roope Näsi",
-      "Heikki Hyyti",
-      "Siiri Pyykkönen",
-      "Peilun Hu",
-      "Juha Hyyppä"
+      {
+        "name": "Josef Taher",
+        "affiliation": "Department of Remote Sensing and Photogrammetry Finnish Geospatial Research Institute FGI Vuorimiehentie 5 FI-02150 Espoo Finland"
+      },
+      {
+        "name": "Eric Hyyppä",
+        "affiliation": "Department of Remote Sensing and Photogrammetry Finnish Geospatial Research Institute FGI Vuorimiehentie 5 FI-02150 Espoo Finland"
+      },
+      {
+        "name": "Matti Hyyppä",
+        "affiliation": "Department of Remote Sensing and Photogrammetry Finnish Geospatial Research Institute FGI Vuorimiehentie 5 FI-02150 Espoo Finland"
+      },
+      {
+        "name": "Klaara Salolahti",
+        "affiliation": "Department of Remote Sensing and Photogrammetry Finnish Geospatial Research Institute FGI Vuorimiehentie 5 FI-02150 Espoo Finland"
+      },
+      {
+        "name": "Xiaowei Yu",
+        "affiliation": "Department of Remote Sensing and Photogrammetry Finnish Geospatial Research Institute FGI Vuorimiehentie 5 FI-02150 Espoo Finland"
+      },
+      {
+        "name": "Leena Matikainen",
+        "affiliation": "Department of Remote Sensing and Photogrammetry Finnish Geospatial Research Institute FGI Vuorimiehentie 5 FI-02150 Espoo Finland"
+      },
+      {
+        "name": "Antero Kukko",
+        "affiliation": "Department of Remote Sensing and Photogrammetry Finnish Geospatial Research Institute FGI Vuorimiehentie 5 FI-02150 Espoo Finland"
+      },
+      {
+        "name": "Matti Lehtomäki",
+        "affiliation": "Department of Remote Sensing and Photogrammetry Finnish Geospatial Research Institute FGI Vuorimiehentie 5 FI-02150 Espoo Finland"
+      },
+      {
+        "name": "Harri Kaartinen",
+        "affiliation": "Department of Remote Sensing and Photogrammetry Finnish Geospatial Research Institute FGI Vuorimiehentie 5 FI-02150 Espoo Finland"
+      },
+      {
+        "name": "Sopitta Thurachen",
+        "affiliation": "Department of Remote Sensing and Photogrammetry Finnish Geospatial Research Institute FGI Vuorimiehentie 5 FI-02150 Espoo Finland"
+      },
+      {
+        "name": "Paula Litkey",
+        "affiliation": "Department of Remote Sensing and Photogrammetry Finnish Geospatial Research Institute FGI Vuorimiehentie 5 FI-02150 Espoo Finland"
+      },
+      {
+        "name": "Ville Luoma",
+        "affiliation": "Department of Forest Sciences University of Helsinki Latokartanonkaari 7 FI-00790 Helsinki Finland"
+      },
+      {
+        "name": "Markus Holopainen",
+        "affiliation": "Department of Forest Sciences University of Helsinki Latokartanonkaari 7 FI-00790 Helsinki Finland"
+      },
+      {
+        "name": "Gefei Kong",
+        "affiliation": "Department of Civil and Environmental Engineering Norwegian University of Science and Technology 7A NO-7491 Høgskoleringen Trondheim Norway"
+      },
+      {
+        "name": "Hongchao Fan",
+        "affiliation": "Department of Civil and Environmental Engineering Norwegian University of Science and Technology 7A NO-7491 Høgskoleringen Trondheim Norway"
+      },
+      {
+        "name": "Petri Rönnholm",
+        "affiliation": "Department of Built Environment Aalto University PO Box 14100 FI-00076 Espoo AALTO Finland"
+      },
+      {
+        "name": "Antti Polvivaara",
+        "affiliation": "Faculty of Science, Forestry, and Technology School of Forest Sciences University of Eastern Finland P.O. Box 111 FI-80101 Joensuu Finland"
+      },
+      {
+        "name": "Samuli Junttila",
+        "affiliation": "Faculty of Science, Forestry, and Technology School of Forest Sciences University of Eastern Finland P.O. Box 111 FI-80101 Joensuu Finland"
+      },
+      {
+        "name": "Mikko Vastaranta",
+        "affiliation": "Faculty of Science, Forestry, and Technology School of Forest Sciences University of Eastern Finland P.O. Box 111 FI-80101 Joensuu Finland"
+      },
+      {
+        "name": "Stefano Puliti",
+        "affiliation": "Division of Forest and Forest Resources National Forest Inventory Norwegian Institute for Bioeconomy Research (NIBIO) Høgskoleveien 8, Ås NO-1433 Norway"
+      },
+      {
+        "name": "Rasmus Astrup",
+        "affiliation": "Division of Forest and Forest Resources National Forest Inventory Norwegian Institute for Bioeconomy Research (NIBIO) Høgskoleveien 8, Ås NO-1433 Norway"
+      },
+      {
+        "name": "Joel Kostensalo",
+        "affiliation": "Natural Resources Natural Resources Institute Finland Yliopistokatu 6B FI-80100 Joensuu Finland"
+      },
+      {
+        "name": "Mari Myllymäki",
+        "affiliation": "Bioeconomy and Environment Natural Resources Institute Finland Latokartanonkaari 9 FI-00790 Helsinki Finland"
+      },
+      {
+        "name": "Maksymilian Kulicki",
+        "affiliation": "IDEAS NCBR, ul. Chmielna 69 00-801 Warsaw Poland"
+      },
+      {
+        "name": "Krzysztof Stereńczak",
+        "affiliation": "IDEAS NCBR, ul. Chmielna 69 00-801 Warsaw Poland"
+      },
+      {
+        "name": "Raul De",
+        "affiliation": null
+      },
+      {
+        "name": "Paula Pires",
+        "affiliation": "Dept. of Forest Resource Management Swedish University of Agricultural Sciences Umeå Sweden"
+      },
+      {
+        "name": "Ruben Valbuena",
+        "affiliation": "Dept. of Forest Resource Management Swedish University of Agricultural Sciences Umeå Sweden"
+      },
+      {
+        "name": "Juan Carbonell-Rivera",
+        "affiliation": "Geo-Environmental Cartography and Remote Sensing Group (CGAT) Universitat Politècnica de València Camí de Vera s/n 46022 Valencia Spain"
+      },
+      {
+        "name": "Jesús Torralba",
+        "affiliation": "Geo-Environmental Cartography and Remote Sensing Group (CGAT) Universitat Politècnica de València Camí de Vera s/n 46022 Valencia Spain"
+      },
+      {
+        "name": "Yi-Chen Chen",
+        "affiliation": "Department of Geodesy and Geoinformation Technische Universität Wien Wiedner Hauptstraße 8 1040 Vienna Austria"
+      },
+      {
+        "name": "Lukas Winiwarter",
+        "affiliation": "Department of Geodesy and Geoinformation Technische Universität Wien Wiedner Hauptstraße 8 1040 Vienna Austria"
+      },
+      {
+        "name": "Markus Hollaus",
+        "affiliation": "Department of Geodesy and Geoinformation Technische Universität Wien Wiedner Hauptstraße 8 1040 Vienna Austria"
+      },
+      {
+        "name": "Gottfried Mandlburger",
+        "affiliation": "Department of Geodesy and Geoinformation Technische Universität Wien Wiedner Hauptstraße 8 1040 Vienna Austria"
+      },
+      {
+        "name": "Narges Takhtkeshha",
+        "affiliation": "Department of Geodesy and Geoinformation Technische Universität Wien Wiedner Hauptstraße 8 1040 Vienna Austria"
+      },
+      {
+        "name": "Fabio Remondino",
+        "affiliation": "3D Optical Metrology (3DOM) Unit Bruno Kessler Foundation (FBK) Via Sommarive, 18 38123 Trento Italy"
+      },
+      {
+        "name": "Maciej Lisiewicz",
+        "affiliation": "Department of Geomatics ul. Braci Leśnej 3 Forest Research Institute IBL Sekocin Stary 05-090 Poland"
+      },
+      {
+        "name": "Bartłomiej Kraszewski",
+        "affiliation": "Department of Geomatics ul. Braci Leśnej 3 Forest Research Institute IBL Sekocin Stary 05-090 Poland"
+      },
+      {
+        "name": "Xinlian Liang",
+        "affiliation": "The State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing Wuhan University 430070 Wuhan China"
+      },
+      {
+        "name": "Jianchang Chen",
+        "affiliation": "The State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing Wuhan University 430070 Wuhan China"
+      },
+      {
+        "name": "Eero Ahokas",
+        "affiliation": "Department of Remote Sensing and Photogrammetry Finnish Geospatial Research Institute FGI Vuorimiehentie 5 FI-02150 Espoo Finland"
+      },
+      {
+        "name": "Kirsi Karila",
+        "affiliation": "Department of Remote Sensing and Photogrammetry Finnish Geospatial Research Institute FGI Vuorimiehentie 5 FI-02150 Espoo Finland"
+      },
+      {
+        "name": "Eugeniu Vezeteu",
+        "affiliation": "Department of Remote Sensing and Photogrammetry Finnish Geospatial Research Institute FGI Vuorimiehentie 5 FI-02150 Espoo Finland"
+      },
+      {
+        "name": "Petri Manninen",
+        "affiliation": "Department of Remote Sensing and Photogrammetry Finnish Geospatial Research Institute FGI Vuorimiehentie 5 FI-02150 Espoo Finland"
+      },
+      {
+        "name": "Roope Näsi",
+        "affiliation": "Department of Remote Sensing and Photogrammetry Finnish Geospatial Research Institute FGI Vuorimiehentie 5 FI-02150 Espoo Finland"
+      },
+      {
+        "name": "Heikki Hyyti",
+        "affiliation": "Department of Remote Sensing and Photogrammetry Finnish Geospatial Research Institute FGI Vuorimiehentie 5 FI-02150 Espoo Finland"
+      },
+      {
+        "name": "Siiri Pyykkönen",
+        "affiliation": "Department of Remote Sensing and Photogrammetry Finnish Geospatial Research Institute FGI Vuorimiehentie 5 FI-02150 Espoo Finland"
+      },
+      {
+        "name": "Peilun Hu",
+        "affiliation": "Department of Remote Sensing and Photogrammetry Finnish Geospatial Research Institute FGI Vuorimiehentie 5 FI-02150 Espoo Finland"
+      },
+      {
+        "name": "Juha Hyyppä",
+        "affiliation": "Department of Remote Sensing and Photogrammetry Finnish Geospatial Research Institute FGI Vuorimiehentie 5 FI-02150 Espoo Finland"
+      }
     ],
     "abstract": "Climate-smart and biodiversity-preserving forestry demands precise information on forest resources, extending to the individual tree level. Multispectral airborne laser scanning (ALS) has shown promise in automated point cloud processing and tree segmentation, but challenges remain in identifying rare tree species and leveraging deep learning techniques. This study addresses these gaps by conducting a comprehensive benchmark of machine learning and deep learning methods for tree species classification. For the study, we collected high-density multispectral ALS data (> 1000 pts/m 2 ) at three wavelengths using the FGI-developed HeliALS system, complemented by existing Optech Titan data (35 pts/m 2 ), to evaluate the species classification accuracy of various algorithms in a test site located in Southern Finland. We established a field reference dataset of over 6000 trees across nine species using a newly developed browser-based crowdsourcing tool, which facilitated efficient data annotation. The ALS data, including a training dataset of 1065 segments, was shared with the scientific community to foster collaborative research and diverse algorithmic contributions. Based on 5261 test segments, our findings demonstrate that point-based deep learning methods, particularly a point transformer model, outperformed traditional machine learning and image-based deep learning approaches on high-density multispectral point clouds. For the high-density ALS dataset, a point transformer model provided the best performance reaching an overall (macro-average) accuracy of 87.9% (74.5%) with a training set of 1065 segments and 92.0% (85.1%) with 5000 training segments. The best image-based deep learning method, DetailView, reached an overall (macro-average) accuracy of 84.3% (63.9%), whereas a random forest (RF) classifier achieved an overall (macro-average) accuracy of 83.2% (61.3%). For the sparser ALS dataset, an RF model topped the list with an overall (macro-average) accuracy of 79.9% (57.6%), closely followed by the point transformer at 79.6% (56.0%). Importantly, the overall classification accuracy of the point transformer model on the HeliALS data increased from 73.0% with no spectral information to 84.7% with single-channel reflectance, and to 87.9% with spectral information of all the three channels. By studying the classification accuracy as a function of point density, we conclude that the multispectral information seems especially important for sparse point clouds with 1-50 pts/m 2 . Furthermore, we observed that the classification error follows a power law ε(m) ≈ m -α as a function of the training set size m for both the point transformer model and a RF classifier, with the scaling exponent α being approximately twice higher for the point transformer. By extrapolating the fitted scaling laws, we estimate that a macro-average accuracy of 90% would require 14 000 training trees with the point transformer and 4.9 × 10 6 training trees with the RF classifier, thus highlighting the advantage of deep learning approaches on large datasets.",
     "publication_date": "19 Apr 2025",
-    "acknowledgements": "Acknowledgements We gratefully acknowledge the  Research Council of Finland (RCF) ,  CHIST-ERA , the  NextGenerationEU instrument and Finnish Government (VN)  funding for the following projects \" Mapping of forest health, species and forest fire risks using Novel ICT Data and Approaches\"  ( RCF 344755 ,  CHIST-ERA-19-CES-001 , main project for this study until March 2024), \" Capturing structural and functional diversity of trees and tree communities for supporting sustainable use of forests\"  ( RCF 348644 ,  NextGenerationEU ), \" Forest-Human-Machine Interplay -Building Resilience, Redefining Value Networks and Enabling Meaningful Experiences\"  ( RCF 359175 ), \" Collecting accurate individual tree information for harvester operation decision making\"  ( RCF 359554 ), \" High-performance computing allowing high-accuracy country-level individual tree carbon sink and biodiversity mapping\"  ( RCF 359203 ), \" Measuring Spatiotemporal Changes in Forest Ecosystem\" (deci-",
+    "acknowledgements": "Acknowledgements We gratefully acknowledge the  Research Council of Finland (RCF) ,  CHIST-ERA , the  NextGenerationEU instrument and Finnish Government (VN)  funding for the following projects \"Mapping of forest health, species and forest fire risks using Novel ICT Data and  Approaches\"  ( RCF 344755 ,  CHIST-ERA-19-CES-001 ,  main project for this study until March 2024 ), \" Capturing structural and functional diversity of trees and tree communities for supporting sustainable use of forests \" ( RCF 348644, NextGenerationEU ), \" Forest-Human-Machine Interplay -Building Resilience, Redefining Value Networks and Enabling Meaningful Experiences\" (RCF 359175 ), \" Collecting accurate individual tree information for harvester operation decision making \" (RCF  359554 ), \"High-performance computing allowing high-accuracy country-level individual tree carbon sink and biodiversity mapping\" ( RCF 359203 ), \" Measuring Spatiotemporal Changes in Forest Ecosystem\" (deci-",
     "references": [
       {
         "authors": [
@@ -1107,17 +1308,12 @@
         "identifier": null
       },
       {
-        "authors": [],
-        "title": "Espoo WMS and WFS Open data resources",
-        "identifier": null
-      },
-      {
         "authors": [
           "M Dalponte",
           "L Bruzzone",
           "D Gianelle"
         ],
-        "title": "Tree species classification in the Southern Alps based on the fusion of very high geometrical resolution multispectral/hyperspectral images and LiDAR data",
+        "title": "Tree species classification in the Southern Alps based on the fusion of very high geometrical resolution multispectral/hyperspectral images and LiDAR data. Remote sensing of environment",
         "identifier": null
       },
       {
@@ -1128,7 +1324,7 @@
           "T Gobakken",
           "E Naesset"
         ],
-        "title": "Tree crown delineation and tree species classification in boreal forests using hyperspectral and ALS data",
+        "title": "Tree crown delineation and tree species classification in boreal forests using hyperspectral and ALS data. Remote sensing of environment",
         "identifier": null
       },
       {
@@ -1184,7 +1380,7 @@
           "C Straub",
           "A Ghosh"
         ],
-        "title": "Review of studies on tree species classification from remotely sensed data",
+        "title": "Review of studies on tree species classification from remotely sensed data. Remote sensing of environment",
         "identifier": null
       },
       {
@@ -1219,7 +1415,7 @@
           "J Deng"
         ],
         "title": "Revisiting point cloud shape classification with a simple and effective baseline",
-        "identifier": null
+        "identifier": "PMLR"
       },
       {
         "authors": [
@@ -1296,7 +1492,7 @@
           "G Hinton",
           "S Roweis"
         ],
-        "title": "Stochastic neighbor embedding",
+        "title": "Stochastic neighbor embedding. Advances in neural information processing systems",
         "identifier": null
       },
       {
@@ -1323,7 +1519,7 @@
           "J Vauhkonen",
           "I Korpela"
         ],
-        "title": "LiDAR waveform features for tree species classification and their sensitivity to tree-and acquisition related parameters",
+        "title": "LiDAR waveform features for tree species classification and their sensitivity to tree-and acquisition related parameters. Remote sensing of environment",
         "identifier": null
       },
       {
@@ -1804,7 +2000,7 @@
           "H Kaartinen",
           "M Vaaja"
         ],
-        "title": "Utilising simulated tree data to train supervised classifiers",
+        "title": "Utilising simulated tree data to train supervised classifiers. International Archives of the Photogrammetry",
         "identifier": null
       },
       {
@@ -1864,7 +2060,7 @@
           "A Skidmore",
           "M Heurich"
         ],
-        "title": "Important LiDAR metrics for discriminating forest tree species in Central Europe",
+        "title": "Important LiDAR metrics for discriminating forest tree species in Central Europe. IS-PRS Journal of Photogrammetry and remote sensing",
         "identifier": null
       },
       {
@@ -2079,12 +2275,30 @@
     "filename": "2504.14378v1.pdf",
     "title": "Machine learning enhanced atom probe tomography analysis: a snapshot review",
     "authors": [
-      "Yue Li",
-      "Ye Wei",
-      "Alaukik Saxena",
-      "Markus Kühbach",
-      "Christoph Freysoldt",
-      "Baptiste Gault"
+      {
+        "name": "Yue Li",
+        "affiliation": "Max Planck Institute for Sustainable Materials Max-Planck-Straße 1 40237 Düsseldorf Germany"
+      },
+      {
+        "name": "Ye Wei",
+        "affiliation": "Ecole Polytechnique Fédérale de Lausanne School of engineering Rte Cantonale 1015 Lausanne Switzerland"
+      },
+      {
+        "name": "Alaukik Saxena",
+        "affiliation": "Max Planck Institute for Sustainable Materials Max-Planck-Straße 1 40237 Düsseldorf Germany"
+      },
+      {
+        "name": "Markus Kühbach",
+        "affiliation": "Physics Department and Center the Science of Materials Berlin Humboldt-Universität zu Berlin Zum Großen Windkanal 2 12489 Berlin Germany"
+      },
+      {
+        "name": "Christoph Freysoldt",
+        "affiliation": "Max Planck Institute for Sustainable Materials Max-Planck-Straße 1 40237 Düsseldorf Germany"
+      },
+      {
+        "name": "Baptiste Gault",
+        "affiliation": "Max Planck Institute for Sustainable Materials Max-Planck-Straße 1 40237 Düsseldorf Germany"
+      }
     ],
     "abstract": "Atom probe tomography (APT) is a burgeoning characterization technique that provides compositional mapping of materials in three-dimensions at near-atomic scale. Since its significant expansion in the past 30 years, we estimate that one million APT datasets have been collected, each containing millions to billions of individual ions. Their analysis and the extraction of microstructural information has largely relied upon individual users whose varied level of expertise causes clear and documented bias. Current practices hinder efficient data processing, and make challenging standardization and the deployment of data analysis workflows that would be compliant with FAIR data principles. Over the past decade, building upon the long-standing expertise of the APT community in the development of advanced data processing or \"data mining\" techniques, there has been a surge of novel machine learning (ML) approaches aiming for userindependence, and that are efficient, reproducible, and robust from a statistics perspective. Here, we provide a snapshot review of this rapidly evolving field. We begin with a brief introduction to APT and the nature of the APT data. This is followed by an overview of relevant ML algorithms and a comprehensive review of their applications to APT. We also discuss how ML can enable discoveries beyond human capability, offering new insights into the mechanisms within materials. Finally, we provide guidance for future directions in this domain.",
     "publication_date": "",
@@ -2109,7 +2323,7 @@
           "J Cairney",
           "S Ringer"
         ],
-        "title": "Atom probe microscopy",
+        "title": "",
         "identifier": null
       },
       {
@@ -2315,7 +2529,7 @@
           "J Cairney",
           "S Ringer"
         ],
-        "title": "Atom probe crystallography",
+        "title": "",
         "identifier": null
       },
       {
@@ -2583,7 +2797,7 @@
           "F Stein",
           "S Ringer"
         ],
-        "title": "Atom probe tomography investigation of heterogeneous short-range ordering in the 'komplex' phase state (Kstate) of Fe-18Al (at.%)",
+        "title": "Atom probe tomography investigation of heterogeneous short-range ordering in the 'komplex' phase state (Kstate) of Fe-18Al",
         "identifier": null
       },
       {
@@ -2718,11 +2932,9 @@
       {
         "authors": [
           "L Van Der Maaten",
-          "E Postma",
-          "Van Den",
-          "H Herik"
+          "E Postma"
         ],
-        "title": "Dimensionality reduction: A comparative review",
+        "title": "Van Den Herik HJ. Dimensionality reduction: A comparative review",
         "identifier": null
       },
       {
@@ -2838,10 +3050,9 @@
       {
         "authors": [
           "N Verbeeck",
-          "R Caprioli",
-          "R Van De Plas"
+          "R Caprioli"
         ],
-        "title": "Unsupervised machine learning for exploratory data analysis in imaging mass spectrometry",
+        "title": "Van de Plas R. Unsupervised machine learning for exploratory data analysis in imaging mass spectrometry",
         "identifier": null
       },
       {
@@ -3357,7 +3568,7 @@
           "Y Gil",
           "M Crusoe"
         ],
-        "title": "FAIR Computational Workflows",
+        "title": "",
         "identifier": null
       },
       {
@@ -3417,7 +3628,7 @@
           "D Mayweg",
           "B Jenkins"
         ],
-        "title": "On Strong-Scaling and Open-Source Tools for High-Throughput Quantification of Material Point Cloud Data: Composition Gradients, Microstructural Object Reconstruction, and Spatial Correlations",
+        "title": "On Strong-Scaling and Open-Source Tools for High-Throughput Quantification of Material Point Cloud Data: Composition Gradients",
         "identifier": "arXiv:2205.13510"
       },
       {
@@ -3485,9 +3696,10 @@
           "M Heller",
           "B Ott",
           "V Dalbauer",
-          "P Felfer"
+          "P Felfer",
+          "Matlab"
         ],
-        "title": "A MATLAB Toolbox for Findable, Accessible, Interoperable, and Reusable Atom Probe Data Science",
+        "title": "Toolbox for Findable, Accessible, Interoperable, and Reusable Atom Probe Data Science",
         "identifier": null
       },
       {
@@ -3511,8 +3723,8 @@
           "R Hildebrandt",
           "R Mozumder"
         ],
-        "title": "nexus-definitions",
-        "identifier": null
+        "title": "",
+        "identifier": "nexus-definitions. 2024"
       },
       {
         "authors": [
@@ -3525,9 +3737,11 @@
         "identifier": null
       },
       {
-        "authors": [],
+        "authors": [
+          "Tniab Committee"
+        ],
         "title": "The NeXus International Advisory Board Committee",
-        "identifier": "NeXus. 2024"
+        "identifier": null
       },
       {
         "authors": [
@@ -3551,7 +3765,7 @@
           "S Shabih"
         ],
         "title": "",
-        "identifier": "pynxtools-apm"
+        "identifier": "pynxtools-apm. 2024"
       },
       {
         "authors": [
@@ -3668,6 +3882,11 @@
         ],
         "title": "Encyclopedia of Database Systems",
         "identifier": null
+      },
+      {
+        "authors": [],
+        "title": "(en) Surface chemical analysis -Vocabulary -Part 1: General terms and terms used in spectroscopy",
+        "identifier": "ISO 18115-1:2023"
       },
       {
         "authors": [
@@ -3831,16 +4050,34 @@
     "filename": "2504.14426v1.pdf",
     "title": "Predicting Halo Formation Time Using Machine Learning",
     "authors": [
-      "Atulit Srivastava",
-      "Weiguang Cui",
-      "Daniel De Andres",
-      "Jesse Golden-Marx",
-      "Elena Rasia",
-      "Ying Zu"
+      {
+        "name": "Atulit Srivastava",
+        "affiliation": "Departamento de Física Teórica Universidad Autónoma de Madrid Cantoblanco E-28049 M-8 Madrid Spain"
+      },
+      {
+        "name": "Weiguang Cui",
+        "affiliation": "Departamento de Física Teórica Universidad Autónoma de Madrid Cantoblanco E-28049 M-8 Madrid Spain"
+      },
+      {
+        "name": "Daniel De Andres",
+        "affiliation": "Departamento de Física Teórica Universidad Autónoma de Madrid Cantoblanco E-28049 M-8 Madrid Spain"
+      },
+      {
+        "name": "Jesse Golden-Marx",
+        "affiliation": "School of Physics and Astronomy University of Nottingham NG7 2RD Nottingham UK"
+      },
+      {
+        "name": "Elena Rasia",
+        "affiliation": "INAF Osservatorio Astronomico di Trieste via Tiepolo 11 I-34143 Trieste Italy"
+      },
+      {
+        "name": "Ying Zu",
+        "affiliation": "Tsung-Dao Lee Institute & Department of Astronomy School of Physics and Astronomy Shanghai Jiao Tong University 200240 Shanghai China"
+      }
     ],
     "abstract": "Context. The formation time of dark-matter halos quantifies their mass assembly history, and as such, it directly impacts the structural and dynamical properties of galaxies within and even influences their galaxy evolution. Despite its importance, halo formation time is not directly observable, necessitating the use of indirect observational proxies-often based on star formation history or galaxy spatial distributions. Recent advancements in machine learning allow for a more comprehensive analysis of galaxy and halo properties, making it possible to develop models for more accurate prediction of halo formation times. Aims. This study aims to investigate a machine learning-based approach to predict halo formation time-defined as the epoch when a halo accretes half of its current mass-using both halo and baryonic properties derived from cosmological simulations. By incorporating properties associated with the brightest cluster galaxy located at the cluster center, its associated intracluster light component and satellite galaxies, we aim to surpass these analytical predictions, improve prediction accuracy and identify key properties that can provide the best proxy for the halo assembly history. Methods. Using The Three Hundred cosmological hydrodynamical simulations, we train Random Forest (RF) and Convolutional Neural Network (CNN) models. The random forest models are trained using a range of dark matter halo and baryonic properties, including halo mass, concentration, stellar and gas masses, and properties of the brightest cluster galaxy and intracluster light within different radial apertures, while CNNs are trained on two-dimensional radial property maps generated by binning particles as a function of radius. Based on these results, we also construct simple linear models that incrementally incorporate observationally accessible features, optimizing for minimal bias and scatter for predicting the halo formation time. Results. Our RF models demonstrated median biases between 4% and 9% with relative error standard deviations around 20% in the prediction of the halo formation time. CNN models trained on two-dimensional property maps, further reduced the median bias to ≲ 4%, though with a higher scatter than the random forest models. With our simple linear models, one can easily predict the halo formation time with only a limited few observables with the bias and scatter compatible with RF results. Lastly, we also show that the traditional relations between halo formation time and halo mass or concentration are well preserved with our predicted values.",
     "publication_date": "November 26, 2024",
-    "acknowledgements": "Acknowledgements AS and WC are supported by the  Atracción de Talento  Contract no.  2020-T1/TIC-19882  granted by the  Comunidad de Madrid in Spain . WC also thanks the  Agencia Estatal de Investigación (AEI)  for the  Consolidación Investigadora  Grant  CNS2024-154838 , the science research grants from the  China Manned Space  Project and  HORIZON   EUROPE Marie Sklodowska-Curie Actions  for supporting the  LACEGAL-III  project with grant number  101086388 . WC and DdA thank the  Ministerio de Ciencia e Innovación (Spain)  for financial support under Project grant  PID2021-122603NB-C21 . ER acknowledges support from the  Chandra Theory Program  ( TM4-25006X ) awarded from the  Chandra X-ray Center  which is operated by the  Smithsonian Astrophysical Observatory  for and on behalf of  NASA  under contract  NAS8-03060 . YZ is supported by the  National Key Basic Research and Development Program of China  (No.  2023YFA1607800 ,  2023YFA1607804 ), the  National Science Foundation of China  ( 12173024 ), the  China Manned Space Project  (No.  CMS-CSST-2021-A01 ,  CMS-CSST-2021-A02 ,  CMS-CSST-2021-B01 ), the \" 111 \" project of the  Ministry of Education  under grant No.  B20019 , and the generous sponsorship from  Yangyang Development Fund . The work presented",
+    "acknowledgements": "Acknowledgements AS and WC are supported by the  Atracción de Talento  Contract no.  2020-T1/TIC-19882  granted by the  Comunidad de Madrid in Spain . WC also thanks the  Agencia Estatal de Investigación (AEI)  for the  Consolidación Investigadora Grant   CNS2024-154838 , the science research grants from the  China Manned Space Project and HORIZON EUROPE Marie Sklodowska-Curie Actions  for supporting the  LACEGAL-III  project with grant number  101086388 . WC and DdA thank the  Ministerio de Ciencia e Innovación (Spain)  for financial support under Project grant  PID2021-122603NB-C21 . ER acknowledges support from the  Chandra Theory Program  ( TM4-25006X ) awarded from the Chandra X-ray Center which is operated by the  Smithsonian Astrophysical Observatory  for and on behalf of  NASA  under contract  NAS8-03060 . YZ is supported by the  National Key Basic Research and Development Program of China  (No.  2023YFA1607800 ,  2023YFA1607804 ), the  National Science Foundation of China  ( 12173024 ), the  China Manned Space Project  (No.  CMS-CSST-2021-A01 ,  CMS-CSST-2021-A02 ,  CMS-CSST-2021-B01 ), the \"111\" project of the  Ministry of Education  under grant No.  B20019 , and the generous sponsorship from  Yangyang Development Fund . The work presented",
     "references": [
       {
         "authors": [
@@ -3891,13 +4128,6 @@
       {
         "authors": [
           "G Bradski"
-        ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
-          "L Breiman"
         ],
         "title": "",
         "identifier": null
@@ -4095,7 +4325,7 @@
           "A Babul",
           "G Gozaliasl"
         ],
-        "title": "",
+        "title": "Monthly Notices of the Royal Astronomical Society",
         "identifier": null
       },
       {
@@ -4264,7 +4494,7 @@
           "A Zabludoff",
           "D Zaritsky"
         ],
-        "title": "",
+        "title": "The Astrophysical Journal",
         "identifier": null
       },
       {
@@ -4647,7 +4877,7 @@
           "J Ostriker",
           "P Bode"
         ],
-        "title": "",
+        "title": "The Astrophysical Journal",
         "identifier": null
       },
       {
@@ -4869,7 +5099,7 @@
           "D Schneider",
           "J Brinkmann"
         ],
-        "title": "",
+        "title": "Monthly Notices of the Royal Astronomical Society",
         "identifier": null
       },
       {
@@ -4898,13 +5128,22 @@
     "filename": "2504.14473v1.pdf",
     "title": "Invariance-embedded Machine Learning Sub-grid-scale Stress Models for Meso-scale Hurricane Boundary Layer Flow Simulation I: Model Development and a priori Studies",
     "authors": [
-      "Badrul Hasan",
-      "Meilin Yu",
-      "Tim Oates"
+      {
+        "name": "Badrul Hasan",
+        "affiliation": "Department of Mechanical Engineering University of Maryland 21250 Baltimore County MD"
+      },
+      {
+        "name": "Meilin Yu",
+        "affiliation": "Department of Mechanical Engineering University of Maryland 21250 Baltimore County MD"
+      },
+      {
+        "name": "Tim Oates",
+        "affiliation": "Department of Computer Science and Electrical Engineering University of Maryland Baltimore County 21250 MD"
+      }
     ],
     "abstract": "This study develops invariance-embedded machine learning sub-grid-scale (SGS) stress models admitting turbulence kinetic energy (TKE) backscatter towards more accurate large eddy simulation (LES) of meso-scale turbulent hurricane boundary layer flows. The new machine learning SGS model consists of two parts: a classification model used to distinguish regions with either strong energy cascade or energy backscatter from those with mild TKE transfer and a regression model used to calculate SGS stresses in regions with strong TKE transfer. To ease model implementation in computational fluid dynamics (CFD) solvers, the Smagorinsky model with a signed coefficient C s , where a positive value indicates energy cascade while a negative one indicates energy backscatter, is employed as the carrier of the machine learning model. To improve its robustness and generality, both physical invariance and geometric invariance features of turbulent flows are embedded into the model input for classification and regression, and the signed Smagorinsky model coefficient is used as the output of the regression model. Different machine-learning methods and input setups have been used to test the classification model's performance. The F1-scores, which measure balanced precision and recall of a model, of the classification models with physical and geometric invariance embedded can be improved by about 17% over those without considering geometric invariance. Regression models based on ensemble neural networks have demonstrated superior performance in predicting the signed Smagorinsky model coefficient, exceeding that of the dynamic Smagorinsky model in a priori tests.",
     "publication_date": "22 April 2025",
-    "acknowledgements": "ACKNOWLEDGMENTS The hardware used in the computational studies is part of the  UMBC High Performance Computing Facility (HPCF) . The facility is supported by the  U.S. National Science Foundation  through the  MRI program  (grant nos.  CNS-0821258 ,  CNS-1228778 , and  OAC-1726023 ) and the  SCREMS program  (grant no.  DMS-0821311 ), with additional substantial support from the  University of Maryland, Baltimore County (UMBC) .  Hasan  and  Yu  are grateful to  Dr. Heng Xiao  for the constructive discussions.",
+    "acknowledgements": "ACKNOWLEDGMENTS The hardware used in the computational studies is part of the  UMBC High Performance Computing Facility (HPCF) . The facility is supported by the  U.S. National Science Foundation  through the  MRI program  (grant nos.  CNS-0821258 ,  CNS-1228778 , and  OAC-1726023 ) and the  SCREMS program  (grant no.  DMS-0821311 ), with additional substantial support from the  University of Maryland, Baltimore County (UMBC) . Hasan and Yu are grateful to  Dr. Heng Xiao  for the constructive discussions.",
     "references": [
       {
         "authors": [
@@ -5410,7 +5649,7 @@
           "M Montgomery",
           "R Burpee"
         ],
-        "title": "Structure of the eye and eyewall of hurricane hugo (1989)",
+        "title": "Structure of the eye and eyewall of hurricane hugo",
         "identifier": null
       },
       {
@@ -5542,9 +5781,10 @@
         "authors": [
           "I Goodfellow",
           "Y Bengio",
-          "A Courville"
+          "A Courville",
+          "Deep Learning"
         ],
-        "title": "Deep Learning",
+        "title": "",
         "identifier": null
       },
       {
@@ -5560,17 +5800,41 @@
     "filename": "2504.14961v1.pdf",
     "title": "Mitigating error cancellation in density functional approximations via machine learning correction",
     "authors": [
-      "Zipeng An",
-      "Jingchun Wang",
-      "Yapeng Zhang",
-      "Zhiyu Li",
-      "Jiang Wu",
-      "Yalun Zheng",
-      "Guanhua Chen",
-      "Xiao Zheng"
+      {
+        "name": "Zipeng An",
+        "affiliation": "Hefei National Research Center for Physical Sciences at the Microscale & Synergetic Innovation Center of Quantum Information and Quantum Physics University of Science and Technology of China 230026 Hefei Anhui China"
+      },
+      {
+        "name": "Jingchun Wang",
+        "affiliation": "Department of Chemistry University of Basel Klingelbergstrasse 80 CH-4056 Basel Switzerland"
+      },
+      {
+        "name": "Yapeng Zhang",
+        "affiliation": "Hefei National Research Center for Physical Sciences at the Microscale & Synergetic Innovation Center of Quantum Information and Quantum Physics University of Science and Technology of China 230026 Hefei Anhui China"
+      },
+      {
+        "name": "Zhiyu Li",
+        "affiliation": "Department of Chemistry Fudan University 200438 Shanghai China"
+      },
+      {
+        "name": "Jiang Wu",
+        "affiliation": "Department of Chemistry The University of Hong Kong Pokfulam Road Hong Kong China"
+      },
+      {
+        "name": "Yalun Zheng",
+        "affiliation": "Department of Chemistry The University of Hong Kong Pokfulam Road Hong Kong China"
+      },
+      {
+        "name": "Guanhua Chen",
+        "affiliation": "Department of Chemistry The University of Hong Kong Pokfulam Road Hong Kong China"
+      },
+      {
+        "name": "Xiao Zheng",
+        "affiliation": "Department of Chemistry Fudan University 200438 Shanghai China"
+      }
     ],
     "abstract": "The integration of machine learning (ML) with density functional theory has emerged as a promising strategy to enhance the accuracy of density functional methods. While practical implementations of density functional approximations (DFAs) often exploit error cancellation between chemical species to achieve high accuracy in thermochemical and kinetic energy predictions, this approach is inherently system-dependent, which severely limits the transferability of DFAs. To address this challenge, we develop a novel ML-based correction to the widely used B3LYP functional, directly targeting its deviations from the exact exchange-correlation functional. By utilizing highly accurate absolute energies as exclusive reference data, our approach eliminates the reliance on error cancellation. To optimize the ML model, we attribute errors to real-space pointwise contributions and design a double-cycle protocol that incorporates self-consistent-field calculations into the training workflow. Numerical tests demonstrate that the ML model, trained solely on absolute energies, improves the accuracy of calculated relative energies, demonstrating that robust DFAs can be constructed without resorting to error cancellation. Comprehensive benchmarks further show that our ML-corrected B3LYP functional significantly outperforms the original B3LYP across diverse thermochemical and kinetic energy calculations, offering a versatile and superior alternative for practical applications.",
-    "publication_date": "February 26, 2025",
+    "publication_date": "",
     "acknowledgements": "ACKNOWLEDGEMENT Support from the National Natural Science Foundation of China  (Grant Nos. 22393912, 22321003, 22425301) , the AI for Science Foundation of Fudan University (Grant No. FudanX24AI023), the Strategic Priority Research Program of the Chinese Academy of Sciences (Grant No. XDB0450101), and the Hong Kong Quantum AI Lab, AIR@InnoHK of the Hong Kong Government is gratefully acknowledged.",
     "references": [
       {
@@ -5887,7 +6151,7 @@
           "C Benavides-Riveros",
           "M"
         ],
-        "title": "Machine learning the physical nonlocal exchangecorrelation functional of density-functional theory",
+        "title": "Marques, Machine learning the physical nonlocal exchangecorrelation functional of density-functional theory",
         "identifier": "10.1021/acs.jpclett.9b02422"
       },
       {
@@ -6410,7 +6674,7 @@
           "G",
           "L Chan"
         ],
-        "title": "Recent developments in the PySCF program package",
+        "title": "",
         "identifier": "10.1063/5.0006074"
       },
       {
@@ -6463,10 +6727,9 @@
       {
         "authors": [
           "D Kingma",
-          "J Ba",
-          "Adam"
+          "J Ba"
         ],
-        "title": "A method for stochastic optimization",
+        "title": "Adam: A method for stochastic optimization",
         "identifier": "10.48550/arXiv.1412.6980"
       },
       {
@@ -6640,8 +6903,14 @@
     "filename": "2504.15034v1.pdf",
     "title": "Predicting Methane Adsorption in Metal-Substituted MOFs: A Comparative Study between Density Functional Theory and Machine Learning",
     "authors": [
-      "Karim Aljamal",
-      "Xiao Wang"
+      {
+        "name": "Karim Aljamal",
+        "affiliation": "Department of Chemistry and Biochemistry University of California Santa Cruz 95064 Santa Cruz California USA"
+      },
+      {
+        "name": "Xiao Wang",
+        "affiliation": "Department of Chemistry and Biochemistry University of California Santa Cruz 95064 Santa Cruz California USA"
+      }
     ],
     "abstract": "Metal-organic frameworks (MOFs) are promising materials for methane capture due to their high surface area and tunable properties. Metal substitution represents a powerful strategy to enhance MOF performance, yet systematic exploration of the vast chemical space remains challenging. In this work, we compare density functional theory (DFT) and machine learning (ML) in predicting methane adsorption properties in metal-substituted variants of three high-performing MOFs: M-HKUST-1, M-ATC, and M-ZIF-8 (M = Cu, Zn). DFT calculations reveal significant differences in methane binding energetics between Cu and Zn variants of all three MOFs. On the other hand, we fine-tuned a pretrained multi-modal ML model, PMTransformer, on a curated subset of hypothetical MOF (hMOF) structures to predict macroscopic adsorption properties. While the model qualitatively predicts adsorption properties for original unaltered MOFs, it fails to distinguish between metal variants despite their different binding energetics identified by DFT. We trace this limitation to the hMOF training data generated using Grand Canonical Monte Carlo (GCMC) simulations based on classical force fields (UFF/TraPPE). Our study highlights a key challenge in ML-based MOF screening: ML models inherit the limitations of their training data, particularly when electronic effects significantly impact adsorption behavior. Our findings emphasize the need for improved force fields or hybrid GCMC/DFT datasets to incorporate both geometric and electronic factors for accurate prediction of adsorption properties in metal-substituted MOFs.",
     "publication_date": "21 Apr 2025",
@@ -6649,17 +6918,17 @@
     "references": [
       {
         "authors": [],
-        "title": "Intergovernmental Panel on Climate Change (IPCC), Climate Change 2013 -The Physical Science Basis: Working Group I Contribution to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change",
+        "title": "Climate Change 2013 -The Physical Science Basis: Working Group I Contribution to the Fifth",
         "identifier": "10.1017/CBO9781107415324"
       },
       {
         "authors": [],
-        "title": "NASA Global Climate Change, NASA Global Climate Change and Global Warming: Vital Signs of the Planet",
+        "title": "NASA Global Climate Change, NASA Global Climate Change and Global Warming",
         "identifier": null
       },
       {
         "authors": [],
-        "title": "Climate Change 2022 -Mitigation of Climate Change: Working Group III Contribution to the Sixth Assess-ment Report of the Intergovernmental Panel on Climate Change",
+        "title": "Climate Change 2022 -Mitigation of Climate Change: Working",
         "identifier": "10.1017/9781009157926"
       },
       {
@@ -6882,7 +7151,7 @@
           "F Jia",
           "S Deng"
         ],
-        "title": "Adsorption of CO2, CH4, N2O, and N2 on MOF-5, MOF-177, and Zeolite 5A",
+        "title": "Adsorption of CO2",
         "identifier": "10.1021/es9032309"
       },
       {
@@ -6921,9 +7190,14 @@
           "B Smit",
           "J Neaton",
           "J Long",
-          "C Brown"
+          "C Brown ; M = Mg",
+          "Fe Mn",
+          "Co",
+          "Ni",
+          "Cu",
+          ") Zn"
         ],
-        "title": "Comprehensive study of carbon dioxide adsorption in the metal-organic frameworks M2(dobdc) (M = Mg, Mn",
+        "title": "Comprehensive study of carbon dioxide adsorption in the metal-organic frameworks M",
         "identifier": "10.1039/C4SC02064B"
       },
       {
@@ -6941,9 +7215,10 @@
           "M Head-Gordon",
           "C Brown",
           "J Long ; M = Mg",
-          "Fe Mn"
+          "Fe Mn",
+          "Ni Co"
         ],
-        "title": "Co, Ni) Metal-Organic Frameworks Exhibiting Increased Charge Density and Enhanced H2 Binding at the Open Metal Sites",
+        "title": "Metal-Organic Frameworks Exhibiting Increased Charge Density and Enhanced H2 Binding at the Open Metal Sites",
         "identifier": "10.1021/ja506230r"
       },
       {
@@ -7343,7 +7618,7 @@
       },
       {
         "authors": [],
-        "title": "Snurr-group/mof-big-adsorbate-initializer: Generates decent initial structures of (big) adsorbate molecules on MOFs for DFT",
+        "title": "Generates decent initial structures of (big) adsorbate molecules on MOFs for DFT",
         "identifier": null
       },
       {
@@ -7382,9 +7657,10 @@
           "J Merlin",
           "J Siepmann",
           "D Siderius",
-          "R Snurr"
+          "R Snurr",
+          "Mofx-Db"
         ],
-        "title": "MOFX-DB: An Online Database of Computational Adsorption Data for Nanoporous Materials",
+        "title": "An Online Database of Computational Adsorption Data for Nanoporous Materials",
         "identifier": "10.1021/acs.jced.2c00583"
       },
       {
@@ -7401,10 +7677,9 @@
           "C Casewit",
           "K Colwell",
           "W Goddard",
-          "W Skiff",
-          "Uff"
+          "W Skiff"
         ],
-        "title": "a full periodic table force field for molecular mechanics and molecular dynamics simulations",
+        "title": "UFF, a full periodic table force field for molecular mechanics and molecular dynamics simulations",
         "identifier": "10.1021/ja00051a040"
       },
       {
@@ -7461,9 +7736,18 @@
     "filename": "2504.15185v1.pdf",
     "title": "ForgeBench: A Machine Learning Benchmark Suite and Auto-Generation Framework for Next-Generation HLS Tools",
     "authors": [
-      "Andy Wanna",
-      "Hanqiu Chen",
-      "Callie Hao"
+      {
+        "name": "Andy Wanna",
+        "affiliation": "School of Electrical and Computer Engineering Georgia Institute of Technology"
+      },
+      {
+        "name": "Hanqiu Chen",
+        "affiliation": "School of Electrical and Computer Engineering Georgia Institute of Technology"
+      },
+      {
+        "name": "Callie Hao",
+        "affiliation": "School of Electrical and Computer Engineering Georgia Institute of Technology"
+      }
     ],
     "abstract": "Although High-Level Synthesis (HLS) has attracted considerable interest in hardware design, it has not yet become mainstream due to two primary challenges. First, current HLS hardware design benchmarks are outdated as they do not cover modern machine learning (ML) applications, preventing the rigorous development of HLS tools on ML-focused hardware design. Second, existing HLS tools are outdated because they predominantly target individual accelerator designs and lack an architecture-oriented perspective to support common hardware module extraction and reuse, limiting their adaptability and broader applicability. Motivated by these two limitations, we propose ForgeBench, an ML-focused benchmark suite with a hardware design auto-generation framework for next-generation HLS tools. In addition to the auto-generation framework, we provide two ready-to-use benchmark suites. The first contains over 6,000 representative ML HLS designs. We envision future HLS tools being architecture-oriented, capable of automatically identifying common computational modules across designs, and supporting flexible dataflow and control. Accordingly, the second benchmark suite includes ML HLS designs with possible resource sharing manually implemented to highlight the necessity of architecture-oriented design, ensuring it is future-HLS ready. ForgeBench is open-sourced at  https://github.com/hchen799/ForgeBench .",
     "publication_date": "21 Apr 2025",
@@ -7612,7 +7896,7 @@
           "M Tan"
         ],
         "title": "Efficientnet: Rethinking model scaling for convolutional neural networks",
-        "identifier": "abs/1905.11946"
+        "identifier": null
       },
       {
         "authors": [
@@ -7704,16 +7988,34 @@
     "filename": "2504.15240v1.pdf",
     "title": "Conformalized-KANs: Uncertainty Quantification with Coverage Guarantees for Kolmogorov-Arnold Networks (KANs) in Scientific Machine Learning",
     "authors": [
-      "Amirhossein Mollaali",
-      "Christian Moya",
-      "Amanda Howard",
-      "Alexander Heinlein",
-      "Panos Stinis",
-      "Guang Lin"
+      {
+        "name": "Amirhossein Mollaali",
+        "affiliation": null
+      },
+      {
+        "name": "Christian Moya",
+        "affiliation": null
+      },
+      {
+        "name": "Amanda Howard",
+        "affiliation": null
+      },
+      {
+        "name": "Alexander Heinlein",
+        "affiliation": null
+      },
+      {
+        "name": "Panos Stinis",
+        "affiliation": null
+      },
+      {
+        "name": "Guang Lin",
+        "affiliation": null
+      }
     ],
-    "abstract": "This paper explores uncertainty quantification (UQ) methods in the context of Kolmogorov-Arnold Networks (KANs). We apply an ensemble approach to KANs to obtain a heuristic measure of UQ, enhancing interpretability and robustness in modeling complex functions. Building on this, we introduce Conformalized-KANs, which integrate conformal prediction, a distribution-free UQ technique, with KAN ensembles to generate calibrated prediction intervals with guaranteed coverage. Extensive numerical experiments are conducted to evaluate the effectiveness of these methods, focusing particularly on the robustness and accuracy of the prediction intervals under various hyperparameter settings. We show that the conformal KAN predictions can be applied to recent extensions of KANs, including Finite Basis KANs (FBKANs) and multifideilty KANs (MFKANs). The results demonstrate the potential of our approaches to significantly improve the reliability and applicability of KANs in scientific machine learning.",
+    "abstract": "This paper explores uncertainty quantification (UQ) methods in the context of Kolmogorov-Arnold Networks (KANs). We apply an ensemble approach to KANs to obtain a heuristic measure of UQ, enhancing interpretability and robustness in modeling complex functions. Building on this, we introduce Conformalized-KANs, which integrate conformal prediction, a distribution-free UQ technique, with KAN ensembles to generate calibrated prediction intervals with guaranteed coverage. Extensive numerical experiments are conducted to evaluate the effectiveness of these methods, focusing particularly on the robustness and accuracy of the prediction intervals under various hyperparameter settings. We show that the conformal KAN predictions can be applied to recent extensions of KANs, including Finite Basis KANs (FBKANs) and multifideilty KANs (MFKANs). The results demonstrate the potential of our approaches to significantly improve the reliability and applicability of KANs in scientific machine learning. * Equal contribution. Preprint. Under review.",
     "publication_date": "21 Apr 2025",
-    "acknowledgements": "Acknowledgments This project was completed with support from the  U.S. Department of Energy, Advanced Scientific Computing Research program , under the \" Uncertainty Quantification for Multifidelity Operator Learning (MOLUcQ) \" project (Project No.  81739 ).  Pacific Northwest National Laboratory (PNNL)  is a multi-program national laboratory operated for the  U.S. Department of Energy (DOE)  by  Battelle Memorial Institute  under Contract No.  DE-AC05-76RL01830 .",
+    "acknowledgements": "Acknowledgments This project was completed with support from the  U.S. Department of Energy ,  Advanced Scientific Computing Research program , under the \" Uncertainty Quantification for Multifidelity Operator Learning (MOLUcQ) \" project (Project No.  81739 ).  Pacific Northwest National Laboratory (PNNL)  is a multi-program national laboratory operated for the  U.S. Department of Energy (DOE)  by  Battelle Memorial Institute  under Contract No.  DE-AC05-76RL01830 .",
     "references": [
       {
         "authors": [
@@ -7730,7 +8032,7 @@
           "Karen Willcox",
           "Steven Lee"
         ],
-        "title": "Workshop Report on Basic Research Needs for Scientific Machine Learning: Core Technologies for Artificial Intelligence",
+        "title": "Research Needs for Scientific Machine Learning: Core Technologies for Artificial Intelligence",
         "identifier": null
       },
       {
@@ -7755,9 +8057,10 @@
           "James Halverson",
           "Marin Soljačić",
           "Thomas Hou",
-          "Max Tegmark"
+          "Max Tegmark",
+          "Kan"
         ],
-        "title": "Kan: Kolmogorov-arnold networks",
+        "title": "Kolmogorov-arnold networks",
         "identifier": "arXiv:2404.19756"
       },
       {
@@ -7827,10 +8130,7 @@
       {
         "authors": [
           "Spyros Rigas",
-          "Michalis Papachristou",
-          "Theofilos Papadopoulos",
-          "Fotios Anagnostopoulos",
-          "Georgios Alexandridis"
+          "Michalis Papachristou"
         ],
         "title": "Adaptive training of grid-dependent physics-informed kolmogorov-arnold networks",
         "identifier": null
@@ -7846,15 +8146,16 @@
           "Abhijit Bondar",
           "Sen"
         ],
-        "title": "Physics informed kolmogorov-arnold neural networks for dynamical analysis via efficent-kan and wav",
+        "title": "Physics informed kolmogorov-arnold neural networks for dynamical analysis via efficent-kan and wav-kan",
         "identifier": "arXiv:2407.18373"
       },
       {
         "authors": [
           "Remi Genet",
-          "Hugo Inzirillo"
+          "Hugo Inzirillo",
+          "Tkan"
         ],
-        "title": "Tkan: Temporal kolmogorov-arnold networks",
+        "title": "Temporal kolmogorov-arnold networks",
         "identifier": "arXiv:2405.07344"
       },
       {
@@ -7881,16 +8182,17 @@
           "Abel Palafox",
           "Edgar Guerrero"
         ],
-        "title": "On the study of frequency control and spectral bias in wavelet-based kolmogorov arnold networks: A path to physics-informed kans",
+        "title": "On the study of frequency control and spectral bias in wavelet-based kolmogorov arnold networks",
         "identifier": "arXiv:2502.00280"
       },
       {
         "authors": [
           "Mehrdad Kiamari",
           "Mohammad Kiamari",
-          "Bhaskar Krishnamachari"
+          "Bhaskar Krishnamachari",
+          "Gkan"
         ],
-        "title": "Gkan: Graph kolmogorov-arnold networks",
+        "title": "Graph kolmogorov-arnold networks",
         "identifier": "arXiv:2406.06470"
       },
       {
@@ -7904,11 +8206,9 @@
       {
         "authors": [
           "Gianluca De",
-          "Carlo",
-          "Andrea Mastropietro",
-          "Aris Anagnostopoulos"
+          "Carlo"
         ],
-        "title": "Kolmogorov-arnold graph neural networks",
+        "title": "Andrea Mastropietro, and Aris Anagnostopoulos. Kolmogorov-arnold graph neural networks",
         "identifier": "arXiv:2406.18354"
       },
       {
@@ -7930,11 +8230,8 @@
         "identifier": "arXiv:2501.02762"
       },
       {
-        "authors": [
-          "Alireza Afzal",
-          "Aghaei"
-        ],
-        "title": "fkan: Fractional kolmogorov-arnold networks with trainable jacobi basis functions",
+        "authors": [],
+        "title": "Alireza Afzal Aghaei. fkan: Fractional kolmogorov-arnold networks with trainable jacobi basis functions",
         "identifier": "arXiv:2406.07456"
       },
       {
@@ -7959,9 +8256,10 @@
       },
       {
         "authors": [
-          "Ali Kashefi"
+          "Ali Kashefi",
+          "Kolmogorov-Arnold Pointnet"
         ],
-        "title": "Kolmogorov-arnold pointnet: Deep learning for prediction of fluid fields on irregular geometries",
+        "title": "Deep learning for prediction of fluid fields on irregular geometries",
         "identifier": "arXiv:2408.02950"
       },
       {
@@ -8212,14 +8510,26 @@
     "filename": "2504.15287v1.pdf",
     "title": "Continuum Damage Modeling of Biaxial Fatigue Failure in Whole Bone: A Hybrid Approach with Machine Learning Integration",
     "authors": [
-      "Reza Kakavand",
-      "Jonah Dimnik",
-      "Ifaz Haider",
-      "W Edwards"
+      {
+        "name": "Reza Kakavand",
+        "affiliation": "Faculty of Kinesiology Human Performance Laboratory University of Calgary Calgary Canada"
+      },
+      {
+        "name": "Jonah Dimnik",
+        "affiliation": "Faculty of Kinesiology Human Performance Laboratory University of Calgary Calgary Canada"
+      },
+      {
+        "name": "Ifaz Haider",
+        "affiliation": "Faculty of Kinesiology Human Performance Laboratory University of Calgary Calgary Canada"
+      },
+      {
+        "name": "W Edwards",
+        "affiliation": "Faculty of Kinesiology Human Performance Laboratory University of Calgary Calgary Canada"
+      }
     ],
     "abstract": "Repetitive loading of bone is associated with microdamage accumulation and material property degradation that may ultimately result in fatigue fracture. Our previous work used continuum damage mechanics (CDM)-based finite element (FE) modeling to predict stiffness loss and fatigue failure in whole bone; however, this model did not account for inter-specimen variability in fatigue behaviour and multiaxial loading effects, which limited its applied efficacy. In this study, we refined the CDM-based FE model to predict experimental fatigue-life measurements from 21 whole rabbit tibiae subjected to cyclic axial compression with different magnitudes of superposed torsion. Machine learning (ML) methods were used to predict damage parameters from initial, undamaged, conditions, which were then used to predicted stiffness degradation and fatigue failure with the CDM-based FE modeling pipeline. Regression analysis was used to compare CDM-based FE fatigue-life predictions with experimental measurements. A random forest ML model predicted specimen-specific damage parameters with high accuracy (R² = 0.85) and the CDM-based FE models demonstrated remarkable predictive capability, explaining up to 91% of the variance in fatigue-life measurements. Stiffness degradation profiles also followed a similar trend to experimental measurements; however, this agreement worsened with the level of superposed torsion suggesting additional refinements to the model may be necessary. These findings demonstrate the efficacy of integrating ML with CDM-based FE modeling to predict fatigue life and stiffness degradation. The observed agreement with experimental measurements suggests the modeling framework may provide valuable information regarding the mechanisms of fatigue fracture in whole bone.",
     "publication_date": "",
-    "acknowledgements": "Acknowledgments This work was supported in part by the  Natural Science and Engineering Research Council of Canada  ( NSERC ;  RGPIN 02404-2021  and  RTI 00013-2016 ) and the  Canadian Foundation for Innovation (CFI) John R. Evans Leaders Fund  ( JELF ; Project # 37134 ).",
+    "acknowledgements": "Acknowledgments This work was supported in part by the  Natural Science and Engineering Research Council of Canada (NSERC ;  RGPIN 02404-2021  and  RTI 00013-2016 ) and the  Canadian Foundation for Innovation (CFI) John R. Evans Leaders Fund  (JELF; Project # 37134 ).",
     "references": [
       {
         "authors": [
@@ -8714,7 +9024,7 @@
           "B Mccreadie",
           "S Goldstein"
         ],
-        "title": "Biomechanics of fracture: is bone mineral density sufficient to assess risk?",
+        "title": "Biomechanics of fracture: is bone mineral density sufficient to assess risk",
         "identifier": null
       },
       {
@@ -8801,7 +9111,10 @@
     "filename": "2504.15304v1.pdf",
     "title": "Can Machine Learning Agents Deal with Hard Choices?",
     "authors": [
-      "Kangyu Wang"
+      {
+        "name": "Kangyu Wang",
+        "affiliation": "London School of Economics"
+      }
     ],
     "abstract": "Machine Learning (ML) agents have been increasingly used in decision-making across a wide range of tasks and environments. These ML agents are typically designed to balance multiple objectives when making choices. Understanding how their decision-making processes align with or diverge from human reasoning is essential. Human agents often encounter hard choices-situations where options are incommensurable; neither option is preferred, yet the agent is not indifferent between them. In such cases, human agents can identify hard choices and resolve them through deliberation. In contrast, current ML agents, due to fundamental limitations in Multi-Objective Optimisation (MOO) methods, cannot identify hard choices, let alone resolve them. Neither Scalarised Optimisation nor Pareto Optimisation-the two principal MOO approaches-, can capture incommensurability. This limitation generates three distinct alignment problems: the alienness of ML decision-making behaviour from a human perspective; the unreliability of preference-based alignment strategies for hard choices; and the blockage of alignment strategies pursuing multiple objectives. Evaluating two potential technical solutions, I recommend an ensemble solution that appears most promising for enabling ML agents to identify hard choices and mitigate alignment problems. However, no known technique allows ML agents to resolve hard choices through deliberation, as they cannot autonomously change their goals. This underscores the distinctiveness of human agency and urges ML researchers to reconceptualise machine autonomy and develop frameworks and methods that can better address this fundamental gap.",
     "publication_date": "",
@@ -8923,7 +9236,7 @@
         "authors": [
           "R Chang"
         ],
-        "title": "Are Hard Cases Vague Cases",
+        "title": "Are Hard Cases Vague Cases?",
         "identifier": null
       },
       {
@@ -8966,7 +9279,7 @@
           "A Chen",
           "Z Rubinsztein"
         ],
-        "title": "Think Miss Piggy, not Pinocchio: debunking the myth of 'autonomous",
+        "title": "Think Miss Piggy, not Pinocchio: debunking the myth of 'autonomous' AI",
         "identifier": null
       },
       {
@@ -9115,7 +9428,7 @@
           "H Huelss"
         ],
         "title": "Transcending the fog of war? US military 'AI', vision, and the emergent post-scopic regime",
-        "identifier": "10.1017/eis.2024"
+        "identifier": "10.1017/eis.2024.21"
       },
       {
         "authors": [
@@ -9145,7 +9458,7 @@
           "B Karlan",
           "H Kugelberg"
         ],
-        "title": "No right to an explanation",
+        "title": "(forthcoming) No right to an explanation",
         "identifier": null
       },
       {
@@ -9199,7 +9512,7 @@
           "J Birch",
           "D Chalmers"
         ],
-        "title": "Taking AI Welfare Seriously",
+        "title": "",
         "identifier": "arXiv:2411.00986v1"
       },
       {
@@ -9281,7 +9594,7 @@
         "authors": [
           "J Sartre"
         ],
-        "title": "Existentialism Is a Humanism",
+        "title": "Existentialism Is a Humanism. (trans. Macomber, C",
         "identifier": null
       },
       {
@@ -9454,16 +9767,31 @@
   },
   {
     "filename": "2504.15310v1.pdf",
-    "title": "Power transformer health index and life span assessment: A comprehensive review of conventional and machine learning based approaches",
+    "title": "Engineering Applications of Artificial Intelligence",
     "authors": [
-      "Syeda Zahra",
-      "Syed Kashif Imdad",
-      "Sohail Khan",
-      "Sohail Khalid",
-      "Nauman Anwar Baig"
+      {
+        "name": "Syeda Zahra",
+        "affiliation": "Department of Electrical Engineering HITEC University Taxila Pakistan"
+      },
+      {
+        "name": "Syed Kashif Imdad",
+        "affiliation": "Department of Electrical Engineering HITEC University Taxila Pakistan"
+      },
+      {
+        "name": "Sohail Khan",
+        "affiliation": "Pak-Austria Fachhochschule: Institute of Applied Sciences and Technology Sino-Pak Centre for Artificial Intelligence Pakistan"
+      },
+      {
+        "name": "Sohail Khalid",
+        "affiliation": "Department of Electrical Engineering Riphah International University Islamabad Pakistan"
+      },
+      {
+        "name": "Nauman Anwar Baig",
+        "affiliation": "School of Computing, Engineering and Technology Robert Gordon University United Kingdom"
+      }
     ],
     "abstract": "Power transformers play a critical role within the electrical power system, making their health assessment and the prediction of their remaining lifespan paramount for the purpose of ensuring efficient operation and facilitating effective maintenance planning. This paper undertakes a comprehensive examination of existent literature, with a primary focus on both conventional and cutting-edge techniques employed within this domain. The merits and demerits of recent methodologies and techniques are subjected to meticulous scrutiny and explication. Furthermore, this paper expounds upon intelligent fault diagnosis methodologies and delves into the most widely utilized intelligent algorithms for the assessment of transformer conditions. Diverse Artificial Intelligence (AI) approaches, including Artificial Neural Networks (ANN) and Convolutional Neural Network (CNN), Support Vector Machine (SVM), Random Forest (RF), Genetic Algorithm (GA), and Particle Swarm Optimization (PSO), are elucidated offering pragmatic solutions for enhancing the performance of transformer fault diagnosis. The amalgamation of multiple AI methodologies and the exploration of timeseries analysis further contribute to the augmentation of diagnostic precision and the early detection of faults in transformers. By furnishing a comprehensive panorama of AI applications in the field of transformer fault diagnosis, this study lays the groundwork for future research endeavors and the progression of this critical area of study.",
-    "publication_date": "29 October 2024 0952",
+    "publication_date": "29 October 2024",
     "acknowledgements": "Acknowledgments We acknowledge the funding provided by  RGU  to publish this paper.",
     "references": [
       {
@@ -9512,7 +9840,7 @@
           "M Lehtonen",
           "M Darwish"
         ],
-        "title": "Photoluminescence spectroscopy measurements for effective condition assessment of transformer insulating oil",
+        "title": "2021b. Photoluminescence spectroscopy measurements for effective condition assessment of transformer insulating oil",
         "identifier": null
       },
       {
@@ -9574,8 +9902,15 @@
         "authors": [
           "C Brochure"
         ],
-        "title": "Furanic compounds for diagnosis",
-        "identifier": "BS EN 62021"
+        "title": "Furanic compounds for diagnosis. Final Report of Working Group D",
+        "identifier": null
+      },
+      {
+        "authors": [
+          "Bsi"
+        ],
+        "title": "BS EN 62021-2 insulating liquids. Determination of acidity colourimetric titration",
+        "identifier": null
       },
       {
         "authors": [
@@ -9679,8 +10014,8 @@
         "authors": [
           "B En"
         ],
-        "title": "2013 Mineral Insulating Oils in Electrical Equipment",
-        "identifier": ". 60422"
+        "title": "Mineral Insulating Oils in Electrical Equipment. Supervision and Maintenance Guidance. International Electrotechnical Commission",
+        "identifier": null
       },
       {
         "authors": [
@@ -9823,16 +10158,32 @@
         "identifier": null
       },
       {
-        "authors": [],
-        "title": "2003 Insulating liquids -Determination of acidity -Part 1: Automatic potentiometric titration",
-        "identifier": "IEC 62021-1:"
+        "authors": [
+          "Iec"
+        ],
+        "title": "IEC 62021-1:2003 Insulating liquids -Determination of acidity -Part 1: Automatic potentiometric titration",
+        "identifier": null
       },
       {
         "authors": [
           "I Iec"
         ],
         "title": "Mineral oil-impregnated electrical equipment in service-guide to the interpretation of dissolved and free gases analysis",
-        "identifier": "IEC 60060-1"
+        "identifier": null
+      },
+      {
+        "authors": [
+          "Iec"
+        ],
+        "title": "IEC 60060-1 High-voltage test techniques -Part 1: General definitions and test requirements",
+        "identifier": null
+      },
+      {
+        "authors": [
+          "Ieee"
+        ],
+        "title": "IEEE guide for acceptance and maintenance of insulating mineral oil in electrical equipment",
+        "identifier": null
       },
       {
         "authors": [
@@ -10124,7 +10475,7 @@
         "authors": [
           "P Picher"
         ],
-        "title": "Advances in the interpretation of transformer frequency response analysis (FRA)",
+        "title": "Advances in the interpretation of transformer frequency response analysis (FRA). Cigre Technical brochure",
         "identifier": null
       },
       {
@@ -10382,11 +10733,6 @@
         "identifier": null
       },
       {
-        "authors": [],
-        "title": "",
-        "identifier": null
-      },
-      {
         "authors": [
           "Y Zhang",
           "Y Tang",
@@ -10429,6 +10775,11 @@
         ],
         "title": "Power transformer fault diagnosis method based on machine learning",
         "identifier": null
+      },
+      {
+        "authors": [],
+        "title": "",
+        "identifier": null
       }
     ]
   },
@@ -10436,16 +10787,46 @@
     "filename": "2504.15465v1.pdf",
     "title": "LithOS: An Operating System for Efficient Machine Learning on GPUs",
     "authors": [
-      "Patrick Coppock",
-      "Brian Zhang",
-      "Eliot Solomon",
-      "Vasilis Kypriotis",
-      "Leon Yang",
-      "Bikash Sharma",
-      "Dan Schatzberg",
-      "Todd Mowry",
-      "Dimitrios Skarlatos",
-      "† Meta"
+      {
+        "name": "Patrick Coppock",
+        "affiliation": null
+      },
+      {
+        "name": "Brian Zhang",
+        "affiliation": null
+      },
+      {
+        "name": "Eliot Solomon",
+        "affiliation": null
+      },
+      {
+        "name": "Vasilis Kypriotis",
+        "affiliation": null
+      },
+      {
+        "name": "Leon Yang",
+        "affiliation": null
+      },
+      {
+        "name": "Bikash Sharma",
+        "affiliation": null
+      },
+      {
+        "name": "Dan Schatzberg",
+        "affiliation": null
+      },
+      {
+        "name": "Todd Mowry",
+        "affiliation": null
+      },
+      {
+        "name": "Dimitrios Skarlatos",
+        "affiliation": null
+      },
+      {
+        "name": "Carnegie Mellon University",
+        "affiliation": null
+      }
     ],
     "abstract": "The surging demand for GPUs in datacenters for machine learning (ML) workloads has made efficient GPU utilization crucial. However, meeting the diverse needs of individual ML models while optimizing resource usage is challenging. To enable transparent, fine-grained management of GPU resources that maximizes GPU utilization and energy efficiency while maintaining strong isolation, an operating systems (OS) approach is needed. Hence this paper introduces LithOS, a first step towards a GPU OS. LithOS includes the following new abstractions and mechanisms for efficient GPU resource management: (i) a novel TPC Scheduler that supports spatial scheduling at the granularity of individual TPCs, unlocking efficient TPC stealing between workloads; (ii) transparent kernel atomization to reduce head-of-line blocking and allow dynamic resource reallocation mid-execution; (iii) a lightweight hardware rightsizing mechanism that dynamically determines the minimal TPC resources needed per atom; and (iv) a transparent power management mechanism that reduces power consumption based upon in-flight work characteristics. We implement LithOS in Rust and evaluate its performance across a broad set of deep learning environments, comparing it to state-of-the-art solutions from NVIDIA and prior research. For inference stacking, LithOS reduces tail latencies by 13× compared to MPS; compared to the bestperforming SotA, it reduces tail latencies by 3× while improving aggregate throughput by 1.6×. Furthermore, in hybrid inference-training stacking, LithOS reduces tail latencies by 4.7× compared to MPS; compared to the best-performing SotA, it reduces tail latencies by 1.18× while improving aggregate throughput by 1.35×. Finally, for a modest performance hit under 4%, LithOS's hardware right-sizing provides a quarter of GPU capacity savings on average, while for a 7% hit, LithOS's transparent power management delivers a quarter of a GPU total energy savings on average. Overall, LithOS transparently increases GPU efficiency, establishing a foundation for future OS research on GPUs.",
     "publication_date": "21 Apr 2025",
@@ -10467,8 +10848,8 @@
           "Chien-Yao Wang",
           "Hong-Yuan Mark Liao"
         ],
-        "title": "YOLOv4: Optimal Speed and Accuracy of Object Detection",
-        "identifier": "arXiv:2004.10934"
+        "title": "Optimal Speed and Accuracy of Object Detection",
+        "identifier": "arXiv:2004.10934[cs.CV"
       },
       {
         "authors": [
@@ -10510,11 +10891,6 @@
         ],
         "title": "CoFRIS: Coordinated Frequency and Resource Scaling for GPU Inference Servers",
         "identifier": "10.1145/3634769.3634808"
-      },
-      {
-        "authors": [],
-        "title": "Multi-Process Service",
-        "identifier": null
       },
       {
         "authors": [],
@@ -10573,7 +10949,7 @@
           "Kristina Toutanova"
         ],
         "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
-        "identifier": "arXiv:1810.04805"
+        "identifier": "arXiv:1810.04805[cs.CL"
       },
       {
         "authors": [
@@ -10653,12 +11029,10 @@
       {
         "authors": [
           "Kaiming He",
-          "Xiangyu Zhang",
-          "Shaoqing Ren",
-          "Jian Sun"
+          "Xiangyu Zhang"
         ],
-        "title": "Deep Residual Learning for Image Recognition",
-        "identifier": "arXiv:1512.03385"
+        "title": "Shaoqing Ren, and Jian Sun",
+        "identifier": "arXiv:1512.03385[cs.CV"
       },
       {
         "authors": [
@@ -10685,13 +11059,10 @@
       {
         "authors": [
           "Andreas Kosmas Kakolyris",
-          "Dimosthenis Masouros",
-          "Petros Vavaroutsos",
-          "Sotirios Xydis",
-          "Dimitrios Soudris"
+          "Dimosthenis Masouros"
         ],
-        "title": "SLO-aware GPU Frequency Scaling for Energy Efficient LLM Inference Serving",
-        "identifier": "arXiv:2408.05235"
+        "title": "Petros Vavaroutsos, Sotirios Xydis, and Dimitrios Soudris",
+        "identifier": "arXiv:2408.05235[cs.DC"
       },
       {
         "authors": [
@@ -10729,7 +11100,7 @@
           "Piotr Dollár"
         ],
         "title": "Focal Loss for Dense Object Detection",
-        "identifier": "arXiv:1708.02002"
+        "identifier": "arXiv:1708.02002[cs.CV"
       },
       {
         "authors": [
@@ -10773,7 +11144,7 @@
           "Smelyanskiy"
         ],
         "title": "Deep Learning Recommendation Model for Personalization and Recommendation Systems",
-        "identifier": "arXiv:1906.00091"
+        "identifier": "arXiv:1906.00091[cs.IR"
       },
       {
         "authors": [],
@@ -10791,8 +11162,11 @@
         "identifier": "10.1145/3600006.3613163"
       },
       {
-        "authors": [],
-        "title": "NVIDIA CUDA Driver API Documentation: Occupancy",
+        "authors": [
+          "Nvidia Cuda Driver",
+          "Api Documentation"
+        ],
+        "title": "",
         "identifier": null
       },
       {
@@ -10808,7 +11182,7 @@
           "Jordan Soyke"
         ],
         "title": "TensorFlow-Serving: Flexible, High-Performance ML Serving",
-        "identifier": "arXiv:1712.06139[cs.DC"
+        "identifier": "arXiv:1712.06139[cs.DC]"
       },
       {
         "authors": [
@@ -10902,7 +11276,7 @@
           "Zhou"
         ],
         "title": "MLPerf Inference Benchmark",
-        "identifier": "arXiv:1911.02549[cs.LG"
+        "identifier": "arXiv:1911.02549[cs.LG]"
       },
       {
         "authors": [
@@ -10945,7 +11319,7 @@
           "Andrew Zisserman"
         ],
         "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
-        "identifier": "arXiv:1409.1556"
+        "identifier": "arXiv:1409.1556[cs.CV"
       },
       {
         "authors": [
@@ -10956,7 +11330,7 @@
           "Esha Choukse"
         ],
         "title": "DynamoLLM: Designing LLM Inference Clusters for Performance and Energy Efficiency",
-        "identifier": "arXiv:2408.00741"
+        "identifier": "arXiv:2408.00741[cs.AI"
       },
       {
         "authors": [
@@ -10979,7 +11353,7 @@
           "Chuanxiong Guo"
         ],
         "title": "Serving DNN Models with Multi-Instance GPUs: A Case of the Reconfigurable Machine Scheduling Problem",
-        "identifier": "arXiv:2109.11067[cs.DC"
+        "identifier": "arXiv:2109.11067[cs.DC]"
       },
       {
         "authors": [
@@ -11001,7 +11375,7 @@
           "Youtao Zhang",
           "Xulong Tang"
         ],
-        "title": "Improving GPU Multi-Tenancy Through Dynamic Multi-Instance GPU Reconfiguration",
+        "title": "",
         "identifier": "arXiv:2407.13126"
       },
       {
@@ -11095,18 +11469,48 @@
     "filename": "2504.15507v2.pdf",
     "title": "Automatically Detecting Numerical Instability in Machine Learning Applications via Soft Assertions",
     "authors": [
-      "Shaila Sharmin",
-      "Hossain Anwar",
-      "Zahid",
-      "Subhankar Bhattacharjee",
-      "Miryung Kim",
-      "Subhankar Zahid",
-      "Chiamaka Bhattacharjee",
-      "Miryung Igwilo",
-      "Wei Kim",
-      "Le"
+      {
+        "name": "Shaila Sharmin",
+        "affiliation": null
+      },
+      {
+        "name": "Hossain Anwar",
+        "affiliation": null
+      },
+      {
+        "name": "Zahid",
+        "affiliation": null
+      },
+      {
+        "name": "Miryung Kim",
+        "affiliation": null
+      },
+      {
+        "name": "Wei Le",
+        "affiliation": null
+      },
+      {
+        "name": "Subhankar Zahid",
+        "affiliation": null
+      },
+      {
+        "name": "Chiamaka Bhattacharjee",
+        "affiliation": null
+      },
+      {
+        "name": "Miryung Igwilo",
+        "affiliation": null
+      },
+      {
+        "name": "Wei Kim",
+        "affiliation": null
+      },
+      {
+        "name": "Le",
+        "affiliation": null
+      }
     ],
-    "abstract": "Machine learning (ML) applications have become an integral part of our lives. ML applications extensively use floating-point computation and involve very large/small numbers; thus, maintaining the numerical stability of such complex computations remains an important challenge. Numerical bugs can lead to system crashes, incorrect output, and wasted computing resources. In this paper, we introduce a novel idea, namely soft assertions (SA), to encode safety/error conditions for the places where numerical instability can occur. A soft assertion is an ML model automatically trained using the dataset obtained during unit testing of unstable functions. Given the values at the unstable function in an ML application, a soft assertion reports how to change these values in order to trigger the instability. We then use the output of soft assertions as signals to effectively mutate inputs to trigger numerical instability in ML applications. In the evaluation, we used the GRIST benchmark, a total of 79 programs, as well as 15 real-world ML applications from GitHub. We compared our tool with 5 state-of-the-art (SOTA) fuzzers. We found all the GRIST bugs and outperformed the baselines. We found 13 numerical bugs in real-world code, one of which had already been confirmed by the GitHub developers. While the baselines mostly found the bugs that report NaN and INF, our tool Soft Assertion Fuzzer found numerical bugs with incorrect output. We showed one case where the Tumor Detection Model, trained on Brain MRI images, should have predicted \"tumor\", but instead, it incorrectly predicted \"no tumor\" due to the numerical bugs. Our replication package is located at  https://figshare.com/s/6528d21ccd28bea94c32 .",
+    "abstract": "Machine learning (ML) applications have become an integral part of our lives. ML applications extensively use floating-point computation and involve very large/small numbers; thus, maintaining the numerical stability of such complex computations remains an important challenge. Numerical bugs can lead to system crashes, incorrect output, and wasted computing resources. In this paper, we introduce a novel idea, namely soft assertions (SA), to encode safety/error conditions for the places where numerical instability can occur. A soft assertion is an ML model automatically trained using the dataset obtained during unit testing of unstable functions. Given the values at the unstable function in an ML application, a soft assertion reports how to change these values in order to trigger the instability. We then use the output of soft assertions as signals to effectively mutate inputs to trigger numerical instability in ML applications. In the evaluation, we used the GRIST benchmark, a total of 79 programs, as well as 15 real-world ML applications from GitHub. We compared our tool with 5 state-of-the-art (SOTA) fuzzers. We found all the GRIST bugs and outperformed the baselines. We found 13 numerical bugs in real-world code, one of which had already been confirmed by the GitHub developers. While the baselines mostly found the bugs that report NaN and INF, our tool Soft Assertion Fuzzer found numerical bugs with incorrect output. We showed one case where the Tumor Detection Model, trained on Brain MRI images, should have predicted \"tumor\", but instead, it incorrectly predicted \"no tumor\" due to the numerical bugs. Our replication package is located at  https://figshare.com/s/6528d21ccd28bea94c32 . CCS Concepts: • Software and its engineering → Software testing and debugging; Software verification and validation.",
     "publication_date": "23 Apr 2025",
     "acknowledgements": "Acknowledgments This research is partially supported by the  U.S. National Science Foundation (NSF)  under Award # 2313054 . We thank the anonymous reviewers for their valuable and insightful comments, which greatly improved our work. We also thank  Ashwin Kallol Joshy  for his helpful guidance and support in understanding the project during its early stage.",
     "references": [
@@ -11163,7 +11567,7 @@
       },
       {
         "authors": [],
-        "title": "Daikon Documentation",
+        "title": "Daikon Documentation. GitHub",
         "identifier": null
       },
       {
@@ -11171,21 +11575,21 @@
           "Rodrigo Pérez",
           "Dattari"
         ],
-        "title": "ranking_losses",
+        "title": "",
         "identifier": null
       },
       {
         "authors": [
           "Bruce Dawson"
         ],
-        "title": "Retrieved from Comparing floating point numbers",
+        "title": "Comparing floating point numbers",
         "identifier": null
       },
       {
         "authors": [
           "Declare"
         ],
-        "title": "OT_solver",
+        "title": "",
         "identifier": null
       },
       {
@@ -11216,7 +11620,7 @@
         "authors": [
           "Ethan Gilmore"
         ],
-        "title": "MicroMLP. GitHub",
+        "title": "",
         "identifier": null
       },
       {
@@ -11242,13 +11646,11 @@
         "authors": [
           "Nikita Gushchin"
         ],
-        "title": "cunet",
+        "title": "66cf61b37f06f0714165161618f7a944af189c9",
         "identifier": null
       },
       {
-        "authors": [
-          "Fabrice Harel-Canada"
-        ],
+        "authors": [],
         "title": "A basic python-based fuzzing tool used to support miscellaneous research objectives",
         "identifier": null
       },
@@ -11267,9 +11669,7 @@
       {
         "authors": [
           "Kaiming He",
-          "Xiangyu Zhang",
-          "Shaoqing Ren",
-          "Jian Sun"
+          "Xiangyu Zhang"
         ],
         "title": "Delving deep into rectifiers: Surpassing humanlevel performance on imagenet classification",
         "identifier": null
@@ -11303,7 +11703,7 @@
         "authors": [
           "Jinwoo Kim"
         ],
-        "title": "GitHub",
+        "title": "6ba12faa9ec74ba95d95299895a21da944dd4",
         "identifier": null
       },
       {
@@ -11347,15 +11747,10 @@
         "identifier": null
       },
       {
-        "authors": [],
-        "title": "Atheris: Coverage-Guided Python Fuzzing Engine",
-        "identifier": null
-      },
-      {
         "authors": [
-          "Longyahui"
+          "Llc Google"
         ],
-        "title": "",
+        "title": "Atheris: Coverage-Guided Python Fuzzing Engine",
         "identifier": null
       },
       {
@@ -11381,7 +11776,7 @@
           "Ian Goodfellow"
         ],
         "title": "Tensorfuzz: Debugging neural networks with coverage-guided fuzzing",
-        "identifier": null
+        "identifier": "PMLR"
       },
       {
         "authors": [
@@ -11396,7 +11791,7 @@
           "Luca Antiga",
           "Adam Lerer"
         ],
-        "title": "Automatic differentiation in pytorch",
+        "title": "",
         "identifier": null
       },
       {
@@ -11413,21 +11808,21 @@
         "authors": [
           "Robin Scheibler"
         ],
-        "title": "diffusion-separation",
+        "title": "",
         "identifier": null
       },
       {
         "authors": [
           "Mohit Shaharwale"
         ],
-        "title": "TumorScope. GitHub",
+        "title": "",
         "identifier": null
       },
       {
         "authors": [
           "Simon"
         ],
-        "title": "Value Error",
+        "title": "",
         "identifier": null
       },
       {
@@ -11435,30 +11830,26 @@
           "Strath",
           "Ai"
         ],
-        "title": "SatelliteCloudGenerator. GitHub",
+        "title": "",
         "identifier": null
       },
       {
-        "authors": [
-          "Zeye Sun"
-        ],
-        "title": "",
+        "authors": [],
+        "title": "1a6d54971eb0513f38974aa6dcca53aa2f3174/src/models/loss",
         "identifier": null
       },
       {
         "authors": [
           "Florian Tambon",
           "Amin Nikanjam",
-          "Le An",
-          "Foutse Khomh",
-          "Giuliano Antoniol"
+          "Le An"
         ],
         "title": "Silent bugs in deep learning frameworks: An empirical study of Keras and TensorFlow",
         "identifier": null
       },
       {
         "authors": [],
-        "title": "Hypothesis: A new approach to property-based testing",
+        "title": "Hypothesis Development Team. 2023. Hypothesis: A new approach to property-based testing",
         "identifier": null
       },
       {
@@ -11570,13 +11961,22 @@
     "filename": "2504.15670v1.pdf",
     "title": "Applicability evaluation of selected xAI methods for machine learning algorithms for signal parameters extraction",
     "authors": [
-      "Kalina Dimitrova",
-      "Venelin Kozhuharov",
-      "Peicho Petkov"
+      {
+        "name": "Kalina Dimitrova",
+        "affiliation": "Faculty of Physics Sofia University \"St. Kliment Ohridski\" 5 J. Bourchier Blvd. 1164 Sofia Bulgaria"
+      },
+      {
+        "name": "Venelin Kozhuharov",
+        "affiliation": "Faculty of Physics Sofia University \"St. Kliment Ohridski\" 5 J. Bourchier Blvd. 1164 Sofia Bulgaria"
+      },
+      {
+        "name": "Peicho Petkov",
+        "affiliation": "Faculty of Physics Sofia University \"St. Kliment Ohridski\" 5 J. Bourchier Blvd. 1164 Sofia Bulgaria"
+      }
     ],
     "abstract": "Machine learning methods find growing application in the reconstruction and analysis of data in high energy physics experiments. A modified convolutional autoencoder model was employed to identify and reconstruct the pulses from scintillating crystals. The model was further investigated using four xAI methods for deeper understanding of the underlying reconstruction mechanism. The results are discussed in detail, underlining the importance of xAI for knowledge gain and further improvement of the algorithms.",
     "publication_date": "22 Apr 2025",
-    "acknowledgements": "Acknowledgements This work was partially supported by  BNSF :  KP-06-D002 4/15.12.2020  within  MUCCA ,  CHIST-ERA-19-XAI-009 . In addition,  P. Petkov  and V. Kozhuharov acknowledge that partially this study is financed by the  European Union-NextGenerationEU  through the  National Recovery and Resilience Plan of the Republic of Bulgaria , project  SUMMIT BG-RRP-2.004-0008-C01 .",
+    "acknowledgements": "Acknowledgements This work was partially supported by  BNSF :  KP-06-D002 4/15.12.2020  within  MUCCA ,  CHIST-ERA-19-XAI-009 . In addition,  P. Petkov  and  V. Kozhuharov  acknowledge that partially this study is financed by the  European Union-NextGenerationEU  through the  National Recovery and Resilience Plan of the Republic of Bulgaria , project  SUMMIT BG-RRP-2.004-0008-C01 .",
     "references": [
       {
         "authors": [
@@ -11664,7 +12064,7 @@
         "authors": [
           "K Kumawat"
         ],
-        "title": "Explainable AI: Interpretable Models for Transparent Decision-Making",
+        "title": "Explainable AI: Interpretable Models for Transparent Decision-Making. international journal of food and nutritional sciences",
         "identifier": "10.48047/ijfans/09/03/30"
       },
       {
@@ -11674,7 +12074,7 @@
           "P Kumar",
           "N Mishra"
         ],
-        "title": "Explainable Artificial Intelligence (xAI)",
+        "title": "Explainable Artificial Intelligence (xAI). international journal of food and nutritional sciences",
         "identifier": "10.48047/ijfans/v12/i1/271"
       },
       {
@@ -11688,7 +12088,7 @@
         "authors": [
           "R Tiwari"
         ],
-        "title": "Explainable AI (xAI) and its Applications in Building Trust and Understanding in AI Decision Making",
+        "title": "Explainable AI (xAI) and its Applications in Building Trust and Understanding in AI Decision Making. INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGI-NEERING AND MANAGEMENT",
         "identifier": "10.55041/ijsrem17592"
       },
       {
@@ -11756,7 +12156,7 @@
           "P Ravikumar"
         ],
         "title": "On the (In)fidelity and Sensitivity for Explanations",
-        "identifier": null
+        "identifier": "arXiv: Learning"
       },
       {
         "authors": [
@@ -11797,7 +12197,7 @@
           "C Napoli",
           "S Scardapane"
         ],
-        "title": "Convergent Approaches to AI Explainability for HEP Muonic Particles Pattern Recognition",
+        "title": "Convergent Approaches to AI Explainability for HEP Muonic Particles Pattern Recognition. Computing and Software for Big Science",
         "identifier": null
       },
       {
@@ -11842,7 +12242,7 @@
           "T Bhattacharya",
           "B Yoon"
         ],
-        "title": "AI and Theoretical Particle Physics",
+        "title": "",
         "identifier": null
       },
       {
@@ -11892,7 +12292,7 @@
         "authors": [
           "K Simonyan"
         ],
-        "title": "Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps",
+        "title": "Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps. Workshop at International Conference on Learning Representations",
         "identifier": null
       }
     ]
@@ -11901,14 +12301,38 @@
     "filename": "2504.15710v1.pdf",
     "title": "Prediction of CO2 reduction reaction intermediates and products on transition metal-doped γ-GeSe monolayers: A combined DFT and machine learning approach",
     "authors": [
-      "Xuxin Kang",
-      "Wenjing Zhou",
-      "Ziyuan Li",
-      "Zhaoqin Chu",
-      "Hanqin Yin",
-      "Shan Gao",
-      "Aijun Du",
-      "Xiangmei Duan"
+      {
+        "name": "Xuxin Kang",
+        "affiliation": "School of Physical Science and Technology Ningbo University 315211 Ningbo China"
+      },
+      {
+        "name": "Wenjing Zhou",
+        "affiliation": "School of Physical Science and Technology Ningbo University 315211 Ningbo China"
+      },
+      {
+        "name": "Ziyuan Li",
+        "affiliation": "School of Physical Science and Technology Ningbo University 315211 Ningbo China"
+      },
+      {
+        "name": "Zhaoqin Chu",
+        "affiliation": "Advanced Interdisciplinary Sciences Research (AiR) Center Zhejiang Key Laboratory of Data-Driven High-Safety Energy Materials and Applications Ningbo Institute of Materials Technology and Engineering Chinese Academy of Sciences 315201 Ningbo China"
+      },
+      {
+        "name": "Hanqin Yin",
+        "affiliation": "School of Chemistry and Physics Centre for Materials Science Gardens Point Campus Queensland University of Technology 4001 Brisbane QLD Australia"
+      },
+      {
+        "name": "Shan Gao",
+        "affiliation": "School of Physical Science and Technology Ningbo University 315211 Ningbo China"
+      },
+      {
+        "name": "Aijun Du",
+        "affiliation": "School of Chemistry and Physics Centre for Materials Science Gardens Point Campus Queensland University of Technology 4001 Brisbane QLD Australia"
+      },
+      {
+        "name": "Xiangmei Duan",
+        "affiliation": "School of Physical Science and Technology Ningbo University 315211 Ningbo China"
+      }
     ],
     "abstract": "The electrocatalytic CO2 reduction reaction (CO2RR) is a complex multi-proton-electron transfer process that generates a vast network of reaction intermediates. Accurate prediction of free energy changes (∆G) of these intermediates and products is essential for evaluating catalytic performance. We combined density functional theory (DFT) and machine learning (ML) to screen 25 single-atom catalysts (SACs) on defective γ-GeSe monolayers for CO2 reduction to methanol, methane, and formic acid. Among nine ML models evaluated with 14 intrinsic and DFT-based features, the XGBoost performed best (R 2 = 0.92 and MAE = 0.24 eV), aligning closely with DFT calculations and identifying Ni, Ru, and Rh@GeSe as prospective catalysts. Feature importance analysis in free energy and product predictions highlighted the significance of CO2 activation with O-C-O and IP C-O1 as the key attributes. Furthermore, by incorporating non-DFT-based features, rapid predictions became possible, and the XGBoost model retained its predictive performance with R 2 = 0.89 and MAE = 0.29 eV. This accuracy was further validated using Ir@GeSe. Our work highlights effective SACs for CO2RR, and provides valuable insights for efficient catalyst design.",
     "publication_date": "",
@@ -12140,7 +12564,8 @@
           "Q Sun",
           "C Jia",
           "Y Zhao",
-          "C Zhao"
+          "C Zhao",
+          "Chin"
         ],
         "title": "",
         "identifier": null
@@ -12205,7 +12630,8 @@
           "Y Wang",
           "C Li",
           "N Wan",
-          "S Lei"
+          "S Lei",
+          "Acs Appl"
         ],
         "title": "",
         "identifier": null
@@ -12419,9 +12845,9 @@
         "authors": [
           "G D'angelo",
           "D Rao",
-          "C Gu"
+          "C"
         ],
-        "title": "In Combining Least Absolute Shrinkage and Selection Operator (Lasso) and Principal-Components Analysis for Detection of Gene-Gene Interactions in Genome-Wide Association Studies",
+        "title": "Gu In Combining Least Absolute Shrinkage and Selection Operator (Lasso) and Principal-Components Analysis for Detection of Gene-Gene Interactions in Genome-Wide Association Studies",
         "identifier": null
       },
       {
@@ -12447,7 +12873,7 @@
           "L Wehenkel",
           "J Verly"
         ],
-        "title": "Robust Automatic Target Recognition Using Extra-Trees",
+        "title": "Robust Automatic Target Recognition Using Extra-Trees, 2010 IEEE Radar Conference",
         "identifier": null
       },
       {
@@ -12680,17 +13106,32 @@
   },
   {
     "filename": "2504.15834v1.pdf",
-    "title": "CAUSAL MACHINE LEARNING FOR HIGH-DIMENSIONAL MEDIATION ANALYSIS USING INTERVENTIONAL EFFECTS MAPPED TO A TARGET TRIAL",
+    "title": "CAUSAL MACHINE LEARNING FOR HIGH-DIMENSIONAL MEDIATION ANALYSIS USING INTERVENTIONAL EFFECTS MAPPED TO A TARGET TRIAL A PREPRINT",
     "authors": [
-      "A Preprint",
-      "Tong Chen",
-      "Stijn Vansteelandt",
-      "David Burgner",
-      "Margarita Moreno-Betancur"
+      {
+        "name": "Tong Chen",
+        "affiliation": "Department of Applied Mathematics, Computer Science and Statistics Department of Paediatrics Department of Paediatrics Department of Paediatrics Clinical Epidemiology and Biostatistics Unit Inflammatory Origins Inflammatory Origins Clinical Epidemiology and Biostatistics Unit Murdoch Children's Research Institute Melbourne Dental School University of Melbourne Ghent University Murdoch Children's Research Institute University of Melbourne Murdoch Children's Research Institute University of Melbourne Murdoch Children's Research Institute University of Melbourne"
+      },
+      {
+        "name": "Stijn Vansteelandt",
+        "affiliation": "Department of Applied Mathematics, Computer Science and Statistics Department of Paediatrics Department of Paediatrics Department of Paediatrics Clinical Epidemiology and Biostatistics Unit Inflammatory Origins Inflammatory Origins Clinical Epidemiology and Biostatistics Unit Murdoch Children's Research Institute Melbourne Dental School University of Melbourne Ghent University Murdoch Children's Research Institute University of Melbourne Murdoch Children's Research Institute University of Melbourne Murdoch Children's Research Institute University of Melbourne"
+      },
+      {
+        "name": "David Burgner",
+        "affiliation": "Department of Applied Mathematics, Computer Science and Statistics Department of Paediatrics Department of Paediatrics Department of Paediatrics Clinical Epidemiology and Biostatistics Unit Inflammatory Origins Inflammatory Origins Clinical Epidemiology and Biostatistics Unit Murdoch Children's Research Institute Melbourne Dental School University of Melbourne Ghent University Murdoch Children's Research Institute University of Melbourne Murdoch Children's Research Institute University of Melbourne Murdoch Children's Research Institute University of Melbourne"
+      },
+      {
+        "name": "Toby Mansell",
+        "affiliation": "Department of Applied Mathematics, Computer Science and Statistics Department of Paediatrics Department of Paediatrics Department of Paediatrics Clinical Epidemiology and Biostatistics Unit Inflammatory Origins Inflammatory Origins Clinical Epidemiology and Biostatistics Unit Murdoch Children's Research Institute Melbourne Dental School University of Melbourne Ghent University Murdoch Children's Research Institute University of Melbourne Murdoch Children's Research Institute University of Melbourne Murdoch Children's Research Institute University of Melbourne"
+      },
+      {
+        "name": "Margarita Moreno-Betancur",
+        "affiliation": "Department of Applied Mathematics, Computer Science and Statistics Department of Paediatrics Department of Paediatrics Department of Paediatrics Clinical Epidemiology and Biostatistics Unit Inflammatory Origins Inflammatory Origins Clinical Epidemiology and Biostatistics Unit Murdoch Children's Research Institute Melbourne Dental School University of Melbourne Ghent University Murdoch Children's Research Institute University of Melbourne Murdoch Children's Research Institute University of Melbourne Murdoch Children's Research Institute University of Melbourne"
+      }
     ],
     "abstract": "Causal mediation analysis examines causal pathways linking exposures to disease. The estimation of interventional effects, which are mediation estimands that overcome certain identifiability problems of natural effects, has been advanced through causal machine learning methods, particularly for high-dimensional mediators. Recently, it has been proposed interventional effects can be defined in each study by mapping to a target trial assessing specific hypothetical mediator interventions. This provides an appealing framework to directly address real-world research questions about the extent to which such interventions might mitigate an increased disease risk in the exposed. However, existing estimators for interventional effects mapped to a target trial rely on singly-robust parametric approaches, limiting their applicability in high-dimensional settings. Building upon recent developments in causal machine learning for interventional effects, we address this gap by developing causal machine learning estimators for three interventional effect estimands, defined by target trials assessing hypothetical interventions inducing distinct shifts in joint mediator distributions. These estimands are motivated by a case study within the Longitudinal Study of Australian Children, used for illustration, which assessed how intervening on high inflammatory burden and other noninflammatory adverse metabolomic markers might mitigate the adverse causal effect of overweight or obesity on high blood pressure in adolescence. We develop one-step and (partial) targeted minimum loss-based estimators based on efficient influence functions of those estimands, demonstrating they are root-n consistent, efficient, and multiply robust under certain conditions.",
-    "publication_date": "April 23, 2025",
-    "acknowledgements": "ACKNOWLEDGMENTS This work was supported by an  Investigator Grant fellowship  to MMB [grant  ID: 2009572 ]  and to DB [grant  ID: 1175744 ] from the  National Health and Medical Research Council . The  Murdoch Children's Research Institute  is supported by the  Victorian Government 's  Operational Infrastructure Support Program .",
+    "publication_date": "APRIL 23, 2025",
+    "acknowledgements": "ACKNOWLEDGMENTS This work was supported by an  Investigator Grant fellowship  to MMB [grant ID: 2009572]  and to DB [grant ID:  1175744 ] from the  National Health and Medical Research Council . The  Murdoch Children's Research Institute  is supported by the  Victorian Government's Operational Infrastructure Support Program .",
     "references": [
       {
         "authors": [
@@ -12802,7 +13243,7 @@
           "R Phillips",
           "O Sofrygin"
         ],
-        "title": "sl3: Modern pipelines for machine learning and Super Learning",
+        "title": "Modern pipelines for machine learning and Super Learning",
         "identifier": null
       },
       {
@@ -12967,7 +13408,7 @@
           "K Rudolph",
           "I Díaz"
         ],
-        "title": "medoutcon': Nonparametric efficient causal mediation analysis with machine learning in 'r",
+        "title": "'medoutcon': Nonparametric efficient causal mediation analysis with machine learning in 'r'",
         "identifier": null
       },
       {
@@ -13040,10 +13481,9 @@
           "P Vuillermin",
           "F Collier",
           "P Meikle",
-          "D Burgner",
-          "Barwon Infant Study Investigator Group"
+          "D Burgner"
         ],
-        "title": "Early life infection and proinflammatory, atherogenic metabolomic and lipidomic profiles in infancy: A population-based cohort study",
+        "title": "Early life infection and proinflammatory, atherogenic metabolomic and lipidomic profiles in infancy: A population",
         "identifier": null
       },
       {
@@ -13059,7 +13499,7 @@
           "M Moreno-Betancur",
           "J Carlin"
         ],
-        "title": "Understanding interventional effects: A more natural approach to mediation analysis",
+        "title": "Understanding interventional effects: A more natural approach to mediation analysis?",
         "identifier": null
       },
       {
@@ -13087,6 +13527,13 @@
           "J Neyman"
         ],
         "title": "Sur les applications de la théorie des probabilités aux expériences agricoles: Essai des principes",
+        "identifier": null
+      },
+      {
+        "authors": [
+          "J Pearl"
+        ],
+        "title": "Direct and indirect effects",
         "identifier": null
       },
       {
@@ -13119,14 +13566,9 @@
           "C Ndumele",
           "I Neeland",
           "P Sanders",
-          "M.-P St-Onge",
-          "O",
-          "C On Cardiovascular",
-          "S Prevention",
-          ";",
-          "S Council"
+          "M.-P St-Onge"
         ],
-        "title": "Obesity and cardiovascular disease: A scientific statement from the American Heart Association",
+        "title": "Obesity and cardiovascular disease: A scientific statement from the",
         "identifier": null
       },
       {
@@ -13300,7 +13742,7 @@
           "S Wager",
           "G Walther"
         ],
-        "title": "Adaptive concentration of regression trees, with application to random forests",
+        "title": "Adaptive concentration of regression trees",
         "identifier": "arXiv:1503.06388"
       },
       {
@@ -13347,11 +13789,22 @@
         "identifier": null
       },
       {
+        "authors": [],
+        "title": "",
+        "identifier": null
+      },
+      {
+        "authors": [],
+        "title": "",
+        "identifier": null
+      },
+      {
         "authors": [
-          "I Díaz",
-          "N Hejazi",
-          "K Rudolph",
-          "M Van Der Laan"
+          "I References",
+          "N Díaz",
+          "K Hejazi",
+          "M Rudolph",
+          "Van Der Laan"
         ],
         "title": "Nonparametric efficient causal mediation with intermediate confounders",
         "identifier": null
@@ -13380,27 +13833,40 @@
     "filename": "2504.15870v1.pdf",
     "title": "Machine-learned RG-improved gauge actions and classically perfect gradient flows",
     "authors": [
-      "Kieran Holland",
-      "Andreas Ipp",
-      "David Müller",
-      "Urs Wenger"
+      {
+        "name": "Kieran Holland",
+        "affiliation": "University of the Pacific 3601 Pacific Avenue 95211 Stockton California USA"
+      },
+      {
+        "name": "Andreas Ipp",
+        "affiliation": "Institute for Theoretical Physics TU Wien Wiedner Hauptstraße 8-10/136 A-1040 Vienna Austria"
+      },
+      {
+        "name": "David Müller",
+        "affiliation": "Institute for Theoretical Physics TU Wien Wiedner Hauptstraße 8-10/136 A-1040 Vienna Austria"
+      },
+      {
+        "name": "Urs Wenger",
+        "affiliation": "Albert Einstein Center for Fundamental Physics Institute for Theoretical Physics University of Bern Sidlerstraße 5 CH-3012 Bern Switzerland"
+      }
     ],
     "abstract": "Extracting continuum properties of quantum field theories from discretized spacetime is challenging due to lattice artifacts. Renormalization-group (RG)-improved lattice actions can preserve continuum properties, but are in general difficult to parameterize. Machine learning (ML) with gauge-equivariant convolutional neural networks provides a way to efficiently describe such actions. We test a machine-learned RG-improved lattice gauge action, the classically perfect fixed-point (FP) action, for four-dimensional SU(3) gauge theory through Monte Carlo simulations. We establish that the gradient flow of the FP action is free of tree-level discretization effects to all orders in the lattice spacing, making it classically perfect. This allows us to test the quality of improvement of the FP action, without introducing additional artifacts. We find that discretization effects in gradient-flow observables are highly suppressed and less than 1% up to lattice spacings of 0.14 fm, allowing continuum physics to be extracted from coarse lattices. The quality of improvement achieved motivates the use of the FP action in future gauge theory studies. The advantages of ML-based parameterizations also highlight the possibility of realizing quantum perfect actions in lattice gauge theory.",
     "publication_date": "22 Apr 2025",
-    "acknowledgements": "ACKNOWLEDGEMENTS K.H. wishes to thank the  AEC and ITP at the University of Bern  for their support. U.W. acknowledges funding from the  Swiss National Science Foundation (SNSF)  project No.  200020 208222 . A.I. and D.M. acknowledge funding from the  Austrian Science Fund (FWF)  projects  P 32446 ,  P 34455 ,  P 34764  and  PAT3667424 . K.H. acknowledges funding from the  US National Science Foundation  under grants  2014150  and  2412320 . The computational results presented have been achieved in part using the  Vienna Scientific Cluster (VSC)  and  LEONARDO at CINECA, Italy , via an  AURELEO (Austrian Users at   LEONARDO supercomputer)  project, and UBELIX ( http://www.id.unibe.ch/hpc ), the  HPC cluster  at the  University of Bern .",
+    "acknowledgements": "ACKNOWLEDGEMENTS K.H. wishes to thank the  AEC  and  ITP  at the  University of Bern  for their support. U.W. acknowledges funding from the  Swiss National Science Foundation (SNSF)  project No.  200020 208222 . A.I. and D.M. acknowledge funding from the  Austrian Science Fund (FWF)  projects P 32446, P 34455, P  34764  and  PAT3667424. K.H . acknowledges funding from the  US National Science Foundation  under grants  2014150  and  2412320 . The computational results presented have been achieved in part using the  Vienna Scientific Cluster (VSC)  and LEONARDO at CINECA, Italy, via an  AURELEO (Austrian Users at LEONARDO  supercomputer) project, and  UBELIX  ( http://www.id.unibe.ch/hpc ), the  HPC cluster at the University of Bern .",
     "references": [
       {
         "authors": [
           "Y Aoki"
         ],
-        "title": "Flavour Lattice Averaging Group (FLAG)), FLAG Review",
+        "title": "Flavour Lattice Averaging Group (FLAG)), FLAG Review 2021",
         "identifier": "10.1140/epjc/s10052-022-10536-1"
       },
       {
         "authors": [
           "S Schaefer",
           "R Sommer",
-          "F Virotta"
+          "F Virotta",
+          "Alpha)"
         ],
         "title": "Critical slowing down and error analysis in lattice QCD simulations",
         "identifier": "10.1016/j.nuclphysb.2010.11.020"
@@ -13416,7 +13882,7 @@
         "authors": [
           "K Symanzik"
         ],
-        "title": "Continuum Limit and Improved Action in Lattice Theories. 2. O(N) Nonlinear Sigma Model in Perturbation Theory",
+        "title": "Nonlinear Sigma Model in Perturbation Theory",
         "identifier": "10.1016/0550-3213(83)90469-8"
       },
       {
@@ -13714,9 +14180,11 @@
           "S Duane",
           "A Kennedy",
           "B Pendleton",
-          "D Roweth"
+          "D Roweth",
+          "Monte Hybrid",
+          "Carlo"
         ],
-        "title": "Hybrid Monte Carlo",
+        "title": "",
         "identifier": "10.1016/0370-2693(87)91197-X"
       },
       {
@@ -13765,8 +14233,7 @@
           "T Kurth",
           "L Lellouch",
           "T Lippert",
-          "C Mcneile",
-          "Bmw"
+          "C Mcneile"
         ],
         "title": "High-precision scale setting in lattice QCD",
         "identifier": "10.1007/JHEP09(2012)010"
@@ -13917,7 +14384,7 @@
           "A Ramos",
           "S Sint",
           "R Sommer",
-          "( Al-Pha"
+          "Al-Pha)"
         ],
         "title": "Determination of αs(mZ ) by the non-perturbative decoupling method",
         "identifier": "10.1140/epjc/s10052-022-10998-3"
@@ -13951,13 +14418,22 @@
     "filename": "2504.15925v1.pdf",
     "title": "Improving robustness and training efficiency of machine-learned potentials by incorporating short-range empirical potentials",
     "authors": [
-      "Zihan Yan",
-      "Zheyong Fan",
-      "Yizhou Zhu"
+      {
+        "name": "Zihan Yan",
+        "affiliation": "School of Materials Science and Engineering Zhejiang University 310027 Hangzhou Zhejiang China"
+      },
+      {
+        "name": "Zheyong Fan",
+        "affiliation": "College of Physical Science and Technology Bohai University 121013 Jinzhou China"
+      },
+      {
+        "name": "Yizhou Zhu",
+        "affiliation": "Research Center for Industries of the Future and School of Engineering Westlake University 600 Dunyu Road 310030 Hangzhou Zhejiang China"
+      }
     ],
     "abstract": "Machine learning force fields (MLFFs) are powerful tools for materials modeling, but their performance is often limited by training dataset quality, particularly the lack of rare event configurations. This limitation undermines their accuracy and robustness in long-time and large-scale molecular dynamics simulations. In this work, we present a hybrid MLFF framework that integrates an empirical short-range repulsive potential and demonstrates improved robustness and training efficiency. Using solid electrolyte Li7La3Zr2O12 (LLZO) as a model system, we show that purely data-driven MLFFs fail to prevent unphysical atomistic clustering in extended simulations due to inadequate short-range repulsion. In contrast, the hybrid force field eliminates these artifacts, enabling stable long-time simulations, which are critical for studying various properties of LLZO. The hybrid framework also reduces the need for extensive active learning and performs well with just 25 training configurations. By combining physics-driven constraints with data-driven flexibility, this approach is compatible with most existing MLFF architectures and establishes a universal paradigm for developing robust, training-efficient force fields for complex material systems.",
     "publication_date": "April 23, 2025",
-    "acknowledgements": "ACKNOWLEDGEMENTS We acknowledge the support from the  Research Center for Industries of the Future (RCIF)  and the  High-Performance Computing Center (HPC)  at  Westlake University .",
+    "acknowledgements": "ACKNOWLEDGEMENTS We acknowledge the support from the  Research Center for Industries of the Future (RCIF)  and the  High-Performance Computing Center (HPC) at Westlake University .",
     "references": [
       {
         "authors": [
@@ -13987,7 +14463,7 @@
           "A Tkatchenko",
           "K.-R Müller"
         ],
-        "title": "Machine learning force fields",
+        "title": "",
         "identifier": null
       },
       {
@@ -14356,27 +14832,36 @@
     "filename": "2504.15964v1.pdf",
     "title": "Quantum machine learning advantages beyond hardness of evaluation",
     "authors": [
-      "Riccardo Molteni",
-      "Simon Marshall",
-      "Vedran Dunjko"
+      {
+        "name": "Riccardo Molteni",
+        "affiliation": "applied Quantum algorithms (aQa) Leiden University The Netherlands"
+      },
+      {
+        "name": "Simon Marshall",
+        "affiliation": "applied Quantum algorithms (aQa) Leiden University The Netherlands"
+      },
+      {
+        "name": "Vedran Dunjko",
+        "affiliation": "applied Quantum algorithms (aQa) Leiden University The Netherlands"
+      }
     ],
     "abstract": "In recent years we have seen numerous rigorous proofs of quantum advantages in machine learning across various scenarios. The most general and least contrived advantages, involving data labeled by cryptographic or intrinsically quantum functions, rely on the infeasibility of classical polynomial-sized circuits to evaluate the true labeling functions. As a result, classical learning algorithms, with or without training data, cannot label new points accurately. While broad in scope, these results however reveal little about advantages stemming from the actual learning process itself. In cryptographic settings, additional insights are possible. By leveraging the property of randomgeneratability-the ability to generate data classically-proofs of classical hardness for identification tasks, where the goal is to \"just\" identify the labeling function behind a dataset, even if that function is not classically tractable, are possible. Identification tasks are especially relevant in quantum contexts, as Hamiltonian learning and identifying physically meaningful order parameters fit in this paradigm. However, for quantum functions, random-generatability has been conjectured not to hold, leaving no known identification advantages for genuinely quantum settings. In this work, we provide the first proofs of identification learning advantages for quantum functions under complexity-theoretic assumptions. First, we confirm the conjecture that quantum-hard functions are not random-generatable unless BQP is in the second level of the polynomial hierarchy, ruling out strategies analogous to those used for cryptographic functions. We then establish a new approach, first showing that verifiable identification-a task where the learner must rejects invalid datasets but solve the identification problem for valid ones -is intractable for classical learners, for quantum labeling functions, unless BQP is in the polynomial hierarchy. Then, we demonstrate that in specific task classes, the ability to solve just the identification problem implies verifiable identification within the polynomial hierarchy. This leads to our main result: there exists a broad class of identification tasks involving quantum functions that are efficiently solvable by quantum learners but intractable for classical learners unless BQP is contained in a low level of the polynomial hierarchy. These findings suggest that for many quantum-associated learning tasks, the entire learning process-not just final evaluation-gains significant advantages from quantum computation.",
     "publication_date": "22 Apr 2025",
-    "acknowledgements": "Acknowledgments The authors are thankful to  Sofiene Jerbi  for numerous discussions and suggestions to look into Reed-Solomon codes, and to  Matthias Caro  for discussions involving the packing numbers of certain quantum concept classes. This publication is part of the project  Divide & Quantum  (with project number  1389.20.241 ) of the research programme NWA-ORC which is (partly) financed by the  Dutch Research Council (NWO) . This work was also supported by the  Dutch National Growth Fund (NGF) , as part of the  Quantum Delta NL programme . This work was also supported by the  European Union 's  Horizon Europe program  through the  ERC CoG BeMAIQuantum  (Grant No.  101124342 ).",
+    "acknowledgements": "Acknowledgments The authors are thankful to  Sofiene Jerbi  for numerous discussions and suggestions to look into Reed-Solomon codes, and to  Matthias Caro  for discussions involving the packing numbers of certain quantum concept classes. This publication is part of the project  Divide & Quantum  (with project number  1389.20.241 ) of the research programme  NWA-ORC  which is (partly) financed by the  Dutch Research Council (NWO) . This work was also supported by the  Dutch National Growth Fund (NGF) , as part of the  Quantum Delta NL programme . This work was also supported by the  European Union 's  Horizon Europe program  through the  ERC CoG BeMAIQuantum  (Grant No.  101124342 ).",
     "references": [
       {
         "authors": [],
-        "title": "3 Definitions of the identification tasks",
+        "title": "",
         "identifier": null
       },
       {
         "authors": [],
-        "title": "4 Tools from complexity theory",
+        "title": "",
         "identifier": null
       },
       {
         "authors": [],
-        "title": "5 Evidence that BQP ̸ ⊂ PH",
+        "title": "",
         "identifier": null
       },
       {
@@ -14436,13 +14921,12 @@
       },
       {
         "authors": [
-          "Sergey Bravyi",
-          "Anirban Chowdhury",
-          "David Gosset",
-          "Guanyu Vojt Ěch Havlíček",
-          "Zhu"
+          "Bcg + 24] Sergey",
+          "Anirban Bravyi",
+          "David Chowdhury",
+          "Gosset"
         ],
-        "title": "Quantum complexity of the kronecker coefficients",
+        "title": "Vojt ěch Havlíček, and Guanyu Zhu. Quantum complexity of the kronecker coefficients",
         "identifier": null
       },
       {
@@ -14456,18 +14940,11 @@
       },
       {
         "authors": [
-          "Bgv"
-        ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
-          "Alice Barthe",
-          "Michele Grossi",
-          "Sofia Vallecorsa",
-          "Jordi Tura",
-          "Vedran Dunjko"
+          "Michele Bgv + 24] Alice Barthe",
+          "Sofia Grossi",
+          "Jordi Vallecorsa",
+          "Vedran Tura",
+          "Dunjko"
         ],
         "title": "Parameterized quantum circuits as universal generative models for continuous multivariate distributions",
         "identifier": null
@@ -14478,7 +14955,7 @@
           "Luca Trevisan"
         ],
         "title": "Average-case complexity",
-        "identifier": null
+        "identifier": "BT + 06"
       },
       {
         "authors": [
@@ -14498,34 +14975,24 @@
       {
         "authors": [
           "Carlos González-Guillén",
-          "Toby Cubitt"
-        ],
-        "title": "History-state hamiltonians are critical",
-        "identifier": null
-      },
-      {
-        "authors": [],
-        "title": "HBM +",
-        "identifier": null
-      },
-      {
-        "authors": [
-          "Hsin-Yuan Huang",
-          "Michael Broughton",
-          "Masoud Mohseni",
-          "Ryan Babbush",
-          "Sergio Boixo",
-          "Hartmut Neven",
-          "Jarrod Mcclean"
+          "Toby Cubitt ; Hsin-Yuan",
+          "Michael Huang",
+          "Masoud Broughton",
+          "Ryan Mohseni",
+          "Sergio Babbush",
+          "Hartmut Boixo",
+          "Jarrod Neven",
+          "Mcclean"
         ],
         "title": "Power of data in quantum machine learning",
         "identifier": null
       },
       {
         "authors": [
-          "Hsin-Yuan Huang",
-          "Richard Kueng",
-          "Giacomo Torlai",
+          "Hkt + 22] Hsin-Yuan",
+          "Richard Huang",
+          "Giacomo Kueng",
+          "Torlai",
           "John Victor V Albert",
           "Preskill"
         ],
@@ -14543,8 +15010,9 @@
       },
       {
         "authors": [
-          "Sofiene Jerbi",
-          "Casper Gyurik",
+          "Jgm + 24] Sofiene",
+          "Casper Jerbi",
+          "Gyurik",
           "C Simon",
           "Riccardo Marshall",
           "Vedran Molteni",
@@ -14559,7 +15027,7 @@
           "Alexander Shen",
           "Mikhail Vyalyi"
         ],
-        "title": "Classical and quantum computation",
+        "title": "Classical and quantum computation. Number 47",
         "identifier": null
       },
       {
@@ -14636,12 +15104,12 @@
       },
       {
         "authors": [
-          "Kevin Shen",
-          "Andrii Kurkin",
-          "Adrián Pérez Salinas",
-          "Elvira Shishenina",
-          "Vedran Dunjko",
-          "Hao Wang"
+          "Andrii Sks + 24] Kevin Shen",
+          "Adrián Pérez Kurkin",
+          "Elvira Salinas",
+          "Vedran Shishenina",
+          "Hao Dunjko",
+          "Wang"
         ],
         "title": "Shadow-frugal expectation-value-sampling variational quantum generative model",
         "identifier": null
@@ -14652,7 +15120,7 @@
           "Vijay Wicker",
           "Bhargava"
         ],
-        "title": "Reed-Solomon codes and their applications",
+        "title": "Solomon codes and their applications",
         "identifier": null
       },
       {
@@ -14670,9 +15138,18 @@
     "filename": "2504.15993v1.pdf",
     "title": "Benchmarking machine learning models for predicting aerofoil performance",
     "authors": [
-      "Oliver Summerell",
-      "Gerardo Aragon-Camarasa",
-      "Stephanie Ordonez Sanchez"
+      {
+        "name": "Oliver Summerell",
+        "affiliation": "Computer Science Dept University of Glasgow University Avenue G12 8QQ Glasgow"
+      },
+      {
+        "name": "Gerardo Aragon-Camarasa",
+        "affiliation": "Computer Science Dept University of Glasgow University Avenue G12 8QQ Glasgow"
+      },
+      {
+        "name": "Stephanie Ordonez Sanchez",
+        "affiliation": "Computer Science Dept University of Glasgow University Avenue G12 8QQ Glasgow"
+      }
     ],
     "abstract": "This paper investigates the capability of Neural Networks (NNs) as alternatives to the traditional methods to analyse the performance of aerofoils used in the wind and tidal energy industry. The current methods used to assess the characteristic lift and drag coefficients include Computational Fluid Dynamics (CFD), thin aerofoil and panel methods, all face trade-offs between computational speed and the accuracy of the results and as such NNs have been investigated as an alternative with the aim that it would perform both quickly and accurately. As such, this paper provides a benchmark for the windAI_bench dataset [1] published by the National Renewable Energy Laboratory (NREL) in the USA. In order to validate the methodology of the benchmarking, the AirfRANS dataset [2] is used as both a starting point and a point of comparison. This study evaluates four neural networks (MLP, PointNet, GraphSAGE, GUNet) trained on a range aerofoils at 25 angles of attack (4 • to 20 • ). to predict fluid flow and calculate lift coefficients (CL) via the panel method. GraphSAGE and GUNet performed well during the testing phase, but underperformed during validation. Accordingly, this paper has identified PointNet and MLP as the two strongest models tested, however whilst the results from MLP are more commonly correct for predicting the behaviour of the fluid, the results from PointNet provide the more accurate results for calculating CL.",
     "publication_date": "22 Apr 2025",
@@ -14905,7 +15382,7 @@
           "S Ji"
         ],
         "title": "Graph u-nets",
-        "identifier": null
+        "identifier": "PMLR"
       },
       {
         "authors": [
@@ -14935,7 +15412,8 @@
       },
       {
         "authors": [
-          "M Technology"
+          "M Technology",
+          "( Mit)"
         ],
         "title": "Introduction to hdf5",
         "identifier": null
@@ -14948,9 +15426,9 @@
           "M Taves",
           "J Arnott",
           "B Ward",
-          "Others"
+          "Shapely"
         ],
-        "title": "Shapely",
+        "title": "",
         "identifier": null
       },
       {
@@ -15001,12 +15479,20 @@
   },
   {
     "filename": "2504.16100v1.pdf",
-    "title": "TOWARDS ACCURATE FORECASTING OF RENEWABLE ENERGY: BUILDING DATASETS AND BENCHMARKING MACHINE LEARNING MODELS FOR SOLAR AND WIND POWER IN FRANCE",
+    "title": "TOWARDS ACCURATE FORECASTING OF RENEWABLE ENERGY: BUILDING DATASETS AND BENCHMARKING MACHINE LEARNING MODELS FOR SOLAR AND WIND POWER IN FRANCE PREPRINT",
     "authors": [
-      "Eloi Preprint",
-      "Lindas",
-      "Yannig Goude",
-      "Philippe Ciais"
+      {
+        "name": "Eloi Lindas",
+        "affiliation": "Atos Inno'Lab TS Bezons Bezons France"
+      },
+      {
+        "name": "Yannig Goude",
+        "affiliation": "EDF R&D Lab, EDF Palaiseau France"
+      },
+      {
+        "name": "Philippe Ciais",
+        "affiliation": "Laboratoire des Sciences du Climat & de l'Environnement IPSL CEA/CNRS UVSQ Université Paris-Saclay Gif-sur-Yvette France"
+      }
     ],
     "abstract": "Accurate prediction of non-dispatchable renewable energy sources is essential for grid stability and price prediction. Regional power supply forecasts are usually indirect through a bottom-up approach of plant-level forecasts, incorporate lagged power values, and do not use the potential of spatially resolved data. This study presents a comprehensive methodology for predicting solar and wind power production at country scale in France using machine learning models trained with spatially explicit weather data combined with spatial information about production sites' capacity. A dataset is built spanning from 2012 to 2023, using daily power production data from RTE (the national grid operator) as the target variable, with daily weather data from ERA5, production sites capacity and location, and electricity prices as input features. Three modeling approaches are explored to handle spatially resolved weather data: spatial averaging over the country, dimension reduction through principal component analysis, and a computer vision architecture to exploit complex spatial relationships. The study benchmarks state-of-the-art machine learning models as well as hyperparameter tuning approaches based on cross-validation methods on daily power production data. Results indicate that cross-validation tailored to time series is best suited to reach low error. We found that neural networks tend to outperform traditional tree-based models, which face challenges in extrapolation due to the increasing renewable capacity over time. Model performance ranges from 4 % to 10 % in nRMSE for midterm horizon, achieving similar error metrics to local models established at a single-plant level, highlighting the potential of these methods for regional power supply forecasting.",
     "publication_date": "",
@@ -15093,11 +15579,9 @@
           "Francisco Bilendo",
           "Angela Meyer",
           "Hamed Badihi",
-          "Ningyun Lu",
-          "Philippe Cambron",
-          "Bin Jiang"
+          "Ningyun Lu"
         ],
-        "title": "Applications and modeling techniques of wind turbine power curve for wind farms: A review",
+        "title": "Philippe Cambron, and Bin Jiang. Applications and modeling techniques of wind turbine power curve for wind farms: A review",
         "identifier": "10.3390/en16010180"
       },
       {
@@ -15119,7 +15603,11 @@
         "identifier": "10.1002/widm.1484"
       },
       {
-        "authors": [],
+        "authors": [
+          "British Petroleum",
+          "( Bp",
+          ")"
+        ],
         "title": "Energy Outlook 2024: Exploring the key trends and uncertainties surrounding the energy transition",
         "identifier": null
       },
@@ -15164,7 +15652,7 @@
           "Q Chen",
           "K Folly"
         ],
-        "title": "Wind power forecasting",
+        "title": "Wind power forecasting. IFAC-PapersOnLine",
         "identifier": "10.1016/j.ifacol.2018.11.738"
       },
       {
@@ -15175,8 +15663,15 @@
           "S Jiménez-Fernández",
           "S Salcedo-Sanz"
         ],
-        "title": "Hydro-power production capacity prediction based on machine learning regression techniques",
+        "title": "Hydro-power production capacity prediction based on machine learning regression techniques. Knowledge-Based Systems",
         "identifier": "10.1016/j.knosys.2021.107012"
+      },
+      {
+        "authors": [
+          "Preprint"
+        ],
+        "title": "",
+        "identifier": null
       },
       {
         "authors": [
@@ -15228,12 +15723,12 @@
       },
       {
         "authors": [
-          "Marco Engeland",
-          "Jean-Dominique Borga",
-          "Baptiste Creutin",
-          "Maria-Helena François",
-          "Jean-Philippe Ramos",
-          "Vidal"
+          "Kolbjørn Engeland",
+          "Marco Borga",
+          "Jean-Dominique Creutin",
+          "Baptiste François",
+          "Maria-Helena Ramos",
+          "Jean-Philippe Vidal"
         ],
         "title": "Space-time variability of climate variables and intermittent renewable electricity production -a review",
         "identifier": "10.1016/j.rser.2017.05.046"
@@ -15257,7 +15752,7 @@
           "João Gama",
           "Pavel Brazdil"
         ],
-        "title": "Linear tree",
+        "title": "Linear tree. Intelligent Data Analysis",
         "identifier": "10.1016/S1088-467X(99)00002-5"
       },
       {
@@ -15330,12 +15825,7 @@
           "Patrick Laloyaux",
           "Philippe Lopez",
           "Cristina Lupu",
-          "Gabor Radnoti",
-          "Patricia Rosnay",
-          "Iryna Rozum",
-          "Freja Vamborg",
-          "Sebastien Villaume",
-          "Jean-Noël Thépaut"
+          "Gabor Radnoti"
         ],
         "title": "The ERA5 global reanalysis",
         "identifier": "10.1002/qj.3803"
@@ -15374,7 +15864,7 @@
       },
       {
         "authors": [],
-        "title": "Renewable Energy Prospects for Central and South-Eastern Europe Energy Connectivity (CESEC)",
+        "title": "International Renewable Energy Agency (IRENA). Renewable Energy Prospects for Central and South-Eastern Europe Energy Connectivity (CESEC)",
         "identifier": null
       },
       {
@@ -15383,7 +15873,7 @@
           "Etienne Naour"
         ],
         "title": "WINDDRAGON: Enhancing Wind Power Forecasting With Automated Deep Learning. Tackling Climate Change with Machine Learning",
-        "identifier": null
+        "identifier": "ICLR 2024"
       },
       {
         "authors": [
@@ -15522,12 +16012,12 @@
       },
       {
         "authors": [],
-        "title": "Ministère de la Transition Ecologique. Programmations pluriannuelles de l'énergie (PPE)",
+        "title": "Programmations pluriannuelles de l'énergie (PPE)",
         "identifier": null
       },
       {
         "authors": [],
-        "title": "Ministère de la Transition Ecologique. Stratégie nationale bas-carbone (SNBC)",
+        "title": "Stratégie nationale bas-carbone (SNBC)",
         "identifier": null
       },
       {
@@ -15626,7 +16116,7 @@
       },
       {
         "authors": [],
-        "title": "Paris Agreement: Climate Change Conference (COP21)",
+        "title": "United Nations Convention on Climate Change. Paris Agreement: Climate Change Conference",
         "identifier": null
       },
       {
@@ -15746,10 +16236,22 @@
     "filename": "2504.16131v1.pdf",
     "title": "Introduction to Quantum Machine Learning and Quantum Architecture Search",
     "authors": [
-      "Yen-Chi Samuel",
-      "Chen",
-      "Zhiding Liang",
-      "Wells Fargo"
+      {
+        "name": "Yen-Chi Samuel",
+        "affiliation": "Rensselaer Polytechnic Institute"
+      },
+      {
+        "name": "Chen",
+        "affiliation": "Rensselaer Polytechnic Institute"
+      },
+      {
+        "name": "Zhiding Liang",
+        "affiliation": "Rensselaer Polytechnic Institute"
+      },
+      {
+        "name": "Wells Fargo",
+        "affiliation": "Rensselaer Polytechnic Institute"
+      }
     ],
     "abstract": "Recent advancements in quantum computing (QC) and machine learning (ML) have fueled significant research efforts aimed at integrating these two transformative technologies. Quantum machine learning (QML), an emerging interdisciplinary field, leverages quantum principles to enhance the performance of ML algorithms. Concurrently, the exploration of systematic and automated approaches for designing highperformance quantum circuit architectures for QML tasks has gained prominence, as these methods empower researchers outside the quantum computing domain to effectively utilize quantum-enhanced tools. This tutorial will provide an in-depth overview of recent breakthroughs in both areas, highlighting their potential to expand the application landscape of QML across diverse fields.",
     "publication_date": "21 Apr 2025",
@@ -16212,12 +16714,30 @@
     "filename": "2504.16135v1.pdf",
     "title": "Optimizing Post-Cancer Treatment Prognosis: A Study of Machine Learning and Ensemble Techniques",
     "authors": [
-      "Joyee Chakraborty",
-      "Mazahrul Islam Tohin",
-      "Danbir Rashid",
-      "Ahmed Tanmoy",
-      "† Jehadul",
-      "Islam Mony"
+      {
+        "name": "Joyee Chakraborty",
+        "affiliation": "Department of Computer Science and Engineering Leading University 3112 Ragibnagar Sylhet Bangladesh"
+      },
+      {
+        "name": "Mazahrul Islam Tohin",
+        "affiliation": "Department of Computer Science and Engineering Leading University 3112 Ragibnagar Sylhet Bangladesh"
+      },
+      {
+        "name": "Danbir Rashid",
+        "affiliation": "Department of Computer Science and Engineering Leading University 3112 Ragibnagar Sylhet Bangladesh"
+      },
+      {
+        "name": "Ahmed Tanmoy",
+        "affiliation": "Department of Computer Science and Engineering Leading University 3112 Ragibnagar Sylhet Bangladesh"
+      },
+      {
+        "name": "† Jehadul",
+        "affiliation": null
+      },
+      {
+        "name": "Islam Mony",
+        "affiliation": "Department of Computer Science and Engineering Leading University 3112 Ragibnagar Sylhet Bangladesh"
+      }
     ],
     "abstract": "The aim is to create a method for accurately estimating the duration of postcancer treatment, particularly focused on chemotherapy, to optimize patient care and recovery. This initiative seeks to improve the effectiveness of cancer treatment, emphasizing the significance of each patient's journey and well-being. Our focus is to provide patients with valuable insight into their treatment timeline because we deeply believe that every life matters. We combined medical expertise with smart technology to create a model that accurately predicted each patient's treatment timeline. By using machine learning, we personalized predictions based on individual patient details which were collected from a regional government hospital named Sylhet M.A.G. Osmani Medical College & Hospital, Sylhet, Bangladesh, improving cancer care effectively. We tackled the challenge by employing around 13 machine learning algorithms and analyzing 15 distinct features, including Logistic Regression, Support Vector Machine, Decision Tree, Random Forest, etc we obtained a refined precision in predicting cancer patient's treatment durations. Furthermore, we utilized ensemble techniques to reinforce the accuracy of our methods. Notably, our study revealed that our majority voting ensemble classifier displayed exceptional performance, achieving 77% accuracy, with LightGBM and Random Forest closely following at approximately 76% accuracy. Our research unveiled the inherent complexities of cancer datasets, as seen in the Decision Tree's 59% accuracy. This emphasizes the need for improved algorithms to better predict outcomes and enhance patient care. Our comparison with other methods confirmed our promising accuracy rates, showing the potential impact of our approach in improving cancer treatment strategies. This study marks a significant step forward in optimizing post-cancer treatment prognosis using machine learning and ensemble techniques.",
     "publication_date": "",
@@ -16641,7 +17161,7 @@
           "P Perona"
         ],
         "title": "Quickly boosting decision treespruning underachieving features early",
-        "identifier": null
+        "identifier": "PMLR"
       },
       {
         "authors": [
@@ -16735,10 +17255,30 @@
     "filename": "2504.16172v1.pdf",
     "title": "Physics-Informed Inference Time Scaling via Simulation-Calibrated Scientific Machine Learning",
     "authors": [
-      "Zexi Fan",
-      "Yan Sun",
-      "Shihao Yang",
-      "Yiping Lu"
+      {
+        "name": "Zexi Fan",
+        "affiliation": "Peking University"
+      },
+      {
+        "name": "Yan Sun",
+        "affiliation": "Visa Inc"
+      },
+      {
+        "name": "Shihao Yang",
+        "affiliation": "Georgia Institute of Technology"
+      },
+      {
+        "name": "Yiping Lu",
+        "affiliation": "Northwestern University"
+      },
+      {
+        "name": "Neural Network",
+        "affiliation": null
+      },
+      {
+        "name": "Tensor Network",
+        "affiliation": null
+      }
     ],
     "abstract": "High-dimensional partial differential equations (PDEs) pose significant computational challenges across fields ranging from quantum chemistry to economics and finance. Although scientific machine learning (SciML) techniques offer approximate solutions, they often suffer from bias and neglect crucial physical insights. Inspired by inference-time scaling strategies in language models, we propose Simulation-Calibrated Scientific Machine Learning (SCaSML), a physics-informed framework that dynamically refines and debiases the SCiML predictions during inference by enforcing the physical laws. SCaSML leverages derived new physical laws that quantifies systematic errors and employs Monte Carlo solvers based on the Feynman-Kac and Elworthy-Bismut-Li formulas to dynamically correct the prediction. Both numerical and theoretical analysis confirms enhanced convergence rates via compute-optimal inference methods. Our numerical experiments demonstrate that SCaSML reduces errors by 20-50% compared to the base surrogate model, establishing it as the first algorithm to refine approximated solutions to high-dimensional PDE during inference. Code of SCaSML is available at  https://github.com/Francis-Fan-create/SCaSML .",
     "publication_date": "22 Apr 2025",
@@ -16769,7 +17309,7 @@
           "A Stuart"
         ],
         "title": "Error analysis of kernel/gp methods for nonlinear and parametric pdes",
-        "identifier": "arXiv:2305.04962,05"
+        "identifier": "arXiv:2305.04962"
       },
       {
         "authors": [
@@ -16848,7 +17388,7 @@
           "H.-J Bungartz",
           "M Griebel"
         ],
-        "title": "Sparse grids",
+        "title": "Sparse grids. Acta numerica",
         "identifier": null
       },
       {
@@ -16932,7 +17472,7 @@
           "C Geiss",
           "C Labart"
         ],
-        "title": "Simulation of BSDEs with jumps by Wiener chaos expansion",
+        "title": "Simulation of BSDEs with jumps by Wiener chaos expansion. Stochastic processes and their applications",
         "identifier": null
       },
       {
@@ -17011,7 +17551,7 @@
           "S Ermon"
         ],
         "title": "Learning neural pde solvers with convergence guarantees",
-        "identifier": "arXiv:1906.01200,06"
+        "identifier": "arXiv:1906.01200"
       },
       {
         "authors": [
@@ -17064,7 +17604,13 @@
           "M Hutzenthaler",
           "A Jentzen",
           "T Kruse",
-          "T Nguyen",
+          "T Nguyen"
+        ],
+        "title": "Multilevel picard approximations for high-dimensional semilinear second-order pdes with lipschitz nonlinearities",
+        "identifier": null
+      },
+      {
+        "authors": [
           "M Hutzenthaler",
           "A Jentzen",
           "T Kruse"
@@ -17078,6 +17624,11 @@
           "H Yan"
         ],
         "title": "Engineering-driven statistical adjustment and calibration",
+        "identifier": null
+      },
+      {
+        "authors": [],
+        "title": "",
         "identifier": null
       },
       {
@@ -17112,7 +17663,7 @@
           "B Dong"
         ],
         "title": "Pde-net: Learning pdes from data",
-        "identifier": null
+        "identifier": "PMLR"
       },
       {
         "authors": [
@@ -17183,7 +17734,7 @@
           "N Nüsken"
         ],
         "title": "Solving high-dimensional parabolic pdes using the tensor train format",
-        "identifier": null
+        "identifier": "PMLR"
       },
       {
         "authors": [
@@ -17191,9 +17742,9 @@
           "R Ramon Braunwarth",
           "M Martin Hutzenthaler",
           "A Arnulf Jentzen",
-          "P Philippe Von Wurstemberger"
+          "P"
         ],
-        "title": "Numerical simulations for full history recursive multilevel picard approximations for systems of high-dimensional partial differential equations",
+        "title": "Philippe von Wurstemberger. Numerical simulations for full history recursive multilevel picard approximations for systems of high-dimensional partial differential equations",
         "identifier": "10.4208/cicp.OA-2020-0130"
       },
       {
@@ -17230,7 +17781,7 @@
           "W Zhang"
         ],
         "title": "A novel paradigm for solving pdes: multi scale neural computing",
-        "identifier": "arXiv:2312.06949,12"
+        "identifier": "arXiv:2312.06949"
       },
       {
         "authors": [
@@ -17328,11 +17879,26 @@
     "filename": "2504.16192v1.pdf",
     "title": "Probabilistic Emulation of the Community Radiative Transfer Model Using Machine Learning",
     "authors": [
-      "Lucas Howard",
-      "Aneesh Subramanian",
-      "Gregory Thompson",
-      "Benjamin Johnson",
-      "Thomas Auligne"
+      {
+        "name": "Lucas Howard",
+        "affiliation": "Department of Atmospheric and Oceanic Science University of Colorado Boulder"
+      },
+      {
+        "name": "Aneesh Subramanian",
+        "affiliation": "Department of Atmospheric and Oceanic Science University of Colorado Boulder"
+      },
+      {
+        "name": "Gregory Thompson",
+        "affiliation": "Joint Center for Satellite Data Assimilation University Center for Atmospheric Research"
+      },
+      {
+        "name": "Benjamin Johnson",
+        "affiliation": "Joint Center for Satellite Data Assimilation University Center for Atmospheric Research"
+      },
+      {
+        "name": "Thomas Auligne",
+        "affiliation": "Joint Center for Satellite Data Assimilation University Center for Atmospheric Research"
+      }
     ],
     "abstract": "The continuous improvement in weather forecast skill over the past several decades is largely due to the increasing quantity of available satellite observations and their assimilation into operational forecast systems. Assimilating these observations requires observation operators in the form of radiative transfer models. Significant efforts have been dedicated to enhancing the computational efficiency of these models. Computational cost remains a bottleneck, and a large fraction of available data goes unused for assimilation. To address this, we used machine learning to build an efficient neural network based probabilistic emulator of the Community Radiative Transfer Model (CRTM), applied to the GOES Advanced Baseline Imager. The trained NN emulator predicts brightness temperatures output by CRTM and the corresponding error with respect to CRTM. RMSE of the predicted brightness temperature is 0.3 K averaged across all channels. For clear sky conditions, the RMSE is less than 0.1 K for 9 out of 10 infrared channels. The error predictions are generally reliable across a wide range of conditions. Explainable AI methods demonstrate that the trained emulator reproduces the relevant physics, increasing confidence that the model will perform well when presented with new data.",
     "publication_date": "22 Apr 2025",
@@ -17361,7 +17927,7 @@
           "M Demaria"
         ],
         "title": "Sinh-arcsinh-normal distributions to add uncertainty to neural network regression tasks: Applications to tropical cyclone intensity forecasts",
-        "identifier": "10.1017/eds.2023"
+        "identifier": "10.1017/eds.2023.7"
       },
       {
         "authors": [
@@ -17378,7 +17944,7 @@
           "Coauthors"
         ],
         "title": "Machine Learning for Earth System Observation and Prediction",
-        "identifier": "10.1175/BAMS-D-20-0307"
+        "identifier": "10.1175/BAMS-D-20-0307.1"
       },
       {
         "authors": [
@@ -17387,7 +17953,7 @@
           "J Bédard"
         ],
         "title": "A New Approach for Estimating the Observation Impact in Ensemble-Variational Data Assimilation",
-        "identifier": "10.1175/MWR-D-17-0252"
+        "identifier": "10.1175/MWR-D-17-0252.1"
       },
       {
         "authors": [
@@ -17401,13 +17967,13 @@
           "N Hayatbini"
         ],
         "title": "Probabilistic Predictions from Deterministic Atmospheric River Forecasts with Deep Learning",
-        "identifier": "10.1175/MWR-D-21-0106"
+        "identifier": "10.1175/MWR-D-21-0106.1"
       },
       {
         "authors": [
           "F Chollet"
         ],
-        "title": "Keras",
+        "title": "",
         "identifier": null
       },
       {
@@ -17437,7 +18003,7 @@
         "authors": [
           "A Geer"
         ],
-        "title": "Learning earth system models from observations: machine learning or data assimilation",
+        "title": "Learning earth system models from observations: machine learning or data assimilation?",
         "identifier": "10.1098/rsta.2020.0089"
       },
       {
@@ -17484,7 +18050,7 @@
           "A Subramanian",
           "I Hoteit"
         ],
-        "title": "A Machine Learning Augmented Data Assimilation Method for High-Resolution Observations",
+        "title": "2024: A Machine Learning Augmented Data Assimilation Method for High-Resolution Observations",
         "identifier": "10.1029/2023MS003774"
       },
       {
@@ -17497,14 +18063,14 @@
           "T Auligne"
         ],
         "title": "The Community Radiative Transfer Model (CRTM): Community-Focused Collaborative Model Development Accelerating Research to Operations",
-        "identifier": "10.1175/BAMS-D-22-0015"
+        "identifier": "10.1175/BAMS-D-22-0015.1"
       },
       {
         "authors": [
           "D Kingma",
           "J Ba"
         ],
-        "title": "Adam: A Method for Stochastic Optimization",
+        "title": "Adam: A Method for Stochastic Optimization. 3rd International Conference on Learning Representations, ICLR 2015",
         "identifier": null
       },
       {
@@ -17525,7 +18091,7 @@
           "K Ide",
           "S Boukabara"
         ],
-        "title": "A Deep-Learning-Based Microwave Radiative Transfer Emulator for Data Assimilation and Remote Sensing",
+        "title": "2022: A Deep-Learning-Based Microwave Radiative Transfer Emulator for Data Assimilation and Remote Sensing",
         "identifier": "10.1109/JSTARS.2022.3210491"
       },
       {
@@ -17576,7 +18142,7 @@
           "W Lebair"
         ],
         "title": "A Closer Look at the ABI on the GOES-R Series",
-        "identifier": "10.1175/BAMS-D-15-00230"
+        "identifier": "10.1175/BAMS-D-15-00230.1"
       },
       {
         "authors": [
@@ -17614,7 +18180,7 @@
           "J Hoeve"
         ],
         "title": "Evolving the National Weather Service to Build a Weather-Ready Nation: Connecting Observations, Forecasts, and Warnings to Decision-Makers through Impact-Based Decision Support Services",
-        "identifier": "10.1175/BAMS-D-18-0159"
+        "identifier": "10.1175/BAMS-D-18-0159.1"
       },
       {
         "authors": [
@@ -17629,22 +18195,27 @@
     "filename": "2504.16238v1.pdf",
     "title": "General Post-Processing Framework for Fairness Adjustment of Machine Learning Models",
     "authors": [
-      "Léandre Eberhard",
-      "Nirek Sharma",
-      "Filipp Shelobolin",
-      "Aalok Ganesh"
+      {
+        "name": "Léandre Eberhard",
+        "affiliation": null
+      },
+      {
+        "name": "Nirek Sharma",
+        "affiliation": null
+      },
+      {
+        "name": "Filipp Shelobolin",
+        "affiliation": null
+      },
+      {
+        "name": "Aalok Ganesh",
+        "affiliation": null
+      }
     ],
     "abstract": "As machine learning increasingly influences critical domains such as credit underwriting, public policy, and talent acquisition, ensuring compliance with fairness constraints is both a legal and ethical imperative. This paper introduces a novel framework for fairness adjustments that applies to diverse machine learning tasks, including regression and classification, and accommodates a wide range of fairness metrics. Unlike traditional approaches categorized as pre-processing, in-processing, or post-processing, our method adapts in-processing techniques for use as a post-processing step. By decoupling fairness adjustments from the model training process, our framework preserves model performance on average while enabling greater flexibility in model development. Key advantages include eliminating the need for custom loss functions, enabling fairness tuning using different datasets, accommodating proprietary models as black-box systems, and providing interpretable insights into the fairness adjustments. We demonstrate the effectiveness of this approach by comparing it to Adversarial Debiasing, showing that our framework achieves a comparable fairness/accuracy tradeoff on real-world datasets.",
     "publication_date": "April 24, 2025",
     "acknowledgements": "",
     "references": [
-      {
-        "authors": [
-          "Agarwal"
-        ],
-        "title": "",
-        "identifier": null
-      },
       {
         "authors": [
           "A Agarwal",
@@ -17660,159 +18231,57 @@
         "authors": [
           "Angwin"
         ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
-          "Julia Angwin",
-          "Jeff Larson",
-          "Surya Mattu",
-          "Lauren Kirchner"
-        ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
-          "Bellamy"
-        ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
-          "K Rachel",
-          "Kuntal Bellamy",
-          "Michael Dey",
-          "Hind",
-          "C Samuel",
-          "Stephanie Hoffman",
-          "Kalapriya Houde",
-          "Pranay Kannan",
-          "Jacquelyn Lohia",
-          "Sameep Martino",
-          "Aleksandra Mehta",
-          "Seema Mojsilovic",
-          "Karthikeyan Nagar",
-          "John Natesan Ramamurthy",
-          "Diptikalyan Richards",
-          "Prasanna Saha",
-          "Moninder Sattigeri",
-          "Kush Singh",
-          "Yunfeng Varshney",
-          "Zhang"
-        ],
-        "title": "AI Fairness 360: An Extensible Toolkit for Detecting, Understanding, and Mitigating Unwanted Algorithmic Bias",
+        "title": "An Extensible Toolkit for Detecting, Understanding, and Mitigating Unwanted Algorithmic Bias",
         "identifier": null
       },
       {
         "authors": [
           "Calders"
         ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
-          "Toon Calders",
-          "Faisal Kamiran",
-          "Mykola Pechenizkiy"
-        ],
         "title": "Building Classifiers with Independency Constraints",
         "identifier": "10.1109/ICDMW.2009.83"
       },
       {
         "authors": [
-          "Keswani Celis"
-        ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
+          "Keswani Celis",
           "L",
           "Elisa Celis",
-          "Vijay Keswani"
-        ],
-        "title": "Improved Adversarial Learning for Fair Classification",
-        "identifier": "arXiv:1901.10443[cs.LG"
-      },
-      {
-        "authors": [
-          "Donini"
-        ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
-          "M Donini",
+          "Vijay Keswani",
+          "; Donini",
           "L Oneto",
           "S Ben-David",
           "J Shawe-Taylor",
           "M Pontil"
         ],
         "title": "Empirical Risk Minimization under Fairness Constraints",
-        "identifier": "arXiv:1802.08626[cs.LG"
+        "identifier": "arXiv:1901.10443"
       },
       {
         "authors": [
           "Du"
         ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
-          "Mengnan Du",
-          "Subhabrata Mukherjee",
-          "Guanchu Wang",
-          "Ruixiang Tang",
-          "Ahmed Awadallah",
-          "Xia Hu"
-        ],
-        "title": "Fairness via representation neutralization",
+        "title": "Ruixiang Tang, Ahmed Awadallah, and Xia Hu. 2021. Fairness via representation neutralization",
         "identifier": null
       },
       {
         "authors": [
           "Graff Dua"
         ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
-          "Dheeru Dua",
-          "Casey Graff"
-        ],
-        "title": "UCI Machine Learning Repository",
+        "title": "Dheeru Dua and Casey Graff",
         "identifier": null
       },
       {
         "authors": [
           "Dwork"
         ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
-          "Cynthia Dwork",
-          "Moritz Hardt",
-          "Toniann Pitassi",
-          "Omer Reingold",
-          "Rich Zemel"
-        ],
         "title": "Fairness Through Awareness",
-        "identifier": "arXiv:1104.3913"
+        "identifier": "arXiv:1104.3913[cs.CC"
       },
       {
         "authors": [
           "Grari"
         ],
-        "title": "Fair Adversarial Gradient Tree Boosting",
+        "title": "2019a. Fair Adversarial Gradient Tree Boosting",
         "identifier": null
       },
       {
@@ -17824,13 +18293,7 @@
       },
       {
         "authors": [
-          "Domingo-Ferrer Hajian"
-        ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
+          "Domingo-Ferrer ; Hajian",
           "Sara Hajian",
           "Josep Domingo-Ferrer"
         ],
@@ -17841,49 +18304,12 @@
         "authors": [
           "Hardt"
         ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
-          "Moritz Hardt",
-          "Eric Price",
-          "Nati Srebro"
-        ],
-        "title": "Equality of opportunity in supervised learning",
-        "identifier": null
-      },
-      {
-        "authors": [
-          "Vasileios Iosifidis",
-          "Eirini Ntoutsi"
-        ],
         "title": "Dealing with bias via data augmentation in supervised learning scenarios",
         "identifier": null
       },
       {
         "authors": [
-          "Jo Bates",
-          "Paul"
-        ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
           "Jung"
-        ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
-          "Christopher Jung",
-          "Michael Kearns",
-          "Seth Neel",
-          "Aaron Roth",
-          "Logan Stapleton",
-          "Zhiwei Wu"
         ],
         "title": "An Algorithmic Framework for Fairness Elicitation",
         "identifier": "arXiv:1905.10660[cs.LG"
@@ -17892,47 +18318,12 @@
         "authors": [
           "Kamiran"
         ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
-          "Faisal Kamiran",
-          "Asim Karim",
-          "Xiangliang Zhang"
-        ],
-        "title": "Decision Theory for Discrimination-Aware Classification",
+        "title": "Fairness-Aware Classifier with Prejudice Remover Regularizer",
         "identifier": "10.1109/ICDM.2012.45"
       },
       {
         "authors": [
-          "Kamishima"
-        ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
-          "Toshihiro Kamishima",
-          "Shotaro Akaho",
-          "Hideki Asoh",
-          "Jun Sakuma"
-        ],
-        "title": "Fairness-Aware Classifier with Prejudice Remover Regularizer",
-        "identifier": null
-      },
-      {
-        "authors": [
           "Kim"
-        ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
-          "Michael Kim",
-          "Omer Reingold",
-          "Guy Rothblum"
         ],
         "title": "Fairness through computationally-bounded awareness",
         "identifier": null
@@ -17941,41 +18332,12 @@
         "authors": [
           "Lohia"
         ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
-          "K Pranay",
-          "Karthikeyan Lohia",
-          "Manish Natesan Ramamurthy",
-          "Diptikalyan Bhide",
-          "Kush Saha",
-          "Ruchir Varshney",
-          "Puri"
-        ],
         "title": "Bias Mitigation Post-processing for Individual and Group Fairness",
         "identifier": "arXiv:1812.06135[cs.LG"
       },
       {
         "authors": [
           "Mcelfresh"
-        ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
-          "Duncan Mcelfresh",
-          "Sujay Khandagale",
-          "Jonathan Valverde",
-          "Vishak Prasad",
-          "C",
-          "Benjamin Feuer",
-          "Chinmay Hegde",
-          "Ganesh Ramakrishnan",
-          "Micah Goldblum",
-          "Colin White"
         ],
         "title": "When Do Neural Nets Outperform Boosted Trees on Tabular Data?",
         "identifier": "arXiv:2305.02997[cs.LG"
@@ -17984,66 +18346,22 @@
         "authors": [
           "Mehrabi"
         ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
-          "Ninareh Mehrabi",
-          "Umang Gupta",
-          "Fred Morstatter",
-          "Greg Ver Steeg",
-          "Aram Galstyan"
-        ],
         "title": "Attributing Fair Decisions with Attention Interventions",
-        "identifier": "arXiv:2109.03952"
+        "identifier": "arXiv:2109.03952[cs.AI"
       },
       {
         "authors": [
           "Mehrabi"
-        ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
-          "Ninareh Mehrabi",
-          "Fred Morstatter",
-          "Nripsuta Saxena",
-          "Kristina Lerman",
-          "Aram Galstyan"
         ],
         "title": "A Survey on Bias and Fairness in Machine Learning",
         "identifier": "arXiv:1908.09635[cs.LG"
       },
       {
         "authors": [
-          "Williamson Menon"
-        ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
+          "Williamson Menon",
           "Aditya",
           "Krishna Menon",
           "Robert Williamson"
-        ],
-        "title": "The cost of fairness in binary classification",
-        "identifier": null
-      },
-      {
-        "authors": [
-          "Wadsworth"
-        ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
-          "Christina Wadsworth",
-          "Francesca Vera",
-          "Chris Piech"
         ],
         "title": "Achieving Fairness through Adversarial Learning: an Application to Recidivism Prediction",
         "identifier": "arXiv:1807.00199[cs.LG"
@@ -18052,31 +18370,12 @@
         "authors": [
           "Wang"
         ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
-          "Chi Wang",
-          "Qingyun Wu",
-          "Markus Weimer",
-          "Eric Zhu"
-        ],
         "title": "FLAML: A Fast and Lightweight AutoML Library",
         "identifier": null
       },
       {
         "authors": [
           "Wang"
-        ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
-          "Hao Wang",
-          "Berk Ustun",
-          "Flavio Calmon"
         ],
         "title": "Repairing without Retraining: Avoiding Disparate Impact with Counterfactual Distributions",
         "identifier": "arXiv:1901.10501[cs.LG"
@@ -18085,31 +18384,12 @@
         "authors": [
           "Zafar"
         ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
-          "Muhammad Bilal Zafar",
-          "Isabel Valera",
-          "Manuel Rodriguez",
-          "Krishna Gummadi"
-        ],
         "title": "Fairness Constraints: Mechanisms for Fair Classification",
         "identifier": "arXiv:1507.05259"
       },
       {
         "authors": [
           "Zhang"
-        ],
-        "title": "",
-        "identifier": null
-      },
-      {
-        "authors": [
-          "Brian Hu Zhang",
-          "Blake Lemoine",
-          "Margaret Mitchell"
         ],
         "title": "Mitigating Unwanted Biases with Adversarial Learning",
         "identifier": null
@@ -18120,10 +18400,22 @@
     "filename": "2504.16418v1.pdf",
     "title": "Scalable Data-Driven Basis Selection for Linear Machine Learning Interatomic Potentials",
     "authors": [
-      "Tina Torabi",
-      "Matthias Militzer",
-      "Michael Friedlander",
-      "Christoph Ortner"
+      {
+        "name": "Tina Torabi",
+        "affiliation": "Department of Mathematics University of British Columbia V6T1Z2 Vancouver BC Canada"
+      },
+      {
+        "name": "Matthias Militzer",
+        "affiliation": "The Centre for Metallurgical Process Engineering University of British Columbia V6T 1Z4 Vancouver BC Canada"
+      },
+      {
+        "name": "Michael Friedlander",
+        "affiliation": "Department of Computer Science University of British Columbia V6T1Z2 Vancouver BC Canada"
+      },
+      {
+        "name": "Christoph Ortner",
+        "affiliation": "Department of Mathematics University of British Columbia V6T1Z2 Vancouver BC Canada"
+      }
     ],
     "abstract": "Machine learning interatomic potentials (MLIPs) provide an effective approach for accurately and efficiently modeling atomic interactions, expanding the capabilities of atomistic simulations to complex systems. However, a priori feature selection leads to high complexity, which can be detrimental to both computational cost and generalization, resulting in a need for hyperparameter tuning. We demonstrate the benefits of active set algorithms for automated data-driven feature selection. The proposed methods are implemented within the Atomic Cluster Expansion (ACE) framework. Computational tests conducted on a variety of benchmark datasets indicate that sparse ACE models consistently enhance computational efficiency, generalization accuracy and interpretability over dense ACE models. An added benefit of the proposed algorithms is that they produce entire paths of models with varying cost/accuracy ratio.",
     "publication_date": "",
@@ -18194,7 +18486,7 @@
           "G Csányi",
           "V Deringer"
         ],
-        "title": "De novo exploration and self-guided learning of potential-energy surfaces",
+        "title": "De novo exploration and self-guided learning of potential-energy surfaces. npj Computational Materials",
         "identifier": null
       },
       {
@@ -18202,7 +18494,7 @@
           "Dimitris Bertsimas",
           "John Tsitsiklis"
         ],
-        "title": "Introduction to Linear Optimization",
+        "title": "",
         "identifier": null
       },
       {
@@ -18389,11 +18681,9 @@
       },
       {
         "authors": [
-          "P Michael",
-          "Friedlander",
-          "Contributors"
+          "P Michael"
         ],
-        "title": "Qrupdate.jl -a julia package for updating qr factorizations",
+        "title": "Friedlander and contributors. Qrupdate.jl -a julia package for updating qr factorizations",
         "identifier": null
       },
       {
@@ -18409,7 +18699,7 @@
         "authors": [
           "William Karush"
         ],
-        "title": "Minima of functions of several variables with inequalities as side conditions",
+        "title": "Minima of functions of several variables with inequalities as side conditions. Master's thesis",
         "identifier": null
       },
       {
@@ -18449,7 +18739,7 @@
         "authors": [
           "Stphane Mallat"
         ],
-        "title": "A Wavelet Tour of Signal Processing, Third Edition: The Sparse Way",
+        "title": "A Wavelet Tour of Signal Processing",
         "identifier": null
       },
       {
@@ -18566,9 +18856,10 @@
       },
       {
         "authors": [
-          "Tina Torabi"
+          "Tina Torabi",
+          "Activesetpursuit"
         ],
-        "title": "Activesetpursuit.jl: A julia implementation of active set pursuit algorithms for sparse optimization",
+        "title": "jl: A julia implementation of active set pursuit algorithms for sparse optimization",
         "identifier": null
       },
       {
@@ -18623,10 +18914,9 @@
           "N Kermode",
           "G Bernstein",
           "C Csányi",
-          "Ortner",
-          "Acepotentials"
+          "Ortner"
         ],
-        "title": ".jl: A Julia implementation of the atomic cluster expansion",
+        "title": "ACEpotentials.jl: A Julia implementation of the atomic cluster expansion",
         "identifier": null
       },
       {
@@ -18668,9 +18958,18 @@
     "filename": "2504.16493v1.pdf",
     "title": "Breaking scaling relations with inverse catalysts: a machine learning exploration of trends in CO 2 hydrogenation energy barriers",
     "authors": [
-      "Luuk Kempen",
-      "Marius Nielsen",
-      "Mie Andersen"
+      {
+        "name": "Luuk Kempen",
+        "affiliation": "Center for Interstellar Catalysis Department of Physics and Astronomy Aarhus University Aarhus C Denmark"
+      },
+      {
+        "name": "Marius Nielsen",
+        "affiliation": "Center for Interstellar Catalysis Department of Physics and Astronomy Aarhus University Aarhus C Denmark"
+      },
+      {
+        "name": "Mie Andersen",
+        "affiliation": "Center for Interstellar Catalysis Department of Physics and Astronomy Aarhus University Aarhus C Denmark"
+      }
     ],
     "abstract": "The conversion of CO 2 into useful products such as methanol is a key strategy for abating climate change and our dependence on fossil fuels. Developing new catalysts for this process is costly and time-consuming and can thus benefit from computational exploration of possible active sites. However, this is complicated by the complexity of the materials and reaction networks. Here, we present a workflow for exploring transition states of elementary reaction steps at inverse catalysts, which is based on the training of a neural network-based machine learning interatomic potential. We focus on the crucial formate intermediate and its formation over nanoclusters of indium oxide supported on Cu(111). The speedup compared to an approach purely based on density functional theory allows us to probe a wide variety of active sites found at nanoclusters of different sizes and stoichiometries. Analysis of the obtained set of transition state geometries reveals different structure-activity trends at the edge or interior of the nanoclusters. Furthermore, the identified geometries allow for the breaking of linear scaling relations, which could be a key underlying reason for the excellent catalytic performance of inverse catalysts observed in experiments.",
     "publication_date": "April 24, 2025",
@@ -18794,7 +19093,7 @@
           "G Mills",
           "K Jacobsen"
         ],
-        "title": "Nudged elastic band method for finding minimum energy paths of transitions",
+        "title": "Nudged elastic band method for finding minimum energy paths of transitions in Classical and Quantum Dynamics in Condensed Phase Simulations",
         "identifier": "10.1142/9789812839664_0016"
       },
       {
@@ -18893,7 +19192,7 @@
         "authors": [
           "J Mortensen"
         ],
-        "title": "An open Python package for electronic structure calculations",
+        "title": "GPAW: An open Python package for electronic structure calculations",
         "identifier": "10.1063/5.0182685"
       },
       {
@@ -18987,7 +19286,7 @@
           "M Koyama",
           "Optuna"
         ],
-        "title": "A Next-generation Hyperparameter Optimization Framework",
+        "title": "A Next-generation Hyperparameter Optimization Framework in Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining",
         "identifier": "10.1145/3292500.3330701"
       },
       {
@@ -19056,10 +19355,11 @@
           "M Schäfer",
           "S Tovey",
           "J Kästner",
-          "C Holm"
+          "C Holm",
+          "Zntrack"
         ],
-        "title": "ZnTrack -Data as Code",
-        "identifier": "arXiv:2401.10603[cs.SE"
+        "title": "Data as Code 2024",
+        "identifier": "arXiv:2401.10603"
       },
       {
         "authors": [
@@ -19109,44 +19409,158 @@
     "filename": "2504.16791v1.pdf",
     "title": "Radiometer Calibration using Machine Learning",
     "authors": [
-      "S Leeney",
-      "H Bevins",
-      "E De Lera Acedo",
-      "W Handley",
-      "C Kirkham",
-      "R Patel",
-      "J Zhu",
-      "D Molnar",
-      "J Cumner",
-      "D Anstey",
-      "K Artuc",
-      "G Bernardi",
-      "M Bucher",
-      "S Carey",
-      "J Cavillot",
-      "R Chiello",
-      "W Croukamp",
-      "D De Villiers",
-      "J Ely",
-      "A Fialkov",
-      "T Gessey-Jones",
-      "G Kulkarni",
-      "A Magro",
-      "P Meerburg",
-      "S Mittal",
-      "J Pattison",
-      "S Pegwal",
-      "C Pieterse",
-      "J Pritchard",
-      "E Puchwein",
-      "N Razavi-Ghods",
-      "I Roque",
-      "A Saxena",
-      "K Scheutwinkel",
-      "P Scott",
-      "E Shen",
-      "P Sims",
-      "M Spinelli"
+      {
+        "name": "S Leeney",
+        "affiliation": "Astrophysics Group, Cavendish Laboratory University of Cambridge J. J. Thomson Avenue CB3 0HE Cambridge UK"
+      },
+      {
+        "name": "H Bevins",
+        "affiliation": "Astrophysics Group, Cavendish Laboratory University of Cambridge J. J. Thomson Avenue CB3 0HE Cambridge UK"
+      },
+      {
+        "name": "E De Lera Acedo",
+        "affiliation": "Astrophysics Group, Cavendish Laboratory University of Cambridge J. J. Thomson Avenue CB3 0HE Cambridge UK"
+      },
+      {
+        "name": "W Handley",
+        "affiliation": "Kavli Institute for Cosmology in Cambridge University of Cambridge Madingley Road CB3 0HA Cambridge UK"
+      },
+      {
+        "name": "C Kirkham",
+        "affiliation": "Astrophysics Group, Cavendish Laboratory University of Cambridge J. J. Thomson Avenue CB3 0HE Cambridge UK"
+      },
+      {
+        "name": "R Patel",
+        "affiliation": "Astrophysics Group, Cavendish Laboratory University of Cambridge J. J. Thomson Avenue CB3 0HE Cambridge UK"
+      },
+      {
+        "name": "J Zhu",
+        "affiliation": "Astrophysics Group, Cavendish Laboratory University of Cambridge J. J. Thomson Avenue CB3 0HE Cambridge UK"
+      },
+      {
+        "name": "D Molnar",
+        "affiliation": "Astrophysics Group, Cavendish Laboratory University of Cambridge J. J. Thomson Avenue CB3 0HE Cambridge UK"
+      },
+      {
+        "name": "J Cumner",
+        "affiliation": "Astrophysics Group, Cavendish Laboratory University of Cambridge J. J. Thomson Avenue CB3 0HE Cambridge UK"
+      },
+      {
+        "name": "D Anstey",
+        "affiliation": "Astrophysics Group, Cavendish Laboratory University of Cambridge J. J. Thomson Avenue CB3 0HE Cambridge UK"
+      },
+      {
+        "name": "K Artuc",
+        "affiliation": "Astrophysics Group, Cavendish Laboratory University of Cambridge J. J. Thomson Avenue CB3 0HE Cambridge UK"
+      },
+      {
+        "name": "G Bernardi",
+        "affiliation": "INAF-Istituto di Radio Astronomia Via Gobetti 101 40129 Bologna Italy"
+      },
+      {
+        "name": "M Bucher",
+        "affiliation": "Laboratoire AstroParticule et Cosmologie Université Paris-Cité 10 Rue Alice Domon et Léonie Duquet 75013 Paris France"
+      },
+      {
+        "name": "S Carey",
+        "affiliation": "Astrophysics Group, Cavendish Laboratory University of Cambridge J. J. Thomson Avenue CB3 0HE Cambridge UK"
+      },
+      {
+        "name": "J Cavillot",
+        "affiliation": "Antenna Group Université catholique de Louvain 1348 Louvain-la-Neuve Belgium"
+      },
+      {
+        "name": "R Chiello",
+        "affiliation": "Physics Department University of Oxford Parks Road OX1 3PU Oxford UK"
+      },
+      {
+        "name": "W Croukamp",
+        "affiliation": "Department of Electrical and Electronic Engineering Stellenbosch University 7602 Stellenbosch South Africa"
+      },
+      {
+        "name": "D De Villiers",
+        "affiliation": "Department of Electrical and Electronic Engineering Stellenbosch University 7602 Stellenbosch South Africa"
+      },
+      {
+        "name": "J Ely",
+        "affiliation": "Astrophysics Group, Cavendish Laboratory University of Cambridge J. J. Thomson Avenue CB3 0HE Cambridge UK"
+      },
+      {
+        "name": "A Fialkov",
+        "affiliation": "Kavli Institute for Cosmology in Cambridge University of Cambridge Madingley Road CB3 0HA Cambridge UK"
+      },
+      {
+        "name": "T Gessey-Jones",
+        "affiliation": "Astrophysics Group, Cavendish Laboratory University of Cambridge J. J. Thomson Avenue CB3 0HE Cambridge UK"
+      },
+      {
+        "name": "G Kulkarni",
+        "affiliation": "Department of Theoretical Physics Tata Institute of Fundamental Research Homi Bhabha Road 400005 Mumbai India"
+      },
+      {
+        "name": "A Magro",
+        "affiliation": "Institute of Space Sciences and Astronomy University of Malta 2080 Msida Malta MSD Malta"
+      },
+      {
+        "name": "P Meerburg",
+        "affiliation": "Faculty of Science and Engineering University of Groningen Nijenborgh 4 9747 AG Groningen Netherlands"
+      },
+      {
+        "name": "S Mittal",
+        "affiliation": "Astrophysics Group, Cavendish Laboratory University of Cambridge J. J. Thomson Avenue CB3 0HE Cambridge UK"
+      },
+      {
+        "name": "J Pattison",
+        "affiliation": "Astrophysics Group, Cavendish Laboratory University of Cambridge J. J. Thomson Avenue CB3 0HE Cambridge UK"
+      },
+      {
+        "name": "S Pegwal",
+        "affiliation": "Department of Electrical and Electronic Engineering Stellenbosch University 7602 Stellenbosch South Africa"
+      },
+      {
+        "name": "C Pieterse",
+        "affiliation": "Department of Electrical and Electronic Engineering Stellenbosch University 7602 Stellenbosch South Africa"
+      },
+      {
+        "name": "J Pritchard",
+        "affiliation": "Department of Physics Imperial College London South Kensington Campus SW7 2AZ London UK"
+      },
+      {
+        "name": "E Puchwein",
+        "affiliation": "Leibniz Institute for Astrophysics An der Sternwarte 16 14482 Potsdam Germany"
+      },
+      {
+        "name": "N Razavi-Ghods",
+        "affiliation": "Astrophysics Group, Cavendish Laboratory University of Cambridge J. J. Thomson Avenue CB3 0HE Cambridge UK"
+      },
+      {
+        "name": "I Roque",
+        "affiliation": "Astrophysics Group, Cavendish Laboratory University of Cambridge J. J. Thomson Avenue CB3 0HE Cambridge UK"
+      },
+      {
+        "name": "A Saxena",
+        "affiliation": "Faculty of Science and Engineering University of Groningen Nijenborgh 4 9747 AG Groningen Netherlands"
+      },
+      {
+        "name": "K Scheutwinkel",
+        "affiliation": "Astrophysics Group, Cavendish Laboratory University of Cambridge J. J. Thomson Avenue CB3 0HE Cambridge UK"
+      },
+      {
+        "name": "P Scott",
+        "affiliation": "Astrophysics Group, Cavendish Laboratory University of Cambridge J. J. Thomson Avenue CB3 0HE Cambridge UK"
+      },
+      {
+        "name": "E Shen",
+        "affiliation": "Astrophysics Group, Cavendish Laboratory University of Cambridge J. J. Thomson Avenue CB3 0HE Cambridge UK"
+      },
+      {
+        "name": "P Sims",
+        "affiliation": "Department of Physics Arizona State University 781 South Terrace Rd 6004 Tempe US"
+      },
+      {
+        "name": "M Spinelli",
+        "affiliation": "Observatoire de la Côte d'Azur Nice France"
+      }
     ],
     "abstract": "Radiometers are crucial instruments in radio astronomy, forming the primary component of nearly all radio telescopes. They measure the intensity of electromagnetic radiation, converting this radiation into electrical signals. A radiometer's primary components are an antenna and a Low Noise Amplifier (LNA), which is the core of the \"receiver\" chain. Instrumental effects introduced by the receiver are typically corrected or removed during calibration. However, impedance mismatches between the antenna and receiver can introduce unwanted signal reflections and distortions. Traditional calibration methods, such as Dicke switching, alternate the receiver input between the antenna and a wellcharacterised reference source to mitigate errors by comparison. Recent advances in Machine Learning (ML) offer promising alternatives. Neural networks, which are trained using known signal sources, provide a powerful means to model and calibrate complex systems where traditional analytical approaches struggle. These methods are especially relevant for detecting the faint sky-averaged 21-cm signal from atomic hydrogen at high redshifts. This is one of the main challenges in observational Cosmology today. Here, for the first time, we introduce and test a machine learning-based calibration framework capable of achieving the precision required for radiometric experiments aiming to detect the 21-cm line.",
     "publication_date": "23 Apr 2025",

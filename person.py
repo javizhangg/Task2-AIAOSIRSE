@@ -3,12 +3,7 @@ import os
 
 from rapidfuzz import fuzz
 import requests
-
-def is_title_match(arxiv_title, orcid_title, threshold=70):
-    """Return True if the titles are similar enough based on the threshold."""
-    score = fuzz.token_set_ratio(arxiv_title.lower(), orcid_title.lower())
-    return score >= threshold
-
+import re
 
 def fetch_access_token(client_id, client_secret):
     resp = requests.post("https://orcid.org/oauth/token", data={
@@ -30,25 +25,51 @@ HEADERS = {
 
 def extract_affiliations(orcid_id):
     base_url = f"https://pub.orcid.org/v3.0/{orcid_id}"
-    
-    def fetch(url):
-        resp = requests.get(url, headers=HEADERS)
-        return resp.json().get("employment-summary" if "employments" in url else "education-summary", [])
-    
-    def simplify(entry):
-        org = entry.get("organization", {})
+
+    def fetch(endpoint):
+        try:
+            url = f"{base_url}/{endpoint}"
+            resp = requests.get(url, headers=HEADERS)
+            if resp.status_code != 200:
+                return []
+            data = resp.json()
+            return data.get("affiliation-group", [])
+        except Exception as e:
+            print(f"Failed to fetch {endpoint} for {orcid_id}: {e}")
+            return []
+
+    def simplify(summary):
+        org = summary.get("organization", {}) or {}
+        disambiguated = org.get("disambiguated-organization") or {}
+        start_date = summary.get("start-date") or {}
+        end_date = summary.get("end-date") or {}
+
         return {
-            "institution": org.get("name"),
+            "institution": (org.get("name") or "").strip(),
             "city": org.get("address", {}).get("city"),
             "country": org.get("address", {}).get("country"),
-            "role": entry.get("role-title"),
-            "start_year": entry.get("start-date", {}).get("year", {}).get("value"),
-            "end_year": entry.get("end-date", {}).get("year", {}).get("value"),
-            "identifier": org.get("disambiguated-organization", {}).get("disambiguated-organization-identifier")
+            "role": summary.get("role-title"),
+            "start_year": start_date.get("year", {}).get("value"),
+            "end_year": end_date.get("year", {}).get("value"),
+            "identifier": disambiguated.get("disambiguated-organization-identifier")
         }
-    
-    education = [simplify(e) for e in fetch(f"{base_url}/educations")]
-    employment = [simplify(e) for e in fetch(f"{base_url}/employments")]
+
+
+    def extract_summaries(raw_data, summary_key):
+        results = []
+        for group in raw_data:
+            for s in group.get("summaries", []):
+                summary = s.get(summary_key)
+                if summary:
+                    results.append(simplify(summary))
+        return results
+
+    # Fetch both education and employment summaries
+    education_raw = fetch("educations")
+    employment_raw = fetch("employments")
+
+    education = extract_summaries(education_raw, "education-summary")
+    employment = extract_summaries(employment_raw, "employment-summary")
 
     return {"education": education, "employment": employment}
 
@@ -89,37 +110,79 @@ def count_works(orcid_id):
     return len(resp.get("group", []))
 
 
-def get_orcid(author_given, author_family, paper_title):
-    print(author_given, author_family, paper_title)
-    search_url = f"https://pub.orcid.org/v3.0/search?q=family-name:{author_family}+AND+given-names:{author_given}"
-    response = requests.get(search_url, headers=HEADERS).json()
+def extract_keywords(title, min_length=5):
+    """Extract key title words of sufficient length (ignores common stopwords)."""
+    stopwords = {'the', 'with', 'from', 'using', 'based', 'in', 'on', 'by', 'and', 'for', 'into', 'into'}
+    words = re.findall(r'\b\w+\b', title.lower())
+    return [w for w in words if len(w) >= min_length and w not in stopwords]
 
-    ids = []
+def work_matches_keywords(work_title, keywords, min_score=60):
+    """Check if the title fuzzily matches enough of the keywords."""
+    match_scores = [fuzz.partial_ratio(work_title.lower(), kw) for kw in keywords]
+    return sum(score >= min_score for score in match_scores) >= max(1, len(keywords) // 2)
 
-    result = response.get("result", [])
-    if result is None:
-        return None
-    for item in result:
-        orcid_id = item["orcid-identifier"]["path"]
-        works_url = f"https://pub.orcid.org/v3.0/{orcid_id}/works"
-        works_resp = requests.get(works_url, headers=HEADERS).json()
+def get_orcid(author_given, author_family, paper_title, affiliation=None):
+    print(f"Searching ORCID for: {author_given} {author_family}")
 
-        for group in works_resp.get("group", []):
-            summary = group.get("work-summary", [])[0]
-            title = summary.get("title", {}).get("title", {}).get("value", "")
-            if is_title_match(paper_title, title):
-                ids.append(orcid_id)
+    # Build search query
+    query_parts = [f"family-name:{author_family}", f"given-names:{author_given}"]
+    query = "+AND+".join(query_parts)
+    search_url = f"https://pub.orcid.org/v3.0/search?q={query}"
     
-    if len(ids) == 0:
+    response = requests.get(search_url, headers=HEADERS)
+    if response.status_code != 200:
+        print(f"Search failed: {response.status_code}")
         return None
-    else:
-        return ids[0]
 
-def enrich_author_info(full_name, paper_title):
-    splitted_name = full_name.split()
-    given_name = splitted_name[0]
-    family_name = splitted_name[1]
-    orcid_id = get_orcid(given_name, family_name, paper_title)
+    results = response.json().get("result", [])
+    if not results:
+        return None
+
+    title_keywords = extract_keywords(paper_title)
+
+    for item in results:
+        orcid_id = item["orcid-identifier"]["path"]
+
+        # Check affiliation match first
+        if affiliation:
+            aff_data = extract_affiliations(orcid_id)
+            all_affiliations = [
+                a["institution"] for a in aff_data.get("education", []) + aff_data.get("employment", [])
+                if a.get("institution")
+            ]
+            if any(fuzz.partial_ratio(aff.lower(), affiliation.lower()) >= 60 for aff in all_affiliations):
+                print(f"Matched via affiliation: {orcid_id}")
+                return orcid_id
+
+        # If no affiliation or no match, try work title keywords
+        works_url = f"https://pub.orcid.org/v3.0/{orcid_id}/works"
+        works_resp = requests.get(works_url, headers=HEADERS)
+        if works_resp.status_code != 200:
+            continue
+
+        works = works_resp.json().get("group", [])
+        for group in works:
+            summary = group.get("work-summary", [])[0]
+            work_title = summary.get("title", {}).get("title", {}).get("value", "")
+            if work_title and work_matches_keywords(work_title, title_keywords):
+                print(f"Matched via keywords: {orcid_id} | Work: {work_title}")
+                return orcid_id
+
+    return None
+
+
+
+def split_name(full_name):
+    parts = full_name.strip().split()
+    if len(parts) < 2:
+        return full_name, ""  # fallback
+    given_name = parts[0]
+    family_name = " ".join(parts[1:])
+    return given_name, family_name
+
+def enrich_author_info(full_name, paper_title, affiliation=None):
+    given_name, family_name = split_name(full_name)
+    orcid_id = get_orcid(given_name, family_name, paper_title, affiliation)
 
     education = []
     employment = []
@@ -162,16 +225,14 @@ enriched_data = []
 
 for paper in papers:
     paper_title = paper.get("title", "")
-    enriched_authors = []
 
-    for author_name in paper.get("authors", []):
-        enriched_info = enrich_author_info(author_name, paper_title)
-        enriched_authors.append(enriched_info)
-
-    enriched_data.append({
-        "paper_title": paper_title,
-        "authors": enriched_authors
-    })
+    for author_obj in paper.get("authors", []):
+        author_name = author_obj.get("name")
+        raw_affiliation = author_obj.get("affiliation", "")
+        cleaned_affiliation = " ".join(raw_affiliation.split()) if raw_affiliation else None
+        print(cleaned_affiliation)
+        enriched_info = enrich_author_info(author_name, paper_title, cleaned_affiliation)
+        enriched_data.append(enriched_info)
 
 # Save to new JSON
 with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
