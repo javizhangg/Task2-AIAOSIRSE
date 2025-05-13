@@ -1,0 +1,194 @@
+@prefix base: <https://example.org/> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+base: a owl:Ontology ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+base:acknowledges a owl:ObjectProperty ;
+    rdfs:label "acknowledges" ;
+    rdfs:domain base:Paper ;
+    rdfs:range base:Organization .
+
+base:develops a owl:ObjectProperty ;
+    rdfs:label "develops" ;
+    rdfs:domain base:Organization ;
+    rdfs:range base:Project .
+
+base:has_author a owl:ObjectProperty ;
+    rdfs:label "has_author" ;
+    rdfs:domain base:Paper ;
+    rdfs:range base:Person .
+
+base:has_date a owl:DatatypeProperty ;
+    rdfs:label "has_date" ;
+    rdfs:domain base:Paper ;
+    rdfs:range xsd:string .
+
+base:has_education_city a owl:DatatypeProperty ;
+    rdfs:label "has_education_city" ;
+    rdfs:domain base:Person ;
+    rdfs:range xsd:string .
+
+base:has_education_country a owl:DatatypeProperty ;
+    rdfs:label "has_education_country" ;
+    rdfs:domain base:Person ;
+    rdfs:range xsd:string .
+
+base:has_education_institution a owl:DatatypeProperty ;
+    rdfs:label "has_education_institution" ;
+    rdfs:domain base:Person ;
+    rdfs:range xsd:string .
+
+base:has_employment_city a owl:DatatypeProperty ;
+    rdfs:label "has_employment_city" ;
+    rdfs:domain base:Person ;
+    rdfs:range xsd:string .
+
+base:has_employment_country a owl:DatatypeProperty ;
+    rdfs:label "has_employment_country" ;
+    rdfs:domain base:Person ;
+    rdfs:range xsd:string .
+
+base:has_employment_institution a owl:DatatypeProperty ;
+    rdfs:label "has_employment_institution" ;
+    rdfs:domain base:Person ;
+    rdfs:range xsd:string .
+
+base:has_end_date a owl:DatatypeProperty ;
+    rdfs:label "has_end_date" ;
+    rdfs:domain base:Organization,
+        base:Project ;
+    rdfs:range xsd:string .
+
+base:has_funder a owl:DatatypeProperty ;
+    rdfs:label "has_funder" ;
+    rdfs:domain base:Organization,
+        base:Project ;
+    rdfs:range xsd:string .
+
+base:has_id_project a owl:DatatypeProperty ;
+    rdfs:label "has_id_project" ;
+    rdfs:domain base:Project ;
+    rdfs:range xsd:string .
+
+base:has_identifier a owl:DatatypeProperty ;
+    rdfs:label "has_identifier" ;
+    rdfs:domain base:Paper ;
+    rdfs:range xsd:string .
+
+base:has_located_country a owl:DatatypeProperty ;
+    rdfs:label "has_located_country" ;
+    rdfs:domain base:Organization,
+        base:Project ;
+    rdfs:range xsd:string .
+
+base:has_name a owl:DatatypeProperty ;
+    rdfs:label "has_name" ;
+    rdfs:domain base:Person ;
+    rdfs:range xsd:string .
+
+base:has_name_organization a owl:DatatypeProperty ;
+    rdfs:label "has_name_organization" ;
+    rdfs:domain base:Organization ;
+    rdfs:range xsd:string .
+
+base:has_name_topic a owl:DatatypeProperty ;
+    rdfs:label "has_name_topic" ;
+    rdfs:domain base:Topic ;
+    rdfs:range xsd:string .
+
+base:has_orcid a owl:DatatypeProperty ;
+    rdfs:label "has_orcid" ;
+    rdfs:domain base:Person ;
+    rdfs:range xsd:string .
+
+base:has_other_name a owl:DatatypeProperty ;
+    rdfs:label "has_other_name" ;
+    rdfs:domain base:Person ;
+    rdfs:range xsd:string .
+
+base:has_paper a owl:ObjectProperty ;
+    rdfs:label "has_paper" ;
+    rdfs:domain base:TopicBelonging ;
+    rdfs:range base:Paper .
+
+base:has_percentage a owl:DatatypeProperty ;
+    rdfs:label "has_percentage" ;
+    rdfs:domain base:TopicBelonging ;
+    rdfs:range xsd:string .
+
+base:has_researcher_url a owl:DatatypeProperty ;
+    rdfs:label "has_researcher_url" ;
+    rdfs:domain base:Person ;
+    rdfs:range xsd:string .
+
+base:has_start_date a owl:DatatypeProperty ;
+    rdfs:label "has_start_date" ;
+    rdfs:domain base:Organization,
+        base:Project ;
+    rdfs:range xsd:string .
+
+base:has_title a owl:DatatypeProperty ;
+    rdfs:label "has_title" ;
+    rdfs:domain base:Paper ;
+    rdfs:range xsd:string .
+
+base:has_topic a owl:ObjectProperty ;
+    rdfs:label "has_topic" ;
+    rdfs:domain base:TopicBelonging ;
+    rdfs:range base:Topic .
+
+base:has_website a owl:DatatypeProperty ;
+    rdfs:label "has_website" ;
+    rdfs:domain base:Organization,
+        base:Project ;
+    rdfs:range xsd:string .
+
+base:has_wikidata_label a owl:DatatypeProperty ;
+    rdfs:label "has_wikidata_label" ;
+    rdfs:domain base:Organization,
+        base:Project ;
+    rdfs:range xsd:string .
+
+base:has_wikidata_uri a owl:DatatypeProperty ;
+    rdfs:label "has_wikidata_uri" ;
+    rdfs:domain base:Organization,
+        base:Project ;
+    rdfs:range xsd:string .
+
+base:has_work_count a owl:DatatypeProperty ;
+    rdfs:label "has_work_count" ;
+    rdfs:domain base:Person ;
+    rdfs:range xsd:string .
+
+base:references a owl:ObjectProperty ;
+    rdfs:label "references" ;
+    rdfs:domain base:Paper ;
+    rdfs:range base:Paper .
+
+base:similar_to a owl:ObjectProperty ;
+    rdfs:label "similar_to" ;
+    rdfs:domain base:Paper ;
+    rdfs:range base:Paper .
+
+base:Topic a owl:Class ;
+    rdfs:label "Topic" .
+
+base:TopicBelonging a owl:Class ;
+    rdfs:label "Topic Belonging" .
+
+base:Project a owl:Class ;
+    rdfs:label "Project" .
+
+base:Organization a owl:Class ;
+    rdfs:label "Organization" .
+
+base:Paper a owl:Class ;
+    rdfs:label "Paper" .
+
+base:Person a owl:Class ;
+    rdfs:label "Person" .
+
