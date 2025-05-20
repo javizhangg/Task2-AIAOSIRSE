@@ -1,89 +1,142 @@
 import json
 import gensim
-from gensim import corpora, models
+from gensim import corpora
+from gensim.models import CoherenceModel
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import nltk
 import os
+import matplotlib.pyplot as plt
 
 # Descargar recursos NLTK (solo la primera vez que ejecutes)
-nltk.download("punkt")
-nltk.download("stopwords")
+nltk.download("punkt", quiet=True)
+nltk.download("stopwords", quiet=True)
 
-# Rutas
-input_path = "outputs/papers_metadata.json"
-output_topics_path = "outputs/papers_with_topics.json"
-output_similarity_path = "outputs/abstract_similarities.json"
 
-# Cargar JSON
-if not os.path.exists(input_path):
-    raise FileNotFoundError(f"No se encontró el archivo: {input_path}")
+def find_best_lda_coherence(dictionary, corpus, texts, start=2, end=15, step=1):
+    """
+    Proceso de selección automática del número óptimo de tópicos usando coherencia UMass.
+    Entrena modelos LDA variando K desde 'start' hasta 'end' y devuelve el modelo con
+    mayor coherencia (u_mass).
+    """
+    best_model = None
+    best_num_topics = start
+    best_coherence = float("-inf")
+    coherence_values = []
 
-with open(input_path, "r", encoding="utf-8") as f:
-    papers = json.load(f)
+    for num_topics in range(start, end + 1, step):
+        print(f"Entrenando modelo con {num_topics} tópicos...")
+        model = gensim.models.LdaModel(
+            corpus=corpus,
+            id2word=dictionary,
+            num_topics=num_topics,
+            passes=5,
+            random_state=42,
+            per_word_topics=False,
+            eval_every=None,
+        )
+        cm = CoherenceModel(
+            model=model, corpus=corpus, dictionary=dictionary, coherence="u_mass"
+        )
+        coherence = cm.get_coherence()
+        coherence_values.append((num_topics, coherence))
+        print(f" → Coherencia u_mass: {coherence:.4f}")
 
-# Preprocesamiento básico
-stop_words = set(stopwords.words("english"))
-processed_texts = []
-raw_texts = []
+        if coherence > best_coherence:
+            best_coherence = coherence
+            best_model = model
+            best_num_topics = num_topics
 
-for paper in papers:
-    abstract = paper.get("abstract", "")
-    raw_texts.append(abstract)
-    tokens = word_tokenize(abstract.lower())
-    filtered_tokens = [w for w in tokens if w.isalpha() and w not in stop_words]
-    processed_texts.append(filtered_tokens)
+    # Gráfica de coherencia vs num_topics
+    x, y = zip(*coherence_values)
+    plt.figure(figsize=(8, 4))
+    plt.plot(x, y, marker="o")
+    plt.xlabel("Número de tópicos")
+    plt.ylabel("Coherencia UMass")
+    plt.title("Selección del número óptimo de tópicos (UMass)")
+    plt.grid(True)
+    plt.tight_layout()
+    plt.show()
 
-# --- TOPIC MODELING (LDA) ---
-dictionary = corpora.Dictionary(processed_texts)
-corpus = [dictionary.doc2bow(text) for text in processed_texts]
-
-lda_model = gensim.models.LdaModel(corpus, num_topics=5, id2word=dictionary, passes=15)
-
-papers_with_topics = []
-for paper, bow in zip(papers, corpus):
-    topic_probs = lda_model.get_document_topics(bow)
-    main_topic = max(topic_probs, key=lambda x: x[1])
-    papers_with_topics.append(
-        {
-            "filename": paper.get("filename", ""),
-            "title": paper.get("title", ""),
-            "abstract": paper.get("abstract", ""),
-            "main_topic": main_topic[0],
-            "topic_score": float(round(main_topic[1], 3)),
-        }
+    print(
+        f"\n✅ Mejor número de tópicos: {best_num_topics} con coherencia UMass {best_coherence:.4f}"
     )
+    return best_model
 
-# Guardar resultados del topic modeling
-with open(output_topics_path, "w", encoding="utf-8") as f:
-    json.dump(papers_with_topics, f, indent=2, ensure_ascii=False)
 
-# --- SIMILARIDAD ENTRE ABSTRACTS (TF-IDF + Cosine Similarity) ---
-vectorizer = TfidfVectorizer(stop_words="english")
-tfidf_matrix = vectorizer.fit_transform(raw_texts)
+def main():
+    # Rutas de entrada y salida
+    input_path = "outputs/papers_metadata.json"
+    output_topics_path = "outputs/papers_with_topics.json"
+    output_similarity_path = "outputs/abstract_similarities.json"
 
-cosine_sim_matrix = cosine_similarity(tfidf_matrix)
+    if not os.path.exists(input_path):
+        raise FileNotFoundError(f"No se encontró: {input_path}")
 
-# Convertir a lista de pares únicos
-similarities = []
-num_papers = len(papers)
-for i in range(num_papers):
-    for j in range(i + 1, num_papers):
-        sim_score = float(cosine_sim_matrix[i][j])
-        similarities.append(
+    with open(input_path, "r", encoding="utf-8") as f:
+        papers = json.load(f)
+
+    # Preprocesamiento de abstracts
+    stop_words = set(stopwords.words("english"))
+    texts = []
+    raw_texts = []
+    for paper in papers:
+        abs_text = paper.get("abstract", "")
+        raw_texts.append(abs_text)
+        tokens = word_tokenize(abs_text.lower())
+        tokens = [t for t in tokens if t.isalpha() and t not in stop_words]
+        texts.append(tokens)
+
+    # Crear diccionario y corpus para LDA
+    dictionary = corpora.Dictionary(texts)
+    corpus = [dictionary.doc2bow(t) for t in texts]
+
+    # Selección de tópicos usando coherencia UMass
+    lda_model = find_best_lda_coherence(dictionary, corpus, texts, start=2, end=15)
+
+    # Asignar tópico principal a cada paper
+    papers_with_topics = []
+    for paper, bow in zip(papers, corpus):
+        topic_probs = lda_model.get_document_topics(bow)
+        main = max(topic_probs, key=lambda x: x[1])
+        papers_with_topics.append(
             {
-                "paper1": papers[i].get("filename", f"paper_{i+1}"),
-                "paper2": papers[j].get("filename", f"paper_{j+1}"),
-                "similarity": round(sim_score, 3),
+                "filename": paper.get("filename", ""),
+                "title": paper.get("title", ""),
+                "abstract": paper.get("abstract", ""),
+                "main_topic": main[0],
+                "topic_score": float(round(main[1], 3)),
             }
         )
 
-# Guardar resultados de similitud
-with open(output_similarity_path, "w", encoding="utf-8") as f:
-    json.dump(similarities, f, indent=2, ensure_ascii=False)
+    # Guardar resultados de topic modeling
+    with open(output_topics_path, "w", encoding="utf-8") as f:
+        json.dump(papers_with_topics, f, indent=2, ensure_ascii=False)
+    print(f"Temas guardados en: {output_topics_path}")
 
-print("✅ Análisis completado")
-print(f"📁 Temas por paper guardados en: {output_topics_path}")
-print(f"📁 Similitudes entre abstracts guardadas en: {output_similarity_path}")
+    # Similitud TF-IDF + Coseno
+    vectorizer = TfidfVectorizer(stop_words="english")
+    tfidf_matrix = vectorizer.fit_transform(raw_texts)
+    cosine_sim_matrix = cosine_similarity(tfidf_matrix)
+
+    # Guardar similitudes en JSON
+    similarities = []
+    n = len(papers)
+    for i in range(n):
+        for j in range(i + 1, n):
+            similarities.append(
+                {
+                    "paper1": papers[i].get("filename", ""),
+                    "paper2": papers[j].get("filename", ""),
+                    "similarity": round(float(cosine_sim_matrix[i, j]), 3),
+                }
+            )
+    with open(output_similarity_path, "w", encoding="utf-8") as f:
+        json.dump(similarities, f, indent=2, ensure_ascii=False)
+    print(f"Similitudes guardadas en: {output_similarity_path}")
+
+
+if __name__ == "__main__":
+    main()

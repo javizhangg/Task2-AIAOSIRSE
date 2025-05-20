@@ -4,8 +4,8 @@
 
 https://drive.google.com/file/d/12_EM-y5ptJhGotsEJ1NyPQciONYfK82P/view?usp=sharing
 
-
 ---
+
 //lo que tiene que instalar el conda para que funcione bien el json to rdf
 
 Funcionalidades hasta ahora, para poder extraer los metadatos con grobid necesitas activar grobid
@@ -100,7 +100,6 @@ outputs/enriched_authors.json
 
 Este archivo luego es integrado automáticamente al grafo RDF final por el script `jsonToRDF.py`.
 
-
 ### Parte del Topic Modeling y la Similitud entre Papers
 
 ---
@@ -155,10 +154,8 @@ python analisis_topic_similarities.py
 
 Este script fue el punto de partida y realiza:
 
-- **Topic modeling con LDA**: descubre temas ocultos en los abstracts.
+- **Topic modeling con LDA**: distinguimos los diferentes papers a través de un proceso de selección automática del número de tópicos mediante la coherencia UMass, dandonos el número óptimo de tópicos.
 - **Similaridad general (TF-IDF + cosine)**: mide la similitud entre todos los pares de abstracts usando vectorización clásica.
-
-> Este script se considera **obsoleto** como versión final, ya que la similitud TF-IDF no capturaba bien el contenido real de los textos.
 
 **Salidas generadas**:
 
@@ -215,15 +212,14 @@ Este enfoque mixto permite obtener agrupaciones temáticas coherentes y relacion
 
 ## Grafo RDF
 
-- Integra los datos de papers_metadata_wikidata.json  
+- Integra los datos de papers_metadata_wikidata.json
 
 - Añade la información de enriched_authors.json
 
 - Añade similitud entre papers y topic belonging siguiendo lo contenido en la carpeta /similarities_semantic_by_topic
 
-
 ## Prueba (quicktest.py)
 
-Hace un par de consultas de prueba (para lo de topic y similarities, que con lo de la clase TopicBelonging no tenia claro si iba bien)  
+Hace un par de consultas de prueba (para lo de topic y similarities, que con lo de la clase TopicBelonging no tenia claro si iba bien)
 
 Tiene un problema, al sacar resultados de papers que pertenecen a un topic, viene por duplicado el resultado.
