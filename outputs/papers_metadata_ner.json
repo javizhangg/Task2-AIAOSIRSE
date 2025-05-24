@@ -1019,16 +1019,10 @@
       }
     ],
     "organizations": [
-      " Iranian National Observatory",
-      " School of Astronomy",
-      "IPM",
-      "grant agreement No  101004214",
-      "Horizon 2020",
-      " European Union",
-      " Institute for Research in Fundamental Sciences"
+      "Institute for Research in Fundamental Sciences"
     ],
     "projects": [
-      "INO"
+      "agreement"
     ]
   },
   {
@@ -2282,17 +2276,8 @@
         "identifier": null
       }
     ],
-    "organizations": [
-      " Finnish Government",
-      "RCF",
-      " RCF",
-      " Research Council of Finland",
-      " NextGenerationEU"
-    ],
-    "projects": [
-      "VN",
-      " RC"
-    ]
+    "organizations": [],
+    "projects": []
   },
   {
     "filename": "2504.14378v1.pdf",
@@ -5149,27 +5134,13 @@
       }
     ],
     "organizations": [
-      " Development Program of China",
-      " Consolidación Investigadora",
-      " National Science Foundation of China",
-      "AEI",
-      " HORIZON EUROPE",
-      " Yangyang Development Fund",
-      " Atracción de Talento",
-      " Agencia Estatal de Investigación",
-      " DdA",
-      " Smithsonian Astrophysical Observatory",
-      " Ministerio de Ciencia e Innovación",
-      " Comunidad de Madrid",
-      " Ministry of Education",
-      " YZ",
-      " NASA",
-      " WC",
-      " Chandra X-ray Center"
+      "Smithsonian Astrophysical Observatory"
     ],
     "projects": [
-      " ER",
-      " AS"
+      "CNS2024-154838",
+      "NAS8-03060",
+      "PID2021-122603NB-C21",
+      "number"
     ]
   },
   {
@@ -5843,16 +5814,8 @@
         "identifier": "10.1016/j.neunet.2014.09.003"
       }
     ],
-    "organizations": [
-      " University of Maryland, Baltimore County",
-      "UMBC",
-      "HPCF",
-      " UMBC High Performance Computing Facility",
-      " U.S. National Science Foundation"
-    ],
-    "projects": [
-      "."
-    ]
+    "organizations": [],
+    "projects": []
   },
   {
     "filename": "2504.14961v1.pdf",
@@ -6956,14 +6919,7 @@
         "identifier": "10.1002/qua.560280846"
       }
     ],
-    "organizations": [
-      " AIR@InnoHK",
-      " Hong Kong Quantum AI Lab",
-      " National Natural Science Foundation of China",
-      " AI for Science Foundation",
-      " Fudan University",
-      " Chinese Academy of Sciences"
-    ],
+    "organizations": [],
     "projects": []
   },
   {
@@ -7799,13 +7755,9 @@
       }
     ],
     "organizations": [
-      "UCSC",
-      " University of California, Santa Cruz",
-      " UCSC"
+      "University of California"
     ],
-    "projects": [
-      "erc"
-    ]
+    "projects": []
   },
   {
     "filename": "2504.15185v1.pdf",
@@ -8583,16 +8535,9 @@
       }
     ],
     "organizations": [
-      "PNNL",
-      " Battelle Memorial Institute",
-      " Pacific Northwest National Laboratory",
-      " Advanced Scientific Computing Research",
-      " U.S. Department of Energy"
+      "Battelle Memorial Institute"
     ],
-    "projects": [
-      "DOE",
-      "."
-    ]
+    "projects": []
   },
   {
     "filename": "2504.15287v1.pdf",
@@ -9194,17 +9139,8 @@
         "identifier": null
       }
     ],
-    "organizations": [
-      "JELF",
-      "CFI",
-      "NSERC",
-      " Canadian Foundation for Innovation",
-      " Natural Science and Engineering Research Council of Canada"
-    ],
-    "projects": [
-      "ERC",
-      "."
-    ]
+    "organizations": [],
+    "projects": []
   },
   {
     "filename": "2504.15304v1.pdf",
@@ -10883,9 +10819,7 @@
         "identifier": null
       }
     ],
-    "organizations": [
-      " RGU"
-    ],
+    "organizations": [],
     "projects": []
   },
   {
@@ -11569,14 +11503,7 @@
         "identifier": "10.1145/3373376.3378457"
       }
     ],
-    "organizations": [
-      " Carnegie Mellon University",
-      " NSF",
-      "award and",
-      " Computer Science Department",
-      " Computer Architecture and Operating Systems",
-      "CAOS"
-    ],
+    "organizations": [],
     "projects": []
   },
   {
@@ -12070,12 +11997,9 @@
         "identifier": null
       }
     ],
-    "organizations": [
-      " U.S. National Science Foundation"
-    ],
+    "organizations": [],
     "projects": [
-      ".",
-      "NSF"
+      "2313054"
     ]
   },
   {
@@ -12417,11 +12341,7 @@
         "identifier": null
       }
     ],
-    "organizations": [
-      " MUCCA",
-      " European Union-NextGenerationEU",
-      " BNSF"
-    ],
+    "organizations": [],
     "projects": []
   },
   {
@@ -13230,12 +13150,7 @@
         "identifier": null
       }
     ],
-    "organizations": [
-      " Natural Science Foundation of China",
-      " High-Performance Computing Center",
-      " KC Wong Magna Foundation",
-      " Ningbo University"
-    ],
+    "organizations": [],
     "projects": []
   },
   {
@@ -13962,13 +13877,10 @@
         "identifier": null
       }
     ],
-    "organizations": [
-      " DB",
-      " Murdoch Children's Research Institute",
-      " MMB",
-      " National Health and Medical Research Council"
-    ],
-    "projects": []
+    "organizations": [],
+    "projects": [
+      "fellowship"
+    ]
   },
   {
     "filename": "2504.15870v1.pdf",
@@ -14555,24 +14467,10 @@
       }
     ],
     "organizations": [
-      " HPC",
-      " ITP",
-      " Swiss National Science Foundation",
-      " AEC",
-      " University of Bern",
-      "FWF",
-      "unibe",
-      " Austrian Science Fund",
-      "SNSF",
-      "VSC",
-      " US National Science Foundation",
-      " Vienna Scientific Cluster"
+      "Austrian Science Fund",
+      "Swiss National Science Foundation"
     ],
-    "projects": [
-      "erc",
-      " U",
-      "id"
-    ]
+    "projects": []
   },
   {
     "filename": "2504.15925v1.pdf",
@@ -14987,13 +14885,7 @@
         "identifier": null
       }
     ],
-    "organizations": [
-      "HPC",
-      " Research Center for Industries of the Future",
-      " Westlake University",
-      " High-Performance Computing Center",
-      "RCIF"
-    ],
+    "organizations": [],
     "projects": []
   },
   {
@@ -15302,17 +15194,9 @@
       }
     ],
     "organizations": [
-      " ERC",
-      " Dutch Research Council",
-      "project number  1389",
-      " Dutch National Growth Fund",
-      " European Union",
-      "NWO"
+      "Dutch Research Council"
     ],
-    "projects": [
-      "ERC",
-      "NGF"
-    ]
+    "projects": []
   },
   {
     "filename": "2504.15993v1.pdf",
@@ -19147,20 +19031,8 @@
         "identifier": null
       }
     ],
-    "organizations": [
-      "supported by the New Frontiers in Research Fund through an NFRF Exploration Grant",
-      " Sciences and Engineering Research Council of Canada",
-      " NSERC",
-      " New Frontiers in Research Fund",
-      " Symmetric Group LLP"
-    ],
-    "projects": [
-      "erc",
-      "ERC",
-      "NS",
-      " CO",
-      " NS"
-    ]
+    "organizations": [],
+    "projects": []
   },
   {
     "filename": "2504.16493v1.pdf",

@@ -1019,58 +1019,34 @@
       }
     ],
     "organizations": [
-      " Iranian National Observatory",
-      " School of Astronomy",
-      "IPM",
-      "grant agreement No  101004214",
-      "Horizon 2020",
-      " European Union",
-      " Institute for Research in Fundamental Sciences"
+      "Institute for Research in Fundamental Sciences"
     ],
     "projects": [
-      "INO"
+      "agreement"
     ],
     "enriched_organizations": [
       {
-        "name": " Iranian National Observatory",
-        "wikidata_uri": null
-      },
-      {
-        "name": " School of Astronomy",
-        "wikidata_uri": null
-      },
-      {
-        "name": "IPM",
-        "wikidata_uri": null
-      },
-      {
-        "name": "grant agreement No  101004214",
-        "wikidata_uri": null
-      },
-      {
-        "name": "Horizon 2020",
-        "wikidata_uri": null
-      },
-      {
-        "name": " European Union",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Institute for Research in Fundamental Sciences",
-        "wikidata_uri": null
+        "has_name_organization": "Institute for Research in Fundamental Sciences",
+        "has_wikidata_uri": "https://www.wikidata.org/entity/Q6039681",
+        "has_wikidata_label": "Institute for Research in Fundamental Sciences",
+        "has_located_country": "Q794",
+        "has_website": "http://www.ipm.ac.ir",
+        "has_start_date": "+1970-00-00T00:00:00Z",
+        "has_end_date": null,
+        "has_funder": null,
+        "has_founder": null
       }
     ],
     "enriched_projects": [
       {
-        "wikidata_uri": "http://www.wikidata.org/entity/Q56860922",
-        "label": "Variant SLC6A20 contributes towards hyperglycinuria (HG) and iminoglycinuria (IG)",
-        "country": null,
-        "website": null,
-        "start_date": null,
-        "end_date": null,
-        "funder": null,
-        "founder": null,
-        "created_date": null
+        "has_id_project": "agreement",
+        "has_wikidata_uri": null,
+        "has_wikidata_label": null,
+        "has_located_country": null,
+        "has_website": null,
+        "has_start_date": null,
+        "has_end_date": null,
+        "has_funder": null
       }
     ]
   },
@@ -2325,63 +2301,10 @@
         "identifier": null
       }
     ],
-    "organizations": [
-      " Finnish Government",
-      "RCF",
-      " RCF",
-      " Research Council of Finland",
-      " NextGenerationEU"
-    ],
-    "projects": [
-      "VN",
-      " RC"
-    ],
-    "enriched_organizations": [
-      {
-        "name": " Finnish Government",
-        "wikidata_uri": null
-      },
-      {
-        "name": "RCF",
-        "wikidata_uri": null
-      },
-      {
-        "name": " RCF",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Research Council of Finland",
-        "wikidata_uri": null
-      },
-      {
-        "name": " NextGenerationEU",
-        "wikidata_uri": null
-      }
-    ],
-    "enriched_projects": [
-      {
-        "wikidata_uri": "http://www.wikidata.org/entity/Q45316621",
-        "label": "interakcije dejavnikov HIV z gostiteljem",
-        "country": null,
-        "website": null,
-        "start_date": null,
-        "end_date": null,
-        "funder": null,
-        "founder": null,
-        "created_date": null
-      },
-      {
-        "wikidata_uri": "http://www.wikidata.org/entity/Q55230749",
-        "label": "Biosynthesis of protectin and resolvin conjugates in tissue regeneration (PCTR and RCTR)",
-        "country": null,
-        "website": null,
-        "start_date": null,
-        "end_date": null,
-        "funder": null,
-        "founder": null,
-        "created_date": null
-      }
-    ]
+    "organizations": [],
+    "projects": [],
+    "enriched_organizations": [],
+    "enriched_projects": []
   },
   {
     "filename": "2504.14378v1.pdf",
@@ -5240,134 +5163,67 @@
       }
     ],
     "organizations": [
-      " Development Program of China",
-      " Consolidación Investigadora",
-      " National Science Foundation of China",
-      "AEI",
-      " HORIZON EUROPE",
-      " Yangyang Development Fund",
-      " Atracción de Talento",
-      " Agencia Estatal de Investigación",
-      " DdA",
-      " Smithsonian Astrophysical Observatory",
-      " Ministerio de Ciencia e Innovación",
-      " Comunidad de Madrid",
-      " Ministry of Education",
-      " YZ",
-      " NASA",
-      " WC",
-      " Chandra X-ray Center"
+      "Smithsonian Astrophysical Observatory"
     ],
     "projects": [
-      " ER",
-      " AS"
+      "CNS2024-154838",
+      "NAS8-03060",
+      "PID2021-122603NB-C21",
+      "number"
     ],
     "enriched_organizations": [
       {
-        "name": " Development Program of China",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Consolidación Investigadora",
-        "wikidata_uri": null
-      },
-      {
-        "name": " National Science Foundation of China",
-        "wikidata_uri": null
-      },
-      {
-        "name": "AEI",
-        "wikidata_uri": null
-      },
-      {
-        "name": " HORIZON EUROPE",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Yangyang Development Fund",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Atracción de Talento",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Agencia Estatal de Investigación",
-        "wikidata_uri": null
-      },
-      {
-        "name": " DdA",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Smithsonian Astrophysical Observatory",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Ministerio de Ciencia e Innovación",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Comunidad de Madrid",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Ministry of Education",
-        "wikidata_uri": null
-      },
-      {
-        "name": " YZ",
-        "wikidata_uri": null
-      },
-      {
-        "wikidata_uri": "http://www.wikidata.org/entity/Q130656798",
-        "label": "Démolition Travaux Nasarre",
-        "country": "France",
-        "website": null,
-        "start_date": null,
-        "end_date": null,
-        "funder": null,
-        "founder": null,
-        "created_date": "2017-01-30T00:00:00Z"
-      },
-      {
-        "wikidata_uri": "http://www.wikidata.org/entity/Q131800829",
-        "label": "Société MP WC",
-        "country": "France",
-        "website": null,
-        "start_date": null,
-        "end_date": null,
-        "funder": null,
-        "founder": null,
-        "created_date": "2013-12-09T00:00:00Z"
-      },
-      {
-        "name": " Chandra X-ray Center",
-        "wikidata_uri": null
+        "has_name_organization": "Smithsonian Astrophysical Observatory",
+        "has_wikidata_uri": "https://www.wikidata.org/entity/Q1755255",
+        "has_wikidata_label": "Smithsonian Astrophysical Observatory",
+        "has_located_country": "Q30",
+        "has_website": "https://www.cfa.harvard.edu/sao",
+        "has_start_date": "+1890-00-00T00:00:00Z",
+        "has_end_date": null,
+        "has_funder": null,
+        "has_founder": "Q357961"
       }
     ],
     "enriched_projects": [
       {
-        "wikidata_uri": "http://www.wikidata.org/entity/Q45318406",
-        "label": "izmenjava O2 in CO2 v eritrocitih",
-        "country": null,
-        "website": null,
-        "start_date": null,
-        "end_date": null,
-        "funder": null,
-        "founder": null,
-        "created_date": null
+        "has_id_project": "CNS2024-154838",
+        "has_wikidata_uri": null,
+        "has_wikidata_label": null,
+        "has_located_country": null,
+        "has_website": null,
+        "has_start_date": null,
+        "has_end_date": null,
+        "has_funder": null
       },
       {
-        "wikidata_uri": "http://www.wikidata.org/entity/Q56860947",
-        "label": "Defective Base Excision Repair Associated with MUTYH",
-        "country": null,
-        "website": null,
-        "start_date": null,
-        "end_date": null,
-        "funder": null,
-        "founder": null,
-        "created_date": null
+        "has_id_project": "NAS8-03060",
+        "has_wikidata_uri": null,
+        "has_wikidata_label": null,
+        "has_located_country": null,
+        "has_website": null,
+        "has_start_date": null,
+        "has_end_date": null,
+        "has_funder": null
+      },
+      {
+        "has_id_project": "PID2021-122603NB-C21",
+        "has_wikidata_uri": null,
+        "has_wikidata_label": null,
+        "has_located_country": null,
+        "has_website": null,
+        "has_start_date": null,
+        "has_end_date": null,
+        "has_funder": null
+      },
+      {
+        "has_id_project": "number",
+        "has_wikidata_uri": null,
+        "has_wikidata_label": null,
+        "has_located_country": null,
+        "has_website": null,
+        "has_start_date": null,
+        "has_end_date": null,
+        "has_funder": null
       }
     ]
   },
@@ -6042,51 +5898,10 @@
         "identifier": "10.1016/j.neunet.2014.09.003"
       }
     ],
-    "organizations": [
-      " University of Maryland, Baltimore County",
-      "UMBC",
-      "HPCF",
-      " UMBC High Performance Computing Facility",
-      " U.S. National Science Foundation"
-    ],
-    "projects": [
-      "."
-    ],
-    "enriched_organizations": [
-      {
-        "name": " University of Maryland, Baltimore County",
-        "wikidata_uri": null
-      },
-      {
-        "name": "UMBC",
-        "wikidata_uri": null
-      },
-      {
-        "name": "HPCF",
-        "wikidata_uri": null
-      },
-      {
-        "name": " UMBC High Performance Computing Facility",
-        "wikidata_uri": null
-      },
-      {
-        "name": " U.S. National Science Foundation",
-        "wikidata_uri": null
-      }
-    ],
-    "enriched_projects": [
-      {
-        "wikidata_uri": "http://www.wikidata.org/entity/Q45318383",
-        "label": "Rhesus glycoproteins mediate ammonium transport.",
-        "country": null,
-        "website": null,
-        "start_date": null,
-        "end_date": null,
-        "funder": null,
-        "founder": null,
-        "created_date": null
-      }
-    ]
+    "organizations": [],
+    "projects": [],
+    "enriched_organizations": [],
+    "enriched_projects": []
   },
   {
     "filename": "2504.14961v1.pdf",
@@ -7190,41 +7005,9 @@
         "identifier": "10.1002/qua.560280846"
       }
     ],
-    "organizations": [
-      " AIR@InnoHK",
-      " Hong Kong Quantum AI Lab",
-      " National Natural Science Foundation of China",
-      " AI for Science Foundation",
-      " Fudan University",
-      " Chinese Academy of Sciences"
-    ],
+    "organizations": [],
     "projects": [],
-    "enriched_organizations": [
-      {
-        "name": " AIR@InnoHK",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Hong Kong Quantum AI Lab",
-        "wikidata_uri": null
-      },
-      {
-        "name": " National Natural Science Foundation of China",
-        "wikidata_uri": null
-      },
-      {
-        "name": " AI for Science Foundation",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Fudan University",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Chinese Academy of Sciences",
-        "wikidata_uri": null
-      }
-    ],
+    "enriched_organizations": [],
     "enriched_projects": []
   },
   {
@@ -8060,40 +7843,23 @@
       }
     ],
     "organizations": [
-      "UCSC",
-      " University of California, Santa Cruz",
-      " UCSC"
+      "University of California"
     ],
-    "projects": [
-      "erc"
-    ],
+    "projects": [],
     "enriched_organizations": [
       {
-        "name": "UCSC",
-        "wikidata_uri": null
-      },
-      {
-        "name": " University of California, Santa Cruz",
-        "wikidata_uri": null
-      },
-      {
-        "name": " UCSC",
-        "wikidata_uri": null
+        "has_name_organization": "University of California",
+        "has_wikidata_uri": "https://www.wikidata.org/entity/Q184478",
+        "has_wikidata_label": "University of California",
+        "has_located_country": "Q30",
+        "has_website": "https://universityofcalifornia.edu",
+        "has_start_date": "+1868-00-00T00:00:00Z",
+        "has_end_date": null,
+        "has_funder": null,
+        "has_founder": "Q879234"
       }
     ],
-    "enriched_projects": [
-      {
-        "wikidata_uri": "http://www.wikidata.org/entity/Q45316884",
-        "label": "ERCC6 (CSB) and EHMT2 (G9a) positively regulate rRNA expression",
-        "country": null,
-        "website": null,
-        "start_date": null,
-        "end_date": null,
-        "funder": null,
-        "founder": null,
-        "created_date": null
-      }
-    ]
+    "enriched_projects": []
   },
   {
     "filename": "2504.15185v1.pdf",
@@ -8873,62 +8639,23 @@
       }
     ],
     "organizations": [
-      "PNNL",
-      " Battelle Memorial Institute",
-      " Pacific Northwest National Laboratory",
-      " Advanced Scientific Computing Research",
-      " U.S. Department of Energy"
+      "Battelle Memorial Institute"
     ],
-    "projects": [
-      "DOE",
-      "."
-    ],
+    "projects": [],
     "enriched_organizations": [
       {
-        "name": "PNNL",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Battelle Memorial Institute",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Pacific Northwest National Laboratory",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Advanced Scientific Computing Research",
-        "wikidata_uri": null
-      },
-      {
-        "name": " U.S. Department of Energy",
-        "wikidata_uri": null
+        "has_name_organization": "Battelle Memorial Institute",
+        "has_wikidata_uri": "https://www.wikidata.org/entity/Q810911",
+        "has_wikidata_label": "Battelle Memorial Institute",
+        "has_located_country": "Q30",
+        "has_website": "http://www.battelle.org",
+        "has_start_date": "+1929-00-00T00:00:00Z",
+        "has_end_date": null,
+        "has_funder": null,
+        "has_founder": null
       }
     ],
-    "enriched_projects": [
-      {
-        "wikidata_uri": "http://www.wikidata.org/entity/Q100235215",
-        "label": "Defective F9 variant does not activate FX",
-        "country": null,
-        "website": null,
-        "start_date": null,
-        "end_date": null,
-        "funder": null,
-        "founder": null,
-        "created_date": null
-      },
-      {
-        "wikidata_uri": "http://www.wikidata.org/entity/Q45318383",
-        "label": "Rhesus glycoproteins mediate ammonium transport.",
-        "country": null,
-        "website": null,
-        "start_date": null,
-        "end_date": null,
-        "funder": null,
-        "founder": null,
-        "created_date": null
-      }
-    ]
+    "enriched_projects": []
   },
   {
     "filename": "2504.15287v1.pdf",
@@ -9530,63 +9257,10 @@
         "identifier": null
       }
     ],
-    "organizations": [
-      "JELF",
-      "CFI",
-      "NSERC",
-      " Canadian Foundation for Innovation",
-      " Natural Science and Engineering Research Council of Canada"
-    ],
-    "projects": [
-      "ERC",
-      "."
-    ],
-    "enriched_organizations": [
-      {
-        "name": "JELF",
-        "wikidata_uri": null
-      },
-      {
-        "name": "CFI",
-        "wikidata_uri": null
-      },
-      {
-        "name": "NSERC",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Canadian Foundation for Innovation",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Natural Science and Engineering Research Council of Canada",
-        "wikidata_uri": null
-      }
-    ],
-    "enriched_projects": [
-      {
-        "wikidata_uri": "http://www.wikidata.org/entity/Q45316884",
-        "label": "ERCC6 (CSB) and EHMT2 (G9a) positively regulate rRNA expression",
-        "country": null,
-        "website": null,
-        "start_date": null,
-        "end_date": null,
-        "funder": null,
-        "founder": null,
-        "created_date": null
-      },
-      {
-        "wikidata_uri": "http://www.wikidata.org/entity/Q45318383",
-        "label": "Rhesus glycoproteins mediate ammonium transport.",
-        "country": null,
-        "website": null,
-        "start_date": null,
-        "end_date": null,
-        "funder": null,
-        "founder": null,
-        "created_date": null
-      }
-    ]
+    "organizations": [],
+    "projects": [],
+    "enriched_organizations": [],
+    "enriched_projects": []
   },
   {
     "filename": "2504.15304v1.pdf",
@@ -11267,16 +10941,9 @@
         "identifier": null
       }
     ],
-    "organizations": [
-      " RGU"
-    ],
+    "organizations": [],
     "projects": [],
-    "enriched_organizations": [
-      {
-        "name": " RGU",
-        "wikidata_uri": null
-      }
-    ],
+    "enriched_organizations": [],
     "enriched_projects": []
   },
   {
@@ -11960,41 +11627,9 @@
         "identifier": "10.1145/3373376.3378457"
       }
     ],
-    "organizations": [
-      " Carnegie Mellon University",
-      " NSF",
-      "award and",
-      " Computer Science Department",
-      " Computer Architecture and Operating Systems",
-      "CAOS"
-    ],
+    "organizations": [],
     "projects": [],
-    "enriched_organizations": [
-      {
-        "name": " Carnegie Mellon University",
-        "wikidata_uri": null
-      },
-      {
-        "name": " NSF",
-        "wikidata_uri": null
-      },
-      {
-        "name": "award and",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Computer Science Department",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Computer Architecture and Operating Systems",
-        "wikidata_uri": null
-      },
-      {
-        "name": "CAOS",
-        "wikidata_uri": null
-      }
-    ],
+    "enriched_organizations": [],
     "enriched_projects": []
   },
   {
@@ -12488,41 +12123,21 @@
         "identifier": null
       }
     ],
-    "organizations": [
-      " U.S. National Science Foundation"
-    ],
+    "organizations": [],
     "projects": [
-      ".",
-      "NSF"
+      "2313054"
     ],
-    "enriched_organizations": [
-      {
-        "name": " U.S. National Science Foundation",
-        "wikidata_uri": null
-      }
-    ],
+    "enriched_organizations": [],
     "enriched_projects": [
       {
-        "wikidata_uri": "http://www.wikidata.org/entity/Q45318383",
-        "label": "Rhesus glycoproteins mediate ammonium transport.",
-        "country": null,
-        "website": null,
-        "start_date": null,
-        "end_date": null,
-        "funder": null,
-        "founder": null,
-        "created_date": null
-      },
-      {
-        "wikidata_uri": "http://www.wikidata.org/entity/Q45317625",
-        "label": "Prefoldin mediated transfer of substrate  to CCT/TriC",
-        "country": null,
-        "website": null,
-        "start_date": null,
-        "end_date": null,
-        "funder": null,
-        "founder": null,
-        "created_date": null
+        "has_id_project": "2313054",
+        "has_wikidata_uri": null,
+        "has_wikidata_label": null,
+        "has_located_country": null,
+        "has_website": null,
+        "has_start_date": null,
+        "has_end_date": null,
+        "has_funder": null
       }
     ]
   },
@@ -12865,26 +12480,9 @@
         "identifier": null
       }
     ],
-    "organizations": [
-      " MUCCA",
-      " European Union-NextGenerationEU",
-      " BNSF"
-    ],
+    "organizations": [],
     "projects": [],
-    "enriched_organizations": [
-      {
-        "name": " MUCCA",
-        "wikidata_uri": null
-      },
-      {
-        "name": " European Union-NextGenerationEU",
-        "wikidata_uri": null
-      },
-      {
-        "name": " BNSF",
-        "wikidata_uri": null
-      }
-    ],
+    "enriched_organizations": [],
     "enriched_projects": []
   },
   {
@@ -13693,31 +13291,9 @@
         "identifier": null
       }
     ],
-    "organizations": [
-      " Natural Science Foundation of China",
-      " High-Performance Computing Center",
-      " KC Wong Magna Foundation",
-      " Ningbo University"
-    ],
+    "organizations": [],
     "projects": [],
-    "enriched_organizations": [
-      {
-        "name": " Natural Science Foundation of China",
-        "wikidata_uri": null
-      },
-      {
-        "name": " High-Performance Computing Center",
-        "wikidata_uri": null
-      },
-      {
-        "name": " KC Wong Magna Foundation",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Ningbo University",
-        "wikidata_uri": null
-      }
-    ],
+    "enriched_organizations": [],
     "enriched_projects": []
   },
   {
@@ -14444,32 +14020,23 @@
         "identifier": null
       }
     ],
-    "organizations": [
-      " DB",
-      " Murdoch Children's Research Institute",
-      " MMB",
-      " National Health and Medical Research Council"
+    "organizations": [],
+    "projects": [
+      "fellowship"
     ],
-    "projects": [],
-    "enriched_organizations": [
+    "enriched_organizations": [],
+    "enriched_projects": [
       {
-        "name": " DB",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Murdoch Children's Research Institute",
-        "wikidata_uri": null
-      },
-      {
-        "name": " MMB",
-        "wikidata_uri": null
-      },
-      {
-        "name": " National Health and Medical Research Council",
-        "wikidata_uri": null
+        "has_id_project": "fellowship",
+        "has_wikidata_uri": null,
+        "has_wikidata_label": null,
+        "has_located_country": null,
+        "has_website": null,
+        "has_start_date": null,
+        "has_end_date": null,
+        "has_funder": null
       }
-    ],
-    "enriched_projects": []
+    ]
   },
   {
     "filename": "2504.15870v1.pdf",
@@ -15056,109 +14623,35 @@
       }
     ],
     "organizations": [
-      " HPC",
-      " ITP",
-      " Swiss National Science Foundation",
-      " AEC",
-      " University of Bern",
-      "FWF",
-      "unibe",
-      " Austrian Science Fund",
-      "SNSF",
-      "VSC",
-      " US National Science Foundation",
-      " Vienna Scientific Cluster"
+      "Austrian Science Fund",
+      "Swiss National Science Foundation"
     ],
-    "projects": [
-      "erc",
-      " U",
-      "id"
-    ],
+    "projects": [],
     "enriched_organizations": [
       {
-        "name": " HPC",
-        "wikidata_uri": null
+        "has_name_organization": "Austrian Science Fund",
+        "has_wikidata_uri": "https://www.wikidata.org/entity/Q383273",
+        "has_wikidata_label": "Austrian Science Fund",
+        "has_located_country": "Q40",
+        "has_website": "http://www.fwf.ac.at/",
+        "has_start_date": "+1967-01-01T00:00:00Z",
+        "has_end_date": null,
+        "has_funder": null,
+        "has_founder": null
       },
       {
-        "name": " ITP",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Swiss National Science Foundation",
-        "wikidata_uri": null
-      },
-      {
-        "name": " AEC",
-        "wikidata_uri": null
-      },
-      {
-        "name": " University of Bern",
-        "wikidata_uri": null
-      },
-      {
-        "name": "FWF",
-        "wikidata_uri": null
-      },
-      {
-        "name": "unibe",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Austrian Science Fund",
-        "wikidata_uri": null
-      },
-      {
-        "name": "SNSF",
-        "wikidata_uri": null
-      },
-      {
-        "name": "VSC",
-        "wikidata_uri": null
-      },
-      {
-        "name": " US National Science Foundation",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Vienna Scientific Cluster",
-        "wikidata_uri": null
+        "has_name_organization": "Swiss National Science Foundation",
+        "has_wikidata_uri": "https://www.wikidata.org/entity/Q471732",
+        "has_wikidata_label": "Swiss National Science Foundation",
+        "has_located_country": "Q39",
+        "has_website": "https://www.snf.ch",
+        "has_start_date": "+1952-08-01T00:00:00Z",
+        "has_end_date": null,
+        "has_funder": null,
+        "has_founder": null
       }
     ],
-    "enriched_projects": [
-      {
-        "wikidata_uri": "http://www.wikidata.org/entity/Q45316884",
-        "label": "ERCC6 (CSB) and EHMT2 (G9a) positively regulate rRNA expression",
-        "country": null,
-        "website": null,
-        "start_date": null,
-        "end_date": null,
-        "funder": null,
-        "founder": null,
-        "created_date": null
-      },
-      {
-        "wikidata_uri": "http://www.wikidata.org/entity/Q45318472",
-        "label": "Binding and Uptake of Ligands by Scavenger Receptors",
-        "country": null,
-        "website": null,
-        "start_date": null,
-        "end_date": null,
-        "funder": null,
-        "founder": null,
-        "created_date": null
-      },
-      {
-        "wikidata_uri": "http://www.wikidata.org/entity/Q45316895",
-        "label": "Nitric oxide stimulates guanylate cyclase",
-        "country": null,
-        "website": null,
-        "start_date": null,
-        "end_date": null,
-        "funder": null,
-        "founder": null,
-        "created_date": null
-      }
-    ]
+    "enriched_projects": []
   },
   {
     "filename": "2504.15925v1.pdf",
@@ -15573,36 +15066,9 @@
         "identifier": null
       }
     ],
-    "organizations": [
-      "HPC",
-      " Research Center for Industries of the Future",
-      " Westlake University",
-      " High-Performance Computing Center",
-      "RCIF"
-    ],
+    "organizations": [],
     "projects": [],
-    "enriched_organizations": [
-      {
-        "name": "HPC",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Research Center for Industries of the Future",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Westlake University",
-        "wikidata_uri": null
-      },
-      {
-        "name": " High-Performance Computing Center",
-        "wikidata_uri": null
-      },
-      {
-        "name": "RCIF",
-        "wikidata_uri": null
-      }
-    ],
+    "enriched_organizations": [],
     "enriched_projects": []
   },
   {
@@ -15911,74 +15377,23 @@
       }
     ],
     "organizations": [
-      " ERC",
-      " Dutch Research Council",
-      "project number  1389",
-      " Dutch National Growth Fund",
-      " European Union",
-      "NWO"
+      "Dutch Research Council"
     ],
-    "projects": [
-      "ERC",
-      "NGF"
-    ],
+    "projects": [],
     "enriched_organizations": [
       {
-        "wikidata_uri": "http://www.wikidata.org/entity/Q131267061",
-        "label": "S.A.S.U. Ercco",
-        "country": "France",
-        "website": null,
-        "start_date": null,
-        "end_date": null,
-        "funder": null,
-        "founder": null,
-        "created_date": "2023-10-17T00:00:00Z"
-      },
-      {
-        "name": " Dutch Research Council",
-        "wikidata_uri": null
-      },
-      {
-        "name": "project number  1389",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Dutch National Growth Fund",
-        "wikidata_uri": null
-      },
-      {
-        "name": " European Union",
-        "wikidata_uri": null
-      },
-      {
-        "name": "NWO",
-        "wikidata_uri": null
+        "has_name_organization": "Dutch Research Council",
+        "has_wikidata_uri": "https://www.wikidata.org/entity/Q129724",
+        "has_wikidata_label": "Dutch Research Council",
+        "has_located_country": "Q55",
+        "has_website": "https://www.nwo.nl",
+        "has_start_date": "+1950-00-00T00:00:00Z",
+        "has_end_date": null,
+        "has_funder": null,
+        "has_founder": null
       }
     ],
-    "enriched_projects": [
-      {
-        "wikidata_uri": "http://www.wikidata.org/entity/Q45316884",
-        "label": "ERCC6 (CSB) and EHMT2 (G9a) positively regulate rRNA expression",
-        "country": null,
-        "website": null,
-        "start_date": null,
-        "end_date": null,
-        "funder": null,
-        "founder": null,
-        "created_date": null
-      },
-      {
-        "wikidata_uri": "http://www.wikidata.org/entity/Q45318038",
-        "label": "NGF-independant TRKA activation",
-        "country": null,
-        "website": null,
-        "start_date": null,
-        "end_date": null,
-        "funder": null,
-        "founder": null,
-        "created_date": null
-      }
-    ]
+    "enriched_projects": []
   },
   {
     "filename": "2504.15993v1.pdf",
@@ -19827,99 +19242,10 @@
         "identifier": null
       }
     ],
-    "organizations": [
-      "supported by the New Frontiers in Research Fund through an NFRF Exploration Grant",
-      " Sciences and Engineering Research Council of Canada",
-      " NSERC",
-      " New Frontiers in Research Fund",
-      " Symmetric Group LLP"
-    ],
-    "projects": [
-      "erc",
-      "ERC",
-      "NS",
-      " CO",
-      " NS"
-    ],
-    "enriched_organizations": [
-      {
-        "name": "supported by the New Frontiers in Research Fund through an NFRF Exploration Grant",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Sciences and Engineering Research Council of Canada",
-        "wikidata_uri": null
-      },
-      {
-        "name": " NSERC",
-        "wikidata_uri": null
-      },
-      {
-        "name": " New Frontiers in Research Fund",
-        "wikidata_uri": null
-      },
-      {
-        "name": " Symmetric Group LLP",
-        "wikidata_uri": null
-      }
-    ],
-    "enriched_projects": [
-      {
-        "wikidata_uri": "http://www.wikidata.org/entity/Q45316884",
-        "label": "ERCC6 (CSB) and EHMT2 (G9a) positively regulate rRNA expression",
-        "country": null,
-        "website": null,
-        "start_date": null,
-        "end_date": null,
-        "funder": null,
-        "founder": null,
-        "created_date": null
-      },
-      {
-        "wikidata_uri": "http://www.wikidata.org/entity/Q45316884",
-        "label": "ERCC6 (CSB) and EHMT2 (G9a) positively regulate rRNA expression",
-        "country": null,
-        "website": null,
-        "start_date": null,
-        "end_date": null,
-        "funder": null,
-        "founder": null,
-        "created_date": null
-      },
-      {
-        "wikidata_uri": "http://www.wikidata.org/entity/Q45316876",
-        "label": "Transcriptional regulation by small RNAs",
-        "country": null,
-        "website": null,
-        "start_date": null,
-        "end_date": null,
-        "funder": null,
-        "founder": null,
-        "created_date": null
-      },
-      {
-        "wikidata_uri": "http://www.wikidata.org/entity/Q45316883",
-        "label": "B-WICH complex positively regulates rRNA expression",
-        "country": null,
-        "website": null,
-        "start_date": null,
-        "end_date": null,
-        "funder": null,
-        "founder": null,
-        "created_date": null
-      },
-      {
-        "wikidata_uri": "http://www.wikidata.org/entity/Q90518826",
-        "label": "Pathogenesis of SARS-CoV-2 mediated by nsp9-nsp10 complex",
-        "country": null,
-        "website": null,
-        "start_date": null,
-        "end_date": null,
-        "funder": null,
-        "founder": null,
-        "created_date": null
-      }
-    ]
+    "organizations": [],
+    "projects": [],
+    "enriched_organizations": [],
+    "enriched_projects": []
   },
   {
     "filename": "2504.16493v1.pdf",

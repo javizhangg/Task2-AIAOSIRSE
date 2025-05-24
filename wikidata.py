@@ -1,123 +1,147 @@
-from SPARQLWrapper import SPARQLWrapper, JSON
-import json
-import time
-import math
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+enrich_wikidata_v1.1.py
+• Lee  outputs/papers_metadata_ner.json
+• Añade enriched_organizations  / enriched_projects
+  con TODOS los campos del modelo (null si no hay dato)
+• Guarda outputs/papers_metadata_wikidata.json
+"""
 
-# Configurar SPARQL con User-Agent
-sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
-sparql.addCustomHttpHeader('User-Agent', 'MyKnowledgeGraphBot/1.0 (contact@example.com)')
+from __future__ import annotations
+import json, requests, time
+from pathlib import Path
+from typing import Dict, Any
+from tqdm import tqdm
 
-def batch_query_wikidata(names, instance_type):
-    """
-    Consulta Wikidata para una lista de nombres y devuelve diccionario {name: enriched_data}.
-    """
-    if instance_type == "project":
-        instance_of_q = "Q4915012"  # research project
-    elif instance_type == "organization":
-        instance_of_q = "Q43229"  # organization
-    else:
-        return {}
+# -------------------------------------------------------------------------
+ROOT      = Path(__file__).resolve().parent
+IN_FILE   = ROOT / "outputs/papers_metadata_ner.json"
+OUT_FILE  = ROOT / "outputs/papers_metadata_wikidata.json"
 
-    # Construir VALUES
-    values_clause = " ".join(f'"{name}"' for name in names)
-    query = f"""
-    SELECT ?entity ?entityLabel ?searchName ?countryLabel ?website ?startDate ?endDate ?funderLabel ?founderLabel ?createdDate WHERE {{
-      VALUES ?searchName {{ {values_clause} }}
-      ?entity wdt:P31 wd:{instance_of_q} ;
-              rdfs:label ?entityLabel .
-      FILTER(CONTAINS(LCASE(?entityLabel), LCASE(?searchName)))
-      OPTIONAL {{ ?entity wdt:P17 ?country . }}
-      OPTIONAL {{ ?entity wdt:P856 ?website . }}
-      OPTIONAL {{ ?entity wdt:P580 ?startDate . }}
-      OPTIONAL {{ ?entity wdt:P582 ?endDate . }}
-      OPTIONAL {{ ?entity wdt:P859 ?funder . }}
-      OPTIONAL {{ ?entity wdt:P112 ?founder . }}
-      OPTIONAL {{ ?entity wdt:P571 ?createdDate . }}
-      SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
-    }}
-    """
-    sparql.setQuery(query)
-    sparql.setReturnFormat(JSON)
+SEARCH    = "https://www.wikidata.org/w/api.php"
+ENTITY    = "https://www.wikidata.org/wiki/Special:EntityData/{}.json"
+HEADERS   = {"User-Agent": "KG-Enricher/1.1 (contact@example.com)"}
 
+ORG_QIDS  = {"Q43229","Q3918","Q783794","Q79913","Q31855"}
+PROJ_QIDS = {"Q23044590","Q3402703","Q722377"}
+
+# -------------------------------------------------------------------------
+_cache_search: dict[str,str|None] = {}
+_cache_entity: dict[str,dict]|None = {}
+
+def search_exact(label:str)->str|None:
+    if label in _cache_search:            # caché
+        return _cache_search[label]
+    params={"action":"wbsearchentities","search":label,"language":"en",
+            "type":"item","format":"json","limit":5}
     try:
-        results = sparql.query().convert()
-        enriched_data = {}
-        for res in results["results"]["bindings"]:
-            key = res["searchName"]["value"]
-            enriched_data[key] = {
-                "wikidata_uri": res["entity"]["value"],
-                "label": res.get("entityLabel", {}).get("value"),
-                "country": res.get("countryLabel", {}).get("value"),
-                "website": res.get("website", {}).get("value"),
-                "start_date": res.get("startDate", {}).get("value"),
-                "end_date": res.get("endDate", {}).get("value"),
-                "funder": res.get("funderLabel", {}).get("value"),
-                "founder": res.get("founderLabel", {}).get("value"),
-                "created_date": res.get("createdDate", {}).get("value"),
-            }
-        return enriched_data
-    except Exception as e:
-        print(f"Error en batch query: {e}")
-        return {}
+        hits=[h for h in requests.get(SEARCH,params=params,headers=HEADERS,
+                                       timeout=8).json().get("search",[])
+              if h["label"].casefold()==label.casefold()]
+        qid = hits[0]["id"] if len(hits)==1 else None
+    except Exception: qid=None
+    _cache_search[label]=qid
+    return qid
 
-# Cargar JSON original
-with open("outputs/papers_metadata_ner.json", "r", encoding="utf-8") as f:
-    papers = json.load(f)
+def fetch_entity(qid:str)->dict|None:
+    if qid in _cache_entity:              # caché
+        return _cache_entity[qid]
+    try:
+        data=requests.get(ENTITY.format(qid),headers=HEADERS,timeout=8).json()
+        _cache_entity[qid]=data["entities"][qid]
+    except Exception: _cache_entity[qid]=None
+    return _cache_entity[qid]
 
-# Recolectar todas las organizaciones y proyectos únicas
-all_orgs = set()
-all_projects = set()
+def first(claims,pid):                    # helper
+    v=claims.get(pid)
+    if not v: return None
+    sn=v[0]["mainsnak"]
+    dt=sn["datatype"]
+    if dt in {"string","url","external-id"}:
+        return sn.get("datavalue",{}).get("value")
+    if dt=="wikibase-item":
+        return sn["datavalue"]["value"]["id"]
+    if dt=="time":
+        return sn["datavalue"]["value"]["time"]
+    return None
 
-for paper in papers:
-    all_orgs.update(paper.get("organizations", []))
-    all_projects.update(paper.get("projects", []))
+# ----------   plantillas vacías  -----------------------------------------
+ORG_TEMPLATE = {
+    "has_name_organization": None,
+    "has_wikidata_uri": None,
+    "has_wikidata_label": None,
+    "has_located_country": None,
+    "has_website": None,
+    "has_start_date": None,
+    "has_end_date": None,
+    "has_funder": None,
+    "has_founder": None,
+}
+PROJ_TEMPLATE = {
+    "has_id_project": None,
+    "has_wikidata_uri": None,
+    "has_wikidata_label": None,
+    "has_located_country": None,
+    "has_website": None,
+    "has_start_date": None,
+    "has_end_date": None,
+    "has_funder": None,
+}
 
-print(f"\nTotal organizaciones únicas: {len(all_orgs)}")
-print(f"Total proyectos únicos: {len(all_projects)}")
+def enrich(name:str,kind:str)->Dict[str,Any]:
+    """kind=='org'|'proj'  → devuelve dict completo (nulls si vacío)"""
+    base=ORG_TEMPLATE.copy() if kind=="org" else PROJ_TEMPLATE.copy()
+    key  ="has_name_organization" if kind=="org" else "has_id_project"
+    base[key]=name                         # siempre guardamos el nombre
 
-# Procesar en lotes (ejemplo: 10 entidades por lote)
-BATCH_SIZE = 10
+    qid = search_exact(name)
+    if not qid:                            # sin coincidencia → todos null
+        return base
 
-def process_in_batches(all_names, instance_type):
-    all_enriched = {}
-    name_list = list(all_names)
-    num_batches = math.ceil(len(name_list) / BATCH_SIZE)
+    ent = fetch_entity(qid)
+    if not ent:                            # error al descargar
+        return base
 
-    for i in range(num_batches):
-        batch = name_list[i*BATCH_SIZE : (i+1)*BATCH_SIZE]
-        print(f"Consultando batch {i+1}/{num_batches}: {batch}")
-        enriched = batch_query_wikidata(batch, instance_type)
-        all_enriched.update(enriched)
-        time.sleep(1)  # evitar bloqueo
+    # verificar instancia
+    types={c["mainsnak"]["datavalue"]["value"]["id"]
+           for c in ent.get("claims",{}).get("P31",[])
+           if "datavalue" in c["mainsnak"]}
+    if (kind=="org" and not (types & ORG_QIDS)) or \
+       (kind=="proj" and not (types & PROJ_QIDS)):
+        return base
 
-    return all_enriched
+    claims = ent["claims"]
+    base.update({
+        "has_wikidata_uri"  : f"https://www.wikidata.org/entity/{qid}",
+        "has_wikidata_label": ent.get("labels",{}).get("en",{}).get("value"),
+        "has_located_country": first(claims,"P17"),
+        "has_website"       : first(claims,"P856"),
+        "has_start_date"    : first(claims,"P580") or first(claims,"P571"),
+        "has_end_date"      : first(claims,"P582"),
+        "has_funder"        : first(claims,"P859"),
+    })
+    if kind=="org":
+        base["has_founder"]= first(claims,"P112")
+    return base
 
-# Consultar organizaciones y proyectos
-enriched_orgs_dict = process_in_batches(all_orgs, "organization")
-enriched_projects_dict = process_in_batches(all_projects, "project")
+# -------------------------------------------------------------------------
+print("📑 Leyendo papers_metadata_ner.json …")
+papers=json.loads(IN_FILE.read_text("utf-8"))
 
-# Mapear resultados al JSON original
-for idx, paper in enumerate(papers):
-    enriched_orgs = []
-    enriched_projects = []
+org_names={o for p in papers for o in p.get("organizations",[])}
+proj_names={g for p in papers for g in p.get("projects",[])}
 
-    for org in paper.get("organizations", []):
-        if org in enriched_orgs_dict:
-            enriched_orgs.append(enriched_orgs_dict[org])
-        else:
-            enriched_orgs.append({"name": org, "wikidata_uri": None})
+print(f"· Organizaciones únicas: {len(org_names)}")
+print(f"· Proyectos únicos     : {len(proj_names)}\n")
 
-    for proj in paper.get("projects", []):
-        if proj in enriched_projects_dict:
-            enriched_projects.append(enriched_projects_dict[proj])
-        else:
-            enriched_projects.append({"name": proj, "wikidata_uri": None})
+enriched_orgs  ={n:enrich(n,"org")  for n in tqdm(org_names, desc="orgs     ")}
+enriched_projs ={n:enrich(n,"proj") for n in tqdm(proj_names,desc="projects")}
 
-    paper["enriched_organizations"] = enriched_orgs
-    paper["enriched_projects"] = enriched_projects
+for p in papers:
+    p["enriched_organizations"]=[enriched_orgs[n]  for n in p.get("organizations",[])]
+    p["enriched_projects"]     =[enriched_projs[n] for n in p.get("projects",[])]
 
-# Guardar JSON enriquecido
-with open("outputs/papers_metadata_wikidata.json", "w", encoding="utf-8") as f:
-    json.dump(papers, f, indent=2, ensure_ascii=False)
-
-print("\nJSON enriquecido guardado en outputs/papers_metadata_wikidata.json")
+OUT_FILE.parent.mkdir(exist_ok=True)
+OUT_FILE.write_text(json.dumps(papers,indent=2,ensure_ascii=False),"utf-8")
+print(f"\n✅  Guardado → {OUT_FILE.relative_to(ROOT)}")
