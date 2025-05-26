@@ -223,3 +223,11 @@ Este enfoque mixto permite obtener agrupaciones temáticas coherentes y relacion
 ## Prueba (quicktest.py)
 
 Hace un par de consultas de prueba para topic y similarities
+
+## LICENCE
+
+Este proyecto se publica bajo la Licencia Apache 2.0 — consulta el archivo `LICENSE`.
+
+## CITATION
+
+Si reutilizas este codigo, datos o idea citanos siguiendo `CITATION.cff`

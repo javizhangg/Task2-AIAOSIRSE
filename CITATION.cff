@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Task2-AIAOSIRSE"
+version: 1.0.0
+# doi: 10.5281/zenodo.XXXXXXX  # Añádelo cuando lo tengas
+# date-released: 2025-XX-XX   # Añade la fecha de publicación
+url: "https://github.com/javizhangg/Task2-AIAOSIRSE.git"
+authors:
+  - family-names: "Zhang"
+    given-names: "Zhiwei"
+  - family-names: "Zhu"
+    given-names: "Xiaolei"
+  - family-names: "Maria Diez"
+    given-names: "Jesus"
+  - family-names: "Romero Huici"
+    given-names: "Angel"
