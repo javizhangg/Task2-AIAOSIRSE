@@ -111,6 +111,19 @@ if filter_search:
 
           ?s a <https://example.org/Paper> .
           """
+      elif filtro_topics == "Todos":
+        filtro_tipo = f"""
+          ?topic a <https://example.org/Topic> .
+
+          ?tb a <https://example.org/TopicBelonging> ;
+            <https://example.org/has_topic> ?topic ;
+            <https://example.org/has_paper> ?s ;
+            <https://example.org/has_percentage> ?percentage .
+
+          FILTER (?percentage >= {filtro_topic_threshold})
+
+          ?s a <https://example.org/Paper> .
+          """
 
     if termino.strip() == "":
       query = f"""
