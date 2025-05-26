@@ -63,7 +63,7 @@ st.title("Buscador SPARQL sobre Knowledge Graph")
 # Barra de búsqueda
 col1, col2 = st.columns([4,1], vertical_alignment="bottom")
 with col1:
-  termino = st.text_input("Buscar por nombre, título u otro término:",placeholder="Michael, Short-term window, University ...")
+  termino = st.text_input("Buscar por nombre, título u otro término:",placeholder="Michael, Machine Learning, University ...")
 with col2:
     filter_search = st.button("Buscar", use_container_width=True)
 
@@ -76,10 +76,8 @@ with st.expander("Filtros", expanded=st.session_state.expander_open):
     )
     filtro_resultados = st.number_input("Número límite de resultados", min_value=1, value=20)
     filtro_topics = st.selectbox("Pertenece al tópico", options=["Todos", 0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
-    
     filtro_topic_threshold = st.slider("Umbral de pertenencia al tópico", 0.0, 1.0, 0.3, 0.05)
-
-    consulta_usuario = st.text_area("Busqueda avanzada:", height=100)
+    consulta_usuario = st.text_area("Busqueda avanzada:",placeholder="Utilizar ?s para el sujeto, ?p para las propiedades y ?o para el objeto de la consulta. Pueden omitirse cualquiera de estos elementos" ,height=100)
     precise_search = st.button("Realizar búsqueda avanzada")
  
 
@@ -102,18 +100,17 @@ if filter_search:
       if filtro_topics != "Todos":
         filtro_tipo = f"""
           ?topic a <https://example.org/Topic> ;
-                 <https://example.org/has_name_topic> "{filtro_topics}" .
-    
-          ?tb a <https://example.org/TopicBelonging> ;
-               <https://example.org/has_topic> ?topic ;
-               <https://example.org/has_paper> ?s ;
-               <https://example.org/has_percentage> ?percentage .
-    
-          FILTER (?percentage >= {filtro_topic_threshold})
-    
-          ?s a <https://example.org/Paper> .
-        """
+            <https://example.org/has_name_topic> "{filtro_topics}" .
 
+          ?tb a <https://example.org/TopicBelonging> ;
+            <https://example.org/has_topic> ?topic ;
+            <https://example.org/has_paper> ?s ;
+            <https://example.org/has_percentage> ?percentage .
+
+          FILTER (?percentage >= {filtro_topic_threshold})
+
+          ?s a <https://example.org/Paper> .
+          """
 
     if termino.strip() == "":
       query = f"""
@@ -144,13 +141,13 @@ if filter_search:
     resultados = g.query(query)
 
     # Formatear resultados
-    st.session_state.datos = [{"Sujeto": limpiar_uri(r.s), "Propiedad": limpiar_uri(r.p) if limpiar_uri(r.p)!="None" else "has_title", "Nombre": limpiar_uri(r.o), "Topic": topic_query.get(str(r.s), "") if limpiar_uri(r.s).startswith("Paper_") else ""} for r in resultados]
+    st.session_state.datos = [{"Sujeto": limpiar_uri(r.s), "Propiedad": limpiar_uri(r.p) if limpiar_uri(r.p)!="None" else "has_title", "Nombre": limpiar_uri(r.o), "Topic": topic_query.get(str(r.s), "").get("topic", "") if limpiar_uri(r.s).startswith("Paper_") else "", "Percentage": topic_query.get(str(r.s), "").get("percentage", "") if limpiar_uri(r.s).startswith("Paper_") else ""} for r in resultados]
 
 if precise_search:
   st.session_state.expander_open = False
   try:
     resultados_avanzados = g.query(consulta_usuario)
-    st.session_state.datos = [{"Sujeto": limpiar_uri(r.s), "Propiedad": limpiar_uri(r.p), "Nombre": limpiar_uri(r.o), "Topic": topic_query.get(str(r.s), "") if limpiar_uri(r.s).startswith("Paper_") else ""} for r in resultados_avanzados]
+    st.session_state.datos = [{"Sujeto": limpiar_uri(r.s) if limpiar_uri(r.s)!="None" else "", "Propiedad": limpiar_uri(r.p) if limpiar_uri(r.p)!="None" else "", "Nombre": limpiar_uri(r.o) if limpiar_uri(r.p)!="None" else "", "Topic": topic_query.get(str(r.s), "").get("topic", "") if limpiar_uri(r.s).startswith("Paper_") else "", "Percentage": topic_query.get(str(r.s), "").get("percentage", "") if limpiar_uri(r.s).startswith("Paper_") else ""} for r in resultados_avanzados]
   except Exception as e:
     st.error(f"Error en la consulta SPARQL: {e}")
 
@@ -182,9 +179,9 @@ if st.session_state.datos:
       
               datos_similares = []
               for r in resultados_similares:
-                  paper_uri = str(r.other_paper)
-                  paper_id = limpiar_uri(paper_uri)
-                  topic_data = topic_query.get(paper_uri, {})
+                  paper_id = limpiar_uri(r.other_paper)
+                  
+                  topic_data = topic_query.get(str(r.other_paper), {})
                   datos_similares.append({
                       "Paper similar": paper_id,
                       "Título": r.similar_title,
@@ -199,11 +196,9 @@ if st.session_state.datos:
                   st.warning("No se encontraron papers similares.")
           else:
               st.warning("No se pudo recuperar el título del paper seleccionado.")
-      
   else:
       st.info("No hay papers en los resultados para seleccionar.")
 
 
 else:
   st.write("No se encontraron resultados")
-
