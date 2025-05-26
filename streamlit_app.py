@@ -33,17 +33,18 @@ def cargar_kg(path):
 @st.cache_data
 def cargar_topics(_g):
     query = """
-    SELECT ?paper ?topic
+    SELECT ?paper ?topic ?percentage
     WHERE {
         ?tb a <https://example.org/TopicBelonging> ;
             <https://example.org/has_paper> ?paper ;
-            <https://example.org/has_topic> ?topic .
+            <https://example.org/has_topic> ?topic ;
+            <https://example.org/has_percentage> ?percentage .
     }
     """
-    results = g.query(query)
+    results = _g.query(query)
     return {
-        str(paper): limpiar_uri(topic)
-        for paper, topic in results
+        str(paper): {"topic": limpiar_uri(topic), "percentage": float(percentage)}
+        for paper, topic, percentage in results
     }
 
 @st.cache_data
@@ -75,6 +76,9 @@ with st.expander("Filtros", expanded=st.session_state.expander_open):
     )
     filtro_resultados = st.number_input("Número límite de resultados", min_value=1, value=20)
     filtro_topics = st.selectbox("Pertenece al tópico", options=["Todos", 0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+    
+    filtro_topic_threshold = st.slider("Umbral de pertenencia al tópico", 0.0, 1.0, 0.3, 0.05)
+
     consulta_usuario = st.text_area("Busqueda avanzada:", height=100)
     precise_search = st.button("Realizar búsqueda avanzada")
  
@@ -98,15 +102,18 @@ if filter_search:
       if filtro_topics != "Todos":
         filtro_tipo = f"""
           ?topic a <https://example.org/Topic> ;
-            <https://example.org/has_name_topic> "{filtro_topics}" .
-
+                 <https://example.org/has_name_topic> "{filtro_topics}" .
+    
           ?tb a <https://example.org/TopicBelonging> ;
-            <https://example.org/has_topic> ?topic ;
-            <https://example.org/has_paper> ?s ;
-            <https://example.org/has_percentage> ?percentage .
-
+               <https://example.org/has_topic> ?topic ;
+               <https://example.org/has_paper> ?s ;
+               <https://example.org/has_percentage> ?percentage .
+    
+          FILTER (?percentage >= {filtro_topic_threshold})
+    
           ?s a <https://example.org/Paper> .
-          """
+        """
+
 
     if termino.strip() == "":
       query = f"""
@@ -154,47 +161,45 @@ if st.session_state.datos:
   papers = df[df['Sujeto'].str.contains("Paper")]['Sujeto'].unique()
   if len(papers) > 0:
       selected_paper = st.selectbox("Selecciona un paper para buscar similares", papers)
-      filtro_similitud = st.slider("Porcentaje de similitud", 0.0, 1.0, 0.5, 0.1)
       if st.button("Buscar papers similares"):
-          # Construimos la consulta para papers similares
-
-          # paper_id = selected_paper
-          # query_similares = f"""
-          # PREFIX base: <https://example.org/>
-          # SELECT ?paper ?title WHERE {{
-          #     base:{paper_id}  base:similar_to ?paper .
-          #     ?paper base:has_title ?title ;
-          # }}
-          # """
-          query_similares = f"""
-            PREFIX base: <https://example.org/>
-
-            SELECT DISTINCT ?paper ?p ?title WHERE {{
-                ?topic a base:Topic ;
-                        base:has_name_topic "{filtro_topics}" .
-
-                ?tb a base:TopicBelonging ;
-                    base:has_topic ?topic ;
-                    base:has_paper ?paper ;
-                    base:has_percentage ?percentage .
-
-                FILTER (?percentage >= {filtro_similitud})
-
-                ?paper base:has_title ?title .
-            }}
-            """
-          resultados_similares = g.query(query_similares)
-
-          datos_similares = [
-              {"Paper similar": limpiar_uri(r.paper), "Título": r.title, "Topic": topic_query.get(str(r.paper), "") if limpiar_uri(r.paper).startswith("Paper_") else ""} for r in resultados_similares
-          ]
-
-          if datos_similares:
-              df_similares = pd.DataFrame(datos_similares)
-              st.write(f"Papers similares a {selected_paper} con umbral ≥ {filtro_similitud}:")
-              st.dataframe(df_similares, use_container_width=True)
+          paper_title_query = g.value(subject=URIRef(f"https://example.org/{selected_paper}"),
+                                      predicate=URIRef("https://example.org/has_title"))
+          
+          if paper_title_query:
+              query_similares = f"""
+              PREFIX base: <https://example.org/>
+      
+              SELECT DISTINCT ?similar_title ?other_paper WHERE {{
+                  ?paper a base:Paper ;
+                         base:has_title "{paper_title_query}" ;
+                         base:similar_to ?other_paper .
+      
+                  ?other_paper base:has_title ?similar_title .
+              }}
+              """
+      
+              resultados_similares = g.query(query_similares)
+      
+              datos_similares = []
+              for r in resultados_similares:
+                  paper_uri = str(r.other_paper)
+                  paper_id = limpiar_uri(paper_uri)
+                  topic_data = topic_query.get(paper_uri, {})
+                  datos_similares.append({
+                      "Paper similar": paper_id,
+                      "Título": r.similar_title,
+                      "Topic": topic_data.get("topic", "") if isinstance(topic_data, dict) else topic_data
+                  })
+      
+              if datos_similares:
+                  df_similares = pd.DataFrame(datos_similares)
+                  st.write(f"Papers similares a **{selected_paper}**:")
+                  st.dataframe(df_similares, use_container_width=True)
+              else:
+                  st.warning("No se encontraron papers similares.")
           else:
-              st.write("No se encontraron papers similares con ese umbral.")
+              st.warning("No se pudo recuperar el título del paper seleccionado.")
+      
   else:
       st.info("No hay papers en los resultados para seleccionar.")
 

@@ -216,10 +216,10 @@ Este enfoque mixto permite obtener agrupaciones temáticas coherentes y relacion
 
 - Añade la información de enriched_authors.json
 
-- Añade similitud entre papers y topic belonging siguiendo lo contenido en la carpeta /similarities_semantic_by_topic
+- Añade la pertenencia de los papers a los topics obtenida en papers_with_topics.json utilizando una clase TopicBelonging auxiliar que almacena el grado de pertenencia de un paper a un topic.
+
+- Añade la similitud entre papers obtenida en /similarities_semantic_by_topic mediante una relación similar_to.
 
 ## Prueba (quicktest.py)
 
-Hace un par de consultas de prueba (para lo de topic y similarities, que con lo de la clase TopicBelonging no tenia claro si iba bien)
-
-Tiene un problema, al sacar resultados de papers que pertenecen a un topic, viene por duplicado el resultado.
+Hace un par de consultas de prueba para topic y similarities

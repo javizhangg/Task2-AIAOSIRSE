@@ -1,0 +1,107 @@
+[
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.15287v1.pdf",
+    "similarity": 0.247
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.15870v1.pdf",
+    "similarity": 0.459
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.16100v1.pdf",
+    "similarity": 0.343
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.16131v1.pdf",
+    "similarity": 0.365
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.592
+  },
+  {
+    "paper1": "2504.14961v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.283
+  },
+  {
+    "paper1": "2504.15287v1.pdf",
+    "paper2": "2504.15870v1.pdf",
+    "similarity": 0.196
+  },
+  {
+    "paper1": "2504.15287v1.pdf",
+    "paper2": "2504.16100v1.pdf",
+    "similarity": 0.25
+  },
+  {
+    "paper1": "2504.15287v1.pdf",
+    "paper2": "2504.16131v1.pdf",
+    "similarity": 0.101
+  },
+  {
+    "paper1": "2504.15287v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.218
+  },
+  {
+    "paper1": "2504.15287v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.104
+  },
+  {
+    "paper1": "2504.15870v1.pdf",
+    "paper2": "2504.16100v1.pdf",
+    "similarity": 0.282
+  },
+  {
+    "paper1": "2504.15870v1.pdf",
+    "paper2": "2504.16131v1.pdf",
+    "similarity": 0.406
+  },
+  {
+    "paper1": "2504.15870v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.499
+  },
+  {
+    "paper1": "2504.15870v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.273
+  },
+  {
+    "paper1": "2504.16100v1.pdf",
+    "paper2": "2504.16131v1.pdf",
+    "similarity": 0.216
+  },
+  {
+    "paper1": "2504.16100v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.315
+  },
+  {
+    "paper1": "2504.16100v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.468
+  },
+  {
+    "paper1": "2504.16131v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.479
+  },
+  {
+    "paper1": "2504.16131v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.287
+  },
+  {
+    "paper1": "2504.16172v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.31
+  }
+]

@@ -30,27 +30,28 @@ def get_similar_papers(title):
 def get_papers_for_topic(topic_name="1", min_percentage=0.3):
     query = f"""
     PREFIX base: <https://example.org/>
+    PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-    SELECT ?title WHERE {{
+    SELECT ?title ?score WHERE {{
         ?topic a base:Topic ;
                base:has_name_topic "{topic_name}" .
 
         ?tb a base:TopicBelonging ;
             base:has_topic ?topic ;
             base:has_paper ?paper ;
-            base:has_percentage ?percentage .
-
-        FILTER (?percentage >= {min_percentage})
+            base:has_percentage ?score .
 
         ?paper base:has_title ?title .
+
+        FILTER(xsd:float(?score) >= {min_percentage})
     }}
     """
     results = g.query(query)
-    print(f"Papers que pertenecen al topic {topic_name} con similitud >= {min_percentage}:")
+    print(f"Papers que pertenecen al topic {topic_name} con score >= {min_percentage}:")
     for row in results:
-        print(" -", row.title)
+        print(f" - {row.title} (score: {float(row.score):.3f})")
 
 # ---------- Ejemplos de uso ----------
-get_similar_papers("Benchmarking machine learning models for predicting aerofoil performance")  # Reemplaza con un título real
+get_similar_papers("Machine-learned RG-improved gauge actions and classically perfect gradient flows") 
 print("=========================================================================================0")
-get_papers_for_topic("1", min_percentage=0.3)  # Busca por nombre "1" con un mínimo de 0.3 en similitud
+get_papers_for_topic(5, min_percentage=0.5)

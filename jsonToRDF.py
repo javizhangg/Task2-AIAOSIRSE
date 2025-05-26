@@ -121,49 +121,71 @@ for idx, paper in enumerate(papers):
         if proj.get("funder"):
             g.add((proj_uri, BASE.has_funder, Literal(proj["funder"])))
 
+import os
+import glob
+import json
+import uuid
+
 # ------------------------
-# Añadir Topics y Similitud
+# Add Topics and Similarity
 # ------------------------
+
+# Load topic assignments
+topic_file = "outputs/papers_with_topics.json"
+if os.path.exists(topic_file):
+    with open(topic_file, "r", encoding="utf-8") as f:
+        paper_topic_data = json.load(f)
+
+    # Map of topic IDs to URIs (to avoid duplicates)
+    topic_uri_map = {}
+
+    for entry in paper_topic_data:
+        title = entry["title"]
+        filename = entry["filename"]
+        topic_id = entry["main_topic"]
+        topic_score = entry["topic_score"]
+
+        paper_uri = paper_uri_map.get(filename)
+        if not paper_uri:
+            continue  # Skip if paper title not found
+
+        # Get or create Topic URI
+        if topic_id not in topic_uri_map:
+            topic_uri = URIRef(BASE + f"topic{int(topic_id):02}")
+            g.add((topic_uri, RDF.type, BASE.Topic))
+            g.add((topic_uri, BASE.has_name_topic, Literal(f"{topic_id}")))
+            topic_uri_map[topic_id] = topic_uri
+        else:
+            topic_uri = topic_uri_map[topic_id]
+
+        # Create TopicBelonging instance
+        tb_uri = URIRef(BASE + f"TB_{uuid.uuid4().hex[:8]}")
+        g.add((tb_uri, RDF.type, BASE.TopicBelonging))
+        g.add((tb_uri, BASE.has_paper, paper_uri))
+        g.add((tb_uri, BASE.has_topic, topic_uri))
+        if topic_score:
+            g.add((tb_uri, BASE.has_percentage, Literal(float(topic_score), datatype=XSD.float)))
+
+# Load similarity relationships
 similarity_folder = "outputs/similarities_semantic_by_topic/"
 if os.path.exists(similarity_folder):
-    for file_path in glob.glob(os.path.join(similarity_folder, "topic_*.json")):
-        topic_name = os.path.splitext(os.path.basename(file_path))[0].replace("topic_", "")
-        topic_uri = URIRef(BASE + f"Topic_{topic_name}")
-        g.add((topic_uri, RDF.type, BASE.Topic))
-        g.add((topic_uri, BASE.has_name_topic, Literal(topic_name)))
-
+    for file_path in glob.glob(os.path.join(similarity_folder, "*.json")):
         with open(file_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-            for relation in data:
+            similarity_data = json.load(f)
+
+            for relation in similarity_data:
                 paper1_title = relation["paper1"]
                 paper2_title = relation["paper2"]
-                similarity = relation.get("similarity", None)
+                similarity = relation.get("similarity")
 
-                uri1 = paper_uri_map.get(paper1_title)
-                uri2 = paper_uri_map.get(paper2_title)
+                if similarity and similarity > 0.3:
+                    uri1 = paper_uri_map.get(paper1_title)
+                    uri2 = paper_uri_map.get(paper2_title)
+    
+                    if uri1 and uri2:
+                        g.add((uri1, BASE.similar_to, uri2))
+                        g.add((uri2, BASE.similar_to, uri1))
 
-                if uri1 and uri2:
-                    print(uri1)
-                    # Similaridad entre papers
-                    g.add((uri1, BASE.similar_to, uri2))
-
-                    # TopicBelonging paper1
-                    tb1_id = f"TB_{uuid.uuid4().hex[:8]}"
-                    tb1_uri = URIRef(BASE + tb1_id)
-                    g.add((tb1_uri, RDF.type, BASE.TopicBelonging))
-                    g.add((tb1_uri, BASE.has_paper, uri1))
-                    g.add((tb1_uri, BASE.has_topic, topic_uri))
-                    if similarity:
-                        g.add((tb1_uri, BASE.has_percentage, Literal(float(similarity))))
-
-                    # TopicBelonging paper2
-                    tb2_id = f"TB_{uuid.uuid4().hex[:8]}"
-                    tb2_uri = URIRef(BASE + tb2_id)
-                    g.add((tb2_uri, RDF.type, BASE.TopicBelonging))
-                    g.add((tb2_uri, BASE.has_paper, uri2))
-                    g.add((tb2_uri, BASE.has_topic, topic_uri))
-                    if similarity:
-                        g.add((tb2_uri, BASE.has_percentage, Literal(float(similarity))))
 
 # Guardar como Turtle
 g.serialize("outputs/knowledge_graph.ttl", format="turtle")
