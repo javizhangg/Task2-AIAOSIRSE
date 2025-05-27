@@ -361,6 +361,18 @@ Este script realiza un par de consultas sobre el grafo RDF generado.
   **Consulta:** tripletas que vinculan `TopicBelonging` con `Topic` y `Paper`, usando propiedades `has_topic`, `has_paper` y `has_percentage`.  
   **Origen de datos:** asignación de topics a papers.
 
+## Interfaz Interactiva (`streamlit_app.py`)
+
+Este script genera en una aplicación web con la librería Streamlit donde el usuario puede interactuar con el Knowledge Graph mediante un motor de búsqueda.
+
+Para activarlo, simplemente ejecutar el comando
+
+```bash
+streamlit run streamlit_app.py
+```
+
+La aplicación presenta filtros que poder aplicar a la búsqueda (por categoría, por tópico, umbral de pertenencia al tópico...) además de un modo de búsqueda avanzada para realizar consultas personalizadas al KG mediante SparSQL.
+
 ## LICENCE
 
 Este proyecto se publica bajo la Licencia Apache 2.0 — consulta el archivo `LICENSE`.
