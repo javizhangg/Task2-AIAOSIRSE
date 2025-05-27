@@ -50,15 +50,15 @@ def find_best_lda_coherence(dictionary, corpus, texts, start=2, end=15, step=1):
             best_num_topics = num_topics
 
     # Gráfica de coherencia vs num_topics
-    x, y = zip(*coherence_values)
-    plt.figure(figsize=(8, 4))
-    plt.plot(x, y, marker="o")
-    plt.xlabel("Número de tópicos")
-    plt.ylabel("Coherencia UMass")
-    plt.title("Selección del número óptimo de tópicos (UMass)")
-    plt.grid(True)
-    plt.tight_layout()
-    plt.show()
+    # x, y = zip(*coherence_values)
+    # plt.figure(figsize=(8, 4))
+    # plt.plot(x, y, marker="o")
+    # plt.xlabel("Número de tópicos")
+    # plt.ylabel("Coherencia UMass")
+    # plt.title("Selección del número óptimo de tópicos (UMass)")
+    # plt.grid(True)
+    # plt.tight_layout()
+    # plt.show()
 
     print(
         f"\n✅ Mejor número de tópicos: {best_num_topics} con coherencia UMass {best_coherence:.4f}"

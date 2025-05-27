@@ -117,53 +117,33 @@
     "full_name": "Joana Oliveira",
     "family_name": "Oliveira",
     "given_name": "Joana",
-    "orcid_id": "0000-0002-7885-0262",
+    "orcid_id": "0000-0002-2952-396X",
     "paper_cited": "DUSTY STELLAR SOURCES CLASSIFICATION BY IMPLEMENTING MACHINE LEARNING METHODS BASED ON SPECTROSCOPIC OBSERVATIONS IN THE MAGELLANIC CLOUDS",
-    "education": [
+    "education": [],
+    "employment": [
       {
-        "institution": "Universidade do Porto Faculdade de Ciências",
-        "city": "Porto",
+        "institution": "University of Coimbra",
+        "city": "Coimbra",
         "country": "PT",
-        "role": "Doctorate in Biology",
-        "start_year": "2021",
+        "role": null,
+        "start_year": "2018",
         "end_year": null,
-        "identifier": "131674"
+        "identifier": "grid.8051.c"
       },
       {
-        "institution": "Universidade do Porto Instituto de Ciências Biomédicas Abel Salazar",
-        "city": "Porto",
+        "institution": "Centro Hospitalar e Universitário de Coimbra EPE",
+        "city": "Coimbra",
         "country": "PT",
-        "role": "Master degree in Marine Sciences - Marine Resources",
-        "start_year": "2017",
-        "end_year": "2019",
-        "identifier": "89239"
-      },
-      {
-        "institution": "University of Minho",
-        "city": "Braga",
-        "country": "PT",
-        "role": "Bachelor in Applied Biology",
-        "start_year": "2014",
-        "end_year": "2017",
-        "identifier": "grid.10328.38"
+        "role": null,
+        "start_year": "2018",
+        "end_year": null,
+        "identifier": "58411"
       }
     ],
-    "employment": [],
-    "external_ids": [
-      {
-        "type": "SciProfiles",
-        "value": "3637621",
-        "url": "https://sciprofiles.com/profile/3637621"
-      },
-      {
-        "type": "Loop profile",
-        "value": "2902110",
-        "url": "http://loop.frontiersin.org/people/2902110/overview?referrer=orcid_profile"
-      }
-    ],
+    "external_ids": [],
     "researcher_urls": [],
     "other_names": [],
-    "work_count": 2
+    "work_count": 0
   },
   {
     "full_name": "Amirhossein Masoudnezhad",
@@ -407,7 +387,7 @@
     "external_ids": [],
     "researcher_urls": [],
     "other_names": [],
-    "work_count": 59
+    "work_count": 60
   },
   {
     "full_name": "Matti Lehtomäki",
@@ -521,7 +501,7 @@
       }
     ],
     "other_names": [],
-    "work_count": 58
+    "work_count": 59
   },
   {
     "full_name": "Sopitta Thurachen",
@@ -1271,7 +1251,7 @@
     ],
     "researcher_urls": [],
     "other_names": [],
-    "work_count": 83
+    "work_count": 84
   },
   {
     "full_name": "Raul De",
@@ -2061,7 +2041,7 @@
       }
     ],
     "other_names": [],
-    "work_count": 439
+    "work_count": 442
   },
   {
     "full_name": "Maciej Lisiewicz",
@@ -3010,7 +2990,7 @@
       }
     ],
     "other_names": [],
-    "work_count": 127
+    "work_count": 130
   },
   {
     "full_name": "Daniel De Andres",
@@ -3149,7 +3129,7 @@
       }
     ],
     "other_names": [],
-    "work_count": 155
+    "work_count": 156
   },
   {
     "full_name": "Ying Zu",
@@ -4709,7 +4689,17 @@
     "orcid_id": "0000-0003-4953-9667",
     "paper_cited": "Applicability evaluation of selected xAI methods for machine learning algorithms for signal parameters extraction",
     "education": [],
-    "employment": [],
+    "employment": [
+      {
+        "institution": "Sofia University \"St. Kliment Ohridski\"",
+        "city": "Sofia",
+        "country": "BG",
+        "role": null,
+        "start_year": null,
+        "end_year": null,
+        "identifier": "https://ror.org/02jv3k292"
+      }
+    ],
     "external_ids": [
       {
         "type": "SciProfiles",
@@ -4724,7 +4714,7 @@
     ],
     "researcher_urls": [],
     "other_names": [],
-    "work_count": 4
+    "work_count": 5
   },
   {
     "full_name": "Venelin Kozhuharov",
@@ -4971,7 +4961,7 @@
       }
     ],
     "other_names": [],
-    "work_count": 413
+    "work_count": 414
   },
   {
     "full_name": "Xiangmei Duan",
@@ -5561,7 +5551,7 @@
       }
     ],
     "other_names": [],
-    "work_count": 134
+    "work_count": 140
   },
   {
     "full_name": "Zihan Yan",
@@ -6511,40 +6501,50 @@
     "full_name": "Gregory Thompson",
     "family_name": "Thompson",
     "given_name": "Gregory",
-    "orcid_id": "0000-0002-3321-6225",
+    "orcid_id": "0000-0003-2519-932X",
     "paper_cited": "Probabilistic Emulation of the Community Radiative Transfer Model Using Machine Learning",
     "education": [
       {
-        "institution": "Ohio State University",
-        "city": "Columbus",
+        "institution": "University of Colorado Boulder",
+        "city": "Boulder",
         "country": "US",
         "role": "PhD",
-        "start_year": null,
-        "end_year": null,
-        "identifier": "2647"
+        "start_year": "2014",
+        "end_year": "2016",
+        "identifier": "1877"
+      },
+      {
+        "institution": "Colorado State University",
+        "city": "Fort Collins",
+        "country": "US",
+        "role": "M.S.",
+        "start_year": "1990",
+        "end_year": "1993",
+        "identifier": "3447"
       }
     ],
     "employment": [
       {
-        "institution": "University of Alabama",
-        "city": "Tuscaloosa",
+        "institution": "National Center for Atmospheric Research",
+        "city": "Boulder",
         "country": "US",
-        "role": "Professor",
-        "start_year": null,
+        "role": "Project Scientist",
+        "start_year": "1993",
         "end_year": null,
-        "identifier": "8063"
+        "identifier": "53593"
       }
     ],
-    "external_ids": [
+    "external_ids": [],
+    "researcher_urls": [
       {
-        "type": "Scopus Author ID",
-        "value": "24559318800",
-        "url": "http://www.scopus.com/inward/authorDetails.url?authorID=24559318800&partnerID=MN8TOARS"
+        "label": null,
+        "url": "http://www.rap.ucar.edu/~gthompsn/"
       }
     ],
-    "researcher_urls": [],
-    "other_names": [],
-    "work_count": 4
+    "other_names": [
+      "Greg Thompson"
+    ],
+    "work_count": 0
   },
   {
     "full_name": "Benjamin Johnson",

@@ -62,13 +62,7 @@ enlace draw.io de los diagramas
 te deborveria paper_metadata_wikidata.json
 la ontology.ttl muesta el kg de los metadatos sin estender y el ontology_enhanced.ttl muestra el kg extendido con orgs y project
 
-conda install pytorch torchvision torchaudio cpuonly -c pytorch
-
 ## Enriquecimiento de Autores desde ORCID (`person.py`)
-
-```bash
-pip install rapidfuzz
-```
 
 ```bash
 python person.py
@@ -133,14 +127,6 @@ Esta parte de la práctica se centra en **analizar automáticamente un conjunto 
 ## ▶️ Cómo ejecutar los scripts
 
 A continuación se indican los pasos para ejecutar los análisis de temas y similitud semántica entre papers.
-
----
-
-### 1. ✅ Requisitos (Habiendo usado lo del conda de antes)
-
-```bash
-pip install gensim nltk sentence-transformers
-```
 
 ### Scripts utilizados
 
