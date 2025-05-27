@@ -9,6 +9,8 @@ nav:
   - Inicio: README.md
   - Licencia: LICENSE
 
+docs-dir: .
+
 # Configuración de la documentación
 plugins:
   - search
