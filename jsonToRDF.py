@@ -38,15 +38,18 @@ for idx, paper in enumerate(papers):
 
         enriched_info = get_enriched_author_info(author["name"])
         if enriched_info:
+            if enriched_info.get("orcid_id"):
+                g.add((person_uri, BASE.has_orcid, Literal(enriched_info["orcid_id"])))
             if enriched_info.get("work_count"):
                 g.add((person_uri, BASE.has_work_count, Literal(enriched_info["work_count"])))
             if enriched_info.get("other_names"):
                 for other_name in enriched_info["other_names"]:
                     g.add((person_uri, BASE.has_other_name, Literal(other_name)))
-            if enriched_info.get("external_ids"):
-                for ext_id in enriched_info["external_ids"]:
-                    if ext_id.get("type") == "ORCID":
-                        g.add((person_uri, BASE.has_orcid, Literal(ext_id.get("value"))))
+
+            # if enriched_info.get("external_ids"):
+            #     for ext_id in enriched_info["external_ids"]:
+            #         g.add((person_uri, BASE.has_other_id, Literal(ext_id.get("value"))))
+            
             if enriched_info.get("researcher_urls"):
                 for url in enriched_info["researcher_urls"]:
                     g.add((person_uri, BASE.has_researcher_url, Literal(url.get("url"))))
@@ -181,7 +184,7 @@ if os.path.exists(similarity_folder):
                 if similarity and similarity > 0.3:
                     uri1 = paper_uri_map.get(paper1_title)
                     uri2 = paper_uri_map.get(paper2_title)
-    
+
                     if uri1 and uri2:
                         g.add((uri1, BASE.similar_to, uri2))
                         g.add((uri2, BASE.similar_to, uri1))
