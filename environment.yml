@@ -121,4 +121,3 @@ dependencies:
       - transformers==4.51.3
       - tzdata==2025.1
       - wordcloud==1.9.4
-prefix: C:\Users\zhiwei\anaconda3\envs\mi_entorno
