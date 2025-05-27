@@ -6,7 +6,7 @@ import glob
 import os
 
 # Cargar datos de entrada
-with open("outputs/papers_metadata.json", "r", encoding="utf-8") as f:
+with open("outputs/papers_metadata_wikidata.json", "r", encoding="utf-8") as f:
     papers = json.load(f)
 
 with open("outputs/enriched_authors.json", "r", encoding="utf-8") as f:
@@ -49,7 +49,7 @@ for idx, paper in enumerate(papers):
             # if enriched_info.get("external_ids"):
             #     for ext_id in enriched_info["external_ids"]:
             #         g.add((person_uri, BASE.has_other_id, Literal(ext_id.get("value"))))
-            
+
             if enriched_info.get("researcher_urls"):
                 for url in enriched_info["researcher_urls"]:
                     g.add((person_uri, BASE.has_researcher_url, Literal(url.get("url"))))

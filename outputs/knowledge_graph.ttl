@@ -1,167 +1,196 @@
 @prefix base: <https://example.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-base:TB_211a22b4 a base:TopicBelonging ;
-    base:has_paper base:Paper_4 ;
-    base:has_percentage "0.9959999918937683"^^xsd:float ;
-    base:has_topic base:topic06 .
+base:Project_0eb50e8f a base:Project .
 
-base:TB_292d30f7 a base:TopicBelonging ;
-    base:has_paper base:Paper_26 ;
-    base:has_percentage "0.9929999709129333"^^xsd:float ;
-    base:has_topic base:topic03 .
+base:Project_3a1e135f a base:Project .
 
-base:TB_4016899e a base:TopicBelonging ;
-    base:has_paper base:Paper_7 ;
-    base:has_percentage "0.9940000176429749"^^xsd:float ;
-    base:has_topic base:topic04 .
+base:Project_3d3cf142 a base:Project .
 
-base:TB_570de503 a base:TopicBelonging ;
-    base:has_paper base:Paper_30 ;
-    base:has_percentage "0.9929999709129333"^^xsd:float ;
-    base:has_topic base:topic02 .
+base:Project_8bd33b81 a base:Project .
 
-base:TB_6199761d a base:TopicBelonging ;
-    base:has_paper base:Paper_17 ;
-    base:has_percentage "0.9940000176429749"^^xsd:float ;
-    base:has_topic base:topic02 .
+base:Project_9ce1df37 a base:Project .
 
-base:TB_64f7debe a base:TopicBelonging ;
-    base:has_paper base:Paper_28 ;
-    base:has_percentage "0.9890000224113464"^^xsd:float ;
-    base:has_topic base:topic04 .
+base:Project_c2e69c5d a base:Project .
 
-base:TB_6b0389de a base:TopicBelonging ;
+base:Project_e60a0ab5 a base:Project .
+
+base:TB_077edb71 a base:TopicBelonging ;
     base:has_paper base:Paper_24 ;
     base:has_percentage "0.9950000047683716"^^xsd:float ;
     base:has_topic base:topic05 .
 
-base:TB_6de4ca53 a base:TopicBelonging ;
-    base:has_paper base:Paper_23 ;
-    base:has_percentage "0.9869999885559082"^^xsd:float ;
-    base:has_topic base:topic03 .
-
-base:TB_74e766af a base:TopicBelonging ;
-    base:has_paper base:Paper_2 ;
-    base:has_percentage "0.9959999918937683"^^xsd:float ;
-    base:has_topic base:topic08 .
-
-base:TB_7cf5287b a base:TopicBelonging ;
-    base:has_paper base:Paper_27 ;
-    base:has_percentage "0.8339999914169312"^^xsd:float ;
-    base:has_topic base:topic06 .
-
-base:TB_7dafcc3e a base:TopicBelonging ;
-    base:has_paper base:Paper_12 ;
-    base:has_percentage "0.9929999709129333"^^xsd:float ;
-    base:has_topic base:topic09 .
-
-base:TB_86c853f5 a base:TopicBelonging ;
-    base:has_paper base:Paper_13 ;
-    base:has_percentage "0.9950000047683716"^^xsd:float ;
-    base:has_topic base:topic00 .
-
-base:TB_94970abc a base:TopicBelonging ;
-    base:has_paper base:Paper_3 ;
-    base:has_percentage "0.7739999890327454"^^xsd:float ;
-    base:has_topic base:topic04 .
-
-base:TB_9cb5e5db a base:TopicBelonging ;
+base:TB_0854e956 a base:TopicBelonging ;
     base:has_paper base:Paper_10 ;
     base:has_percentage "0.9940000176429749"^^xsd:float ;
     base:has_topic base:topic03 .
 
-base:TB_9f9d6fcb a base:TopicBelonging ;
+base:TB_129fbeff a base:TopicBelonging ;
     base:has_paper base:Paper_18 ;
     base:has_percentage "0.9919999837875366"^^xsd:float ;
     base:has_topic base:topic03 .
 
-base:TB_a048ea1d a base:TopicBelonging ;
-    base:has_paper base:Paper_9 ;
-    base:has_percentage "0.9900000095367432"^^xsd:float ;
-    base:has_topic base:topic04 .
-
-base:TB_b0c3013e a base:TopicBelonging ;
-    base:has_paper base:Paper_1 ;
-    base:has_percentage "0.9950000047683716"^^xsd:float ;
-    base:has_topic base:topic01 .
-
-base:TB_b93fbb07 a base:TopicBelonging ;
-    base:has_paper base:Paper_5 ;
-    base:has_percentage "0.9940000176429749"^^xsd:float ;
-    base:has_topic base:topic08 .
-
-base:TB_bfe6193c a base:TopicBelonging ;
-    base:has_paper base:Paper_20 ;
+base:TB_13d95abe a base:TopicBelonging ;
+    base:has_paper base:Paper_4 ;
     base:has_percentage "0.9959999918937683"^^xsd:float ;
     base:has_topic base:topic06 .
 
-base:TB_c666bfa1 a base:TopicBelonging ;
-    base:has_paper base:Paper_6 ;
-    base:has_percentage "0.9929999709129333"^^xsd:float ;
-    base:has_topic base:topic03 .
-
-base:TB_ca6d6837 a base:TopicBelonging ;
-    base:has_paper base:Paper_11 ;
-    base:has_percentage "0.9940000176429749"^^xsd:float ;
-    base:has_topic base:topic04 .
-
-base:TB_dc060609 a base:TopicBelonging ;
-    base:has_paper base:Paper_14 ;
-    base:has_percentage "0.9950000047683716"^^xsd:float ;
-    base:has_topic base:topic06 .
-
-base:TB_ddce62d9 a base:TopicBelonging ;
-    base:has_paper base:Paper_16 ;
-    base:has_percentage "0.9679999947547913"^^xsd:float ;
-    base:has_topic base:topic08 .
-
-base:TB_e280f6e8 a base:TopicBelonging ;
-    base:has_paper base:Paper_8 ;
-    base:has_percentage "0.9919999837875366"^^xsd:float ;
-    base:has_topic base:topic04 .
-
-base:TB_e848822c a base:TopicBelonging ;
-    base:has_paper base:Paper_15 ;
-    base:has_percentage "0.9800000190734863"^^xsd:float ;
-    base:has_topic base:topic05 .
-
-base:TB_f1029ce3 a base:TopicBelonging ;
-    base:has_paper base:Paper_21 ;
-    base:has_percentage "0.9929999709129333"^^xsd:float ;
-    base:has_topic base:topic07 .
-
-base:TB_f214db90 a base:TopicBelonging ;
-    base:has_paper base:Paper_29 ;
-    base:has_percentage "0.9919999837875366"^^xsd:float ;
-    base:has_topic base:topic06 .
-
-base:TB_f8f1ec28 a base:TopicBelonging ;
+base:TB_2749839d a base:TopicBelonging ;
     base:has_paper base:Paper_22 ;
     base:has_percentage "0.9950000047683716"^^xsd:float ;
     base:has_topic base:topic03 .
 
-base:TB_f9a45c34 a base:TopicBelonging ;
-    base:has_paper base:Paper_25 ;
-    base:has_percentage "0.6940000057220459"^^xsd:float ;
-    base:has_topic base:topic03 .
+base:TB_28db72f2 a base:TopicBelonging ;
+    base:has_paper base:Paper_20 ;
+    base:has_percentage "0.9959999918937683"^^xsd:float ;
+    base:has_topic base:topic06 .
 
-base:TB_fa47426c a base:TopicBelonging ;
+base:TB_38bea08b a base:TopicBelonging ;
+    base:has_paper base:Paper_9 ;
+    base:has_percentage "0.9900000095367432"^^xsd:float ;
+    base:has_topic base:topic04 .
+
+base:TB_59a53778 a base:TopicBelonging ;
+    base:has_paper base:Paper_16 ;
+    base:has_percentage "0.9679999947547913"^^xsd:float ;
+    base:has_topic base:topic08 .
+
+base:TB_5ca0a032 a base:TopicBelonging ;
+    base:has_paper base:Paper_14 ;
+    base:has_percentage "0.9950000047683716"^^xsd:float ;
+    base:has_topic base:topic06 .
+
+base:TB_5d9f5f61 a base:TopicBelonging ;
+    base:has_paper base:Paper_7 ;
+    base:has_percentage "0.9940000176429749"^^xsd:float ;
+    base:has_topic base:topic04 .
+
+base:TB_66e289a2 a base:TopicBelonging ;
     base:has_paper base:Paper_19 ;
     base:has_percentage "0.8550000190734863"^^xsd:float ;
     base:has_topic base:topic09 .
 
+base:TB_69f6a278 a base:TopicBelonging ;
+    base:has_paper base:Paper_27 ;
+    base:has_percentage "0.8339999914169312"^^xsd:float ;
+    base:has_topic base:topic06 .
+
+base:TB_6c3c15ea a base:TopicBelonging ;
+    base:has_paper base:Paper_13 ;
+    base:has_percentage "0.9950000047683716"^^xsd:float ;
+    base:has_topic base:topic00 .
+
+base:TB_746b4250 a base:TopicBelonging ;
+    base:has_paper base:Paper_2 ;
+    base:has_percentage "0.9959999918937683"^^xsd:float ;
+    base:has_topic base:topic08 .
+
+base:TB_7e27971d a base:TopicBelonging ;
+    base:has_paper base:Paper_12 ;
+    base:has_percentage "0.9929999709129333"^^xsd:float ;
+    base:has_topic base:topic09 .
+
+base:TB_80b4c539 a base:TopicBelonging ;
+    base:has_paper base:Paper_28 ;
+    base:has_percentage "0.9890000224113464"^^xsd:float ;
+    base:has_topic base:topic04 .
+
+base:TB_85fb1324 a base:TopicBelonging ;
+    base:has_paper base:Paper_21 ;
+    base:has_percentage "0.9929999709129333"^^xsd:float ;
+    base:has_topic base:topic07 .
+
+base:TB_92a5628f a base:TopicBelonging ;
+    base:has_paper base:Paper_15 ;
+    base:has_percentage "0.9800000190734863"^^xsd:float ;
+    base:has_topic base:topic05 .
+
+base:TB_9f6278d5 a base:TopicBelonging ;
+    base:has_paper base:Paper_3 ;
+    base:has_percentage "0.7739999890327454"^^xsd:float ;
+    base:has_topic base:topic04 .
+
+base:TB_a1aac9b4 a base:TopicBelonging ;
+    base:has_paper base:Paper_29 ;
+    base:has_percentage "0.9919999837875366"^^xsd:float ;
+    base:has_topic base:topic06 .
+
+base:TB_afe1b91a a base:TopicBelonging ;
+    base:has_paper base:Paper_11 ;
+    base:has_percentage "0.9940000176429749"^^xsd:float ;
+    base:has_topic base:topic04 .
+
+base:TB_c1ed070c a base:TopicBelonging ;
+    base:has_paper base:Paper_1 ;
+    base:has_percentage "0.9950000047683716"^^xsd:float ;
+    base:has_topic base:topic01 .
+
+base:TB_d676ac4d a base:TopicBelonging ;
+    base:has_paper base:Paper_23 ;
+    base:has_percentage "0.9869999885559082"^^xsd:float ;
+    base:has_topic base:topic03 .
+
+base:TB_dcb645b7 a base:TopicBelonging ;
+    base:has_paper base:Paper_5 ;
+    base:has_percentage "0.9940000176429749"^^xsd:float ;
+    base:has_topic base:topic08 .
+
+base:TB_e58bc3de a base:TopicBelonging ;
+    base:has_paper base:Paper_8 ;
+    base:has_percentage "0.9919999837875366"^^xsd:float ;
+    base:has_topic base:topic04 .
+
+base:TB_f2b84a77 a base:TopicBelonging ;
+    base:has_paper base:Paper_26 ;
+    base:has_percentage "0.9929999709129333"^^xsd:float ;
+    base:has_topic base:topic03 .
+
+base:TB_f324e342 a base:TopicBelonging ;
+    base:has_paper base:Paper_25 ;
+    base:has_percentage "0.6940000057220459"^^xsd:float ;
+    base:has_topic base:topic03 .
+
+base:TB_f4fa3bfb a base:TopicBelonging ;
+    base:has_paper base:Paper_30 ;
+    base:has_percentage "0.9929999709129333"^^xsd:float ;
+    base:has_topic base:topic02 .
+
+base:TB_f5aee784 a base:TopicBelonging ;
+    base:has_paper base:Paper_6 ;
+    base:has_percentage "0.9929999709129333"^^xsd:float ;
+    base:has_topic base:topic03 .
+
+base:TB_fa09d3ad a base:TopicBelonging ;
+    base:has_paper base:Paper_17 ;
+    base:has_percentage "0.9940000176429749"^^xsd:float ;
+    base:has_topic base:topic02 .
+
+base:Org_08adbfa4 a base:Organization .
+
+base:Org_195ded4c a base:Organization .
+
+base:Org_3a6920b2 a base:Organization .
+
+base:Org_4dfffcfd a base:Organization .
+
+base:Org_7d52d340 a base:Organization .
+
+base:Org_ee420692 a base:Organization .
+
+base:Org_fa3e101f a base:Organization .
+
 base:Paper_1 a base:Paper ;
-    base:has_author base:Person_0336ba05,
-        base:Person_1b9958d7,
-        base:Person_311b3a9a,
-        base:Person_324bd11a,
-        base:Person_401e85fc,
-        base:Person_5a673e87,
-        base:Person_5b80a2da,
-        base:Person_7e81b053,
-        base:Person_9a2be85c,
-        base:Person_da461a84 ;
+    base:acknowledges base:Org_4dfffcfd ;
+    base:has_author base:Person_3760c21c,
+        base:Person_3e00d836,
+        base:Person_448453e9,
+        base:Person_4e8c0387,
+        base:Person_6b08d61a,
+        base:Person_74e05254,
+        base:Person_75d6d388,
+        base:Person_cf026750,
+        base:Person_d7cb4e78,
+        base:Person_e8bcf8b8 ;
     base:has_date "April 22, 2025" ;
     base:has_title "DUSTY STELLAR SOURCES CLASSIFICATION BY IMPLEMENTING MACHINE LEARNING METHODS BASED ON SPECTROSCOPIC OBSERVATIONS IN THE MAGELLANIC CLOUDS" ;
     base:references base:Reference_1_1,
@@ -278,10 +307,10 @@ base:Paper_1 a base:Paper ;
         base:Reference_1_99 .
 
 base:Paper_10 a base:Paper ;
-    base:has_author base:Person_31a48f4d,
-        base:Person_4a2678fc,
-        base:Person_52c07198,
-        base:Person_a038f084 ;
+    base:has_author base:Person_1a3c2d02,
+        base:Person_7b8b6022,
+        base:Person_8a9d9c87,
+        base:Person_c9d7bcfe ;
     base:has_date "" ;
     base:has_title "Continuum Damage Modeling of Biaxial Fatigue Failure in Whole Bone: A Hybrid Approach with Machine Learning Integration" ;
     base:references base:Reference_10_1,
@@ -344,11 +373,11 @@ base:Paper_10 a base:Paper ;
         base:Reference_10_9 .
 
 base:Paper_12 a base:Paper ;
-    base:has_author base:Person_0f1ead22,
-        base:Person_2ed46f78,
-        base:Person_4796462d,
-        base:Person_6a99fb78,
-        base:Person_f37abedb ;
+    base:has_author base:Person_20a28fa2,
+        base:Person_668e2ba5,
+        base:Person_85a27f33,
+        base:Person_9501c74a,
+        base:Person_9cd05ba5 ;
     base:has_date "29 October 2024" ;
     base:has_title "Engineering Applications of Artificial Intelligence" ;
     base:references base:Reference_12_1,
@@ -458,16 +487,16 @@ base:Paper_12 a base:Paper ;
         base:Reference_12_99 .
 
 base:Paper_13 a base:Paper ;
-    base:has_author base:Person_136b1877,
-        base:Person_1ec0a480,
-        base:Person_487bd5dd,
-        base:Person_4e7ee9b1,
-        base:Person_6b6d46ab,
-        base:Person_6ec7081a,
-        base:Person_73d64941,
-        base:Person_86958c6b,
-        base:Person_935261b5,
-        base:Person_fbb5a222 ;
+    base:has_author base:Person_05280fda,
+        base:Person_0840d57b,
+        base:Person_2beac3f2,
+        base:Person_2fc88835,
+        base:Person_93c414cd,
+        base:Person_98c03904,
+        base:Person_9f0571bb,
+        base:Person_a5a82c59,
+        base:Person_aea28154,
+        base:Person_d8302486 ;
     base:has_date "21 Apr 2025" ;
     base:has_title "LithOS: An Operating System for Efficient Machine Learning on GPUs" ;
     base:references base:Reference_13_1,
@@ -525,9 +554,9 @@ base:Paper_13 a base:Paper ;
         base:Reference_13_9 .
 
 base:Paper_15 a base:Paper ;
-    base:has_author base:Person_58227b78,
-        base:Person_83121471,
-        base:Person_f7bdda24 ;
+    base:has_author base:Person_740ab8ed,
+        base:Person_c0980822,
+        base:Person_f80ea3a7 ;
     base:has_date "22 Apr 2025" ;
     base:has_title "Applicability evaluation of selected xAI methods for machine learning algorithms for signal parameters extraction" ;
     base:references base:Reference_15_1,
@@ -569,14 +598,14 @@ base:Paper_15 a base:Paper ;
         base:Reference_15_9 .
 
 base:Paper_16 a base:Paper ;
-    base:has_author base:Person_1ea72864,
-        base:Person_4916e716,
-        base:Person_4ba8cd4a,
-        base:Person_940dc5dc,
-        base:Person_b7873d7d,
-        base:Person_eab7eded,
-        base:Person_ebf8b66e,
-        base:Person_ee80a86b ;
+    base:has_author base:Person_1defbc74,
+        base:Person_436fb726,
+        base:Person_4e78211a,
+        base:Person_5262ff80,
+        base:Person_b1a8f514,
+        base:Person_d90a32fd,
+        base:Person_e06552e6,
+        base:Person_fa939fa9 ;
     base:has_date "" ;
     base:has_title "Prediction of CO2 reduction reaction intermediates and products on transition metal-doped γ-GeSe monolayers: A combined DFT and machine learning approach" ;
     base:references base:Reference_16_1,
@@ -649,11 +678,11 @@ base:Paper_16 a base:Paper ;
         base:Reference_16_9 .
 
 base:Paper_17 a base:Paper ;
-    base:has_author base:Person_0b531ea1,
-        base:Person_4626d4a9,
-        base:Person_83306efb,
-        base:Person_a39df0ba,
-        base:Person_eaa58c4c ;
+    base:has_author base:Person_1c25150c,
+        base:Person_272ffff1,
+        base:Person_886d7e40,
+        base:Person_95d0979f,
+        base:Person_d203d4d0 ;
     base:has_date "APRIL 23, 2025" ;
     base:has_title "CAUSAL MACHINE LEARNING FOR HIGH-DIMENSIONAL MEDIATION ANALYSIS USING INTERVENTIONAL EFFECTS MAPPED TO A TARGET TRIAL A PREPRINT" ;
     base:references base:Reference_17_1,
@@ -730,9 +759,9 @@ base:Paper_17 a base:Paper ;
         base:Reference_17_9 .
 
 base:Paper_19 a base:Paper ;
-    base:has_author base:Person_2060b5da,
-        base:Person_592048a4,
-        base:Person_9810dade ;
+    base:has_author base:Person_68fe93e8,
+        base:Person_7c064967,
+        base:Person_fe6a7ab5 ;
     base:has_date "April 23, 2025" ;
     base:has_title "Improving robustness and training efficiency of machine-learned potentials by incorporating short-range empirical potentials" ;
     base:references base:Reference_19_1,
@@ -773,9 +802,9 @@ base:Paper_19 a base:Paper ;
         base:Reference_19_9 .
 
 base:Paper_21 a base:Paper ;
-    base:has_author base:Person_3923860d,
-        base:Person_54809469,
-        base:Person_d46f6e04 ;
+    base:has_author base:Person_00612716,
+        base:Person_817ff051,
+        base:Person_a4376b5f ;
     base:has_date "22 Apr 2025" ;
     base:has_title "Benchmarking machine learning models for predicting aerofoil performance" ;
     base:references base:Reference_21_1,
@@ -812,12 +841,12 @@ base:Paper_21 a base:Paper ;
         base:Reference_21_9 .
 
 base:Paper_24 a base:Paper ;
-    base:has_author base:Person_2becd892,
-        base:Person_32421ee7,
-        base:Person_7d654201,
-        base:Person_824501b6,
-        base:Person_ad4f76c6,
-        base:Person_fd61cfe4 ;
+    base:has_author base:Person_15cdfac4,
+        base:Person_b86fd196,
+        base:Person_bd5b8c99,
+        base:Person_cb34a6dd,
+        base:Person_d622ad93,
+        base:Person_e5a42ef9 ;
     base:has_date "" ;
     base:has_title "Optimizing Post-Cancer Treatment Prognosis: A Study of Machine Learning and Ensemble Techniques" ;
     base:references base:Reference_24_1,
@@ -874,44 +903,44 @@ base:Paper_24 a base:Paper ;
         base:Reference_24_9 .
 
 base:Paper_30 a base:Paper ;
-    base:has_author base:Person_04b6e19f,
-        base:Person_078e34cc,
-        base:Person_0c96d383,
-        base:Person_18240d5e,
-        base:Person_1dd333c6,
-        base:Person_1f43e02d,
-        base:Person_2492ce3b,
-        base:Person_373e574c,
-        base:Person_3e608f0c,
-        base:Person_4843d9db,
-        base:Person_4e0e2aa6,
-        base:Person_523ecd2d,
-        base:Person_55399694,
-        base:Person_5561d338,
-        base:Person_5db59805,
-        base:Person_678157e8,
-        base:Person_70657579,
-        base:Person_715c91fa,
-        base:Person_7902adff,
-        base:Person_7b3d1eed,
-        base:Person_7ffd0d87,
-        base:Person_968978f1,
-        base:Person_9695af8b,
-        base:Person_97c7ee17,
-        base:Person_9b39c7ae,
-        base:Person_9c59ccf3,
-        base:Person_9d86227d,
-        base:Person_a51ee4a1,
-        base:Person_a8556d97,
-        base:Person_ab12e734,
-        base:Person_ac89cf4b,
-        base:Person_b04262a7,
-        base:Person_b58ff1e3,
-        base:Person_cecda02e,
-        base:Person_da43f2e0,
-        base:Person_df44e579,
-        base:Person_e7860f01,
-        base:Person_f207f4ba ;
+    base:has_author base:Person_0e45df89,
+        base:Person_121feace,
+        base:Person_140fc6d9,
+        base:Person_173e9ce0,
+        base:Person_2a5e7772,
+        base:Person_39863931,
+        base:Person_4258d4a9,
+        base:Person_53ae4e6c,
+        base:Person_58d19d42,
+        base:Person_59069300,
+        base:Person_5e3cb662,
+        base:Person_5ec90b4a,
+        base:Person_72880d26,
+        base:Person_76bd7cd2,
+        base:Person_791bbcce,
+        base:Person_7df5ebea,
+        base:Person_7f627598,
+        base:Person_8611c53a,
+        base:Person_86b165b2,
+        base:Person_87d1d471,
+        base:Person_8c8907df,
+        base:Person_981756ac,
+        base:Person_a9201f7f,
+        base:Person_aa9a1384,
+        base:Person_aae210cd,
+        base:Person_ab921c87,
+        base:Person_b043ec26,
+        base:Person_b281ff95,
+        base:Person_b2d4b897,
+        base:Person_bec43ed4,
+        base:Person_bff22dd7,
+        base:Person_c61b6726,
+        base:Person_cf9d1f78,
+        base:Person_d00353eb,
+        base:Person_e18476e5,
+        base:Person_e294ee6d,
+        base:Person_eaf6df61,
+        base:Person_f10d7170 ;
     base:has_date "23 Apr 2025" ;
     base:has_title "Radiometer Calibration using Machine Learning" ;
     base:references base:Reference_30_1,
@@ -984,77 +1013,142 @@ base:Paper_30 a base:Paper ;
         base:Reference_30_8,
         base:Reference_30_9 .
 
-base:Person_0258a0d4 a base:Person ;
-    base:has_education_city "Shanghai" ;
-    base:has_education_country "CN" ;
-    base:has_education_institution "Shanghai Astronomical Observatory Chinese Academy of Sciences" ;
-    base:has_employment_city "Crawley",
-        "Edinburgh",
-        "Madrid",
-        "Trieste" ;
-    base:has_employment_country "AU",
-        "ES",
-        "GB",
-        "IT" ;
-    base:has_employment_institution "Universidad Autónoma de Madrid",
-        "University of Edinburgh",
-        "University of Western Australia",
-        "Università degli Studi di Trieste" ;
-    base:has_name "Weiguang Cui" ;
-    base:has_orcid "0000-0002-2113-4863" ;
-    base:has_researcher_url "https://weiguangcui.github.io" ;
-    base:has_work_count 130 .
+base:Person_00612716 a base:Person ;
+    base:has_education_city "Glasgow",
+        "Mexico" ;
+    base:has_education_country "GB",
+        "MX" ;
+    base:has_education_institution "Universidad Autónoma Metropolitana",
+        "University of Strathclyde" ;
+    base:has_employment_city "Edinburgh",
+        "Glasgow" ;
+    base:has_employment_country "GB" ;
+    base:has_employment_institution "University of Edinburgh",
+        "University of Strathclyde" ;
+    base:has_name "Stephanie Ordonez Sanchez" ;
+    base:has_orcid "0000-0002-7253-6299" ;
+    base:has_work_count 27 .
 
-base:Person_0336ba05 a base:Person ;
-    base:has_education_city "Isfahan" ;
-    base:has_education_country "IR" ;
-    base:has_education_institution "Isfahan University of Technology" ;
-    base:has_employment_city "Tehran" ;
-    base:has_employment_country "IR" ;
-    base:has_employment_institution "Institute for Research in Fundamental Science (IPM)" ;
-    base:has_name "Sepideh Ghaziasgar" ;
-    base:has_orcid "0000-0001-5855-846X" ;
-    base:has_researcher_url "https://scholar.google.com/citations?user=RyNCLBoAAAAJ&hl=en",
-        "https://www.linkedin.com/in/sepide-ghaziasgar/",
-        "https://www.researchgate.net/profile/Sepideh-Ghaziasgar" ;
+base:Person_00bc672d a base:Person ;
+    base:has_employment_city "Espoo" ;
+    base:has_employment_country "FI" ;
+    base:has_employment_institution "Finnish Geospatial Research Institute" ;
+    base:has_name "Leena Matikainen" ;
+    base:has_orcid "0009-0004-3065-1274" .
+
+base:Person_00d975b8 a base:Person ;
+    base:has_employment_city "Hoboken" ;
+    base:has_employment_country "US" ;
+    base:has_employment_institution "Stevens Institute of Technology" ;
+    base:has_name "Shihao Yang" ;
+    base:has_orcid "0009-0003-9552-4527" ;
     base:has_work_count 2 .
 
-base:Person_04b6e19f a base:Person ;
-    base:has_name "J Cumner" .
+base:Person_03c62c5f a base:Person ;
+    base:has_education_city "Espoo",
+        "Helsinki" ;
+    base:has_education_country "FI" ;
+    base:has_education_institution "Aalto University",
+        "Helsinki University of Technology",
+        "University of Helsinki" ;
+    base:has_employment_city "Espoo",
+        "Kirkkonummi" ;
+    base:has_employment_country "FI" ;
+    base:has_employment_institution "Finnish Geospatial Research Institute" ;
+    base:has_name "Heikki Hyyti" ;
+    base:has_orcid "0000-0003-4664-6221" ;
+    base:has_work_count 34 .
 
-base:Person_073b97b3 a base:Person ;
-    base:has_name "Gefei Kong" .
+base:Person_05280fda a base:Person ;
+    base:has_name "Leon Yang" ;
+    base:has_orcid "0000-0002-3226-8824" ;
+    base:has_work_count 2 .
 
-base:Person_07774c70 a base:Person ;
-    base:has_name "Jianchang Chen" .
+base:Person_055cb341 a base:Person ;
+    base:has_employment_city "Beijing" ;
+    base:has_employment_country "CN" ;
+    base:has_employment_institution "Beijing Friendship Hospital" ;
+    base:has_name "Peilun Hu" ;
+    base:has_orcid "0009-0006-4509-740X" ;
+    base:has_work_count 9 .
 
-base:Person_078e34cc a base:Person ;
-    base:has_name "P Meerburg" .
+base:Person_0840d57b a base:Person ;
+    base:has_name "Brian Zhang" .
 
-base:Person_0853d528 a base:Person ;
-    base:has_education_city "Cambridge",
-        "Cork" ;
-    base:has_education_country "IE",
-        "US" ;
-    base:has_education_institution "Massachusetts Institute of Technology",
-        "University College Cork National University of Ireland" ;
-    base:has_name "Kieran Holland" ;
-    base:has_orcid "0000-0003-1212-699X" ;
-    base:has_work_count 13 .
+base:Person_0915c2ae a base:Person ;
+    base:has_employment_city "Madrid" ;
+    base:has_employment_country "ES" ;
+    base:has_employment_institution "Universidad Autonoma de Madrid Facultad de Ciencias" ;
+    base:has_name "Daniel De Andres" ;
+    base:has_orcid "0000-0003-4102-0991" ;
+    base:has_work_count 7 .
 
-base:Person_0b531ea1 a base:Person ;
-    base:has_education_city "Melbourne",
-        "VIC" ;
-    base:has_education_country "AU" ;
-    base:has_education_institution "University of Melbourne" ;
-    base:has_name "Toby Mansell" ;
-    base:has_orcid "0000-0002-1282-6331" ;
-    base:has_work_count 64 .
+base:Person_0b92d99c a base:Person ;
+    base:has_name "Xinlian Liang" ;
+    base:has_orcid "0000-0002-1585-2340" ;
+    base:has_work_count 77 .
 
-base:Person_0c4334ca a base:Person ;
-    base:has_name "Thomas Auligne" .
+base:Person_0dbb43d8 a base:Person ;
+    base:has_education_city "Helsinki" ;
+    base:has_education_country "FI" ;
+    base:has_education_institution "Aalto University" ;
+    base:has_name "Josef Taher" ;
+    base:has_orcid "0000-0002-3142-731X" ;
+    base:has_work_count 9 .
 
-base:Person_0c96d383 a base:Person ;
+base:Person_0de47fd8 a base:Person ;
+    base:has_education_city "Berlin" ;
+    base:has_education_country "DE" ;
+    base:has_education_institution "Academy of Sciences (GDR)" ;
+    base:has_employment_city "Vancouver" ;
+    base:has_employment_country "CA" ;
+    base:has_employment_institution "University of British Columbia" ;
+    base:has_name "Matthias Militzer" ;
+    base:has_orcid "0000-0003-1995-5117" ;
+    base:has_work_count 194 .
+
+base:Person_0e45df89 a base:Person ;
+    base:has_name "W Handley" .
+
+base:Person_0f51ec14 a base:Person ;
+    base:has_employment_city "Sydney" ;
+    base:has_employment_country "AU" ;
+    base:has_employment_institution "Prince of Wales Hospital" ;
+    base:has_name "Michael Friedlander" ;
+    base:has_orcid "0000-0003-3090-795X" ;
+    base:has_work_count 230 .
+
+base:Person_121feace a base:Person ;
+    base:has_name "M Bucher" .
+
+base:Person_12f45342 a base:Person ;
+    base:has_name "Aalok Ganesh" .
+
+base:Person_139eda15 a base:Person ;
+    base:has_education_city "Espoo" ;
+    base:has_education_country "FI" ;
+    base:has_education_institution "Aalto University (previous HUT)" ;
+    base:has_employment_city "Masala" ;
+    base:has_employment_country "FI" ;
+    base:has_employment_institution "FGI, National Land Survey of Finland" ;
+    base:has_name "Juha Hyyppä" ;
+    base:has_orcid "0000-0001-5360-4017" ;
+    base:has_work_count 387 .
+
+base:Person_140fc6d9 a base:Person ;
+    base:has_name "E Puchwein" .
+
+base:Person_15cdfac4 a base:Person ;
+    base:has_name "Ahmed Tanmoy" .
+
+base:Person_1723f101 a base:Person ;
+    base:has_employment_city "Leiden" ;
+    base:has_employment_country "NL" ;
+    base:has_employment_institution "Leiden University" ;
+    base:has_name "Simon Marshall" ;
+    base:has_orcid "0009-0003-7213-9351" .
+
+base:Person_173e9ce0 a base:Person ;
     base:has_education_city "Kharagpur" ;
     base:has_education_country "IN" ;
     base:has_education_institution "Indian Institute of Technology Kharagpur" ;
@@ -1066,292 +1160,13 @@ base:Person_0c96d383 a base:Person ;
     base:has_other_name "R. G. Kulkarni" ;
     base:has_work_count 6 .
 
-base:Person_0f1ead22 a base:Person ;
-    base:has_education_city "Toronto" ;
-    base:has_education_country "CA" ;
-    base:has_education_institution "Ryerson University" ;
-    base:has_employment_city "Toronto" ;
-    base:has_employment_country "CA" ;
-    base:has_employment_institution "Ryerson University",
-        "Synaesthetic Media Lab" ;
-    base:has_name "Nauman Anwar Baig" ;
-    base:has_orcid "0000-0001-8436-0764" ;
-    base:has_work_count 2 .
+base:Person_18031b03 a base:Person ;
+    base:has_name "Panos Stinis" .
 
-base:Person_0f24baf1 a base:Person ;
-    base:has_name "Tina Torabi" .
+base:Person_19399582 a base:Person ;
+    base:has_name "Shaila Sharmin" .
 
-base:Person_136b1877 a base:Person ;
-    base:has_name "Patrick Coppock" .
-
-base:Person_14e46cec a base:Person ;
-    base:has_education_city "Karlsruhe",
-        "Valencia" ;
-    base:has_education_country "DE",
-        "ES" ;
-    base:has_education_institution "Hochschule Karlsruhe Technik und Wirtschaft",
-        "Universitat Politècnica de València" ;
-    base:has_employment_city "Valencia",
-        "Vancouver" ;
-    base:has_employment_country "CA",
-        "ES" ;
-    base:has_employment_institution "ABO Wind España, S.A.U.",
-        "Edicom Group",
-        "Universitat Politècnica de València",
-        "University of British Columbia" ;
-    base:has_name "Juan Carbonell-Rivera" ;
-    base:has_orcid "0000-0002-6724-6780" ;
-    base:has_researcher_url "http://personales.upv.es/juacarri/" ;
-    base:has_work_count 39 .
-
-base:Person_18240d5e a base:Person ;
-    base:has_name "R Chiello" .
-
-base:Person_1b7ece64 a base:Person ;
-    base:has_education_city "Baton Rouge" ;
-    base:has_education_country "US" ;
-    base:has_education_institution "Louisiana State University" ;
-    base:has_employment_city "Jeannette" ;
-    base:has_employment_country "US" ;
-    base:has_employment_institution "Elliott Group" ;
-    base:has_name "Yiping Lu" ;
-    base:has_orcid "0000-0001-7565-5528" .
-
-base:Person_1b9958d7 a base:Person ;
-    base:has_education_city "Melbourne" ;
-    base:has_education_country "AU" ;
-    base:has_education_institution "Victoria University" ;
-    base:has_name "Fatemeh Fazel" ;
-    base:has_orcid "0000-0002-1769-4913" ;
-    base:has_work_count 2 .
-
-base:Person_1bf08cf6 a base:Person ;
-    base:has_education_city "Milano",
-        "Zurich" ;
-    base:has_education_country "CH",
-        "IT" ;
-    base:has_education_institution "ETH Zurich",
-        "Politecnico di Milano" ;
-    base:has_employment_city "Bologna",
-        "Innsbruck",
-        "Moscow",
-        "Trento" ;
-    base:has_employment_country "AT",
-        "IT",
-        "RU" ;
-    base:has_employment_institution "Fondazione Bruno Kessler",
-        "Skolkovo Institute of Science and Technology",
-        "University of Bologna",
-        "University of Innsbruck" ;
-    base:has_name "Fabio Remondino" ;
-    base:has_orcid "0000-0001-6097-5342" ;
-    base:has_researcher_url "http://3dom.fbk.eu" ;
-    base:has_work_count 442 .
-
-base:Person_1cd228d3 a base:Person ;
-    base:has_education_city "Amsterdam",
-        "Nijmegen",
-        "Warsaw" ;
-    base:has_education_country "NL",
-        "PL" ;
-    base:has_education_institution "Polish Academy of Sciences",
-        "Radboud University Nijmegen",
-        "University of Amsterdam" ;
-    base:has_employment_city "Warszawa" ;
-    base:has_employment_country "PL" ;
-    base:has_employment_institution "IDEAS NCBR" ;
-    base:has_name "Maksymilian Kulicki" ;
-    base:has_orcid "0000-0001-7138-9592" ;
-    base:has_work_count 3 .
-
-base:Person_1dc7b7f5 a base:Person ;
-    base:has_education_city "Boulder",
-        "Fort Collins" ;
-    base:has_education_country "US" ;
-    base:has_education_institution "Colorado State University",
-        "University of Colorado Boulder" ;
-    base:has_employment_city "Boulder" ;
-    base:has_employment_country "US" ;
-    base:has_employment_institution "National Center for Atmospheric Research" ;
-    base:has_name "Gregory Thompson" ;
-    base:has_orcid "0000-0003-2519-932X" ;
-    base:has_other_name "Greg Thompson" ;
-    base:has_researcher_url "http://www.rap.ucar.edu/~gthompsn/" .
-
-base:Person_1dd333c6 a base:Person ;
-    base:has_employment_city "Davis",
-        "Knoxville" ;
-    base:has_employment_country "US" ;
-    base:has_employment_institution "University of California, Davis",
-        "University of Tennessee at Knoxville" ;
-    base:has_name "J Pritchard" ;
-    base:has_orcid "0000-0003-4922-3347" ;
-    base:has_other_name "Alex J. Pritchard" ;
-    base:has_work_count 29 .
-
-base:Person_1dfcb11b a base:Person ;
-    base:has_education_city "Espoo" ;
-    base:has_education_country "FI" ;
-    base:has_education_institution "Aalto University (previous HUT)" ;
-    base:has_employment_city "Masala" ;
-    base:has_employment_country "FI" ;
-    base:has_employment_institution "FGI, National Land Survey of Finland" ;
-    base:has_name "Juha Hyyppä" ;
-    base:has_orcid "0000-0001-5360-4017" ;
-    base:has_work_count 387 .
-
-base:Person_1ea72864 a base:Person ;
-    base:has_education_city "Hong Kong" ;
-    base:has_education_country "CN" ;
-    base:has_education_institution "University of Hong Kong" ;
-    base:has_employment_city "Leiden" ;
-    base:has_employment_country "NL" ;
-    base:has_employment_institution "Leiden University Medical Center" ;
-    base:has_name "Shan Gao" ;
-    base:has_orcid "0000-0001-7527-0900" .
-
-base:Person_1ec0a480 a base:Person ;
-    base:has_name "Vasilis Kypriotis" .
-
-base:Person_1f43e02d a base:Person ;
-    base:has_name "W Handley" .
-
-base:Person_2060b5da a base:Person ;
-    base:has_education_city "Nanjing" ;
-    base:has_education_country "CN" ;
-    base:has_education_institution "Nanjing University" ;
-    base:has_employment_city "Aalto",
-        "Jinzhou",
-        "Xiamen" ;
-    base:has_employment_country "CN",
-        "FI" ;
-    base:has_employment_institution "Aalto-yliopisto",
-        "Bohai University",
-        "Xiamen University" ;
-    base:has_name "Zheyong Fan" ;
-    base:has_orcid "0000-0002-2253-8210" ;
-    base:has_researcher_url "http://blog.sciencenet.cn/u/brucefan1983",
-        "https://brucefan1983.github.io/",
-        "https://github.com/brucefan1983" ;
-    base:has_work_count 88 .
-
-base:Person_22ec1c14 a base:Person ;
-    base:has_name "Christian Moya" .
-
-base:Person_234ebbcd a base:Person ;
-    base:has_education_city "Fortaleza" ;
-    base:has_education_country "BR" ;
-    base:has_education_institution "Universidade Federal do Ceara - Campus do Pici" ;
-    base:has_employment_city "Gif-sur-Yvette",
-        "Valbonne" ;
-    base:has_employment_country "FR" ;
-    base:has_employment_institution "CentraleSupélec",
-        "EURECOM",
-        "École Supérieure d'Électricité" ;
-    base:has_name "Raul De" ;
-    base:has_orcid "0000-0002-2167-1925" ;
-    base:has_researcher_url "https://l2s.centralesupelec.fr/u/de-lacerda-raul/",
-        "https://scholar.google.com/citations?user=Q70IFKQAAAAJ&hl=en&oi=ao",
-        "https://www.linkedin.com/in/delacerda/" ;
-    base:has_work_count 27 .
-
-base:Person_2492ce3b a base:Person ;
-    base:has_education_city "Brisbane",
-        "Scarborough" ;
-    base:has_education_country "AU" ;
-    base:has_education_institution "Queensland University of Technology",
-        "University of Notre Dame" ;
-    base:has_employment_city "Joondalup",
-        "Subiaco" ;
-    base:has_employment_country "AU" ;
-    base:has_employment_institution "Joondalup Health Campus",
-        "Women and Newborn Health Service Western Australia" ;
-    base:has_name "T Gessey-Jones" ;
-    base:has_orcid "0000-0001-8726-7450" .
-
-base:Person_279f1709 a base:Person ;
-    base:has_education_city "Helsinki" ;
-    base:has_education_country "FI" ;
-    base:has_education_institution "University of Helsinki" ;
-    base:has_employment_city "Helsinki" ;
-    base:has_employment_country "FI" ;
-    base:has_employment_institution "University of Helsinki" ;
-    base:has_name "Ville Luoma" ;
-    base:has_orcid "0000-0002-9036-8591" ;
-    base:has_researcher_url "https://researchportal.helsinki.fi/en/persons/2ad3cb14-af43-44fe-bb7a-7b4cf5bd352f" ;
-    base:has_work_count 38 .
-
-base:Person_28cbf016 a base:Person ;
-    base:has_education_city "Munchen",
-        "Stuttgart",
-        "Wuhan" ;
-    base:has_education_country "CN",
-        "DE" ;
-    base:has_education_institution "Technische Universität München",
-        "Universität Stuttgart",
-        "Wuhan University" ;
-    base:has_employment_city "Shanghai" ;
-    base:has_employment_country "CN" ;
-    base:has_employment_institution "Tongji University" ;
-    base:has_name "Hongchao Fan" ;
-    base:has_orcid "0000-0003-2863-8447" .
-
-base:Person_2a52cef4 a base:Person ;
-    base:has_name "Rasmus Astrup" .
-
-base:Person_2becd892 a base:Person ;
-    base:has_employment_city "Sylhet" ;
-    base:has_employment_country "BD" ;
-    base:has_employment_institution "Leading University" ;
-    base:has_name "Joyee Chakraborty" ;
-    base:has_orcid "0009-0006-5948-9244" .
-
-base:Person_2c95982c a base:Person ;
-    base:has_education_city "Chittagong",
-        "Uppsala" ;
-    base:has_education_country "BD",
-        "SE" ;
-    base:has_education_institution "Chittagong Veterinary and Animal Science University",
-        "Uppsala Universitet Medicinska fakulteten" ;
-    base:has_employment_city "Dhaka",
-        "Göttingen",
-        "Kalmar",
-        "Stockholm",
-        "Uppsala",
-        "Visby" ;
-    base:has_employment_country "BD",
-        "DE",
-        "SE" ;
-    base:has_employment_institution "Georg-August-Universität Göttingen",
-        "International Centre for Diarrhoeal Disease Research",
-        "Karolinska Institutet",
-        "Linneuniversitet Kalmar",
-        "Region Gotland",
-        "Uppsala Universitet Medicinska fakulteten" ;
-    base:has_name "Badrul Hasan" ;
-    base:has_orcid "0000-0001-8766-6355" ;
-    base:has_work_count 14 .
-
-base:Person_2ed46f78 a base:Person ;
-    base:has_education_city "Sargodha" ;
-    base:has_education_country "PK" ;
-    base:has_education_institution "University of Sargodha" ;
-    base:has_employment_city "Islamabad",
-        "Sargodha" ;
-    base:has_employment_country "PK" ;
-    base:has_employment_institution "Allama Iqbal Open University",
-        "University of Sargodha" ;
-    base:has_name "Syeda Zahra" ;
-    base:has_orcid "0000-0003-3047-1498" ;
-    base:has_work_count 17 .
-
-base:Person_2f9b3b95 a base:Person ;
-    base:has_name "Klaara Salolahti" .
-
-base:Person_311b3a9a a base:Person ;
-    base:has_name "Bernard Foing" .
-
-base:Person_31a48f4d a base:Person ;
+base:Person_1a3c2d02 a base:Person ;
     base:has_education_city "Bangor",
         "Preston" ;
     base:has_education_country "GB" ;
@@ -1368,632 +1183,10 @@ base:Person_31a48f4d a base:Person ;
     base:has_orcid "0009-0001-2746-1697" ;
     base:has_work_count 3 .
 
-base:Person_32421ee7 a base:Person ;
-    base:has_name "Danbir Rashid" .
-
-base:Person_324bd11a a base:Person ;
-    base:has_name "Jacco Van Loon" .
-
-base:Person_353af6a0 a base:Person ;
-    base:has_employment_city "IN" ;
-    base:has_employment_country "US" ;
-    base:has_employment_institution "Purdue University" ;
-    base:has_name "Amirhossein Mollaali" ;
-    base:has_orcid "0009-0004-5781-714X" ;
-    base:has_work_count 9 .
-
-base:Person_35648e4b a base:Person ;
-    base:has_name "Xinlian Liang" ;
-    base:has_orcid "0000-0002-1585-2340" ;
-    base:has_work_count 77 .
-
-base:Person_373e574c a base:Person ;
-    base:has_name "S Carey" .
-
-base:Person_38ea6f14 a base:Person ;
-    base:has_name "Callie Hao" .
-
-base:Person_3923860d a base:Person ;
-    base:has_education_city "Glasgow",
-        "Mexico" ;
-    base:has_education_country "GB",
-        "MX" ;
-    base:has_education_institution "Universidad Autónoma Metropolitana",
-        "University of Strathclyde" ;
-    base:has_employment_city "Edinburgh",
-        "Glasgow" ;
-    base:has_employment_country "GB" ;
-    base:has_employment_institution "University of Edinburgh",
-        "University of Strathclyde" ;
-    base:has_name "Stephanie Ordonez Sanchez" ;
-    base:has_orcid "0000-0002-7253-6299" ;
-    base:has_work_count 27 .
-
-base:Person_3b0ffc86 a base:Person ;
-    base:has_education_city "Minneapolis",
-        "Moorhead" ;
-    base:has_education_country "US" ;
-    base:has_education_institution "Minnesota State University Moorhead",
-        "University of Minnesota System" ;
-    base:has_name "Benjamin Johnson" ;
-    base:has_orcid "0000-0001-7682-555X" .
-
-base:Person_3c8369b3 a base:Person ;
-    base:has_education_city "Jyvaskyla" ;
-    base:has_education_country "FI" ;
-    base:has_education_institution "University of Jyväskylä" ;
-    base:has_employment_city "Joensuu" ;
-    base:has_employment_country "FI" ;
-    base:has_employment_institution "Natural Resources Institute Finland" ;
-    base:has_name "Joel Kostensalo" ;
-    base:has_orcid "0000-0001-9883-1256" ;
-    base:has_work_count 97 .
-
-base:Person_3d2856e6 a base:Person ;
-    base:has_education_city "Sękocin Stary",
-        "Warsaw" ;
-    base:has_education_country "PL" ;
-    base:has_education_institution "Instytut Badawczy Leśnictwa",
-        "University of Warsaw" ;
-    base:has_employment_city "Sekocin Stary" ;
-    base:has_employment_country "PL" ;
-    base:has_employment_institution "Instytut Badawczy Leśnictwa" ;
-    base:has_name "Maciej Lisiewicz" ;
-    base:has_orcid "0000-0003-0676-8291" ;
-    base:has_work_count 15 .
-
-base:Person_3e608f0c a base:Person ;
-    base:has_name "A Saxena" .
-
-base:Person_3f0eecc6 a base:Person ;
-    base:has_employment_city "Vienna" ;
-    base:has_employment_country "AT" ;
-    base:has_employment_institution "TU Wien" ;
-    base:has_name "Markus Hollaus" ;
-    base:has_orcid "0000-0001-6063-7239" ;
-    base:has_work_count 126 .
-
-base:Person_401e85fc a base:Person ;
-    base:has_name "Mahdi Abdollahi" .
-
-base:Person_43699708 a base:Person ;
-    base:has_name "Filipp Shelobolin" .
-
-base:Person_4524a756 a base:Person ;
-    base:has_education_city "Aalto" ;
-    base:has_education_country "FI" ;
-    base:has_education_institution "Aalto-yliopisto Sähkötekniikan korkeakoulu" ;
-    base:has_employment_city "Kirkkonummi" ;
-    base:has_employment_country "FI" ;
-    base:has_employment_institution "Finnish Geospatial Research Institute" ;
-    base:has_name "Petri Manninen" ;
-    base:has_orcid "0000-0003-1289-2811" ;
-    base:has_work_count 3 .
-
-base:Person_4626d4a9 a base:Person ;
-    base:has_name "Stijn Vansteelandt" ;
-    base:has_orcid "0000-0002-4207-8733" ;
-    base:has_work_count 196 .
-
-base:Person_4796462d a base:Person ;
-    base:has_employment_city "Islamabad" ;
-    base:has_employment_country "PK" ;
-    base:has_employment_institution "Riphah International University" ;
-    base:has_name "Sohail Khalid" ;
-    base:has_orcid "0000-0003-3907-0236" ;
-    base:has_work_count 36 .
-
-base:Person_4843d9db a base:Person ;
-    base:has_name "W Croukamp" .
-
-base:Person_487bd5dd a base:Person ;
-    base:has_name "Leon Yang" ;
-    base:has_orcid "0000-0002-3226-8824" ;
-    base:has_work_count 2 .
-
-base:Person_4916e716 a base:Person ;
-    base:has_name "Xuxin Kang" .
-
-base:Person_4a2678fc a base:Person ;
-    base:has_name "Jonah Dimnik" ;
-    base:has_orcid "0009-0001-1827-4638" ;
-    base:has_work_count 2 .
-
-base:Person_4ba8cd4a a base:Person ;
-    base:has_name "Ziyuan Li" ;
-    base:has_orcid "0000-0003-2844-5645" ;
-    base:has_work_count 4 .
-
-base:Person_4bc1a0b3 a base:Person ;
-    base:has_education_city "Albacete",
-        "Santiago",
-        "Valencia" ;
-    base:has_education_country "CL",
-        "ES" ;
-    base:has_education_institution "Universidad Mayor",
-        "Universitat Politècnica de València",
-        "University of Castilla-La Mancha" ;
-    base:has_employment_city "Santiago",
-        "Valencia" ;
-    base:has_employment_country "CL",
-        "ES" ;
-    base:has_employment_institution "Universidad Mayor",
-        "Universitat Politècnica de València" ;
-    base:has_name "Jesús Torralba" ;
-    base:has_orcid "0000-0001-8644-8604" ;
-    base:has_other_name "J. Torralba",
-        "Jesús Torralba Pérez",
-        "Jesús Torralba-Pérez" ;
-    base:has_researcher_url "https://cgat.webs.upv.es/publications/" ;
-    base:has_work_count 40 .
-
-base:Person_4cc263d9 a base:Person ;
-    base:has_education_city "Rouen" ;
-    base:has_education_country "FR" ;
-    base:has_education_institution "Universite de Rouen - Site du Madrillet" ;
-    base:has_employment_city "Düsseldorf",
-        "Hamilton",
-        "Kidlington",
-        "London",
-        "Oxford",
-        "Sydney" ;
-    base:has_employment_country "AU",
-        "CA",
-        "DE",
-        "GB" ;
-    base:has_employment_institution "Elsevier Ltd",
-        "Imperial College London",
-        "Max Planck Institute für Eisenforschung",
-        "McMaster University",
-        "University of Oxford",
-        "University of Sydney" ;
-    base:has_name "Baptiste Gault" ;
-    base:has_orcid "0000-0002-4934-0458" ;
-    base:has_other_name "https://twitter.com/bat__go" ;
-    base:has_researcher_url "https://twitter.com/bat__go" ;
-    base:has_work_count 317 .
-
-base:Person_4e0e2aa6 a base:Person ;
-    base:has_name "C Kirkham" .
-
-base:Person_4e7ee9b1 a base:Person ;
-    base:has_name "Brian Zhang" .
-
-base:Person_5025a03d a base:Person ;
-    base:has_employment_city "Aarhus C" ;
-    base:has_employment_country "DK" ;
-    base:has_employment_institution "Aarhus University" ;
-    base:has_name "Mie Andersen" ;
-    base:has_orcid "0000-0002-9943-1534" ;
-    base:has_researcher_url "https://pure.au.dk/portal/en/persons/3952f13d-2a87-4ad1-a525-d87e442eb1ed" ;
-    base:has_work_count 53 .
-
-base:Person_50edb588 a base:Person ;
-    base:has_name "Alaukik Saxena" .
-
-base:Person_52249ee2 a base:Person ;
-    base:has_name "Hossain Anwar" .
-
-base:Person_5227074c a base:Person ;
-    base:has_education_city "Brighton" ;
-    base:has_education_country "GB" ;
-    base:has_education_institution "University of Sussex" ;
-    base:has_employment_city "Blagdon",
-        "Cambridge",
-        "Guildford",
-        "London" ;
-    base:has_employment_country "GB" ;
-    base:has_employment_institution "Cambridge University Press and Assessment",
-        "FE Staff College",
-        "London University",
-        "National Council for Vocational Qualifications",
-        "Qualifications and Curriculum Authority",
-        "University of Surrey" ;
-    base:has_name "Tim Oates" ;
-    base:has_orcid "0000-0002-1394-281X" ;
-    base:has_researcher_url "https://www.cambridgeassessment.org.uk/our-research/our-research-team/tim-oates/" ;
-    base:has_work_count 13 .
-
-base:Person_523636d6 a base:Person ;
-    base:has_education_city "Lisboa" ;
-    base:has_education_country "PT" ;
-    base:has_education_institution "Universidade Nova de Lisboa Faculdade de Ciências Sociais e Humanas" ;
-    base:has_employment_city "Hong Kong",
-        "Lisbon",
-        "New York",
-        "Stanford" ;
-    base:has_employment_country "HK",
-        "PT",
-        "US" ;
-    base:has_employment_institution "Center for Innovation, Technology and Development Policies’ Studies of the Engineering school (Instituto Superior Técnico) of the Technical University of Lisbon",
-        "Columbia University",
-        "Hong Kong University of Science and Technology School of Engineering",
-        "IHC - Institute for Contemporary History",
-        "New York University",
-        "Stanford University" ;
-    base:has_name "Paula Pires" ;
-    base:has_orcid "0000-0002-1915-7062" ;
-    base:has_researcher_url "http://ihc.fcsh.unl.pt/ana-paula-pires/" ;
-    base:has_work_count 105 .
-
-base:Person_523ecd2d a base:Person ;
-    base:has_name "S Leeney" .
-
-base:Person_52c07198 a base:Person ;
-    base:has_name "Ifaz Haider" .
-
-base:Person_52f084be a base:Person ;
-    base:has_employment_city "Chongqing" ;
-    base:has_employment_country "CN" ;
-    base:has_employment_institution "Army Medical University" ;
-    base:has_name "Jingchun Wang" ;
-    base:has_orcid "0009-0008-6322-4438" .
-
-base:Person_53510854 a base:Person ;
-    base:has_name "Chiamaka Bhattacharjee" .
-
-base:Person_54809469 a base:Person ;
-    base:has_name "Oliver Summerell" .
-
-base:Person_55399694 a base:Person ;
-    base:has_education_city "Bronx" ;
-    base:has_education_country "US" ;
-    base:has_education_institution "Fordham University Press" ;
-    base:has_employment_city "Queens" ;
-    base:has_employment_country "US" ;
-    base:has_employment_institution "St John's University" ;
-    base:has_name "D Molnar" ;
-    base:has_orcid "0000-0003-1349-409X" .
-
-base:Person_5561d338 a base:Person ;
-    base:has_name "G Bernardi" .
-
-base:Person_559d578e a base:Person ;
-    base:has_name "Shaila Sharmin" .
-
-base:Person_568bf34c a base:Person ;
-    base:has_education_city "Changsha",
-        "Tsukuba" ;
-    base:has_education_country "CN",
-        "JP" ;
-    base:has_education_institution "Hokkaido University",
-        "Hunan University" ;
-    base:has_name "Xiao Zheng" ;
-    base:has_orcid "0000-0002-9004-9216" .
-
-base:Person_56ca1210 a base:Person ;
-    base:has_name "Antti Polvivaara" .
-
-base:Person_58227b78 a base:Person ;
-    base:has_employment_city "Sofia" ;
-    base:has_employment_country "BG" ;
-    base:has_employment_institution "University of Sofia \"St. Kl. Ohrdiski\"" ;
-    base:has_name "Venelin Kozhuharov" ;
-    base:has_orcid "0000-0002-0669-7799" ;
-    base:has_work_count 502 .
-
-base:Person_58e7d713 a base:Person ;
+base:Person_1ae43b90 a base:Person ;
     base:has_name "Wei Kim" .
 
-base:Person_592048a4 a base:Person ;
-    base:has_education_city "Beijing",
-        "Coral Gables" ;
-    base:has_education_country "CN",
-        "US" ;
-    base:has_education_institution "Capital Medical University",
-        "University of Miami" ;
-    base:has_employment_city "Boston" ;
-    base:has_employment_country "US" ;
-    base:has_employment_institution "Boston Medical Center" ;
-    base:has_name "Zihan Yan" ;
-    base:has_orcid "0000-0002-7646-6160" .
-
-base:Person_5a3b2c5c a base:Person ;
-    base:has_name "Miryung Igwilo" .
-
-base:Person_5a673e87 a base:Person ;
-    base:has_name "Amirhossein Masoudnezhad" .
-
-base:Person_5b80a2da a base:Person ;
-    base:has_employment_city "Coimbra" ;
-    base:has_employment_country "PT" ;
-    base:has_employment_institution "Centro Hospitalar e Universitário de Coimbra EPE",
-        "University of Coimbra" ;
-    base:has_name "Joana Oliveira" ;
-    base:has_orcid "0000-0002-2952-396X" .
-
-base:Person_5db59805 a base:Person ;
-    base:has_name "C Pieterse" .
-
-base:Person_5e573e70 a base:Person ;
-    base:has_employment_city "Helsinki",
-        "Joensuu" ;
-    base:has_employment_country "FI" ;
-    base:has_employment_institution "University of Eastern Finland",
-        "University of Helsinki" ;
-    base:has_name "Mikko Vastaranta" ;
-    base:has_orcid "0000-0001-6552-9122" ;
-    base:has_researcher_url "https://researchportal.helsinki.fi/en/persons/98c3065b-5d0e-44ea-b0cc-3e58b556c903",
-        "https://scholar.google.fi/citations?user=C7BO2rkAAAAJ&hl=en&oi=ao" ;
-    base:has_work_count 195 .
-
-base:Person_5e5bf916 a base:Person ;
-    base:has_name "Matti Hyyppä" .
-
-base:Person_5f030fc2 a base:Person ;
-    base:has_education_city "Berlin" ;
-    base:has_education_country "DE" ;
-    base:has_education_institution "Academy of Sciences (GDR)" ;
-    base:has_employment_city "Vancouver" ;
-    base:has_employment_country "CA" ;
-    base:has_employment_institution "University of British Columbia" ;
-    base:has_name "Matthias Militzer" ;
-    base:has_orcid "0000-0003-1995-5117" ;
-    base:has_work_count 194 .
-
-base:Person_5f907bea a base:Person ;
-    base:has_name "Yue Li" ;
-    base:has_orcid "0000-0001-7042-9695" ;
-    base:has_work_count 20 .
-
-base:Person_60a8b0aa a base:Person ;
-    base:has_education_city "Shanghai",
-        "Wuhan" ;
-    base:has_education_country "CN" ;
-    base:has_education_institution "Fudan University",
-        "Huazhong University of Science and Technology" ;
-    base:has_employment_city "Wuhan" ;
-    base:has_employment_country "CN" ;
-    base:has_employment_institution "Huazhong University of Science and Technology" ;
-    base:has_name "Ye Wei" ;
-    base:has_orcid "0000-0002-3804-2447" ;
-    base:has_work_count 7 .
-
-base:Person_61c6ef29 a base:Person ;
-    base:has_employment_city "Leiden" ;
-    base:has_employment_country "NL" ;
-    base:has_employment_institution "Leiden University" ;
-    base:has_name "Simon Marshall" ;
-    base:has_orcid "0009-0003-7213-9351" .
-
-base:Person_64128771 a base:Person ;
-    base:has_education_city "Oxford" ;
-    base:has_education_country "GB" ;
-    base:has_education_institution "University of Oxford" ;
-    base:has_employment_city "Coventry",
-        "Oxford",
-        "Vancouver" ;
-    base:has_employment_country "CA",
-        "GB" ;
-    base:has_employment_institution "University of British Columbia",
-        "University of Oxford",
-        "University of Warwick" ;
-    base:has_name "Christoph Ortner" ;
-    base:has_orcid "0000-0003-1498-8120" ;
-    base:has_work_count 56 .
-
-base:Person_66086cfa a base:Person ;
-    base:has_employment_city "Tempe" ;
-    base:has_employment_country "US" ;
-    base:has_employment_institution "Arizona State University" ;
-    base:has_name "Jiang Wu" ;
-    base:has_orcid "0000-0002-8938-8771" .
-
-base:Person_662a21ac a base:Person ;
-    base:has_employment_city "Taipei City" ;
-    base:has_employment_country "TW" ;
-    base:has_employment_institution "National Taiwan University" ;
-    base:has_name "Yi-Chen Chen" ;
-    base:has_orcid "0000-0003-4062-0821" ;
-    base:has_work_count 1 .
-
-base:Person_66a6ebb8 a base:Person ;
-    base:has_education_city "Beijing",
-        "Bloomington" ;
-    base:has_education_country "CN",
-        "US" ;
-    base:has_education_institution "Indiana University - Bloomington",
-        "Peking University" ;
-    base:has_employment_city "Shanghai",
-        "West Lafayette" ;
-    base:has_employment_country "CN",
-        "US" ;
-    base:has_employment_institution "Novilytic (United States)",
-        "WuXi AppTec" ;
-    base:has_name "Zhiyu Li" ;
-    base:has_orcid "0000-0003-2697-9053" .
-
-base:Person_678157e8 a base:Person ;
-    base:has_name "E Puchwein" .
-
-base:Person_690d69a0 a base:Person ;
-    base:has_name "Miryung Kim" .
-
-base:Person_69d9c319 a base:Person ;
-    base:has_education_city "Guangzhou" ;
-    base:has_education_country "CN" ;
-    base:has_education_institution "South China University of Technology" ;
-    base:has_employment_city "Guangzhou" ;
-    base:has_employment_country "CN" ;
-    base:has_employment_institution "GDINM" ;
-    base:has_name "Yapeng Zhang" ;
-    base:has_orcid "0000-0003-0735-2773" ;
-    base:has_work_count 22 .
-
-base:Person_6a99fb78 a base:Person ;
-    base:has_employment_city "Karachi" ;
-    base:has_employment_country "PK" ;
-    base:has_employment_institution "Dow University of Health Sciences" ;
-    base:has_name "Sohail Khan" ;
-    base:has_orcid "0009-0008-9602-2277" .
-
-base:Person_6b6d46ab a base:Person ;
-    base:has_name "Todd Mowry" .
-
-base:Person_6ce63de4 a base:Person ;
-    base:has_name "Zipeng An" .
-
-base:Person_6ec7081a a base:Person ;
-    base:has_name "Eliot Solomon" .
-
-base:Person_6f079db7 a base:Person ;
-    base:has_name "Yannig Goude" .
-
-base:Person_6f0b95d1 a base:Person ;
-    base:has_name "Markus Holopainen" .
-
-base:Person_70657579 a base:Person ;
-    base:has_name "J Pattison" ;
-    base:has_orcid "0000-0001-7869-8910" ;
-    base:has_work_count 7 .
-
-base:Person_715c91fa a base:Person ;
-    base:has_education_city "La Plata" ;
-    base:has_education_country "AR" ;
-    base:has_education_institution "Universidad Nacional de la Plata" ;
-    base:has_employment_city "La Plata" ;
-    base:has_employment_country "AR" ;
-    base:has_employment_institution "Universidad Nacional de la Plata" ;
-    base:has_name "M Spinelli" ;
-    base:has_orcid "0000-0002-4164-9151" ;
-    base:has_work_count 82 .
-
-base:Person_72a424e9 a base:Person ;
-    base:has_education_city "Wien" ;
-    base:has_education_country "AT" ;
-    base:has_education_institution "Technische Universität Wien" ;
-    base:has_employment_city "Stuttgart",
-        "Vienna",
-        "Wien" ;
-    base:has_employment_country "AT",
-        "DE" ;
-    base:has_employment_institution "TU Wien",
-        "Technische Universität Wien",
-        "University of Stuttgart" ;
-    base:has_name "Gottfried Mandlburger" ;
-    base:has_orcid "0000-0002-2332-293X" ;
-    base:has_researcher_url "https://opals.geo.tuwien.ac.at/" ;
-    base:has_work_count 75 .
-
-base:Person_73d64941 a base:Person ;
-    base:has_education_city "Guwahati",
-        "Napaam" ;
-    base:has_education_country "IN" ;
-    base:has_education_institution "Gauhati University",
-        "Tezpur University" ;
-    base:has_employment_city "Guwahati",
-        "Jorhat" ;
-    base:has_employment_country "IN" ;
-    base:has_employment_institution "D.C.B. Girls' College",
-        "Institute of Advanced Studies in Science and Technology" ;
-    base:has_name "Bikash Sharma" ;
-    base:has_orcid "0000-0001-5256-4930" ;
-    base:has_work_count 6 .
-
-base:Person_7667de05 a base:Person ;
-    base:has_education_city "Ann Arbor",
-        "Providen" ;
-    base:has_education_country "US" ;
-    base:has_education_institution "Brown University",
-        "University of Michigan" ;
-    base:has_employment_city "Nottingham",
-        "Shanghai" ;
-    base:has_employment_country "CN",
-        "GB" ;
-    base:has_employment_institution "Shanghai Jiao Tong University",
-        "University of Nottingham" ;
-    base:has_name "Jesse Golden-Marx" ;
-    base:has_orcid "0000-0002-6394-045X" ;
-    base:has_work_count 12 .
-
-base:Person_77c10740 a base:Person ;
-    base:has_education_city "Aachen" ;
-    base:has_education_country "DE" ;
-    base:has_education_institution "RWTH Aachen University" ;
-    base:has_employment_city "Berlin" ;
-    base:has_employment_country "DE" ;
-    base:has_employment_institution "Humboldt-Universität zu Berlin" ;
-    base:has_name "Markus Kühbach" ;
-    base:has_orcid "0000-0002-7117-5196" ;
-    base:has_other_name "MarkusK",
-        "kaiobach",
-        "mkuehbach" ;
-    base:has_researcher_url "https://markuskuehbach.wordpress.com",
-        "https://www.fairmat-nfdi.eu/fairmat/about-fairmat/team-fairmat",
-        "https://www.github.com/FAIRmat-NFDI/repositories",
-        "https://www.github.com/atomprobe-tc/ifes_apt_tc_data_modeling",
-        "https://www.github.com/mkuehbach",
-        "https://www.gitlab.com/paraprobe/paraprobe-toolbox" ;
-    base:has_work_count 37 .
-
-base:Person_7902adff a base:Person ;
-    base:has_name "A Fialkov" .
-
-base:Person_7a24077e a base:Person ;
-    base:has_employment_city "Atlanta" ;
-    base:has_employment_country "US" ;
-    base:has_employment_institution "Georgia Institute of Technology" ;
-    base:has_name "Hanqiu Chen" ;
-    base:has_orcid "0009-0007-1834-5612" ;
-    base:has_work_count 4 .
-
-base:Person_7ab6c811 a base:Person ;
-    base:has_name "Ruben Valbuena" ;
-    base:has_orcid "0000-0003-0493-7581" ;
-    base:has_work_count 54 .
-
-base:Person_7b3d1eed a base:Person ;
-    base:has_name "I Roque" .
-
-base:Person_7c4bf265 a base:Person ;
-    base:has_employment_city "Shanghai" ;
-    base:has_employment_country "CN" ;
-    base:has_employment_institution "Shanghai Jiaotong University Press" ;
-    base:has_name "Ying Zu" ;
-    base:has_orcid "0000-0001-6966-6925" ;
-    base:has_work_count 122 .
-
-base:Person_7d654201 a base:Person ;
-    base:has_name "† Jehadul" .
-
-base:Person_7e81b053 a base:Person ;
-    base:has_name "Habib Khosroshahi" ;
-    base:has_orcid "0000-0003-0558-8782" ;
-    base:has_work_count 135 .
-
-base:Person_7ffd0d87 a base:Person ;
-    base:has_education_city "Tallahassee" ;
-    base:has_education_country "US" ;
-    base:has_education_institution "Florida State University" ;
-    base:has_employment_city "Winston-Salem" ;
-    base:has_employment_country "US" ;
-    base:has_employment_institution "Wake Forest University School of Medicine" ;
-    base:has_name "E Shen" ;
-    base:has_orcid "0000-0001-6751-5445" ;
-    base:has_work_count 5 .
-
-base:Person_824501b6 a base:Person ;
-    base:has_education_city "Mymensingh" ;
-    base:has_education_country "BD" ;
-    base:has_education_institution "Bangladesh Agricultural University" ;
-    base:has_name "Islam Mony" ;
-    base:has_orcid "0000-0002-5363-8687" ;
-    base:has_work_count 1 .
-
-base:Person_83121471 a base:Person ;
-    base:has_employment_city "Sofia" ;
-    base:has_employment_country "BG" ;
-    base:has_employment_institution "University of Sofia" ;
-    base:has_name "Peicho Petkov" ;
-    base:has_orcid "0000-0002-0420-9480" ;
-    base:has_other_name "P. Petkov",
-        "P. St. Petkov",
-        "Peicho Petkov",
-        "Peicho St. Petkov",
-        "Peicho Stoev Petkov" ;
-    base:has_work_count 421 .
-
-base:Person_83306efb a base:Person ;
+base:Person_1c25150c a base:Person ;
     base:has_employment_city "Melbourne",
         "Parkville" ;
     base:has_employment_country "AU" ;
@@ -2006,94 +1199,7 @@ base:Person_83306efb a base:Person ;
         "https://www.vicbiostat.org.au/research/causal-inference" ;
     base:has_work_count 72 .
 
-base:Person_85392e33 a base:Person ;
-    base:has_education_city "Bern" ;
-    base:has_education_country "CH" ;
-    base:has_education_institution "University of Bern",
-        "Universität Bern" ;
-    base:has_employment_city "Bern",
-        "Oxford",
-        "Zeuthen",
-        "Zurich" ;
-    base:has_employment_country "CH",
-        "DE",
-        "GB" ;
-    base:has_employment_institution "DESY Zeuthen",
-        "ETH Zürich",
-        "Universitat Bern",
-        "University of Bern",
-        "University of Oxford" ;
-    base:has_name "Urs Wenger" ;
-    base:has_orcid "0000-0002-7754-9590" ;
-    base:has_researcher_url "http://www.wenger.itp.unibe.ch/" ;
-    base:has_work_count 140 .
-
-base:Person_85a6d589 a base:Person ;
-    base:has_employment_city "Aarhus" ;
-    base:has_employment_country "DK" ;
-    base:has_employment_institution "Aarhus University" ;
-    base:has_name "Marius Nielsen" ;
-    base:has_orcid "0009-0005-1742-8956" .
-
-base:Person_86958c6b a base:Person ;
-    base:has_name "Dan Schatzberg" .
-
-base:Person_86e0e6c0 a base:Person ;
-    base:has_name "Andy Wanna" .
-
-base:Person_88e7cf03 a base:Person ;
-    base:has_education_city "Burlington" ;
-    base:has_education_country "US" ;
-    base:has_education_institution "University of Vermont" ;
-    base:has_name "Lucas Howard" ;
-    base:has_orcid "0000-0002-6108-8486" ;
-    base:has_work_count 4 .
-
-base:Person_89a236ef a base:Person ;
-    base:has_employment_city "Heidelberg",
-        "Innsbruck",
-        "Vancouver",
-        "Vienna" ;
-    base:has_employment_country "AT",
-        "CA",
-        "DE" ;
-    base:has_employment_institution "Ruprecht Karls Universität Heidelberg",
-        "TU Wien",
-        "Technische Universität Wien",
-        "University of British Columbia",
-        "Universität Innsbruck" ;
-    base:has_name "Lukas Winiwarter" ;
-    base:has_orcid "0000-0001-8229-1160" ;
-    base:has_work_count 43 .
-
-base:Person_8b538387 a base:Person ;
-    base:has_name "Neural Network" .
-
-base:Person_8d8ac3bc a base:Person ;
-    base:has_employment_city "Baltimore" ;
-    base:has_employment_country "US" ;
-    base:has_employment_institution "University of Maryland Baltimore County" ;
-    base:has_name "Meilin Yu" ;
-    base:has_orcid "0000-0003-3071-0487" ;
-    base:has_work_count 49 .
-
-base:Person_935261b5 a base:Person ;
-    base:has_employment_city "Wien" ;
-    base:has_employment_country "AT" ;
-    base:has_employment_institution "Central European University" ;
-    base:has_name "Carnegie Mellon University" ;
-    base:has_orcid "0000-0002-5013-1186" ;
-    base:has_work_count 43 .
-
-base:Person_940d0225 a base:Person ;
-    base:has_employment_city "Beijing" ;
-    base:has_employment_country "CN" ;
-    base:has_employment_institution "Beijing Friendship Hospital" ;
-    base:has_name "Peilun Hu" ;
-    base:has_orcid "0009-0006-4509-740X" ;
-    base:has_work_count 9 .
-
-base:Person_940dc5dc a base:Person ;
+base:Person_1defbc74 a base:Person ;
     base:has_education_city "Chengdu",
         "Ningbo" ;
     base:has_education_country "CN" ;
@@ -2103,526 +1209,20 @@ base:Person_940dc5dc a base:Person ;
     base:has_orcid "0000-0003-0838-382X" ;
     base:has_work_count 8 .
 
-base:Person_94f6e127 a base:Person ;
-    base:has_name "Aalok Ganesh" .
-
-base:Person_95d3e33c a base:Person ;
-    base:has_name "Wei Le" ;
-    base:has_orcid "0000-0002-6797-0648" ;
-    base:has_work_count 7 .
-
-base:Person_967744c1 a base:Person ;
-    base:has_education_city "Padova" ;
-    base:has_education_country "IT" ;
-    base:has_education_institution "Universita degli Studi di Padova" ;
-    base:has_employment_city "Ann Arbor",
-        "Trieste" ;
-    base:has_employment_country "IT",
-        "US" ;
-    base:has_employment_institution "Osservatorio Astronomico di Trieste",
-        "University of Michigan" ;
-    base:has_name "Elena Rasia" ;
-    base:has_orcid "0000-0003-4175-002X" ;
-    base:has_researcher_url "http://nena12276.wixsite.com/elenarasia" ;
-    base:has_work_count 156 .
-
-base:Person_968978f1 a base:Person ;
-    base:has_name "K Scheutwinkel" .
-
-base:Person_968f88b5 a base:Person ;
-    base:has_name "Kangyu Wang" ;
-    base:has_orcid "0000-0002-8452-2011" ;
+base:Person_20a28fa2 a base:Person ;
+    base:has_education_city "Sargodha" ;
+    base:has_education_country "PK" ;
+    base:has_education_institution "University of Sargodha" ;
+    base:has_employment_city "Islamabad",
+        "Sargodha" ;
+    base:has_employment_country "PK" ;
+    base:has_employment_institution "Allama Iqbal Open University",
+        "University of Sargodha" ;
+    base:has_name "Syeda Zahra" ;
+    base:has_orcid "0000-0003-3047-1498" ;
     base:has_work_count 17 .
 
-base:Person_9695af8b a base:Person ;
-    base:has_name "J Zhu" .
-
-base:Person_97c7ee17 a base:Person ;
-    base:has_employment_city "Syracuse" ;
-    base:has_employment_country "US" ;
-    base:has_employment_institution "SUNY ESF" ;
-    base:has_name "N Razavi-Ghods" ;
-    base:has_orcid "0000-0003-4077-496X" ;
-    base:has_other_name "Roxanne" ;
-    base:has_work_count 24 .
-
-base:Person_9810dade a base:Person ;
-    base:has_education_city "Beijing",
-        "College Park" ;
-    base:has_education_country "CN",
-        "US" ;
-    base:has_education_institution "Peking University",
-        "University of Maryland" ;
-    base:has_employment_city "Evanston",
-        "Hangzhou" ;
-    base:has_employment_country "CN",
-        "US" ;
-    base:has_employment_institution "Northwestern University",
-        "Westlake University" ;
-    base:has_name "Yizhou Zhu" ;
-    base:has_orcid "0000-0002-5819-7657" ;
-    base:has_work_count 15 .
-
-base:Person_999d123e a base:Person ;
-    base:has_employment_city "Espoo" ;
-    base:has_employment_country "FI" ;
-    base:has_employment_institution "Finnish Geospatial Research Institute, FGI" ;
-    base:has_name "Paula Litkey" ;
-    base:has_orcid "0000-0002-8934-6985" .
-
-base:Person_9a2be85c a base:Person ;
-    base:has_name "Atefeh Javadi" .
-
-base:Person_9b2dd5b8 a base:Person ;
-    base:has_employment_city "Madrid" ;
-    base:has_employment_country "ES" ;
-    base:has_employment_institution "Universidad Autonoma de Madrid Facultad de Ciencias" ;
-    base:has_name "Daniel De Andres" ;
-    base:has_orcid "0000-0003-4102-0991" ;
-    base:has_work_count 7 .
-
-base:Person_9b39c7ae a base:Person ;
-    base:has_name "J Cavillot" .
-
-base:Person_9bedf487 a base:Person ;
-    base:has_education_city "Wien" ;
-    base:has_education_country "AT" ;
-    base:has_education_institution "Technische Universität Wien" ;
-    base:has_employment_city "Heidelberg",
-        "Trento",
-        "Vienna",
-        "Wien" ;
-    base:has_employment_country "AT",
-        "DE",
-        "IT" ;
-    base:has_employment_institution "European Centre for Theoretical Studies in Nuclear Physics and Related Areas",
-        "Max Planck Institute for Nuclear Physics",
-        "TU Wien",
-        "Technische Universität Wien" ;
-    base:has_name "Andreas Ipp" ;
-    base:has_orcid "0000-0001-9511-3523" ;
-    base:has_work_count 52 .
-
-base:Person_9c59ccf3 a base:Person ;
-    base:has_name "D De Villiers" .
-
-base:Person_9d16ffd2 a base:Person ;
-    base:has_employment_city "Providence",
-        "Richland",
-        "West Lafayette" ;
-    base:has_employment_country "US" ;
-    base:has_employment_institution "Brown University",
-        "Pacific Northwest National Laboratory",
-        "Purdue University" ;
-    base:has_name "Guang Lin" ;
-    base:has_orcid "0000-0002-0976-1987" ;
-    base:has_work_count 362 .
-
-base:Person_9d86227d a base:Person ;
-    base:has_name "S Mittal" .
-
-base:Person_9ee6fda7 a base:Person ;
-    base:has_name "Amanda Howard" .
-
-base:Person_a038f084 a base:Person ;
-    base:has_education_city "Guelph" ;
-    base:has_education_country "CA" ;
-    base:has_education_institution "University of Guelph" ;
-    base:has_employment_city "Calgary" ;
-    base:has_employment_country "CA" ;
-    base:has_employment_institution "University of Calgary" ;
-    base:has_name "Reza Kakavand" ;
-    base:has_orcid "0000-0002-5413-064X" ;
-    base:has_work_count 2 .
-
-base:Person_a1ffb6ef a base:Person ;
-    base:has_name "Tensor Network" .
-
-base:Person_a2b1e49a a base:Person ;
-    base:has_education_city "Vienna" ;
-    base:has_education_country "AT" ;
-    base:has_education_institution "TU Wien" ;
-    base:has_employment_city "Trento" ;
-    base:has_employment_country "IT" ;
-    base:has_employment_institution "Fondazione Bruno Kessler" ;
-    base:has_name "Narges Takhtkeshha" ;
-    base:has_orcid "0000-0003-1659-5419" ;
-    base:has_work_count 4 .
-
-base:Person_a39df0ba a base:Person ;
-    base:has_education_city "Wuhan" ;
-    base:has_education_country "CN" ;
-    base:has_education_institution "Wuhan University" ;
-    base:has_name "Tong Chen" ;
-    base:has_orcid "0000-0002-6863-2480" .
-
-base:Person_a3f675c1 a base:Person ;
-    base:has_name "Siiri Pyykkönen" .
-
-base:Person_a51ee4a1 a base:Person ;
-    base:has_name "J Ely" .
-
-base:Person_a7155e95 a base:Person ;
-    base:has_education_city "Espoo",
-        "Helsinki" ;
-    base:has_education_country "FI" ;
-    base:has_education_institution "Aalto University",
-        "Helsinki University of Technology",
-        "University of Helsinki" ;
-    base:has_employment_city "Espoo",
-        "Kirkkonummi" ;
-    base:has_employment_country "FI" ;
-    base:has_employment_institution "Finnish Geospatial Research Institute" ;
-    base:has_name "Heikki Hyyti" ;
-    base:has_orcid "0000-0003-4664-6221" ;
-    base:has_work_count 34 .
-
-base:Person_a79f452a a base:Person ;
-    base:has_name "Eric Hyyppä" ;
-    base:has_orcid "0000-0002-1979-9217" ;
-    base:has_work_count 25 .
-
-base:Person_a8556d97 a base:Person ;
-    base:has_name "P Sims" .
-
-base:Person_ab12e734 a base:Person ;
-    base:has_education_city "Bhopal",
-        "Indore" ;
-    base:has_education_country "ID",
-        "IN" ;
-    base:has_education_institution "Barkatullah University",
-        "I P S Academy",
-        "Rabindranath Tagore University",
-        "SWAYAM-NPTEL",
-        "UGC-NTA" ;
-    base:has_employment_city "INDORE",
-        "Indore" ;
-    base:has_employment_country "IN" ;
-    base:has_employment_institution "S & S COLLEGE",
-        "Shri Vaishnav Vidyapeeth Vishwavidyalaya" ;
-    base:has_name "R Patel" ;
-    base:has_orcid "0009-0001-1531-6441" ;
-    base:has_researcher_url "http://www.linkedin.com/in/pranay-r-patel-5265a2290" .
-
-base:Person_ac89cf4b a base:Person ;
-    base:has_name "M Bucher" .
-
-base:Person_acf30fab a base:Person ;
-    base:has_employment_city "Beijing" ;
-    base:has_employment_country "CN" ;
-    base:has_employment_institution "Peking University" ;
-    base:has_name "Zexi Fan" ;
-    base:has_orcid "0009-0002-3402-5305" ;
-    base:has_researcher_url "http://www.linkedin.com/in/zexi-fan-79510a308" .
-
-base:Person_ad4f76c6 a base:Person ;
-    base:has_name "Mazahrul Islam Tohin" .
-
-base:Person_b04262a7 a base:Person ;
-    base:has_education_city "Dublin",
-        "Edinburgh",
-        "Glasgow" ;
-    base:has_education_country "GB",
-        "IE" ;
-    base:has_education_institution "Trinity College",
-        "University of Edinburgh",
-        "University of Glasgow" ;
-    base:has_employment_city "Dublin",
-        "Galway",
-        "Liverpool" ;
-    base:has_employment_country "GB",
-        "IE" ;
-    base:has_employment_institution "Dublin City University",
-        "Liverpool John Moores University",
-        "National University of Ireland Galway" ;
-    base:has_name "P Scott" ;
-    base:has_orcid "0000-0002-5790-8066" ;
-    base:has_other_name "Anne Scott" ;
-    base:has_work_count 131 .
-
-base:Person_b52db4f3 a base:Person ;
-    base:has_education_city "La Jolla" ;
-    base:has_education_country "US" ;
-    base:has_education_institution "University of California San Diego" ;
-    base:has_name "Aneesh Subramanian" ;
-    base:has_orcid "0000-0001-7805-0102" ;
-    base:has_work_count 102 .
-
-base:Person_b58ff1e3 a base:Person ;
-    base:has_name "S Pegwal" .
-
-base:Person_b59b2986 a base:Person ;
-    base:has_education_city "Chengdu" ;
-    base:has_education_country "CN" ;
-    base:has_education_institution "Sichuan Agricultural University" ;
-    base:has_name "Guanhua Chen" ;
-    base:has_orcid "0000-0002-7727-4662" ;
-    base:has_work_count 6 .
-
-base:Person_b6de2233 a base:Person ;
-    base:has_employment_city "Hoboken" ;
-    base:has_employment_country "US" ;
-    base:has_employment_institution "Stevens Institute of Technology" ;
-    base:has_name "Shihao Yang" ;
-    base:has_orcid "0009-0003-9552-4527" ;
-    base:has_work_count 2 .
-
-base:Person_b7873d7d a base:Person ;
-    base:has_name "Xiangmei Duan" ;
-    base:has_orcid "0000-0002-7022-753X" ;
-    base:has_work_count 40 .
-
-base:Person_b812f872 a base:Person ;
-    base:has_education_city "Warsaw" ;
-    base:has_education_country "PL" ;
-    base:has_education_institution "Military University of Technology in Warsaw" ;
-    base:has_employment_city "Sękocin Stary",
-        "Warsaw" ;
-    base:has_employment_country "PL" ;
-    base:has_employment_institution "Forest Research Institute",
-        "Institute of Geodesy and Cartography" ;
-    base:has_name "Bartłomiej Kraszewski" ;
-    base:has_orcid "0000-0001-6161-7619" ;
-    base:has_work_count 22 .
-
-base:Person_b8db50fe a base:Person ;
-    base:has_education_city "Helsinki" ;
-    base:has_education_country "FI" ;
-    base:has_education_institution "Aalto University" ;
-    base:has_employment_city "Espoo" ;
-    base:has_employment_country "FI" ;
-    base:has_employment_institution "Finnish Geospatial Research Institute" ;
-    base:has_name "Roope Näsi" ;
-    base:has_orcid "0000-0002-5823-8180" ;
-    base:has_work_count 41 .
-
-base:Person_bb4b1808 a base:Person ;
-    base:has_education_city "Leuven",
-        "Madrid",
-        "New Delhi" ;
-    base:has_education_country "BE",
-        "ES",
-        "IN" ;
-    base:has_education_institution "KU Leuven",
-        "Universidad Autónoma de Madrid",
-        "University of Delhi",
-        "University of Delhi Department of Physics and Astrophysics" ;
-    base:has_name "Atulit Srivastava" ;
-    base:has_orcid "0000-0003-3997-9642" ;
-    base:has_work_count 3 .
-
-base:Person_bfe8d738 a base:Person ;
-    base:has_name "Christoph Freysoldt" ;
-    base:has_orcid "0000-0002-7896-3478" ;
-    base:has_researcher_url "https://www.mpie.de/DefectChemistrySpectroscopy" ;
-    base:has_work_count 62 .
-
-base:Person_c1103899 a base:Person ;
-    base:has_employment_city "Sydney" ;
-    base:has_employment_country "AU" ;
-    base:has_employment_institution "Prince of Wales Hospital" ;
-    base:has_name "Michael Friedlander" ;
-    base:has_orcid "0000-0003-3090-795X" ;
-    base:has_work_count 230 .
-
-base:Person_c12cd01e a base:Person ;
-    base:has_employment_city "Leiden" ;
-    base:has_employment_country "NL" ;
-    base:has_employment_institution "Leiden University" ;
-    base:has_name "Riccardo Molteni" ;
-    base:has_orcid "0009-0005-8060-6639" .
-
-base:Person_c1952bb9 a base:Person ;
-    base:has_name "David Müller" ;
-    base:has_orcid "0000-0003-1914-3768" ;
-    base:has_other_name "Mueller, D.",
-        "Müller, D." ;
-    base:has_researcher_url "http://www.csem.ch/home",
-        "https://demellogroup.ethz.ch/en/index",
-        "https://www.mendeley.com/profiles/david-muller6/" ;
-    base:has_work_count 4 .
-
-base:Person_c5776371 a base:Person ;
-    base:has_name "Panos Stinis" .
-
-base:Person_c72c92bc a base:Person ;
-    base:has_name "Chen" .
-
-base:Person_ca055ba0 a base:Person ;
-    base:has_name "Nirek Sharma" .
-
-base:Person_cecda02e a base:Person ;
-    base:has_name "D Anstey" .
-
-base:Person_d3b3b8ff a base:Person ;
-    base:has_education_city "Espoo" ;
-    base:has_education_country "FI" ;
-    base:has_education_institution "Aalto University",
-        "Helsinki University of Technology" ;
-    base:has_employment_city "Kirkkonummi" ;
-    base:has_employment_country "FI" ;
-    base:has_employment_institution "National Land Survey of Finland" ;
-    base:has_name "Matti Lehtomäki" ;
-    base:has_orcid "0000-0003-3119-3493" ;
-    base:has_work_count 37 .
-
-base:Person_d46f6e04 a base:Person ;
-    base:has_education_city "Glasgow" ;
-    base:has_education_country "GB" ;
-    base:has_education_institution "University of Glasgow" ;
-    base:has_employment_city "Glasgow" ;
-    base:has_employment_country "GB" ;
-    base:has_employment_institution "University of Glasgow" ;
-    base:has_name "Gerardo Aragon-Camarasa" ;
-    base:has_orcid "0000-0003-3756-5569" ;
-    base:has_researcher_url "http://dcs.gla.ac.uk/~gerardo/" ;
-    base:has_work_count 35 .
-
-base:Person_d5db77ab a base:Person ;
-    base:has_employment_city "Sekocin Stary" ;
-    base:has_employment_country "PL" ;
-    base:has_employment_institution "Instytut Badawczy Lesnictwa" ;
-    base:has_name "Krzysztof Stereńczak" ;
-    base:has_orcid "0000-0002-9556-0144" ;
-    base:has_work_count 84 .
-
-base:Person_d5fd0f35 a base:Person ;
-    base:has_education_city "Helsinki" ;
-    base:has_education_country "FI" ;
-    base:has_education_institution "Aalto University" ;
-    base:has_employment_city "Masala",
-        "Turku" ;
-    base:has_employment_country "FI" ;
-    base:has_employment_institution "Finnish Geospatial Research Institute",
-        "University of Turku" ;
-    base:has_name "Harri Kaartinen" ;
-    base:has_orcid "0000-0002-4796-3942" ;
-    base:has_researcher_url "http://pointcloud.fi/",
-        "http://www.fgi.fi/",
-        "https://www.freshwatercompetencecentre.com/" ;
-    base:has_work_count 59 .
-
-base:Person_d78c5f00 a base:Person ;
-    base:has_education_city "Firenze",
-        "Joensuu",
-        "Umeå",
-        "Ås" ;
-    base:has_education_country "FI",
-        "IT",
-        "NO",
-        "SE" ;
-    base:has_education_institution "Norwegian University of Life Sciences (NMBU)",
-        "Swedish University of Agricultural Sciences (SLU)",
-        "University of Eastern Finland",
-        "Universtita' degli Studi di Firenze" ;
-    base:has_employment_city "As",
-        "Ås" ;
-    base:has_employment_country "NO" ;
-    base:has_employment_institution "Norges miljø- og biovitenskapelige universitet",
-        "Norwegian Institute for Bioeconomy Research" ;
-    base:has_name "Stefano Puliti" ;
-    base:has_orcid "0000-0003-4624-8987" ;
-    base:has_researcher_url "https://twitter.com/stefanopuliti",
-        "https://www.researchgate.net/profile/Stefano_Puliti" ;
-    base:has_work_count 43 .
-
-base:Person_d7975538 a base:Person ;
-    base:has_name "Karim Aljamal" .
-
-base:Person_da1ad10d a base:Person ;
-    base:has_education_city "Kaifeng" ;
-    base:has_education_country "CN" ;
-    base:has_education_institution "Henan University" ;
-    base:has_employment_city "Wuhan" ;
-    base:has_employment_country "CN" ;
-    base:has_employment_institution "Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology" ;
-    base:has_name "Xiao Wang" ;
-    base:has_orcid "0000-0002-4687-6409" .
-
-base:Person_da43f2e0 a base:Person ;
-    base:has_name "E De Lera Acedo" .
-
-base:Person_da461a84 a base:Person ;
-    base:has_education_city "Cardiff" ;
-    base:has_education_country "GB" ;
-    base:has_education_institution "Cardiff University" ;
-    base:has_name "Iain Mcdonald" ;
-    base:has_orcid "0000-0001-9066-7244" ;
-    base:has_work_count 142 .
-
-base:Person_dbcf5526 a base:Person ;
-    base:has_employment_city "Espoo" ;
-    base:has_employment_country "FI" ;
-    base:has_employment_institution "National Land Survey/Finnish Geospatial Research Institute FGI" ;
-    base:has_name "Eero Ahokas" ;
-    base:has_orcid "0009-0001-6555-3752" ;
-    base:has_work_count 1 .
-
-base:Person_df44e579 a base:Person ;
-    base:has_name "H Bevins" .
-
-base:Person_df9d962f a base:Person ;
-    base:has_employment_city "Espoo" ;
-    base:has_employment_country "FI" ;
-    base:has_employment_institution "Finnish Geospatial Research Institute" ;
-    base:has_name "Kirsi Karila" ;
-    base:has_orcid "0000-0001-7941-4457" .
-
-base:Person_dfae41ac a base:Person ;
-    base:has_education_city "Essen",
-        "Köln" ;
-    base:has_education_country "DE" ;
-    base:has_education_institution "Universität Duisburg-Essen",
-        "Universität zu Köln" ;
-    base:has_employment_city "Delft",
-        "Köln",
-        "Stuttgart" ;
-    base:has_employment_country "DE",
-        "NL" ;
-    base:has_employment_institution "Delft University of Technology",
-        "Technische Universiteit Delft",
-        "Universität Stuttgart",
-        "Universität zu Köln" ;
-    base:has_name "Alexander Heinlein" ;
-    base:has_orcid "0000-0003-1578-8104" ;
-    base:has_researcher_url "https://research.tudelft.nl/en/persons/be40c053-2cc4-47db-99f2-3f142e78cf8f",
-        "https://searhein.github.io",
-        "https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics/numerical-analysis" ;
-    base:has_work_count 68 .
-
-base:Person_e1465b81 a base:Person ;
-    base:has_name "Léandre Eberhard" .
-
-base:Person_e17fadaf a base:Person ;
-    base:has_name "Subhankar Zahid" .
-
-base:Person_e1a1ee45 a base:Person ;
-    base:has_education_city "St Cloud" ;
-    base:has_education_country "FR" ;
-    base:has_education_institution "Ecole Normale Supérieure de St Cloud" ;
-    base:has_employment_city "Boulder",
-        "Gif sur Yvette" ;
-    base:has_employment_country "FR",
-        "US" ;
-    base:has_employment_institution "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
-        "NOAA Earth System Research Laboratory",
-        "Université Paris-Saclay" ;
-    base:has_name "Philippe Ciais" ;
-    base:has_orcid "0000-0001-8560-4943" ;
-    base:has_researcher_url "https://scholar.google.fr/citations?user=PJhqfAoAAAAJ&hl=fr" ;
-    base:has_work_count 1 .
-
-base:Person_e6ca6b23 a base:Person ;
-    base:has_employment_city "Hong Kong" ;
-    base:has_employment_country "HK" ;
-    base:has_employment_institution "University of Hong Kong" ;
-    base:has_name "Yalun Zheng" ;
-    base:has_orcid "0009-0005-5302-6516" .
-
-base:Person_e7860f01 a base:Person ;
-    base:has_name "A Magro" .
-
-base:Person_eaa58c4c a base:Person ;
+base:Person_272ffff1 a base:Person ;
     base:has_education_city "Bristol",
         "Liverpool",
         "London",
@@ -2657,24 +1257,419 @@ base:Person_eaa58c4c a base:Person ;
         "https://www.mcri.edu.au/researcher-details/david-burgner" ;
     base:has_work_count 463 .
 
-base:Person_eab7eded a base:Person ;
-    base:has_employment_city "Brisbane" ;
+base:Person_283c3df7 a base:Person ;
+    base:has_education_city "Firenze",
+        "Joensuu",
+        "Umeå",
+        "Ås" ;
+    base:has_education_country "FI",
+        "IT",
+        "NO",
+        "SE" ;
+    base:has_education_institution "Norwegian University of Life Sciences (NMBU)",
+        "Swedish University of Agricultural Sciences (SLU)",
+        "University of Eastern Finland",
+        "Universtita' degli Studi di Firenze" ;
+    base:has_employment_city "As",
+        "Ås" ;
+    base:has_employment_country "NO" ;
+    base:has_employment_institution "Norges miljø- og biovitenskapelige universitet",
+        "Norwegian Institute for Bioeconomy Research" ;
+    base:has_name "Stefano Puliti" ;
+    base:has_orcid "0000-0003-4624-8987" ;
+    base:has_researcher_url "https://twitter.com/stefanopuliti",
+        "https://www.researchgate.net/profile/Stefano_Puliti" ;
+    base:has_work_count 43 .
+
+base:Person_2a5ba7ef a base:Person ;
+    base:has_name "Filipp Shelobolin" .
+
+base:Person_2a5e7772 a base:Person ;
+    base:has_education_city "Brisbane",
+        "Scarborough" ;
+    base:has_education_country "AU" ;
+    base:has_education_institution "Queensland University of Technology",
+        "University of Notre Dame" ;
+    base:has_employment_city "Joondalup",
+        "Subiaco" ;
     base:has_employment_country "AU" ;
-    base:has_employment_institution "Queensland University of Technology" ;
-    base:has_name "Aijun Du" ;
-    base:has_orcid "0000-0002-3369-3283" ;
-    base:has_researcher_url "https://scholar.google.com.au/citations?user=gq46vrgAAAAJ&hl=en",
-        "https://www.scopus.com/authid/detail.uri?authorId=8974299300",
-        "https://www.webofscience.com/wos/author/record/684746" ;
-    base:has_work_count 414 .
+    base:has_employment_institution "Joondalup Health Campus",
+        "Women and Newborn Health Service Western Australia" ;
+    base:has_name "T Gessey-Jones" ;
+    base:has_orcid "0000-0001-8726-7450" .
 
-base:Person_ebf8b66e a base:Person ;
-    base:has_name "Hanqin Yin" .
-
-base:Person_ebfea6a1 a base:Person ;
+base:Person_2ad0a118 a base:Person ;
     base:has_name "Le" .
 
-base:Person_ed634040 a base:Person ;
+base:Person_2beac3f2 a base:Person ;
+    base:has_name "Vasilis Kypriotis" .
+
+base:Person_2bf09322 a base:Person ;
+    base:has_education_city "Espoo" ;
+    base:has_education_country "FI" ;
+    base:has_education_institution "Aalto University",
+        "Helsinki University of Technology" ;
+    base:has_employment_city "Kirkkonummi" ;
+    base:has_employment_country "FI" ;
+    base:has_employment_institution "National Land Survey of Finland" ;
+    base:has_name "Matti Lehtomäki" ;
+    base:has_orcid "0000-0003-3119-3493" ;
+    base:has_work_count 37 .
+
+base:Person_2c54fe7a a base:Person ;
+    base:has_name "Klaara Salolahti" .
+
+base:Person_2c9a04fd a base:Person ;
+    base:has_employment_city "Hong Kong" ;
+    base:has_employment_country "HK" ;
+    base:has_employment_institution "University of Hong Kong" ;
+    base:has_name "Yalun Zheng" ;
+    base:has_orcid "0009-0005-5302-6516" .
+
+base:Person_2fc88835 a base:Person ;
+    base:has_education_city "Guwahati",
+        "Napaam" ;
+    base:has_education_country "IN" ;
+    base:has_education_institution "Gauhati University",
+        "Tezpur University" ;
+    base:has_employment_city "Guwahati",
+        "Jorhat" ;
+    base:has_employment_country "IN" ;
+    base:has_employment_institution "D.C.B. Girls' College",
+        "Institute of Advanced Studies in Science and Technology" ;
+    base:has_name "Bikash Sharma" ;
+    base:has_orcid "0000-0001-5256-4930" ;
+    base:has_work_count 6 .
+
+base:Person_327b55a4 a base:Person ;
+    base:has_employment_city "Garching",
+        "Leiden" ;
+    base:has_employment_country "DE",
+        "NL" ;
+    base:has_employment_institution "Max-Planck-Institute of Quantum Optics",
+        "Universiteit Leiden" ;
+    base:has_name "Vedran Dunjko" ;
+    base:has_orcid "0000-0002-2632-7955" ;
+    base:has_work_count 29 .
+
+base:Person_354a647f a base:Person ;
+    base:has_education_city "Oxford" ;
+    base:has_education_country "GB" ;
+    base:has_education_institution "University of Oxford" ;
+    base:has_employment_city "Coventry",
+        "Oxford",
+        "Vancouver" ;
+    base:has_employment_country "CA",
+        "GB" ;
+    base:has_employment_institution "University of British Columbia",
+        "University of Oxford",
+        "University of Warwick" ;
+    base:has_name "Christoph Ortner" ;
+    base:has_orcid "0000-0003-1498-8120" ;
+    base:has_work_count 56 .
+
+base:Person_36dfcfce a base:Person ;
+    base:has_education_city "Lisboa" ;
+    base:has_education_country "PT" ;
+    base:has_education_institution "Universidade Nova de Lisboa Faculdade de Ciências Sociais e Humanas" ;
+    base:has_employment_city "Hong Kong",
+        "Lisbon",
+        "New York",
+        "Stanford" ;
+    base:has_employment_country "HK",
+        "PT",
+        "US" ;
+    base:has_employment_institution "Center for Innovation, Technology and Development Policies’ Studies of the Engineering school (Instituto Superior Técnico) of the Technical University of Lisbon",
+        "Columbia University",
+        "Hong Kong University of Science and Technology School of Engineering",
+        "IHC - Institute for Contemporary History",
+        "New York University",
+        "Stanford University" ;
+    base:has_name "Paula Pires" ;
+    base:has_orcid "0000-0002-1915-7062" ;
+    base:has_researcher_url "http://ihc.fcsh.unl.pt/ana-paula-pires/" ;
+    base:has_work_count 105 .
+
+base:Person_3760c21c a base:Person ;
+    base:has_education_city "Isfahan" ;
+    base:has_education_country "IR" ;
+    base:has_education_institution "Isfahan University of Technology" ;
+    base:has_employment_city "Tehran" ;
+    base:has_employment_country "IR" ;
+    base:has_employment_institution "Institute for Research in Fundamental Science (IPM)" ;
+    base:has_name "Sepideh Ghaziasgar" ;
+    base:has_orcid "0000-0001-5855-846X" ;
+    base:has_researcher_url "https://scholar.google.com/citations?user=RyNCLBoAAAAJ&hl=en",
+        "https://www.linkedin.com/in/sepide-ghaziasgar/",
+        "https://www.researchgate.net/profile/Sepideh-Ghaziasgar" ;
+    base:has_work_count 2 .
+
+base:Person_37b43282 a base:Person ;
+    base:has_employment_city "Beijing" ;
+    base:has_employment_country "CN" ;
+    base:has_employment_institution "Peking University" ;
+    base:has_name "Zexi Fan" ;
+    base:has_orcid "0009-0002-3402-5305" ;
+    base:has_researcher_url "http://www.linkedin.com/in/zexi-fan-79510a308" .
+
+base:Person_39863931 a base:Person ;
+    base:has_name "A Fialkov" .
+
+base:Person_3a6a7d88 a base:Person ;
+    base:has_education_city "Beijing",
+        "Bloomington" ;
+    base:has_education_country "CN",
+        "US" ;
+    base:has_education_institution "Indiana University - Bloomington",
+        "Peking University" ;
+    base:has_employment_city "Shanghai",
+        "West Lafayette" ;
+    base:has_employment_country "CN",
+        "US" ;
+    base:has_employment_institution "Novilytic (United States)",
+        "WuXi AppTec" ;
+    base:has_name "Zhiyu Li" ;
+    base:has_orcid "0000-0003-2697-9053" .
+
+base:Person_3c4aaf3a a base:Person ;
+    base:has_name "Rasmus Astrup" .
+
+base:Person_3d1dcd9e a base:Person ;
+    base:has_education_city "Jyvaskyla" ;
+    base:has_education_country "FI" ;
+    base:has_education_institution "University of Jyväskylä" ;
+    base:has_employment_city "Espoo",
+        "Helsinki",
+        "Jyvaskyla",
+        "Laxenburg" ;
+    base:has_employment_country "AT",
+        "FI" ;
+    base:has_employment_institution "Aalto University",
+        "International Institute for Applied Systems Analysis",
+        "Natural Resources Institute Finland",
+        "University of Jyväskylä" ;
+    base:has_name "Mari Myllymäki" ;
+    base:has_orcid "0000-0002-2713-7088" ;
+    base:has_researcher_url "https://github.com/myllym/",
+        "https://scholar.google.fi/citations?user=xhuE5gYAAAAJ&hl=fi&oi=ao",
+        "https://www.luke.fi/en/experts/mari-myllymaki",
+        "https://www.researchgate.net/profile/Mari_Myllymaeki" ;
+    base:has_work_count 52 .
+
+base:Person_3d1f0834 a base:Person ;
+    base:has_name "David Müller" ;
+    base:has_orcid "0000-0003-1914-3768" ;
+    base:has_other_name "Mueller, D.",
+        "Müller, D." ;
+    base:has_researcher_url "http://www.csem.ch/home",
+        "https://demellogroup.ethz.ch/en/index",
+        "https://www.mendeley.com/profiles/david-muller6/" ;
+    base:has_work_count 4 .
+
+base:Person_3e00d836 a base:Person ;
+    base:has_name "Atefeh Javadi" .
+
+base:Person_407737b6 a base:Person ;
+    base:has_employment_city "Baltimore" ;
+    base:has_employment_country "US" ;
+    base:has_employment_institution "University of Maryland Baltimore County" ;
+    base:has_name "Meilin Yu" ;
+    base:has_orcid "0000-0003-3071-0487" ;
+    base:has_work_count 49 .
+
+base:Person_4258d4a9 a base:Person ;
+    base:has_education_city "Tallahassee" ;
+    base:has_education_country "US" ;
+    base:has_education_institution "Florida State University" ;
+    base:has_employment_city "Winston-Salem" ;
+    base:has_employment_country "US" ;
+    base:has_employment_institution "Wake Forest University School of Medicine" ;
+    base:has_name "E Shen" ;
+    base:has_orcid "0000-0001-6751-5445" ;
+    base:has_work_count 5 .
+
+base:Person_436fb726 a base:Person ;
+    base:has_name "Ziyuan Li" ;
+    base:has_orcid "0000-0003-2844-5645" ;
+    base:has_work_count 4 .
+
+base:Person_448453e9 a base:Person ;
+    base:has_education_city "Cardiff" ;
+    base:has_education_country "GB" ;
+    base:has_education_institution "Cardiff University" ;
+    base:has_name "Iain Mcdonald" ;
+    base:has_orcid "0000-0001-9066-7244" ;
+    base:has_work_count 142 .
+
+base:Person_453ca718 a base:Person ;
+    base:has_education_city "La Jolla" ;
+    base:has_education_country "US" ;
+    base:has_education_institution "University of California San Diego" ;
+    base:has_name "Aneesh Subramanian" ;
+    base:has_orcid "0000-0001-7805-0102" ;
+    base:has_work_count 102 .
+
+base:Person_45c6af26 a base:Person ;
+    base:has_education_city "Chengdu" ;
+    base:has_education_country "CN" ;
+    base:has_education_institution "Sichuan Agricultural University" ;
+    base:has_name "Guanhua Chen" ;
+    base:has_orcid "0000-0002-7727-4662" ;
+    base:has_work_count 6 .
+
+base:Person_4b66259a a base:Person ;
+    base:has_name "Wells Fargo" .
+
+base:Person_4c71854f a base:Person ;
+    base:has_name "Chen" .
+
+base:Person_4e626c88 a base:Person ;
+    base:has_name "Christian Moya" .
+
+base:Person_4e78211a a base:Person ;
+    base:has_employment_city "Ningbo" ;
+    base:has_employment_country "CN" ;
+    base:has_employment_institution "Ningbo University" ;
+    base:has_name "Wenjing Zhou" ;
+    base:has_orcid "0009-0009-0470-472X" ;
+    base:has_work_count 1 .
+
+base:Person_4e8c0387 a base:Person ;
+    base:has_education_city "Melbourne" ;
+    base:has_education_country "AU" ;
+    base:has_education_institution "Victoria University" ;
+    base:has_name "Fatemeh Fazel" ;
+    base:has_orcid "0000-0002-1769-4913" ;
+    base:has_work_count 2 .
+
+base:Person_4ec60861 a base:Person ;
+    base:has_education_city "Karlsruhe",
+        "Valencia" ;
+    base:has_education_country "DE",
+        "ES" ;
+    base:has_education_institution "Hochschule Karlsruhe Technik und Wirtschaft",
+        "Universitat Politècnica de València" ;
+    base:has_employment_city "Valencia",
+        "Vancouver" ;
+    base:has_employment_country "CA",
+        "ES" ;
+    base:has_employment_institution "ABO Wind España, S.A.U.",
+        "Edicom Group",
+        "Universitat Politècnica de València",
+        "University of British Columbia" ;
+    base:has_name "Juan Carbonell-Rivera" ;
+    base:has_orcid "0000-0002-6724-6780" ;
+    base:has_researcher_url "http://personales.upv.es/juacarri/" ;
+    base:has_work_count 39 .
+
+base:Person_5020bd13 a base:Person ;
+    base:has_name "Subhankar Zahid" .
+
+base:Person_513328d3 a base:Person ;
+    base:has_name "Eloi Lindas" .
+
+base:Person_5262ff80 a base:Person ;
+    base:has_education_city "Hong Kong" ;
+    base:has_education_country "CN" ;
+    base:has_education_institution "University of Hong Kong" ;
+    base:has_employment_city "Leiden" ;
+    base:has_employment_country "NL" ;
+    base:has_employment_institution "Leiden University Medical Center" ;
+    base:has_name "Shan Gao" ;
+    base:has_orcid "0000-0001-7527-0900" .
+
+base:Person_53ae4e6c a base:Person ;
+    base:has_name "D De Villiers" .
+
+base:Person_57573b4d a base:Person ;
+    base:has_name "Zhiding Liang" ;
+    base:has_orcid "0000-0002-7568-0165" ;
+    base:has_work_count 21 .
+
+base:Person_58d19d42 a base:Person ;
+    base:has_name "K Artuc" .
+
+base:Person_59069300 a base:Person ;
+    base:has_education_city "Dublin",
+        "Edinburgh",
+        "Glasgow" ;
+    base:has_education_country "GB",
+        "IE" ;
+    base:has_education_institution "Trinity College",
+        "University of Edinburgh",
+        "University of Glasgow" ;
+    base:has_employment_city "Dublin",
+        "Galway",
+        "Liverpool" ;
+    base:has_employment_country "GB",
+        "IE" ;
+    base:has_employment_institution "Dublin City University",
+        "Liverpool John Moores University",
+        "National University of Ireland Galway" ;
+    base:has_name "P Scott" ;
+    base:has_orcid "0000-0002-5790-8066" ;
+    base:has_other_name "Anne Scott" ;
+    base:has_work_count 131 .
+
+base:Person_5ab291e0 a base:Person ;
+    base:has_education_city "Albacete",
+        "Santiago",
+        "Valencia" ;
+    base:has_education_country "CL",
+        "ES" ;
+    base:has_education_institution "Universidad Mayor",
+        "Universitat Politècnica de València",
+        "University of Castilla-La Mancha" ;
+    base:has_employment_city "Santiago",
+        "Valencia" ;
+    base:has_employment_country "CL",
+        "ES" ;
+    base:has_employment_institution "Universidad Mayor",
+        "Universitat Politècnica de València" ;
+    base:has_name "Jesús Torralba" ;
+    base:has_orcid "0000-0001-8644-8604" ;
+    base:has_other_name "J. Torralba",
+        "Jesús Torralba Pérez",
+        "Jesús Torralba-Pérez" ;
+    base:has_researcher_url "https://cgat.webs.upv.es/publications/" ;
+    base:has_work_count 40 .
+
+base:Person_5bfe06a8 a base:Person ;
+    base:has_education_city "Munchen",
+        "Stuttgart",
+        "Wuhan" ;
+    base:has_education_country "CN",
+        "DE" ;
+    base:has_education_institution "Technische Universität München",
+        "Universität Stuttgart",
+        "Wuhan University" ;
+    base:has_employment_city "Shanghai" ;
+    base:has_employment_country "CN" ;
+    base:has_employment_institution "Tongji University" ;
+    base:has_name "Hongchao Fan" ;
+    base:has_orcid "0000-0003-2863-8447" .
+
+base:Person_5c257b64 a base:Person ;
+    base:has_name "Zahid" .
+
+base:Person_5e3cb662 a base:Person ;
+    base:has_name "E De Lera Acedo" .
+
+base:Person_5ec90b4a a base:Person ;
+    base:has_name "S Mittal" .
+
+base:Person_60180a9e a base:Person ;
+    base:has_education_city "Guangzhou" ;
+    base:has_education_country "CN" ;
+    base:has_education_institution "South China University of Technology" ;
+    base:has_employment_city "Guangzhou" ;
+    base:has_employment_country "CN" ;
+    base:has_employment_institution "GDINM" ;
+    base:has_name "Yapeng Zhang" ;
+    base:has_orcid "0000-0003-0735-2773" ;
+    base:has_work_count 22 .
+
+base:Person_621cce7c a base:Person ;
     base:has_education_city "Beijing",
         "Delemont",
         "Fribourg",
@@ -2699,30 +1694,116 @@ base:Person_ed634040 a base:Person ;
     base:has_orcid "0000-0002-6439-266X" ;
     base:has_work_count 18 .
 
-base:Person_ed7043f5 a base:Person ;
-    base:has_name "Wells Fargo" .
+base:Person_62b0a8ab a base:Person ;
+    base:has_education_city "Boulder",
+        "Fort Collins" ;
+    base:has_education_country "US" ;
+    base:has_education_institution "Colorado State University",
+        "University of Colorado Boulder" ;
+    base:has_employment_city "Boulder" ;
+    base:has_employment_country "US" ;
+    base:has_employment_institution "National Center for Atmospheric Research" ;
+    base:has_name "Gregory Thompson" ;
+    base:has_orcid "0000-0003-2519-932X" ;
+    base:has_other_name "Greg Thompson" ;
+    base:has_researcher_url "http://www.rap.ucar.edu/~gthompsn/" .
 
-base:Person_eda9701a a base:Person ;
-    base:has_name "Sopitta Thurachen" .
+base:Person_6540f44f a base:Person ;
+    base:has_education_city "Sękocin Stary",
+        "Warsaw" ;
+    base:has_education_country "PL" ;
+    base:has_education_institution "Instytut Badawczy Leśnictwa",
+        "University of Warsaw" ;
+    base:has_employment_city "Sekocin Stary" ;
+    base:has_employment_country "PL" ;
+    base:has_employment_institution "Instytut Badawczy Leśnictwa" ;
+    base:has_name "Maciej Lisiewicz" ;
+    base:has_orcid "0000-0003-0676-8291" ;
+    base:has_work_count 15 .
 
-base:Person_ee80a86b a base:Person ;
-    base:has_employment_city "Ningbo" ;
-    base:has_employment_country "CN" ;
-    base:has_employment_institution "Ningbo University" ;
-    base:has_name "Wenjing Zhou" ;
-    base:has_orcid "0009-0009-0470-472X" ;
-    base:has_work_count 1 .
+base:Person_65948e36 a base:Person ;
+    base:has_name "Amanda Howard" .
 
-base:Person_efe45fa5 a base:Person ;
-    base:has_employment_city "Aarhus C" ;
-    base:has_employment_country "DK" ;
-    base:has_employment_institution "Aarhus University" ;
-    base:has_name "Luuk Kempen" ;
-    base:has_orcid "0009-0008-9915-0389" ;
-    base:has_researcher_url "https://pure.au.dk/portal/en/persons/9eeb64d7-6386-4e86-8c79-c3672b6be5c0" ;
-    base:has_work_count 2 .
+base:Person_668e2ba5 a base:Person ;
+    base:has_employment_city "Karachi" ;
+    base:has_employment_country "PK" ;
+    base:has_employment_institution "Dow University of Health Sciences" ;
+    base:has_name "Sohail Khan" ;
+    base:has_orcid "0009-0008-9602-2277" .
 
-base:Person_f0969204 a base:Person ;
+base:Person_678d0b55 a base:Person ;
+    base:has_education_city "Leuven",
+        "Madrid",
+        "New Delhi" ;
+    base:has_education_country "BE",
+        "ES",
+        "IN" ;
+    base:has_education_institution "KU Leuven",
+        "Universidad Autónoma de Madrid",
+        "University of Delhi",
+        "University of Delhi Department of Physics and Astrophysics" ;
+    base:has_name "Atulit Srivastava" ;
+    base:has_orcid "0000-0003-3997-9642" ;
+    base:has_work_count 3 .
+
+base:Person_68fe93e8 a base:Person ;
+    base:has_education_city "Beijing",
+        "Coral Gables" ;
+    base:has_education_country "CN",
+        "US" ;
+    base:has_education_institution "Capital Medical University",
+        "University of Miami" ;
+    base:has_employment_city "Boston" ;
+    base:has_employment_country "US" ;
+    base:has_employment_institution "Boston Medical Center" ;
+    base:has_name "Zihan Yan" ;
+    base:has_orcid "0000-0002-7646-6160" .
+
+base:Person_695621c2 a base:Person ;
+    base:has_name "Yannig Goude" .
+
+base:Person_6b08d61a a base:Person ;
+    base:has_name "Mahdi Abdollahi" .
+
+base:Person_6d5d0aa8 a base:Person ;
+    base:has_name "Kangyu Wang" ;
+    base:has_orcid "0000-0002-8452-2011" ;
+    base:has_work_count 17 .
+
+base:Person_6ebdbad1 a base:Person ;
+    base:has_employment_city "Heidelberg",
+        "Innsbruck",
+        "Vancouver",
+        "Vienna" ;
+    base:has_employment_country "AT",
+        "CA",
+        "DE" ;
+    base:has_employment_institution "Ruprecht Karls Universität Heidelberg",
+        "TU Wien",
+        "Technische Universität Wien",
+        "University of British Columbia",
+        "Universität Innsbruck" ;
+    base:has_name "Lukas Winiwarter" ;
+    base:has_orcid "0000-0001-8229-1160" ;
+    base:has_work_count 43 .
+
+base:Person_6f1b7cc8 a base:Person ;
+    base:has_education_city "Ann Arbor",
+        "Providen" ;
+    base:has_education_country "US" ;
+    base:has_education_institution "Brown University",
+        "University of Michigan" ;
+    base:has_employment_city "Nottingham",
+        "Shanghai" ;
+    base:has_employment_country "CN",
+        "GB" ;
+    base:has_employment_institution "Shanghai Jiao Tong University",
+        "University of Nottingham" ;
+    base:has_name "Jesse Golden-Marx" ;
+    base:has_orcid "0000-0002-6394-045X" ;
+    base:has_work_count 12 .
+
+base:Person_6f32347e a base:Person ;
     base:has_education_city "Espoo" ;
     base:has_education_country "FI" ;
     base:has_education_institution "Aalto University" ;
@@ -2737,13 +1818,343 @@ base:Person_f0969204 a base:Person ;
     base:has_orcid "0000-0002-3841-6533" ;
     base:has_work_count 60 .
 
-base:Person_f207f4ba a base:Person ;
-    base:has_name "K Artuc" .
+base:Person_6f850dd5 a base:Person ;
+    base:has_education_city "Milano",
+        "Zurich" ;
+    base:has_education_country "CH",
+        "IT" ;
+    base:has_education_institution "ETH Zurich",
+        "Politecnico di Milano" ;
+    base:has_employment_city "Bologna",
+        "Innsbruck",
+        "Moscow",
+        "Trento" ;
+    base:has_employment_country "AT",
+        "IT",
+        "RU" ;
+    base:has_employment_institution "Fondazione Bruno Kessler",
+        "Skolkovo Institute of Science and Technology",
+        "University of Bologna",
+        "University of Innsbruck" ;
+    base:has_name "Fabio Remondino" ;
+    base:has_orcid "0000-0001-6097-5342" ;
+    base:has_researcher_url "http://3dom.fbk.eu" ;
+    base:has_work_count 442 .
 
-base:Person_f37abedb a base:Person ;
-    base:has_name "Syed Kashif Imdad" .
+base:Person_727badf5 a base:Person ;
+    base:has_employment_city "Kirkkonummi" ;
+    base:has_employment_country "FI" ;
+    base:has_employment_institution "Finnish Geospatial Research Institute" ;
+    base:has_name "Xiaowei Yu" ;
+    base:has_orcid "0000-0001-5545-0613" ;
+    base:has_work_count 11 .
 
-base:Person_f3eb955b a base:Person ;
+base:Person_72880d26 a base:Person ;
+    base:has_name "I Roque" .
+
+base:Person_740ab8ed a base:Person ;
+    base:has_employment_city "Sofia" ;
+    base:has_employment_country "BG" ;
+    base:has_employment_institution "University of Sofia \"St. Kl. Ohrdiski\"" ;
+    base:has_name "Venelin Kozhuharov" ;
+    base:has_orcid "0000-0002-0669-7799" ;
+    base:has_work_count 502 .
+
+base:Person_74e05254 a base:Person ;
+    base:has_name "Jacco Van Loon" .
+
+base:Person_74f47c62 a base:Person ;
+    base:has_name "Miryung Igwilo" .
+
+base:Person_75d6d388 a base:Person ;
+    base:has_name "Bernard Foing" .
+
+base:Person_76bd7cd2 a base:Person ;
+    base:has_employment_city "Davis",
+        "Knoxville" ;
+    base:has_employment_country "US" ;
+    base:has_employment_institution "University of California, Davis",
+        "University of Tennessee at Knoxville" ;
+    base:has_name "J Pritchard" ;
+    base:has_orcid "0000-0003-4922-3347" ;
+    base:has_other_name "Alex J. Pritchard" ;
+    base:has_work_count 29 .
+
+base:Person_791bbcce a base:Person ;
+    base:has_education_city "Bhopal",
+        "Indore" ;
+    base:has_education_country "ID",
+        "IN" ;
+    base:has_education_institution "Barkatullah University",
+        "I P S Academy",
+        "Rabindranath Tagore University",
+        "SWAYAM-NPTEL",
+        "UGC-NTA" ;
+    base:has_employment_city "INDORE",
+        "Indore" ;
+    base:has_employment_country "IN" ;
+    base:has_employment_institution "S & S COLLEGE",
+        "Shri Vaishnav Vidyapeeth Vishwavidyalaya" ;
+    base:has_name "R Patel" ;
+    base:has_orcid "0009-0001-1531-6441" ;
+    base:has_researcher_url "http://www.linkedin.com/in/pranay-r-patel-5265a2290" .
+
+base:Person_79fbd007 a base:Person ;
+    base:has_education_city "Shanghai" ;
+    base:has_education_country "CN" ;
+    base:has_education_institution "Shanghai Astronomical Observatory Chinese Academy of Sciences" ;
+    base:has_employment_city "Crawley",
+        "Edinburgh",
+        "Madrid",
+        "Trieste" ;
+    base:has_employment_country "AU",
+        "ES",
+        "GB",
+        "IT" ;
+    base:has_employment_institution "Universidad Autónoma de Madrid",
+        "University of Edinburgh",
+        "University of Western Australia",
+        "Università degli Studi di Trieste" ;
+    base:has_name "Weiguang Cui" ;
+    base:has_orcid "0000-0002-2113-4863" ;
+    base:has_researcher_url "https://weiguangcui.github.io" ;
+    base:has_work_count 130 .
+
+base:Person_7b8b6022 a base:Person ;
+    base:has_name "Ifaz Haider" .
+
+base:Person_7c064967 a base:Person ;
+    base:has_education_city "Beijing",
+        "College Park" ;
+    base:has_education_country "CN",
+        "US" ;
+    base:has_education_institution "Peking University",
+        "University of Maryland" ;
+    base:has_employment_city "Evanston",
+        "Hangzhou" ;
+    base:has_employment_country "CN",
+        "US" ;
+    base:has_employment_institution "Northwestern University",
+        "Westlake University" ;
+    base:has_name "Yizhou Zhu" ;
+    base:has_orcid "0000-0002-5819-7657" ;
+    base:has_work_count 15 .
+
+base:Person_7d90b627 a base:Person ;
+    base:has_name "Yue Li" ;
+    base:has_orcid "0000-0001-7042-9695" ;
+    base:has_work_count 20 .
+
+base:Person_7df5ebea a base:Person ;
+    base:has_name "J Cavillot" .
+
+base:Person_7f627598 a base:Person ;
+    base:has_employment_city "Syracuse" ;
+    base:has_employment_country "US" ;
+    base:has_employment_institution "SUNY ESF" ;
+    base:has_name "N Razavi-Ghods" ;
+    base:has_orcid "0000-0003-4077-496X" ;
+    base:has_other_name "Roxanne" ;
+    base:has_work_count 24 .
+
+base:Person_80edc616 a base:Person ;
+    base:has_name "Yen-Chi Samuel" .
+
+base:Person_80f25671 a base:Person ;
+    base:has_name "Markus Holopainen" .
+
+base:Person_8128f543 a base:Person ;
+    base:has_name "Callie Hao" .
+
+base:Person_817ff051 a base:Person ;
+    base:has_education_city "Glasgow" ;
+    base:has_education_country "GB" ;
+    base:has_education_institution "University of Glasgow" ;
+    base:has_employment_city "Glasgow" ;
+    base:has_employment_country "GB" ;
+    base:has_employment_institution "University of Glasgow" ;
+    base:has_name "Gerardo Aragon-Camarasa" ;
+    base:has_orcid "0000-0003-3756-5569" ;
+    base:has_researcher_url "http://dcs.gla.ac.uk/~gerardo/" ;
+    base:has_work_count 35 .
+
+base:Person_83817928 a base:Person ;
+    base:has_employment_city "Helsinki",
+        "Joensuu" ;
+    base:has_employment_country "FI" ;
+    base:has_employment_institution "University of Eastern Finland",
+        "University of Helsinki" ;
+    base:has_name "Mikko Vastaranta" ;
+    base:has_orcid "0000-0001-6552-9122" ;
+    base:has_researcher_url "https://researchportal.helsinki.fi/en/persons/98c3065b-5d0e-44ea-b0cc-3e58b556c903",
+        "https://scholar.google.fi/citations?user=C7BO2rkAAAAJ&hl=en&oi=ao" ;
+    base:has_work_count 195 .
+
+base:Person_840e8665 a base:Person ;
+    base:has_education_city "Helsinki" ;
+    base:has_education_country "FI" ;
+    base:has_education_institution "Aalto University" ;
+    base:has_employment_city "Masala",
+        "Turku" ;
+    base:has_employment_country "FI" ;
+    base:has_employment_institution "Finnish Geospatial Research Institute",
+        "University of Turku" ;
+    base:has_name "Harri Kaartinen" ;
+    base:has_orcid "0000-0002-4796-3942" ;
+    base:has_researcher_url "http://pointcloud.fi/",
+        "http://www.fgi.fi/",
+        "https://www.freshwatercompetencecentre.com/" ;
+    base:has_work_count 59 .
+
+base:Person_848a0bb2 a base:Person ;
+    base:has_name "Hossain Anwar" .
+
+base:Person_8573da6e a base:Person ;
+    base:has_employment_city "Providence",
+        "Richland",
+        "West Lafayette" ;
+    base:has_employment_country "US" ;
+    base:has_employment_institution "Brown University",
+        "Pacific Northwest National Laboratory",
+        "Purdue University" ;
+    base:has_name "Guang Lin" ;
+    base:has_orcid "0000-0002-0976-1987" ;
+    base:has_work_count 362 .
+
+base:Person_85a27f33 a base:Person ;
+    base:has_education_city "Toronto" ;
+    base:has_education_country "CA" ;
+    base:has_education_institution "Ryerson University" ;
+    base:has_employment_city "Toronto" ;
+    base:has_employment_country "CA" ;
+    base:has_employment_institution "Ryerson University",
+        "Synaesthetic Media Lab" ;
+    base:has_name "Nauman Anwar Baig" ;
+    base:has_orcid "0000-0001-8436-0764" ;
+    base:has_work_count 2 .
+
+base:Person_8611c53a a base:Person ;
+    base:has_name "P Meerburg" .
+
+base:Person_86b165b2 a base:Person ;
+    base:has_name "A Magro" .
+
+base:Person_86e3f701 a base:Person ;
+    base:has_education_city "Baton Rouge" ;
+    base:has_education_country "US" ;
+    base:has_education_institution "Louisiana State University" ;
+    base:has_employment_city "Jeannette" ;
+    base:has_employment_country "US" ;
+    base:has_employment_institution "Elliott Group" ;
+    base:has_name "Yiping Lu" ;
+    base:has_orcid "0000-0001-7565-5528" .
+
+base:Person_87b5593c a base:Person ;
+    base:has_education_city "Shanghai",
+        "Wuhan" ;
+    base:has_education_country "CN" ;
+    base:has_education_institution "Fudan University",
+        "Huazhong University of Science and Technology" ;
+    base:has_employment_city "Wuhan" ;
+    base:has_employment_country "CN" ;
+    base:has_employment_institution "Huazhong University of Science and Technology" ;
+    base:has_name "Ye Wei" ;
+    base:has_orcid "0000-0002-3804-2447" ;
+    base:has_work_count 7 .
+
+base:Person_87d1d471 a base:Person ;
+    base:has_name "W Croukamp" .
+
+base:Person_880bd305 a base:Person ;
+    base:has_education_city "Minneapolis",
+        "Moorhead" ;
+    base:has_education_country "US" ;
+    base:has_education_institution "Minnesota State University Moorhead",
+        "University of Minnesota System" ;
+    base:has_name "Benjamin Johnson" ;
+    base:has_orcid "0000-0001-7682-555X" .
+
+base:Person_886d7e40 a base:Person ;
+    base:has_education_city "Wuhan" ;
+    base:has_education_country "CN" ;
+    base:has_education_institution "Wuhan University" ;
+    base:has_name "Tong Chen" ;
+    base:has_orcid "0000-0002-6863-2480" .
+
+base:Person_88b9b3f7 a base:Person ;
+    base:has_employment_city "Taipei City" ;
+    base:has_employment_country "TW" ;
+    base:has_employment_institution "National Taiwan University" ;
+    base:has_name "Yi-Chen Chen" ;
+    base:has_orcid "0000-0003-4062-0821" ;
+    base:has_work_count 1 .
+
+base:Person_8a59963b a base:Person ;
+    base:has_employment_city "Atlanta" ;
+    base:has_employment_country "US" ;
+    base:has_employment_institution "Georgia Institute of Technology" ;
+    base:has_name "Hanqiu Chen" ;
+    base:has_orcid "0009-0007-1834-5612" ;
+    base:has_work_count 4 .
+
+base:Person_8a9d9c87 a base:Person ;
+    base:has_education_city "Guelph" ;
+    base:has_education_country "CA" ;
+    base:has_education_institution "University of Guelph" ;
+    base:has_employment_city "Calgary" ;
+    base:has_employment_country "CA" ;
+    base:has_employment_institution "University of Calgary" ;
+    base:has_name "Reza Kakavand" ;
+    base:has_orcid "0000-0002-5413-064X" ;
+    base:has_work_count 2 .
+
+base:Person_8c8907df a base:Person ;
+    base:has_name "S Pegwal" .
+
+base:Person_8de3342d a base:Person ;
+    base:has_education_city "Aalto" ;
+    base:has_education_country "FI" ;
+    base:has_education_institution "Aalto-yliopisto Sähkötekniikan korkeakoulu" ;
+    base:has_employment_city "Kirkkonummi" ;
+    base:has_employment_country "FI" ;
+    base:has_employment_institution "Finnish Geospatial Research Institute" ;
+    base:has_name "Petri Manninen" ;
+    base:has_orcid "0000-0003-1289-2811" ;
+    base:has_work_count 3 .
+
+base:Person_8f512dae a base:Person ;
+    base:has_education_city "Helsinki" ;
+    base:has_education_country "FI" ;
+    base:has_education_institution "Aalto University" ;
+    base:has_employment_city "Espoo" ;
+    base:has_employment_country "FI" ;
+    base:has_employment_institution "Finnish Geospatial Research Institute" ;
+    base:has_name "Roope Näsi" ;
+    base:has_orcid "0000-0002-5823-8180" ;
+    base:has_work_count 41 .
+
+base:Person_90c26683 a base:Person ;
+    base:has_name "Tensor Network" .
+
+base:Person_93c414cd a base:Person ;
+    base:has_name "Patrick Coppock" .
+
+base:Person_93f44801 a base:Person ;
+    base:has_employment_city "Aarhus" ;
+    base:has_employment_country "DK" ;
+    base:has_employment_institution "Aarhus University" ;
+    base:has_name "Marius Nielsen" ;
+    base:has_orcid "0009-0005-1742-8956" .
+
+base:Person_9468ba84 a base:Person ;
+    base:has_employment_city "IN" ;
+    base:has_employment_country "US" ;
+    base:has_employment_institution "Purdue University" ;
+    base:has_name "Amirhossein Mollaali" ;
+    base:has_orcid "0009-0004-5781-714X" ;
+    base:has_work_count 9 .
+
+base:Person_946dcbb5 a base:Person ;
     base:has_education_city "Helsinki" ;
     base:has_education_country "FI" ;
     base:has_education_institution "University of Helsinki" ;
@@ -2758,60 +2169,58 @@ base:Person_f3eb955b a base:Person ;
     base:has_researcher_url "https://researchportal.helsinki.fi/en/persons/69676dee-d552-4ca7-8695-f93d49b3d282" ;
     base:has_work_count 56 .
 
-base:Person_f61b9370 a base:Person ;
-    base:has_education_city "Jyvaskyla" ;
-    base:has_education_country "FI" ;
-    base:has_education_institution "University of Jyväskylä" ;
-    base:has_employment_city "Espoo",
-        "Helsinki",
-        "Jyvaskyla",
-        "Laxenburg" ;
-    base:has_employment_country "AT",
-        "FI" ;
-    base:has_employment_institution "Aalto University",
-        "International Institute for Applied Systems Analysis",
-        "Natural Resources Institute Finland",
-        "University of Jyväskylä" ;
-    base:has_name "Mari Myllymäki" ;
-    base:has_orcid "0000-0002-2713-7088" ;
-    base:has_researcher_url "https://github.com/myllym/",
-        "https://scholar.google.fi/citations?user=xhuE5gYAAAAJ&hl=fi&oi=ao",
-        "https://www.luke.fi/en/experts/mari-myllymaki",
-        "https://www.researchgate.net/profile/Mari_Myllymaeki" ;
-    base:has_work_count 52 .
+base:Person_947b578a a base:Person ;
+    base:has_employment_city "Shanghai" ;
+    base:has_employment_country "CN" ;
+    base:has_employment_institution "Shanghai Jiaotong University Press" ;
+    base:has_name "Ying Zu" ;
+    base:has_orcid "0000-0001-6966-6925" ;
+    base:has_work_count 122 .
 
-base:Person_f76c1e5f a base:Person ;
-    base:has_name "Zhiding Liang" ;
-    base:has_orcid "0000-0002-7568-0165" ;
-    base:has_work_count 21 .
+base:Person_9501c74a a base:Person ;
+    base:has_employment_city "Islamabad" ;
+    base:has_employment_country "PK" ;
+    base:has_employment_institution "Riphah International University" ;
+    base:has_name "Sohail Khalid" ;
+    base:has_orcid "0000-0003-3907-0236" ;
+    base:has_work_count 36 .
 
-base:Person_f7bdda24 a base:Person ;
-    base:has_employment_city "Sofia" ;
-    base:has_employment_country "BG" ;
-    base:has_employment_institution "Sofia University \"St. Kliment Ohridski\"" ;
-    base:has_name "Kalina Dimitrova" ;
-    base:has_orcid "0000-0003-4953-9667" ;
-    base:has_work_count 5 .
+base:Person_95d0979f a base:Person ;
+    base:has_name "Stijn Vansteelandt" ;
+    base:has_orcid "0000-0002-4207-8733" ;
+    base:has_work_count 196 .
 
-base:Person_f8909a75 a base:Person ;
-    base:has_employment_city "Kirkkonummi" ;
-    base:has_employment_country "FI" ;
-    base:has_employment_institution "Finnish Geospatial Research Institute" ;
-    base:has_name "Xiaowei Yu" ;
-    base:has_orcid "0000-0001-5545-0613" ;
-    base:has_work_count 11 .
+base:Person_981756ac a base:Person ;
+    base:has_education_city "La Plata" ;
+    base:has_education_country "AR" ;
+    base:has_education_institution "Universidad Nacional de la Plata" ;
+    base:has_employment_city "La Plata" ;
+    base:has_employment_country "AR" ;
+    base:has_employment_institution "Universidad Nacional de la Plata" ;
+    base:has_name "M Spinelli" ;
+    base:has_orcid "0000-0002-4164-9151" ;
+    base:has_work_count 82 .
 
-base:Person_f912a5dd a base:Person ;
-    base:has_name "Zahid" .
+base:Person_98c03904 a base:Person ;
+    base:has_name "Todd Mowry" .
 
-base:Person_fab57991 a base:Person ;
-    base:has_employment_city "Espoo" ;
-    base:has_employment_country "FI" ;
-    base:has_employment_institution "Finnish Geospatial Research Institute" ;
-    base:has_name "Leena Matikainen" ;
-    base:has_orcid "0009-0004-3065-1274" .
+base:Person_996a0544 a base:Person ;
+    base:has_education_city "St Cloud" ;
+    base:has_education_country "FR" ;
+    base:has_education_institution "Ecole Normale Supérieure de St Cloud" ;
+    base:has_employment_city "Boulder",
+        "Gif sur Yvette" ;
+    base:has_employment_country "FR",
+        "US" ;
+    base:has_employment_institution "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+        "NOAA Earth System Research Laboratory",
+        "Université Paris-Saclay" ;
+    base:has_name "Philippe Ciais" ;
+    base:has_orcid "0000-0001-8560-4943" ;
+    base:has_researcher_url "https://scholar.google.fr/citations?user=PJhqfAoAAAAJ&hl=fr" ;
+    base:has_work_count 1 .
 
-base:Person_fb30ee7d a base:Person ;
+base:Person_9a005222 a base:Person ;
     base:has_education_city "Berlin",
         "Constanta",
         "Constanța",
@@ -2834,7 +2243,151 @@ base:Person_fb30ee7d a base:Person ;
     base:has_researcher_url "https://www.linkedin.com/in/eugeniu-vezeteu-b4082a194/" ;
     base:has_work_count 1 .
 
-base:Person_fbb5a222 a base:Person ;
+base:Person_9ba28b21 a base:Person ;
+    base:has_employment_city "Tempe" ;
+    base:has_employment_country "US" ;
+    base:has_employment_institution "Arizona State University" ;
+    base:has_name "Jiang Wu" ;
+    base:has_orcid "0000-0002-8938-8771" .
+
+base:Person_9cd05ba5 a base:Person ;
+    base:has_name "Syed Kashif Imdad" .
+
+base:Person_9daeb2d3 a base:Person ;
+    base:has_name "Andy Wanna" .
+
+base:Person_9dc0c3a1 a base:Person ;
+    base:has_name "Ruben Valbuena" ;
+    base:has_orcid "0000-0003-0493-7581" ;
+    base:has_work_count 54 .
+
+base:Person_9e21c36b a base:Person ;
+    base:has_education_city "Brighton" ;
+    base:has_education_country "GB" ;
+    base:has_education_institution "University of Sussex" ;
+    base:has_employment_city "Blagdon",
+        "Cambridge",
+        "Guildford",
+        "London" ;
+    base:has_employment_country "GB" ;
+    base:has_employment_institution "Cambridge University Press and Assessment",
+        "FE Staff College",
+        "London University",
+        "National Council for Vocational Qualifications",
+        "Qualifications and Curriculum Authority",
+        "University of Surrey" ;
+    base:has_name "Tim Oates" ;
+    base:has_orcid "0000-0002-1394-281X" ;
+    base:has_researcher_url "https://www.cambridgeassessment.org.uk/our-research/our-research-team/tim-oates/" ;
+    base:has_work_count 13 .
+
+base:Person_9ecea6ae a base:Person ;
+    base:has_name "Wei Le" ;
+    base:has_orcid "0000-0002-6797-0648" ;
+    base:has_work_count 7 .
+
+base:Person_9f0571bb a base:Person ;
+    base:has_name "Eliot Solomon" .
+
+base:Person_9f9ad24e a base:Person ;
+    base:has_name "Eric Hyyppä" ;
+    base:has_orcid "0000-0002-1979-9217" ;
+    base:has_work_count 25 .
+
+base:Person_9fcacbe5 a base:Person ;
+    base:has_education_city "Rouen" ;
+    base:has_education_country "FR" ;
+    base:has_education_institution "Universite de Rouen - Site du Madrillet" ;
+    base:has_employment_city "Düsseldorf",
+        "Hamilton",
+        "Kidlington",
+        "London",
+        "Oxford",
+        "Sydney" ;
+    base:has_employment_country "AU",
+        "CA",
+        "DE",
+        "GB" ;
+    base:has_employment_institution "Elsevier Ltd",
+        "Imperial College London",
+        "Max Planck Institute für Eisenforschung",
+        "McMaster University",
+        "University of Oxford",
+        "University of Sydney" ;
+    base:has_name "Baptiste Gault" ;
+    base:has_orcid "0000-0002-4934-0458" ;
+    base:has_other_name "https://twitter.com/bat__go" ;
+    base:has_researcher_url "https://twitter.com/bat__go" ;
+    base:has_work_count 317 .
+
+base:Person_9ff70958 a base:Person ;
+    base:has_education_city "Wien" ;
+    base:has_education_country "AT" ;
+    base:has_education_institution "Technische Universität Wien" ;
+    base:has_employment_city "Stuttgart",
+        "Vienna",
+        "Wien" ;
+    base:has_employment_country "AT",
+        "DE" ;
+    base:has_employment_institution "TU Wien",
+        "Technische Universität Wien",
+        "University of Stuttgart" ;
+    base:has_name "Gottfried Mandlburger" ;
+    base:has_orcid "0000-0002-2332-293X" ;
+    base:has_researcher_url "https://opals.geo.tuwien.ac.at/" ;
+    base:has_work_count 75 .
+
+base:Person_a0230452 a base:Person ;
+    base:has_education_city "Burlington" ;
+    base:has_education_country "US" ;
+    base:has_education_institution "University of Vermont" ;
+    base:has_name "Lucas Howard" ;
+    base:has_orcid "0000-0002-6108-8486" ;
+    base:has_work_count 4 .
+
+base:Person_a03a65ce a base:Person ;
+    base:has_education_city "Jyvaskyla" ;
+    base:has_education_country "FI" ;
+    base:has_education_institution "University of Jyväskylä" ;
+    base:has_employment_city "Joensuu" ;
+    base:has_employment_country "FI" ;
+    base:has_employment_institution "Natural Resources Institute Finland" ;
+    base:has_name "Joel Kostensalo" ;
+    base:has_orcid "0000-0001-9883-1256" ;
+    base:has_work_count 97 .
+
+base:Person_a2ba4b99 a base:Person ;
+    base:has_education_city "Cambridge",
+        "Cork" ;
+    base:has_education_country "IE",
+        "US" ;
+    base:has_education_institution "Massachusetts Institute of Technology",
+        "University College Cork National University of Ireland" ;
+    base:has_name "Kieran Holland" ;
+    base:has_orcid "0000-0003-1212-699X" ;
+    base:has_work_count 13 .
+
+base:Person_a2c63bd1 a base:Person ;
+    base:has_employment_city "Sekocin Stary" ;
+    base:has_employment_country "PL" ;
+    base:has_employment_institution "Instytut Badawczy Lesnictwa" ;
+    base:has_name "Krzysztof Stereńczak" ;
+    base:has_orcid "0000-0002-9556-0144" ;
+    base:has_work_count 84 .
+
+base:Person_a405ff64 a base:Person ;
+    base:has_name "Miryung Kim" .
+
+base:Person_a4376b5f a base:Person ;
+    base:has_name "Oliver Summerell" .
+
+base:Person_a45c19d5 a base:Person ;
+    base:has_name "Chiamaka Bhattacharjee" .
+
+base:Person_a59017d4 a base:Person ;
+    base:has_name "Matti Hyyppä" .
+
+base:Person_a5a82c59 a base:Person ;
     base:has_education_city "Athinon",
         "Heraklion",
         "Thessaloniki" ;
@@ -2849,36 +2402,512 @@ base:Person_fbb5a222 a base:Person ;
     base:has_orcid "0000-0002-1749-257X" ;
     base:has_work_count 48 .
 
-base:Person_fc02fa68 a base:Person ;
-    base:has_education_city "Helsinki" ;
-    base:has_education_country "FI" ;
-    base:has_education_institution "Aalto University" ;
-    base:has_name "Josef Taher" ;
-    base:has_orcid "0000-0002-3142-731X" ;
-    base:has_work_count 9 .
+base:Person_a9201f7f a base:Person ;
+    base:has_name "J Ely" .
 
-base:Person_fcdd40b2 a base:Person ;
-    base:has_name "Eloi Lindas" .
+base:Person_aa9a1384 a base:Person ;
+    base:has_education_city "Bronx" ;
+    base:has_education_country "US" ;
+    base:has_education_institution "Fordham University Press" ;
+    base:has_employment_city "Queens" ;
+    base:has_employment_country "US" ;
+    base:has_employment_institution "St John's University" ;
+    base:has_name "D Molnar" ;
+    base:has_orcid "0000-0003-1349-409X" .
 
-base:Person_fd429543 a base:Person ;
-    base:has_employment_city "Garching",
-        "Leiden" ;
+base:Person_aae210cd a base:Person ;
+    base:has_name "P Sims" .
+
+base:Person_ab921c87 a base:Person ;
+    base:has_name "J Zhu" .
+
+base:Person_ac0d0972 a base:Person ;
+    base:has_education_city "Changsha",
+        "Tsukuba" ;
+    base:has_education_country "CN",
+        "JP" ;
+    base:has_education_institution "Hokkaido University",
+        "Hunan University" ;
+    base:has_name "Xiao Zheng" ;
+    base:has_orcid "0000-0002-9004-9216" .
+
+base:Person_adab70bb a base:Person ;
+    base:has_employment_city "Espoo" ;
+    base:has_employment_country "FI" ;
+    base:has_employment_institution "National Land Survey/Finnish Geospatial Research Institute FGI" ;
+    base:has_name "Eero Ahokas" ;
+    base:has_orcid "0009-0001-6555-3752" ;
+    base:has_work_count 1 .
+
+base:Person_aea28154 a base:Person ;
+    base:has_name "Dan Schatzberg" .
+
+base:Person_afbb1d70 a base:Person ;
+    base:has_employment_city "Espoo" ;
+    base:has_employment_country "FI" ;
+    base:has_employment_institution "Finnish Geospatial Research Institute, FGI" ;
+    base:has_name "Paula Litkey" ;
+    base:has_orcid "0000-0002-8934-6985" .
+
+base:Person_b043ec26 a base:Person ;
+    base:has_name "G Bernardi" .
+
+base:Person_b1a8f514 a base:Person ;
+    base:has_name "Xuxin Kang" .
+
+base:Person_b281ff95 a base:Person ;
+    base:has_name "J Pattison" ;
+    base:has_orcid "0000-0001-7869-8910" ;
+    base:has_work_count 7 .
+
+base:Person_b2abff10 a base:Person ;
+    base:has_employment_city "Aarhus C" ;
+    base:has_employment_country "DK" ;
+    base:has_employment_institution "Aarhus University" ;
+    base:has_name "Mie Andersen" ;
+    base:has_orcid "0000-0002-9943-1534" ;
+    base:has_researcher_url "https://pure.au.dk/portal/en/persons/3952f13d-2a87-4ad1-a525-d87e442eb1ed" ;
+    base:has_work_count 53 .
+
+base:Person_b2d4b897 a base:Person ;
+    base:has_name "R Chiello" .
+
+base:Person_b61452d1 a base:Person ;
+    base:has_education_city "Chittagong",
+        "Uppsala" ;
+    base:has_education_country "BD",
+        "SE" ;
+    base:has_education_institution "Chittagong Veterinary and Animal Science University",
+        "Uppsala Universitet Medicinska fakulteten" ;
+    base:has_employment_city "Dhaka",
+        "Göttingen",
+        "Kalmar",
+        "Stockholm",
+        "Uppsala",
+        "Visby" ;
+    base:has_employment_country "BD",
+        "DE",
+        "SE" ;
+    base:has_employment_institution "Georg-August-Universität Göttingen",
+        "International Centre for Diarrhoeal Disease Research",
+        "Karolinska Institutet",
+        "Linneuniversitet Kalmar",
+        "Region Gotland",
+        "Uppsala Universitet Medicinska fakulteten" ;
+    base:has_name "Badrul Hasan" ;
+    base:has_orcid "0000-0001-8766-6355" ;
+    base:has_work_count 14 .
+
+base:Person_b7f03d45 a base:Person ;
+    base:has_education_city "Amsterdam",
+        "Nijmegen",
+        "Warsaw" ;
+    base:has_education_country "NL",
+        "PL" ;
+    base:has_education_institution "Polish Academy of Sciences",
+        "Radboud University Nijmegen",
+        "University of Amsterdam" ;
+    base:has_employment_city "Warszawa" ;
+    base:has_employment_country "PL" ;
+    base:has_employment_institution "IDEAS NCBR" ;
+    base:has_name "Maksymilian Kulicki" ;
+    base:has_orcid "0000-0001-7138-9592" ;
+    base:has_work_count 3 .
+
+base:Person_b86fd196 a base:Person ;
+    base:has_education_city "Mymensingh" ;
+    base:has_education_country "BD" ;
+    base:has_education_institution "Bangladesh Agricultural University" ;
+    base:has_name "Islam Mony" ;
+    base:has_orcid "0000-0002-5363-8687" ;
+    base:has_work_count 1 .
+
+base:Person_b9608ac8 a base:Person ;
+    base:has_education_city "Warsaw" ;
+    base:has_education_country "PL" ;
+    base:has_education_institution "Military University of Technology in Warsaw" ;
+    base:has_employment_city "Sękocin Stary",
+        "Warsaw" ;
+    base:has_employment_country "PL" ;
+    base:has_employment_institution "Forest Research Institute",
+        "Institute of Geodesy and Cartography" ;
+    base:has_name "Bartłomiej Kraszewski" ;
+    base:has_orcid "0000-0001-6161-7619" ;
+    base:has_work_count 22 .
+
+base:Person_bb55ca4c a base:Person ;
+    base:has_education_city "Padova" ;
+    base:has_education_country "IT" ;
+    base:has_education_institution "Universita degli Studi di Padova" ;
+    base:has_employment_city "Ann Arbor",
+        "Trieste" ;
+    base:has_employment_country "IT",
+        "US" ;
+    base:has_employment_institution "Osservatorio Astronomico di Trieste",
+        "University of Michigan" ;
+    base:has_name "Elena Rasia" ;
+    base:has_orcid "0000-0003-4175-002X" ;
+    base:has_researcher_url "http://nena12276.wixsite.com/elenarasia" ;
+    base:has_work_count 156 .
+
+base:Person_bbce23bd a base:Person ;
+    base:has_employment_city "Leiden" ;
+    base:has_employment_country "NL" ;
+    base:has_employment_institution "Leiden University" ;
+    base:has_name "Riccardo Molteni" ;
+    base:has_orcid "0009-0005-8060-6639" .
+
+base:Person_bc40c51d a base:Person ;
+    base:has_name "Karim Aljamal" .
+
+base:Person_bd093c84 a base:Person ;
+    base:has_employment_city "Espoo" ;
+    base:has_employment_country "FI" ;
+    base:has_employment_institution "Finnish Geospatial Research Institute" ;
+    base:has_name "Kirsi Karila" ;
+    base:has_orcid "0000-0001-7941-4457" .
+
+base:Person_bd5b8c99 a base:Person ;
+    base:has_name "Danbir Rashid" .
+
+base:Person_be57070c a base:Person ;
+    base:has_employment_city "Chongqing" ;
+    base:has_employment_country "CN" ;
+    base:has_employment_institution "Army Medical University" ;
+    base:has_name "Jingchun Wang" ;
+    base:has_orcid "0009-0008-6322-4438" .
+
+base:Person_bec43ed4 a base:Person ;
+    base:has_name "J Cumner" .
+
+base:Person_bfcfba21 a base:Person ;
+    base:has_education_city "Fortaleza" ;
+    base:has_education_country "BR" ;
+    base:has_education_institution "Universidade Federal do Ceara - Campus do Pici" ;
+    base:has_employment_city "Gif-sur-Yvette",
+        "Valbonne" ;
+    base:has_employment_country "FR" ;
+    base:has_employment_institution "CentraleSupélec",
+        "EURECOM",
+        "École Supérieure d'Électricité" ;
+    base:has_name "Raul De" ;
+    base:has_orcid "0000-0002-2167-1925" ;
+    base:has_researcher_url "https://l2s.centralesupelec.fr/u/de-lacerda-raul/",
+        "https://scholar.google.com/citations?user=Q70IFKQAAAAJ&hl=en&oi=ao",
+        "https://www.linkedin.com/in/delacerda/" ;
+    base:has_work_count 27 .
+
+base:Person_bff22dd7 a base:Person ;
+    base:has_name "K Scheutwinkel" .
+
+base:Person_c0980822 a base:Person ;
+    base:has_employment_city "Sofia" ;
+    base:has_employment_country "BG" ;
+    base:has_employment_institution "University of Sofia" ;
+    base:has_name "Peicho Petkov" ;
+    base:has_orcid "0000-0002-0420-9480" ;
+    base:has_other_name "P. Petkov",
+        "P. St. Petkov",
+        "Peicho Petkov",
+        "Peicho St. Petkov",
+        "Peicho Stoev Petkov" ;
+    base:has_work_count 421 .
+
+base:Person_c0c3e88e a base:Person ;
+    base:has_education_city "Essen",
+        "Köln" ;
+    base:has_education_country "DE" ;
+    base:has_education_institution "Universität Duisburg-Essen",
+        "Universität zu Köln" ;
+    base:has_employment_city "Delft",
+        "Köln",
+        "Stuttgart" ;
     base:has_employment_country "DE",
         "NL" ;
-    base:has_employment_institution "Max-Planck-Institute of Quantum Optics",
-        "Universiteit Leiden" ;
-    base:has_name "Vedran Dunjko" ;
-    base:has_orcid "0000-0002-2632-7955" ;
-    base:has_work_count 29 .
+    base:has_employment_institution "Delft University of Technology",
+        "Technische Universiteit Delft",
+        "Universität Stuttgart",
+        "Universität zu Köln" ;
+    base:has_name "Alexander Heinlein" ;
+    base:has_orcid "0000-0003-1578-8104" ;
+    base:has_researcher_url "https://research.tudelft.nl/en/persons/be40c053-2cc4-47db-99f2-3f142e78cf8f",
+        "https://searhein.github.io",
+        "https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics/numerical-analysis" ;
+    base:has_work_count 68 .
 
-base:Person_fd61cfe4 a base:Person ;
-    base:has_name "Ahmed Tanmoy" .
+base:Person_c1e60908 a base:Person ;
+    base:has_education_city "Helsinki" ;
+    base:has_education_country "FI" ;
+    base:has_education_institution "University of Helsinki" ;
+    base:has_employment_city "Helsinki" ;
+    base:has_employment_country "FI" ;
+    base:has_employment_institution "University of Helsinki" ;
+    base:has_name "Ville Luoma" ;
+    base:has_orcid "0000-0002-9036-8591" ;
+    base:has_researcher_url "https://researchportal.helsinki.fi/en/persons/2ad3cb14-af43-44fe-bb7a-7b4cf5bd352f" ;
+    base:has_work_count 38 .
 
-base:Person_fe3a3b4c a base:Person ;
+base:Person_c4041736 a base:Person ;
+    base:has_name "Siiri Pyykkönen" .
+
+base:Person_c61b6726 a base:Person ;
+    base:has_name "S Leeney" .
+
+base:Person_c7612268 a base:Person ;
+    base:has_name "Alaukik Saxena" .
+
+base:Person_c90e4288 a base:Person ;
     base:has_name "Petri Rönnholm" .
 
-base:Person_fe897e23 a base:Person ;
-    base:has_name "Yen-Chi Samuel" .
+base:Person_c9d7bcfe a base:Person ;
+    base:has_name "Jonah Dimnik" ;
+    base:has_orcid "0009-0001-1827-4638" ;
+    base:has_work_count 2 .
+
+base:Person_cb34a6dd a base:Person ;
+    base:has_name "Mazahrul Islam Tohin" .
+
+base:Person_cf026750 a base:Person ;
+    base:has_name "Amirhossein Masoudnezhad" .
+
+base:Person_cf23c8b9 a base:Person ;
+    base:has_education_city "Vienna" ;
+    base:has_education_country "AT" ;
+    base:has_education_institution "TU Wien" ;
+    base:has_employment_city "Trento" ;
+    base:has_employment_country "IT" ;
+    base:has_employment_institution "Fondazione Bruno Kessler" ;
+    base:has_name "Narges Takhtkeshha" ;
+    base:has_orcid "0000-0003-1659-5419" ;
+    base:has_work_count 4 .
+
+base:Person_cf9d1f78 a base:Person ;
+    base:has_name "H Bevins" .
+
+base:Person_d00353eb a base:Person ;
+    base:has_name "S Carey" .
+
+base:Person_d01fc262 a base:Person ;
+    base:has_education_city "Aachen" ;
+    base:has_education_country "DE" ;
+    base:has_education_institution "RWTH Aachen University" ;
+    base:has_employment_city "Berlin" ;
+    base:has_employment_country "DE" ;
+    base:has_employment_institution "Humboldt-Universität zu Berlin" ;
+    base:has_name "Markus Kühbach" ;
+    base:has_orcid "0000-0002-7117-5196" ;
+    base:has_other_name "MarkusK",
+        "kaiobach",
+        "mkuehbach" ;
+    base:has_researcher_url "https://markuskuehbach.wordpress.com",
+        "https://www.fairmat-nfdi.eu/fairmat/about-fairmat/team-fairmat",
+        "https://www.github.com/FAIRmat-NFDI/repositories",
+        "https://www.github.com/atomprobe-tc/ifes_apt_tc_data_modeling",
+        "https://www.github.com/mkuehbach",
+        "https://www.gitlab.com/paraprobe/paraprobe-toolbox" ;
+    base:has_work_count 37 .
+
+base:Person_d203d4d0 a base:Person ;
+    base:has_education_city "Melbourne",
+        "VIC" ;
+    base:has_education_country "AU" ;
+    base:has_education_institution "University of Melbourne" ;
+    base:has_name "Toby Mansell" ;
+    base:has_orcid "0000-0002-1282-6331" ;
+    base:has_work_count 64 .
+
+base:Person_d20daace a base:Person ;
+    base:has_name "Thomas Auligne" .
+
+base:Person_d622ad93 a base:Person ;
+    base:has_name "† Jehadul" .
+
+base:Person_d7cb4e78 a base:Person ;
+    base:has_name "Habib Khosroshahi" ;
+    base:has_orcid "0000-0003-0558-8782" ;
+    base:has_work_count 135 .
+
+base:Person_d8302486 a base:Person ;
+    base:has_employment_city "Wien" ;
+    base:has_employment_country "AT" ;
+    base:has_employment_institution "Central European University" ;
+    base:has_name "Carnegie Mellon University" ;
+    base:has_orcid "0000-0002-5013-1186" ;
+    base:has_work_count 43 .
+
+base:Person_d90a32fd a base:Person ;
+    base:has_employment_city "Brisbane" ;
+    base:has_employment_country "AU" ;
+    base:has_employment_institution "Queensland University of Technology" ;
+    base:has_name "Aijun Du" ;
+    base:has_orcid "0000-0002-3369-3283" ;
+    base:has_researcher_url "https://scholar.google.com.au/citations?user=gq46vrgAAAAJ&hl=en",
+        "https://www.scopus.com/authid/detail.uri?authorId=8974299300",
+        "https://www.webofscience.com/wos/author/record/684746" ;
+    base:has_work_count 414 .
+
+base:Person_da7ad266 a base:Person ;
+    base:has_name "Gefei Kong" .
+
+base:Person_e047c435 a base:Person ;
+    base:has_name "Léandre Eberhard" .
+
+base:Person_e06552e6 a base:Person ;
+    base:has_name "Hanqin Yin" .
+
+base:Person_e0ecfd33 a base:Person ;
+    base:has_employment_city "Aarhus C" ;
+    base:has_employment_country "DK" ;
+    base:has_employment_institution "Aarhus University" ;
+    base:has_name "Luuk Kempen" ;
+    base:has_orcid "0009-0008-9915-0389" ;
+    base:has_researcher_url "https://pure.au.dk/portal/en/persons/9eeb64d7-6386-4e86-8c79-c3672b6be5c0" ;
+    base:has_work_count 2 .
+
+base:Person_e18476e5 a base:Person ;
+    base:has_name "D Anstey" .
+
+base:Person_e294ee6d a base:Person ;
+    base:has_name "C Kirkham" .
+
+base:Person_e2b5a1d2 a base:Person ;
+    base:has_name "Jianchang Chen" .
+
+base:Person_e5a42ef9 a base:Person ;
+    base:has_employment_city "Sylhet" ;
+    base:has_employment_country "BD" ;
+    base:has_employment_institution "Leading University" ;
+    base:has_name "Joyee Chakraborty" ;
+    base:has_orcid "0009-0006-5948-9244" .
+
+base:Person_e8bcf8b8 a base:Person ;
+    base:has_employment_city "Coimbra" ;
+    base:has_employment_country "PT" ;
+    base:has_employment_institution "Centro Hospitalar e Universitário de Coimbra EPE",
+        "University of Coimbra" ;
+    base:has_name "Joana Oliveira" ;
+    base:has_orcid "0000-0002-2952-396X" .
+
+base:Person_ea04e8ae a base:Person ;
+    base:has_name "Sopitta Thurachen" .
+
+base:Person_eaf6df61 a base:Person ;
+    base:has_name "A Saxena" .
+
+base:Person_eb056b31 a base:Person ;
+    base:has_name "Christoph Freysoldt" ;
+    base:has_orcid "0000-0002-7896-3478" ;
+    base:has_researcher_url "https://www.mpie.de/DefectChemistrySpectroscopy" ;
+    base:has_work_count 62 .
+
+base:Person_eda7690d a base:Person ;
+    base:has_name "Zipeng An" .
+
+base:Person_efb92e31 a base:Person ;
+    base:has_employment_city "Vienna" ;
+    base:has_employment_country "AT" ;
+    base:has_employment_institution "TU Wien" ;
+    base:has_name "Markus Hollaus" ;
+    base:has_orcid "0000-0001-6063-7239" ;
+    base:has_work_count 126 .
+
+base:Person_f01e4097 a base:Person ;
+    base:has_education_city "Kaifeng" ;
+    base:has_education_country "CN" ;
+    base:has_education_institution "Henan University" ;
+    base:has_employment_city "Wuhan" ;
+    base:has_employment_country "CN" ;
+    base:has_employment_institution "Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology" ;
+    base:has_name "Xiao Wang" ;
+    base:has_orcid "0000-0002-4687-6409" .
+
+base:Person_f0d775d8 a base:Person ;
+    base:has_name "Nirek Sharma" .
+
+base:Person_f10d7170 a base:Person ;
+    base:has_name "C Pieterse" .
+
+base:Person_f36cad93 a base:Person ;
+    base:has_education_city "Wien" ;
+    base:has_education_country "AT" ;
+    base:has_education_institution "Technische Universität Wien" ;
+    base:has_employment_city "Heidelberg",
+        "Trento",
+        "Vienna",
+        "Wien" ;
+    base:has_employment_country "AT",
+        "DE",
+        "IT" ;
+    base:has_employment_institution "European Centre for Theoretical Studies in Nuclear Physics and Related Areas",
+        "Max Planck Institute for Nuclear Physics",
+        "TU Wien",
+        "Technische Universität Wien" ;
+    base:has_name "Andreas Ipp" ;
+    base:has_orcid "0000-0001-9511-3523" ;
+    base:has_work_count 52 .
+
+base:Person_f3df5b0f a base:Person ;
+    base:has_name "Neural Network" .
+
+base:Person_f5e1ee81 a base:Person ;
+    base:has_education_city "Bern" ;
+    base:has_education_country "CH" ;
+    base:has_education_institution "University of Bern",
+        "Universität Bern" ;
+    base:has_employment_city "Bern",
+        "Oxford",
+        "Zeuthen",
+        "Zurich" ;
+    base:has_employment_country "CH",
+        "DE",
+        "GB" ;
+    base:has_employment_institution "DESY Zeuthen",
+        "ETH Zürich",
+        "Universitat Bern",
+        "University of Bern",
+        "University of Oxford" ;
+    base:has_name "Urs Wenger" ;
+    base:has_orcid "0000-0002-7754-9590" ;
+    base:has_researcher_url "http://www.wenger.itp.unibe.ch/" ;
+    base:has_work_count 140 .
+
+base:Person_f80ea3a7 a base:Person ;
+    base:has_employment_city "Sofia" ;
+    base:has_employment_country "BG" ;
+    base:has_employment_institution "Sofia University \"St. Kliment Ohridski\"" ;
+    base:has_name "Kalina Dimitrova" ;
+    base:has_orcid "0000-0003-4953-9667" ;
+    base:has_work_count 5 .
+
+base:Person_fa939fa9 a base:Person ;
+    base:has_name "Xiangmei Duan" ;
+    base:has_orcid "0000-0002-7022-753X" ;
+    base:has_work_count 40 .
+
+base:Person_fb214b70 a base:Person ;
+    base:has_name "Antti Polvivaara" .
+
+base:Person_fcd06181 a base:Person ;
+    base:has_name "Tina Torabi" .
+
+base:Person_fe6a7ab5 a base:Person ;
+    base:has_education_city "Nanjing" ;
+    base:has_education_country "CN" ;
+    base:has_education_institution "Nanjing University" ;
+    base:has_employment_city "Aalto",
+        "Jinzhou",
+        "Xiamen" ;
+    base:has_employment_country "CN",
+        "FI" ;
+    base:has_employment_institution "Aalto-yliopisto",
+        "Bohai University",
+        "Xiamen University" ;
+    base:has_name "Zheyong Fan" ;
+    base:has_orcid "0000-0002-2253-8210" ;
+    base:has_researcher_url "http://blog.sciencenet.cn/u/brucefan1983",
+        "https://brucefan1983.github.io/",
+        "https://github.com/brucefan1983" ;
+    base:has_work_count 88 .
 
 base:Reference_10_1 a base:Paper ;
     base:has_title "Bone microdamage and skeletal fragility in osteoporotic and stress fractures" .
@@ -9115,16 +9144,16 @@ base:topic07 a base:Topic ;
     base:has_name_topic "7" .
 
 base:Paper_14 a base:Paper ;
-    base:has_author base:Person_52249ee2,
-        base:Person_53510854,
-        base:Person_559d578e,
-        base:Person_58e7d713,
-        base:Person_5a3b2c5c,
-        base:Person_690d69a0,
-        base:Person_95d3e33c,
-        base:Person_e17fadaf,
-        base:Person_ebfea6a1,
-        base:Person_f912a5dd ;
+    base:has_author base:Person_19399582,
+        base:Person_1ae43b90,
+        base:Person_2ad0a118,
+        base:Person_5020bd13,
+        base:Person_5c257b64,
+        base:Person_74f47c62,
+        base:Person_848a0bb2,
+        base:Person_9ecea6ae,
+        base:Person_a405ff64,
+        base:Person_a45c19d5 ;
     base:has_date "23 Apr 2025" ;
     base:has_title "Automatically Detecting Numerical Instability in Machine Learning Applications via Soft Assertions" ;
     base:references base:Reference_14_1,
@@ -9179,55 +9208,55 @@ base:Paper_14 a base:Paper ;
     base:similar_to base:Paper_27 .
 
 base:Paper_2 a base:Paper ;
-    base:has_author base:Person_073b97b3,
-        base:Person_07774c70,
-        base:Person_14e46cec,
-        base:Person_1bf08cf6,
-        base:Person_1cd228d3,
-        base:Person_1dfcb11b,
-        base:Person_234ebbcd,
-        base:Person_279f1709,
-        base:Person_28cbf016,
-        base:Person_2a52cef4,
-        base:Person_2f9b3b95,
-        base:Person_35648e4b,
-        base:Person_3c8369b3,
-        base:Person_3d2856e6,
-        base:Person_3f0eecc6,
-        base:Person_4524a756,
-        base:Person_4bc1a0b3,
-        base:Person_523636d6,
-        base:Person_56ca1210,
-        base:Person_5e573e70,
-        base:Person_5e5bf916,
-        base:Person_662a21ac,
-        base:Person_6f0b95d1,
-        base:Person_72a424e9,
-        base:Person_7ab6c811,
-        base:Person_89a236ef,
-        base:Person_940d0225,
-        base:Person_999d123e,
-        base:Person_a2b1e49a,
-        base:Person_a3f675c1,
-        base:Person_a7155e95,
-        base:Person_a79f452a,
-        base:Person_b812f872,
-        base:Person_b8db50fe,
-        base:Person_d3b3b8ff,
-        base:Person_d5db77ab,
-        base:Person_d5fd0f35,
-        base:Person_d78c5f00,
-        base:Person_dbcf5526,
-        base:Person_df9d962f,
-        base:Person_eda9701a,
-        base:Person_f0969204,
-        base:Person_f3eb955b,
-        base:Person_f61b9370,
-        base:Person_f8909a75,
-        base:Person_fab57991,
-        base:Person_fb30ee7d,
-        base:Person_fc02fa68,
-        base:Person_fe3a3b4c ;
+    base:has_author base:Person_00bc672d,
+        base:Person_03c62c5f,
+        base:Person_055cb341,
+        base:Person_0b92d99c,
+        base:Person_0dbb43d8,
+        base:Person_139eda15,
+        base:Person_283c3df7,
+        base:Person_2bf09322,
+        base:Person_2c54fe7a,
+        base:Person_36dfcfce,
+        base:Person_3c4aaf3a,
+        base:Person_3d1dcd9e,
+        base:Person_4ec60861,
+        base:Person_5ab291e0,
+        base:Person_5bfe06a8,
+        base:Person_6540f44f,
+        base:Person_6ebdbad1,
+        base:Person_6f32347e,
+        base:Person_6f850dd5,
+        base:Person_727badf5,
+        base:Person_80f25671,
+        base:Person_83817928,
+        base:Person_840e8665,
+        base:Person_88b9b3f7,
+        base:Person_8de3342d,
+        base:Person_8f512dae,
+        base:Person_946dcbb5,
+        base:Person_9a005222,
+        base:Person_9dc0c3a1,
+        base:Person_9f9ad24e,
+        base:Person_9ff70958,
+        base:Person_a03a65ce,
+        base:Person_a2c63bd1,
+        base:Person_a59017d4,
+        base:Person_adab70bb,
+        base:Person_afbb1d70,
+        base:Person_b7f03d45,
+        base:Person_b9608ac8,
+        base:Person_bd093c84,
+        base:Person_bfcfba21,
+        base:Person_c1e60908,
+        base:Person_c4041736,
+        base:Person_c90e4288,
+        base:Person_cf23c8b9,
+        base:Person_da7ad266,
+        base:Person_e2b5a1d2,
+        base:Person_ea04e8ae,
+        base:Person_efb92e31,
+        base:Person_fb214b70 ;
     base:has_date "19 Apr 2025" ;
     base:has_title "Multispectral airborne laser scanning for tree species classification: a benchmark of machine learning and deep learning algorithms Preprint" ;
     base:references base:Reference_2_1,
@@ -9324,9 +9353,10 @@ base:Paper_2 a base:Paper ;
     base:similar_to base:Paper_5 .
 
 base:Paper_20 a base:Paper ;
-    base:has_author base:Person_61c6ef29,
-        base:Person_c12cd01e,
-        base:Person_fd429543 ;
+    base:acknowledges base:Org_3a6920b2 ;
+    base:has_author base:Person_1723f101,
+        base:Person_327b55a4,
+        base:Person_bbce23bd ;
     base:has_date "22 Apr 2025" ;
     base:has_title "Quantum machine learning advantages beyond hardness of evaluation" ;
     base:references base:Reference_20_1,
@@ -9365,9 +9395,9 @@ base:Paper_20 a base:Paper ;
     base:similar_to base:Paper_27 .
 
 base:Paper_29 a base:Paper ;
-    base:has_author base:Person_5025a03d,
-        base:Person_85a6d589,
-        base:Person_efe45fa5 ;
+    base:has_author base:Person_93f44801,
+        base:Person_b2abff10,
+        base:Person_e0ecfd33 ;
     base:has_date "April 24, 2025" ;
     base:has_title "Breaking scaling relations with inverse catalysts: a machine learning exploration of trends in CO 2 hydrogenation energy barriers" ;
     base:references base:Reference_29_1,
@@ -9424,12 +9454,13 @@ base:Paper_29 a base:Paper ;
     base:similar_to base:Paper_4 .
 
 base:Paper_4 a base:Paper ;
-    base:has_author base:Person_0258a0d4,
-        base:Person_7667de05,
-        base:Person_7c4bf265,
-        base:Person_967744c1,
-        base:Person_9b2dd5b8,
-        base:Person_bb4b1808 ;
+    base:acknowledges base:Org_7d52d340 ;
+    base:has_author base:Person_0915c2ae,
+        base:Person_678d0b55,
+        base:Person_6f1b7cc8,
+        base:Person_79fbd007,
+        base:Person_947b578a,
+        base:Person_bb55ca4c ;
     base:has_date "November 26, 2024" ;
     base:has_title "Predicting Halo Formation Time Using Machine Learning" ;
     base:references base:Reference_4_1,
@@ -9550,9 +9581,9 @@ base:Paper_4 a base:Paper ;
     base:similar_to base:Paper_29 .
 
 base:Paper_5 a base:Paper ;
-    base:has_author base:Person_2c95982c,
-        base:Person_5227074c,
-        base:Person_8d8ac3bc ;
+    base:has_author base:Person_407737b6,
+        base:Person_9e21c36b,
+        base:Person_b61452d1 ;
     base:has_date "22 April 2025" ;
     base:has_title "Invariance-embedded Machine Learning Sub-grid-scale Stress Models for Meso-scale Hurricane Boundary Layer Flow Simulation I: Model Development and a priori Studies" ;
     base:references base:Reference_5_1,
@@ -9630,9 +9661,9 @@ base:Paper_5 a base:Paper ;
     base:similar_to base:Paper_2 .
 
 base:Paper_8 a base:Paper ;
-    base:has_author base:Person_38ea6f14,
-        base:Person_7a24077e,
-        base:Person_86e0e6c0 ;
+    base:has_author base:Person_8128f543,
+        base:Person_8a59963b,
+        base:Person_9daeb2d3 ;
     base:has_date "21 Apr 2025" ;
     base:has_title "ForgeBench: A Machine Learning Benchmark Suite and Auto-Generation Framework for Next-Generation HLS Tools" ;
     base:references base:Reference_8_1,
@@ -9678,7 +9709,7 @@ base:topic09 a base:Topic ;
     base:has_name_topic "9" .
 
 base:Paper_11 a base:Paper ;
-    base:has_author base:Person_968f88b5 ;
+    base:has_author base:Person_6d5d0aa8 ;
     base:has_date "" ;
     base:has_title "Can Machine Learning Agents Deal with Hard Choices?" ;
     base:references base:Reference_11_1,
@@ -9761,11 +9792,11 @@ base:Paper_11 a base:Paper ;
         base:Paper_9 .
 
 base:Paper_26 a base:Paper ;
-    base:has_author base:Person_0c4334ca,
-        base:Person_1dc7b7f5,
-        base:Person_3b0ffc86,
-        base:Person_88e7cf03,
-        base:Person_b52db4f3 ;
+    base:has_author base:Person_453ca718,
+        base:Person_62b0a8ab,
+        base:Person_880bd305,
+        base:Person_a0230452,
+        base:Person_d20daace ;
     base:has_date "22 Apr 2025" ;
     base:has_title "Probabilistic Emulation of the Community Radiative Transfer Model Using Machine Learning" ;
     base:references base:Reference_26_1,
@@ -9803,10 +9834,10 @@ base:Paper_26 a base:Paper ;
         base:Paper_25 .
 
 base:Paper_27 a base:Paper ;
-    base:has_author base:Person_43699708,
-        base:Person_94f6e127,
-        base:Person_ca055ba0,
-        base:Person_e1465b81 ;
+    base:has_author base:Person_12f45342,
+        base:Person_2a5ba7ef,
+        base:Person_e047c435,
+        base:Person_f0d775d8 ;
     base:has_date "April 24, 2025" ;
     base:has_title "General Post-Processing Framework for Fairness Adjustment of Machine Learning Models" ;
     base:references base:Reference_27_1,
@@ -9836,8 +9867,9 @@ base:Paper_27 a base:Paper ;
         base:Paper_20 .
 
 base:Paper_7 a base:Paper ;
-    base:has_author base:Person_d7975538,
-        base:Person_da1ad10d ;
+    base:acknowledges base:Org_ee420692 ;
+    base:has_author base:Person_bc40c51d,
+        base:Person_f01e4097 ;
     base:has_date "21 Apr 2025" ;
     base:has_title "Predicting Methane Adsorption in Metal-Substituted MOFs: A Comparative Study between Density Functional Theory and Machine Learning" ;
     base:references base:Reference_7_1,
@@ -9911,12 +9943,13 @@ base:Paper_7 a base:Paper ;
         base:Paper_3 .
 
 base:Paper_9 a base:Paper ;
-    base:has_author base:Person_22ec1c14,
-        base:Person_353af6a0,
-        base:Person_9d16ffd2,
-        base:Person_9ee6fda7,
-        base:Person_c5776371,
-        base:Person_dfae41ac ;
+    base:acknowledges base:Org_195ded4c ;
+    base:has_author base:Person_18031b03,
+        base:Person_4e626c88,
+        base:Person_65948e36,
+        base:Person_8573da6e,
+        base:Person_9468ba84,
+        base:Person_c0c3e88e ;
     base:has_date "21 Apr 2025" ;
     base:has_title "Conformalized-KANs: Uncertainty Quantification with Coverage Guarantees for Kolmogorov-Arnold Networks (KANs) in Scientific Machine Learning" ;
     base:references base:Reference_9_1,
@@ -9975,10 +10008,12 @@ base:topic08 a base:Topic ;
     base:has_name_topic "8" .
 
 base:Paper_18 a base:Paper ;
-    base:has_author base:Person_0853d528,
-        base:Person_85392e33,
-        base:Person_9bedf487,
-        base:Person_c1952bb9 ;
+    base:acknowledges base:Org_08adbfa4,
+        base:Org_fa3e101f ;
+    base:has_author base:Person_3d1f0834,
+        base:Person_a2ba4b99,
+        base:Person_f36cad93,
+        base:Person_f5e1ee81 ;
     base:has_date "22 Apr 2025" ;
     base:has_title "Machine-learned RG-improved gauge actions and classically perfect gradient flows" ;
     base:references base:Reference_18_1,
@@ -10045,9 +10080,9 @@ base:Paper_18 a base:Paper ;
         base:Paper_6 .
 
 base:Paper_22 a base:Paper ;
-    base:has_author base:Person_6f079db7,
-        base:Person_e1a1ee45,
-        base:Person_fcdd40b2 ;
+    base:has_author base:Person_513328d3,
+        base:Person_695621c2,
+        base:Person_996a0544 ;
     base:has_date "" ;
     base:has_title "TOWARDS ACCURATE FORECASTING OF RENEWABLE ENERGY: BUILDING DATASETS AND BENCHMARKING MACHINE LEARNING MODELS FOR SOLAR AND WIND POWER IN FRANCE PREPRINT" ;
     base:references base:Reference_22_1,
@@ -10128,10 +10163,10 @@ base:Paper_22 a base:Paper ;
         base:Paper_6 .
 
 base:Paper_23 a base:Paper ;
-    base:has_author base:Person_c72c92bc,
-        base:Person_ed7043f5,
-        base:Person_f76c1e5f,
-        base:Person_fe897e23 ;
+    base:has_author base:Person_4b66259a,
+        base:Person_4c71854f,
+        base:Person_57573b4d,
+        base:Person_80edc616 ;
     base:has_date "21 Apr 2025" ;
     base:has_title "Introduction to Quantum Machine Learning and Quantum Architecture Search" ;
     base:references base:Reference_23_1,
@@ -10185,10 +10220,10 @@ base:Paper_23 a base:Paper ;
         base:Paper_6 .
 
 base:Paper_28 a base:Paper ;
-    base:has_author base:Person_0f24baf1,
-        base:Person_5f030fc2,
-        base:Person_64128771,
-        base:Person_c1103899 ;
+    base:has_author base:Person_0de47fd8,
+        base:Person_0f51ec14,
+        base:Person_354a647f,
+        base:Person_fcd06181 ;
     base:has_date "" ;
     base:has_title "Scalable Data-Driven Basis Selection for Linear Machine Learning Interatomic Potentials" ;
     base:references base:Reference_28_1,
@@ -10251,12 +10286,12 @@ base:Paper_28 a base:Paper ;
         base:Paper_8 .
 
 base:Paper_3 a base:Paper ;
-    base:has_author base:Person_4cc263d9,
-        base:Person_50edb588,
-        base:Person_5f907bea,
-        base:Person_60a8b0aa,
-        base:Person_77c10740,
-        base:Person_bfe8d738 ;
+    base:has_author base:Person_7d90b627,
+        base:Person_87b5593c,
+        base:Person_9fcacbe5,
+        base:Person_c7612268,
+        base:Person_d01fc262,
+        base:Person_eb056b31 ;
     base:has_date "" ;
     base:has_title "Machine learning enhanced atom probe tomography analysis: a snapshot review" ;
     base:references base:Reference_3_1,
@@ -10429,14 +10464,14 @@ base:Paper_3 a base:Paper ;
         base:Paper_9 .
 
 base:Paper_6 a base:Paper ;
-    base:has_author base:Person_52f084be,
-        base:Person_568bf34c,
-        base:Person_66086cfa,
-        base:Person_66a6ebb8,
-        base:Person_69d9c319,
-        base:Person_6ce63de4,
-        base:Person_b59b2986,
-        base:Person_e6ca6b23 ;
+    base:has_author base:Person_2c9a04fd,
+        base:Person_3a6a7d88,
+        base:Person_45c6af26,
+        base:Person_60180a9e,
+        base:Person_9ba28b21,
+        base:Person_ac0d0972,
+        base:Person_be57070c,
+        base:Person_eda7690d ;
     base:has_date "" ;
     base:has_title "Mitigating error cancellation in density functional approximations via machine learning correction" ;
     base:references base:Reference_6_1,
@@ -10549,12 +10584,12 @@ base:topic06 a base:Topic ;
     base:has_name_topic "6" .
 
 base:Paper_25 a base:Paper ;
-    base:has_author base:Person_1b7ece64,
-        base:Person_8b538387,
-        base:Person_a1ffb6ef,
-        base:Person_acf30fab,
-        base:Person_b6de2233,
-        base:Person_ed634040 ;
+    base:has_author base:Person_00d975b8,
+        base:Person_37b43282,
+        base:Person_621cce7c,
+        base:Person_86e3f701,
+        base:Person_90c26683,
+        base:Person_f3df5b0f ;
     base:has_date "22 Apr 2025" ;
     base:has_title "Physics-Informed Inference Time Scaling via Simulation-Calibrated Scientific Machine Learning" ;
     base:references base:Reference_25_1,
