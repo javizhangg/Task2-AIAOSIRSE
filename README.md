@@ -169,11 +169,9 @@ Este archivo luego es integrado al grafo RDF final mediante el script `jsonToRDF
 
 ---
 
-## Reflexión final
-
 Durante esta parte de la práctica se exploraron dos enfoques distintos para analizar un conjunto de papers científicos: el agrupamiento por temas (_topic modeling_ con LDA) y el cálculo de similitud entre abstracts.
 
-Inicialmente, se usó TF-IDF para medir similitud textual, pero los valores obtenidos eran demasiado bajos y no representaban bien la relación entre documentos. Esto se debía a que TF-IDF solo compara palabras exactas y no es capaz de interpretar el significado de las frases.
+Inicialmente para calcular la similitud entre papers, se usó TF-IDF, pero los valores obtenidos eran demasiado bajos y no representaban bien la relación entre documentos. Esto se debía a que TF-IDF solo compara palabras exactas y no es capaz de interpretar el significado de las frases.
 
 Posteriormente, se utilizó el modelo `sentence-transformers` (`all-MiniLM-L6-v2`, obtenido de HuggingFace) para calcular **similaridad semántica** entre abstracts. Este modelo permitió obtener valores mucho más realistas, ya que interpreta el contenido a nivel conceptual y no únicamente lexical.
 
@@ -194,18 +192,6 @@ Esta parte de la práctica se centra en **analizar automáticamente un conjunto 
 2. **Medir qué tan similares son entre sí** los abstracts usando embeddings semánticos.
 
 ---
-
-## ▶️ Cómo ejecutar los scripts
-
-A continuación se indican los pasos para ejecutar los análisis de temas y similitud semántica entre papers.
-
----
-
-### 1. ✅ Requisitos (Habiendo usado lo del conda de antes)
-
-```bash
-pip install gensim nltk sentence-transformers
-```
 
 ### Scripts utilizados
 
@@ -239,7 +225,7 @@ python similarities_by_topic_semantic.py
 
 Este es el **script final y recomendado**. Realiza lo siguiente:
 
-- Agrupa los papers por su tema principal (`main_topic`), calculado por el modelo LDA.
+- Agrupa los papers por su tema principal (`main_topic`), calculado anteriormente por el modelo LDA.
 - Calcula **la similitud semántica** entre los abstracts de cada grupo temático utilizando `sentence-transformers`.
 
 **Salida generada**:
