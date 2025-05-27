@@ -47,12 +47,6 @@ def cargar_topics(_g):
         for paper, topic, percentage in results
     }
 
-@st.cache_data
-def cargar_similitudes(path):
-    with open(path, "r", encoding="utf-8") as f:
-        similitudes = json.load(f)
-    return pd.DataFrame(similitudes)
-
 kg_path = "outputs/knowledge_graph.ttl"
 
 g = cargar_kg(kg_path)
