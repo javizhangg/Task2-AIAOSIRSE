@@ -1,0 +1,14 @@
+site_name: "Task 2 - Artificial Inteligence and Open Science in Research Software Engineering"
+site_url: "https://javizhangg.github.io/Task2-AIAOSIRSE"
+site_author: "javizhangg"
+
+theme:
+  name: readthedocs
+
+nav:
+  - Inicio: README.md
+  - Licencia: LICENSE
+
+# Configuración de la documentación
+plugins:
+  - search
