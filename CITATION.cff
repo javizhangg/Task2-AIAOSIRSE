@@ -5,6 +5,7 @@ version: 1.0.0
 # doi: 10.5281/zenodo.XXXXXXX  # Añádelo cuando lo tengas
 # date-released: 2025-XX-XX   # Añade la fecha de publicación
 url: "https://github.com/javizhangg/Task2-AIAOSIRSE.git"
+url: "https://zenodo.org/records/15525833"
 authors:
   - family-names: "Zhang"
     given-names: "Zhiwei"
