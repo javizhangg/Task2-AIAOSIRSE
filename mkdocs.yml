@@ -3,5 +3,3 @@ site_url: "https://javizhangg.github.io/Task2-AIAOSIRSE"
 nav:
   - HOME: README.md
   - Licencia: LICENSE
-
-docs_dir: .
