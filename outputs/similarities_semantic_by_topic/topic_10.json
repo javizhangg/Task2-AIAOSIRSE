@@ -1,0 +1,32 @@
+[
+  {
+    "paper1": "2504.15034v1.pdf",
+    "paper2": "2504.15185v1.pdf",
+    "similarity": 0.261
+  },
+  {
+    "paper1": "2504.15034v1.pdf",
+    "paper2": "2504.15310v1.pdf",
+    "similarity": 0.013
+  },
+  {
+    "paper1": "2504.15034v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.424
+  },
+  {
+    "paper1": "2504.15185v1.pdf",
+    "paper2": "2504.15310v1.pdf",
+    "similarity": 0.035
+  },
+  {
+    "paper1": "2504.15185v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.338
+  },
+  {
+    "paper1": "2504.15310v1.pdf",
+    "paper2": "2504.16172v1.pdf",
+    "similarity": 0.098
+  }
+]

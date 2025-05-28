@@ -1,0 +1,17 @@
+[
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.14378v1.pdf",
+    "similarity": 0.388
+  },
+  {
+    "paper1": "2504.14332v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.351
+  },
+  {
+    "paper1": "2504.14378v1.pdf",
+    "paper2": "2504.16192v1.pdf",
+    "similarity": 0.269
+  }
+]

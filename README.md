@@ -1,6 +1,8 @@
 # Task2-AIAOSIRSE: Knowledge Graph of Scientific Papers Enhanced with ORCID and Wikidata Metadata
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15525833.svg)](https://doi.org/10.5281/zenodo.15525833)
 Clonar repositorio antes de hacer nada.
+
 ```bash
 git clone https://github.com/javizhangg/Task2-AIAOSIRSE.git
 ```
@@ -21,6 +23,12 @@ conda env create -f environment.yml
 conda activate mi_entorno
 python grobid.py
 python jsonToRDF.py
+```
+
+También puedes ejecutar todo el proceso directamente con Docker:
+
+```bash
+docker-compose up --build
 ```
 
 ## Extracción de Metadatos (`grobid.py`)
@@ -67,8 +75,6 @@ enlace draw.io de los diagramas
 te deborveria paper_metadata_wikidata.json
 la ontology.ttl muesta el kg de los metadatos sin estender y el ontology_enhanced.ttl muestra el kg extendido con orgs y project
 
-conda install pytorch torchvision torchaudio cpuonly -c pytorch
-
 ## Enriquecimiento de Autores desde ORCID (`person.py`)
 
 Este script utiliza la API pública de **ORCID** para buscar información adicional sobre los autores identificados en los metadatos del paper (en `papers_metadata.json`).
@@ -77,12 +83,7 @@ Este script utiliza la API pública de **ORCID** para buscar información adicio
 
 ### Requisitos
 
-1. Dependencias:
-   ```bash
-   pip install rapidfuzz
-   ```
-
-2. Credenciales de acceso a la API de ORCID:
+1. Credenciales 1de acceso a la API de ORCID:
    - https://orcid.org/developer-tools
    - Registro como desarrollador
    - Creación de API Pública
@@ -97,10 +98,10 @@ Este script utiliza la API pública de **ORCID** para buscar información adicio
 - Estas credenciales se usan para obtener un token temporal (`access_token`) que permite acceder a datos públicos de autores.
 - Se solicita automáticamente desde el script con:
 
-   ```python
-   def fetch_access_token(client_id, client_secret):
-       ...
-   ```
+  ```python
+  def fetch_access_token(client_id, client_secret):
+      ...
+  ```
 
 ---
 
@@ -322,18 +323,18 @@ Utiliza los archivos generados en las secciones anteriores, almacenados en `outp
 1. Carga de asignaciones de tópicos (`outputs/papers_with_topics.json`)
 
 2. Creación de instancias `TopicBelonging`:  
-  Para cada paper, se crea una instancia `base:TopicBelonging` que relaciona el paper con el tópico asignado, usando las propiedades:  
-   - `base:has_paper` → URI del paper  
-   - `base:has_topic` → URI del tópico  
+   Para cada paper, se crea una instancia `base:TopicBelonging` que relaciona el paper con el tópico asignado, usando las propiedades:
+
+   - `base:has_paper` → URI del paper
+   - `base:has_topic` → URI del tópico
    - `base:has_percentage` → grado de pertenencia (topic_score)
 
-   Esto permite modelar  la relación de un paper con un topic y establecer un grado de pertenencia.
+   Esto permite modelar la relación de un paper con un topic y establecer un grado de pertenencia.
 
-4. Carga de asignaciones de similitud (`outputs/similarities_semantic_by_topic/`)
+3. Carga de asignaciones de similitud (`outputs/similarities_semantic_by_topic/`)
 
-3. Creación de la relación `similar_to`:  
-  Si la similitud es mayor a un umbral, se añade la propiedad de manera bidireccional.
-
+4. Creación de la relación `similar_to`:  
+   Si la similitud es mayor a un umbral, se añade la propiedad de manera bidireccional.
 
 ---
 

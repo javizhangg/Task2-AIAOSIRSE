@@ -12,20 +12,25 @@ RUN apt-get update && apt-get install -y \
     curl \
     && rm -rf /var/lib/apt/lists/*
 
-# Configure Conda and create the environment based on `environment.yml`
-RUN conda config --set channel_priority strict && \
-    conda env create -f environment.yml
+# Create the conda environment based on environment.yml
+RUN conda env create -f environment.yml
 
-# Switch to the `mi_entorno` environment
-SHELL ["/bin/bash", "-c"]
-RUN echo "source activate mi_entorno" >> ~/.bashrc
-ENV PATH="/opt/conda/envs/mi_entorno/bin:$PATH"
+# Switch to bash so that PATH changes apply
+SHELL ["conda", "run", "-n", "mi_entorno", "/bin/bash", "-c"]
 
-# Ensure scripts have execution permissions
-RUN chmod +x execute.sh 
+# Prepend the new env to PATH so python, pip, etc. come from mi_entorno
+ENV PATH=/opt/conda/envs/mi_entorno/bin:$PATH
 
-# Expose the ports used by the application
-EXPOSE 8070 8071 5000
+RUN python - <<EOF
+from sentence_transformers import SentenceTransformer
+SentenceTransformer('all-MiniLM-L6-v2')
+EOF
 
-# Define the container startup command
-ENTRYPOINT ["/bin/bash", "-c", "./execute.sh"]
+# Make sure your orchestration script is executable
+RUN chmod +x execute.sh
+
+# Expose your application ports
+EXPOSE 8501 8070 8071 5000
+
+# Final launch: run your pipeline and then Streamlit
+CMD ["bash", "-c", "./execute.sh"]

@@ -1,7 +1,52 @@
 [
   {
-    "paper1": "2504.15310v1.pdf",
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.15670v1.pdf",
+    "similarity": 0.375
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.15870v1.pdf",
+    "similarity": 0.414
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
     "paper2": "2504.15925v1.pdf",
-    "similarity": 0.064
+    "similarity": 0.415
+  },
+  {
+    "paper1": "2504.14426v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.375
+  },
+  {
+    "paper1": "2504.15670v1.pdf",
+    "paper2": "2504.15870v1.pdf",
+    "similarity": 0.318
+  },
+  {
+    "paper1": "2504.15670v1.pdf",
+    "paper2": "2504.15925v1.pdf",
+    "similarity": 0.457
+  },
+  {
+    "paper1": "2504.15670v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.376
+  },
+  {
+    "paper1": "2504.15870v1.pdf",
+    "paper2": "2504.15925v1.pdf",
+    "similarity": 0.501
+  },
+  {
+    "paper1": "2504.15870v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.402
+  },
+  {
+    "paper1": "2504.15925v1.pdf",
+    "paper2": "2504.16418v1.pdf",
+    "similarity": 0.657
   }
 ]

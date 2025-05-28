@@ -2,24 +2,20 @@ import json
 import gensim
 from gensim import corpora
 from gensim.models import CoherenceModel
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
+from gensim.parsing.preprocessing import STOPWORDS as gensim_stopwords
+from nltk.tokenize import wordpunct_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-import nltk
 import os
 import matplotlib.pyplot as plt
 
-# Descargar recursos NLTK (solo la primera vez que ejecutes)
-nltk.download("punkt", quiet=True)
-nltk.download("stopwords", quiet=True)
+# Definición de selección automática del número óptimo de tópicos
 
 
 def find_best_lda_coherence(dictionary, corpus, texts, start=2, end=15, step=1):
     """
-    Proceso de selección automática del número óptimo de tópicos usando coherencia UMass.
-    Entrena modelos LDA variando K desde 'start' hasta 'end' y devuelve el modelo con
-    mayor coherencia (u_mass).
+    Entrena modelos LDA variando K desde 'start' hasta 'end', calcula coherencia UMass y devuelve
+    el modelo con la mejor coherencia.
     """
     best_model = None
     best_num_topics = start
@@ -42,26 +38,15 @@ def find_best_lda_coherence(dictionary, corpus, texts, start=2, end=15, step=1):
         )
         coherence = cm.get_coherence()
         coherence_values.append((num_topics, coherence))
-        print(f" → Coherencia u_mass: {coherence:.4f}")
+        print(f" → Coherencia UMass: {coherence:.4f}")
 
         if coherence > best_coherence:
             best_coherence = coherence
             best_model = model
             best_num_topics = num_topics
 
-    # Gráfica de coherencia vs num_topics
-    # x, y = zip(*coherence_values)
-    # plt.figure(figsize=(8, 4))
-    # plt.plot(x, y, marker="o")
-    # plt.xlabel("Número de tópicos")
-    # plt.ylabel("Coherencia UMass")
-    # plt.title("Selección del número óptimo de tópicos (UMass)")
-    # plt.grid(True)
-    # plt.tight_layout()
-    # plt.show()
-
     print(
-        f"\n✅ Mejor número de tópicos: {best_num_topics} con coherencia UMass {best_coherence:.4f}"
+        f"\n Mejor número de tópicos: {best_num_topics} con coherencia UMass {best_coherence:.4f}"
     )
     return best_model
 
@@ -75,17 +60,19 @@ def main():
     if not os.path.exists(input_path):
         raise FileNotFoundError(f"No se encontró: {input_path}")
 
+    # Carga de datos
     with open(input_path, "r", encoding="utf-8") as f:
         papers = json.load(f)
 
-    # Preprocesamiento de abstracts
-    stop_words = set(stopwords.words("english"))
+    # Preprocesamiento de abstracts sin recursos externos de NLTK
+    stop_words = set(gensim_stopwords)
     texts = []
     raw_texts = []
     for paper in papers:
         abs_text = paper.get("abstract", "")
         raw_texts.append(abs_text)
-        tokens = word_tokenize(abs_text.lower())
+        # Tokenización con wordpunct_tokenize (regex)
+        tokens = wordpunct_tokenize(abs_text.lower())
         tokens = [t for t in tokens if t.isalpha() and t not in stop_words]
         texts.append(tokens)
 
@@ -116,8 +103,8 @@ def main():
         json.dump(papers_with_topics, f, indent=2, ensure_ascii=False)
     print(f"Temas guardados en: {output_topics_path}")
 
-    # Similitud TF-IDF + Coseno
-    vectorizer = TfidfVectorizer(stop_words="english")
+    # Similitud TF-IDF + coseno
+    vectorizer = TfidfVectorizer()
     tfidf_matrix = vectorizer.fit_transform(raw_texts)
     cosine_sim_matrix = cosine_similarity(tfidf_matrix)
 
