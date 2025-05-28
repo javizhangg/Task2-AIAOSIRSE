@@ -8,8 +8,10 @@ Clonar repositorio antes de hacer nada.
 git clone https://github.com/javizhangg/Task2-AIAOSIRSE.git
 ```
 
-## Diagrama del proceso
-
+## Diagrama del proceso y KG
+### KG
+https://drive.google.com/file/d/1heVXqSL_hGMyUH_ERv-NbrnHFA24A0xB/view?usp=sharing
+### Diagrama de procesos
 https://drive.google.com/file/d/12_EM-y5ptJhGotsEJ1NyPQciONYfK82P/view?usp=sharing
 
 ## Ejecucion automatica con Docker
