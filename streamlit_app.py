@@ -69,7 +69,7 @@ with st.expander("Filtros", expanded=st.session_state.expander_open):
         options=["Todas", "Persona", "Organización", "Paper"]
     )
     filtro_resultados = st.number_input("Número límite de resultados", min_value=1, value=20)
-    filtro_topics = st.selectbox("Pertenece al tópico", options=["Todos", 0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+    filtro_topics = st.selectbox("Pertenece al tópico", options=["Todos", 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
     filtro_topic_threshold = st.slider("Umbral de pertenencia al tópico", 0.0, 1.0, 0.3, 0.05)
     consulta_usuario = st.text_area("Busqueda avanzada:",placeholder="Utilizar ?s para el sujeto, ?p para las propiedades y ?o para el objeto de la consulta. Pueden omitirse cualquiera de estos elementos" ,height=100)
     precise_search = st.button("Realizar búsqueda avanzada")
