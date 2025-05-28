@@ -1,6 +1,7 @@
 # Task2-AIAOSIRSE: Knowledge Graph of Scientific Papers Enhanced with ORCID and Wikidata Metadata
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15525833.svg)](https://doi.org/10.5281/zenodo.15525833)
+
 Clonar repositorio antes de hacer nada.
 
 ```bash
@@ -366,6 +367,13 @@ streamlit run streamlit_app.py
 ```
 
 La aplicación presenta filtros que poder aplicar a la búsqueda (por categoría, por tópico, umbral de pertenencia al tópico...) además de un modo de búsqueda avanzada para realizar consultas personalizadas al KG mediante SparSQL.
+
+## 📖 Documentación
+
+La documentación completa del proyecto está disponible en:
+
+👉 [https://task2-aiaosirse.readthedocs.io/es/latest/](https://task2-aiaosirse.readthedocs.io/es/latest/)
+
 
 ## LICENCE
 

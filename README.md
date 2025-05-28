@@ -1,6 +1,7 @@
 # Task2-AIAOSIRSE: Knowledge Graph of Scientific Papers Enhanced with ORCID and Wikidata Metadata
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15525833.svg)](https://doi.org/10.5281/zenodo.15525833)
+
 Clonar repositorio antes de hacer nada.
 
 ```bash
@@ -11,17 +12,19 @@ git clone https://github.com/javizhangg/Task2-AIAOSIRSE.git
 
 https://drive.google.com/file/d/12_EM-y5ptJhGotsEJ1NyPQciONYfK82P/view?usp=sharing
 
+## Ejecucion automatica con Docker
+También puedes ejecutar todo el proceso directamente con Docker:
+
+```bash
+docker-compose up --build
+```
+## Ejecucion manual(Primer crear enviroment)
 ```bash
 conda env create -f environment.yml
 conda activate mi_entorno
 python grobid.py
 ```
 
-También puedes ejecutar todo el proceso directamente con Docker:
-
-```bash
-docker-compose up --build
-```
 
 ## Extracción de Metadatos (`grobid.py`)
 
@@ -50,18 +53,38 @@ Este archivo es la base para los procesos posteriores de enriquecimiento (NER, O
 
 Devuelve `papers_metadata.json` 
 
+## 🤖 Named Entity Recognition (NER)
+
+Se identifican entidades relevantes dentro de los textos procesados (organizaciones, proyectos, etc.):
+
 ```bash
 python ner.py
 ```
 
-Devuelve `papers_metadata_ner.json` 
+**Salida:** `outputs/papers_metadata_ner.json`
+
+---
+
+## 🤔 Enriquecimiento desde Wikidata
+
+Amplía los metadatos con información de Wikidata:
+
+* Organizaciones
+* Proyectos
+
 
 ```bash
 python wikidata.py
 ```
-Devuelve `paper_metadata_wikidata.json`
-`ontology.ttl` muesta el kg de los metadatos sin extender y el 
-`ontology_enhanced.ttl` muestra el kg extendido con orgs y project
+
+**Salida:**
+* `outputs/paper_metadata_wikidata.json`
+* `ontology.ttl` muesta el kg de los metadatos sin extender y el 
+* `ontology_enhanced.ttl` muestra el kg extendido con orgs y project
+
+---
+
+
 
 ## Enriquecimiento de Autores desde ORCID (`person.py`)
 
@@ -366,6 +389,17 @@ streamlit run streamlit_app.py
 ```
 
 La aplicación presenta filtros que poder aplicar a la búsqueda (por categoría, por tópico, umbral de pertenencia al tópico...) además de un modo de búsqueda avanzada para realizar consultas personalizadas al KG mediante SparSQL.
+
+## 📖 Documentación
+
+La documentación completa del proyecto está disponible en:
+
+👉 [https://task2-aiaosirse.readthedocs.io/es/latest/](https://task2-aiaosirse.readthedocs.io/es/latest/)
+
+
+## Metadatos
+
+Los metadatos se pueden encontrar en `codemeta.json`.
 
 ## LICENCE
 
