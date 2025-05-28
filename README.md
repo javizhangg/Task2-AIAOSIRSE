@@ -11,18 +11,10 @@ git clone https://github.com/javizhangg/Task2-AIAOSIRSE.git
 
 https://drive.google.com/file/d/12_EM-y5ptJhGotsEJ1NyPQciONYfK82P/view?usp=sharing
 
----
-
-//lo que tiene que instalar el conda para que funcione bien el json to rdf
-
-Funcionalidades hasta ahora, para poder extraer los metadatos con grobid necesitas activar grobid
-depues importa mi_entorno con el comando
-
 ```bash
 conda env create -f environment.yml
 conda activate mi_entorno
 python grobid.py
-python jsonToRDF.py
 ```
 
 También puedes ejecutar todo el proceso directamente con Docker:
@@ -56,24 +48,20 @@ Este archivo es la base para los procesos posteriores de enriquecimiento (NER, O
 
 ---
 
-con eso tienes ya lo de los papers_metadatos con grobid.py y el kg principal el mas sencillo con jsonToRDF.py, si quieres sacarle las organizaciones y los projectoso de acknowledges es haciendo
+Devuelve `papers_metadata.json` 
 
 ```bash
 python ner.py
 ```
 
-se genera los papaer metadata ner.json despues de eso esta en prueba lo de la alimentacion de con wikidata(wikidata.pyt).
-si quieres probar se puede hacer con
+Devuelve `papers_metadata_ner.json` 
 
 ```bash
 python wikidata.py
 ```
-
-https://drive.google.com/file/d/1heVXqSL_hGMyUH_ERv-NbrnHFA24A0xB/view?usp=sharing
-enlace draw.io de los diagramas
-
-te deborveria paper_metadata_wikidata.json
-la ontology.ttl muesta el kg de los metadatos sin estender y el ontology_enhanced.ttl muestra el kg extendido con orgs y project
+Devuelve `paper_metadata_wikidata.json`
+`ontology.ttl` muesta el kg de los metadatos sin extender y el 
+`ontology_enhanced.ttl` muestra el kg extendido con orgs y project
 
 ## Enriquecimiento de Autores desde ORCID (`person.py`)
 
@@ -280,6 +268,11 @@ Utiliza los archivos generados en las secciones anteriores, almacenados en `outp
 ---
 
 ### Script `jsonToRDF.py`
+
+Por último hay que ejecutar este script para que nos de el grafo enriquecido en `outputs/knowledge_graph.ttl`.
+```bash
+python jsonToRDF.py
+```
 
 1. Carga los datos de entrada.
 2. Crea instancias RDF para:
