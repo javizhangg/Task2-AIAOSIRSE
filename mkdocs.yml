@@ -4,3 +4,4 @@ nav:
   - HOME: README.md
   - Licencia: LICENSE
 
+docs_dir: .
