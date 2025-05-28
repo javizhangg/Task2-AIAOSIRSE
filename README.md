@@ -1,6 +1,6 @@
 # Task2-AIAOSIRSE: Knowledge Graph of Scientific Papers Enhanced with ORCID and Wikidata Metadata
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15525833.svg)](https://doi.org/10.5281/zenodo.15525833)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15539223.svg)](https://doi.org/10.5281/zenodo.15539223)
 
 Clonar repositorio antes de hacer nada.
 
